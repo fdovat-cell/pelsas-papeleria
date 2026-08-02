@@ -11,7 +11,18 @@
     {
       "paginaOriginal": 3,
       "imagen": "img/pages/keyroad/pagina-003.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "971448/24",
+          "x": 8.828125,
+          "y": 16.89532911977802,
+          "w": 49.21875,
+          "h": 32.31077539694774,
+          "precio": 24,
+          "modalidad": "exhibidor",
+          "precioRef": 1
+        }
+      ]
     },
     {
       "paginaOriginal": 4,
