@@ -32,7 +32,10 @@ async function cargarCatalogo(){
              data-codigo="${prod.codigo}"
              data-precio="${prod.precio}"
              data-modalidad="${prod.modalidad || 'unidad'}">
-          <span class="precio-chip">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' /' + prod.modalidad : ''}</span>
+          <span class="precio-chip">
+            ${prod.modalidad && prod.modalidad !== 'unidad' && prod.precioRef ? `<span class="precio-ref">$${prod.precioRef} c/u</span>` : ''}
+            <span class="precio-principal">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' /' + prod.modalidad : ''}</span>
+          </span>
         </div>
       `).join('')}
     </div>

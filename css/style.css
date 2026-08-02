@@ -157,10 +157,19 @@ button{font-family:inherit;}
   background:rgba(62,124,174,0.16);
 }
 .hotspot .precio-chip{
-  position:absolute; bottom:-10px; left:50%; transform:translateX(-50%);
+  position:absolute; top:100%; left:50%; transform:translateX(-50%); margin-top:5px;
+  display:flex; flex-direction:column; align-items:center; gap:1px;
+  white-space:nowrap;
+}
+.hotspot .precio-chip .precio-ref{
+  background:#fff; color:var(--ink-soft); border:1px solid var(--border);
+  font-family:'JetBrains Mono', monospace; font-size:9.5px; font-weight:600;
+  padding:1px 6px; border-radius:999px;
+}
+.hotspot .precio-chip .precio-principal{
   background:var(--accent); color:#fff;
   font-family:'JetBrains Mono', monospace; font-size:11px; font-weight:600;
-  padding:3px 8px; border-radius:999px; white-space:nowrap;
+  padding:3px 8px; border-radius:999px;
   box-shadow:0 2px 6px rgba(37,66,94,0.25);
 }
 

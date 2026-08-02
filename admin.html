@@ -328,14 +328,15 @@ function abrirFormularioNuevo(x, y, w, h){
   panel.innerHTML = `
     <h3>Producto nuevo</h3>
     <div class="field"><label>Código</label><input type="text" id="f-codigo" placeholder="Ej: 972893"></div>
-    <div class="field"><label>Precio (dejalo en 1 si no lo tenés todavía; 0 = sin stock)</label><input type="number" id="f-precio" value="1"></div>
     <div class="field"><label>Se vende por</label>
-      <select id="f-modalidad">
+      <select id="f-modalidad" onchange="toggleCampoRef()">
         <option value="unidad" selected>Unidad</option>
         <option value="caja">Caja</option>
         <option value="exhibidor">Exhibidor</option>
       </select>
     </div>
+    <div class="field"><label>Precio (el que se agrega al pedido; dejalo en 1 si no lo tenés todavía; 0 = sin stock)</label><input type="number" id="f-precio" value="1"></div>
+    <div class="field" id="f-precioref-wrap" style="display:none;"><label>Precio unitario (solo informativo, no se agrega solo)</label><input type="number" id="f-precioref" value=""></div>
     <div class="form-actions">
       <button class="btn-primary" onclick="guardarProductoNuevo(${x},${y},${w},${h})">Guardar</button>
     </div>
@@ -343,12 +344,21 @@ function abrirFormularioNuevo(x, y, w, h){
   document.getElementById('f-codigo').focus();
 }
 
+function toggleCampoRef(){
+  const modalidad = document.getElementById('f-modalidad').value;
+  document.getElementById('f-precioref-wrap').style.display = modalidad === 'unidad' ? 'none' : 'block';
+}
+
 function guardarProductoNuevo(x,y,w,h){
   const codigo = document.getElementById('f-codigo').value.trim();
   const precio = parseFloat(document.getElementById('f-precio').value) || 0;
   const modalidad = document.getElementById('f-modalidad').value;
+  const precioRefVal = document.getElementById('f-precioref').value;
+  const precioRef = modalidad !== 'unidad' && precioRefVal ? parseFloat(precioRefVal) : undefined;
   if(!codigo){ alert('Falta el código'); return; }
-  catData.paginas[pageIndex].productos.push({ codigo, x, y, w, h, precio, modalidad });
+  const nuevo = { codigo, x, y, w, h, precio, modalidad };
+  if(precioRef) nuevo.precioRef = precioRef;
+  catData.paginas[pageIndex].productos.push(nuevo);
   marcarSinGuardar();
   selectedProdIndex = null;
   renderPage();
@@ -362,7 +372,15 @@ function editarProducto(i){
   panel.innerHTML = `
     <h3>Editar producto</h3>
     <div class="field"><label>Código</label><input type="text" id="f-codigo" value="${p.codigo}"></div>
-    <div class="field"><label>Precio (0 = sin stock, no se muestra en el catálogo)</label><input type="number" id="f-precio" value="${p.precio}"></div>
+    <div class="field"><label>Se vende por</label>
+      <select id="f-modalidad" onchange="toggleCampoRef()">
+        <option value="unidad" ${(!p.modalidad || p.modalidad==='unidad')?'selected':''}>Unidad</option>
+        <option value="caja" ${p.modalidad==='caja'?'selected':''}>Caja</option>
+        <option value="exhibidor" ${p.modalidad==='exhibidor'?'selected':''}>Exhibidor</option>
+      </select>
+    </div>
+    <div class="field"><label>Precio (el que se agrega al pedido; 0 = sin stock, no se muestra en el catálogo)</label><input type="number" id="f-precio" value="${p.precio}"></div>
+    <div class="field" id="f-precioref-wrap" style="display:${p.modalidad && p.modalidad!=='unidad' ? 'block':'none'};"><label>Precio unitario (solo informativo, no se agrega solo)</label><input type="number" id="f-precioref" value="${p.precioRef || ''}"></div>
     <div class="form-actions">
       <button class="btn-primary" onclick="guardarProductoEditado(${i})">Guardar</button>
       <button class="btn-danger" onclick="eliminarProducto(${i})">Eliminar</button>
@@ -373,9 +391,17 @@ function editarProducto(i){
 function guardarProductoEditado(i){
   const codigo = document.getElementById('f-codigo').value.trim();
   const precio = parseFloat(document.getElementById('f-precio').value) || 0;
+  const modalidad = document.getElementById('f-modalidad').value;
+  const precioRefVal = document.getElementById('f-precioref').value;
   if(!codigo){ alert('Falta el código'); return; }
   catData.paginas[pageIndex].productos[i].codigo = codigo;
   catData.paginas[pageIndex].productos[i].precio = precio;
+  catData.paginas[pageIndex].productos[i].modalidad = modalidad;
+  if(modalidad !== 'unidad' && precioRefVal){
+    catData.paginas[pageIndex].productos[i].precioRef = parseFloat(precioRefVal);
+  }else{
+    delete catData.paginas[pageIndex].productos[i].precioRef;
+  }
   marcarSinGuardar();
   selectedProdIndex = null;
   renderPage();
