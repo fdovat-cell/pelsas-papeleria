@@ -1,0 +1,97 @@
+{
+  "categoria": "pilot",
+  "nombre": "Pilot",
+  "fuente": "catalogo-general",
+  "paginas": [
+    {
+      "paginaOriginal": 42,
+      "imagen": "img/pages/pilot/pagina-042.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 43,
+      "imagen": "img/pages/pilot/pagina-043.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 44,
+      "imagen": "img/pages/pilot/pagina-044.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 45,
+      "imagen": "img/pages/pilot/pagina-045.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 46,
+      "imagen": "img/pages/pilot/pagina-046.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 47,
+      "imagen": "img/pages/pilot/pagina-047.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 48,
+      "imagen": "img/pages/pilot/pagina-048.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 49,
+      "imagen": "img/pages/pilot/pagina-049.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 50,
+      "imagen": "img/pages/pilot/pagina-050.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 51,
+      "imagen": "img/pages/pilot/pagina-051.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 52,
+      "imagen": "img/pages/pilot/pagina-052.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 53,
+      "imagen": "img/pages/pilot/pagina-053.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 54,
+      "imagen": "img/pages/pilot/pagina-054.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 55,
+      "imagen": "img/pages/pilot/pagina-055.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 56,
+      "imagen": "img/pages/pilot/pagina-056.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 57,
+      "imagen": "img/pages/pilot/pagina-057.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 58,
+      "imagen": "img/pages/pilot/pagina-058.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 59,
+      "imagen": "img/pages/pilot/pagina-059.webp",
+      "productos": []
+    }
+  ]
+}

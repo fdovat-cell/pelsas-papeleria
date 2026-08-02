@@ -1,0 +1,37 @@
+{
+  "categoria": "edding",
+  "nombre": "Edding",
+  "fuente": "catalogo-general",
+  "paginas": [
+    {
+      "paginaOriginal": 60,
+      "imagen": "img/pages/edding/pagina-060.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 61,
+      "imagen": "img/pages/edding/pagina-061.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 62,
+      "imagen": "img/pages/edding/pagina-062.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 63,
+      "imagen": "img/pages/edding/pagina-063.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 64,
+      "imagen": "img/pages/edding/pagina-064.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 65,
+      "imagen": "img/pages/edding/pagina-065.webp",
+      "productos": []
+    }
+  ]
+}

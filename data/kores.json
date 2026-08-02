@@ -1,0 +1,32 @@
+{
+  "categoria": "kores",
+  "nombre": "Kores + Junior",
+  "fuente": "catalogo-general",
+  "paginas": [
+    {
+      "paginaOriginal": 66,
+      "imagen": "img/pages/kores/pagina-066.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 67,
+      "imagen": "img/pages/kores/pagina-067.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 68,
+      "imagen": "img/pages/kores/pagina-068.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 69,
+      "imagen": "img/pages/kores/pagina-069.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 70,
+      "imagen": "img/pages/kores/pagina-070.webp",
+      "productos": []
+    }
+  ]
+}

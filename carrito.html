@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pelsas Papelería — Carrito</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .item{
+    display:flex; justify-content:space-between; align-items:center;
+    background:#fff; border-radius:14px; padding:12px 14px; margin:0 18px 10px;
+    box-shadow:0 3px 10px rgba(37,66,94,0.08);
+  }
+  .item .nombre{ font-size:13.5px; font-weight:600; }
+  .item .codigo{ font-family:'JetBrains Mono', monospace; font-size:10.5px; color:var(--ink-soft); }
+  .item .cantidad{ font-family:'JetBrains Mono', monospace; font-size:12.5px; }
+  .item button.quitar{ background:none; border:none; color:#c0392b; font-size:12px; font-weight:600; }
+  .resumen{
+    margin:18px 18px 10px; padding:14px 16px; background:#fff; border-radius:14px;
+    display:flex; justify-content:space-between; align-items:center;
+    font-family:'Bricolage Grotesque', sans-serif; font-weight:700;
+    box-shadow:0 3px 10px rgba(37,66,94,0.08);
+  }
+  .btn-whatsapp{
+    display:block; margin:14px 18px; padding:14px; text-align:center;
+    background:#25D366; color:#fff; border-radius:14px; font-weight:700;
+    font-family:'Bricolage Grotesque', sans-serif;
+  }
+  .vacio{ text-align:center; padding:60px 20px; color:var(--ink-soft); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="catbar">
+    <button class="back" onclick="window.location.href='index.html'">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#25425E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <span class="title">Tu carrito</span>
+  </div>
+
+  <div id="items"></div>
+  <div id="resumenWrap"></div>
+
+</div>
+
+<script src="js/cart.js"></script>
+<script>
+  // Número de WhatsApp de Fer — ya usado en tus otras apps.
+  const NUMERO_WHATSAPP = '59899886225';
+
+  function render(){
+    const items = cartGet();
+    const itemsEl = document.getElementById('items');
+    const resumenEl = document.getElementById('resumenWrap');
+
+    if(items.length === 0){
+      itemsEl.innerHTML = '<div class="vacio">Todavía no agregaste productos.</div>';
+      resumenEl.innerHTML = '';
+      return;
+    }
+
+    itemsEl.innerHTML = items.map(i => `
+      <div class="item">
+        <div>
+          <div class="nombre">${i.nombre}</div>
+          <div class="codigo">${i.codigo} · ${i.categoria}</div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="cantidad">x${i.cantidad}</span>
+          <button class="quitar" onclick="quitar('${i.codigo}')">Quitar</button>
+        </div>
+      </div>
+    `).join('');
+
+    resumenEl.innerHTML = `
+      <div class="resumen"><span>Total</span><span>$${cartTotal()}</span></div>
+      <a class="btn-whatsapp" href="${cartBuildWhatsAppLink(NUMERO_WHATSAPP)}" target="_blank">Enviar pedido por WhatsApp</a>
+    `;
+  }
+
+  function quitar(codigo){
+    cartRemove(codigo);
+    render();
+  }
+
+  document.addEventListener('DOMContentLoaded', render);
+</script>
+</body>
+</html>

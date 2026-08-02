@@ -1,0 +1,150 @@
+{
+  "categoria": "keyroad",
+  "nombre": "Keyroad",
+  "fuente": "catalogo-general",
+  "paginas": [
+    {
+      "paginaOriginal": 2,
+      "imagen": "img/pages/keyroad/pagina-002.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 3,
+      "imagen": "img/pages/keyroad/pagina-003.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 4,
+      "imagen": "img/pages/keyroad/pagina-004.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 5,
+      "imagen": "img/pages/keyroad/pagina-005.webp",
+      "productos": [
+        {
+          "codigo": "972893",
+          "x": 9.0,
+          "y": 21.6,
+          "w": 22.0,
+          "h": 15.7,
+          "precio": 1
+        },
+        {
+          "codigo": "973301",
+          "x": 51.0,
+          "y": 6.5,
+          "w": 42.0,
+          "h": 34.0,
+          "precio": 1
+        },
+        {
+          "codigo": "972534",
+          "x": 12.0,
+          "y": 57.5,
+          "w": 30.0,
+          "h": 15.0,
+          "precio": 1
+        },
+        {
+          "codigo": "971306/12",
+          "x": 66.0,
+          "y": 47.0,
+          "w": 25.0,
+          "h": 27.0,
+          "precio": 1
+        }
+      ]
+    },
+    {
+      "paginaOriginal": 6,
+      "imagen": "img/pages/keyroad/pagina-006.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 7,
+      "imagen": "img/pages/keyroad/pagina-007.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 8,
+      "imagen": "img/pages/keyroad/pagina-008.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 9,
+      "imagen": "img/pages/keyroad/pagina-009.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 10,
+      "imagen": "img/pages/keyroad/pagina-010.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 11,
+      "imagen": "img/pages/keyroad/pagina-011.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 12,
+      "imagen": "img/pages/keyroad/pagina-012.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 13,
+      "imagen": "img/pages/keyroad/pagina-013.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 14,
+      "imagen": "img/pages/keyroad/pagina-014.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 15,
+      "imagen": "img/pages/keyroad/pagina-015.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 16,
+      "imagen": "img/pages/keyroad/pagina-016.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 17,
+      "imagen": "img/pages/keyroad/pagina-017.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 18,
+      "imagen": "img/pages/keyroad/pagina-018.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 19,
+      "imagen": "img/pages/keyroad/pagina-019.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 20,
+      "imagen": "img/pages/keyroad/pagina-020.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 21,
+      "imagen": "img/pages/keyroad/pagina-021.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 22,
+      "imagen": "img/pages/keyroad/pagina-022.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 23,
+      "imagen": "img/pages/keyroad/pagina-023.webp",
+      "productos": []
+    }
+  ]
+}

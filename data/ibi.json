@@ -1,0 +1,287 @@
+{
+  "categoria": "ibi",
+  "nombre": "IBI Craft",
+  "fuente": "catalogo-ibi-craft",
+  "paginas": [
+    {
+      "paginaOriginal": 1,
+      "imagen": "img/pages/ibi/pagina-001.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 2,
+      "imagen": "img/pages/ibi/pagina-002.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 3,
+      "imagen": "img/pages/ibi/pagina-003.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 4,
+      "imagen": "img/pages/ibi/pagina-004.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 5,
+      "imagen": "img/pages/ibi/pagina-005.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 6,
+      "imagen": "img/pages/ibi/pagina-006.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 7,
+      "imagen": "img/pages/ibi/pagina-007.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 8,
+      "imagen": "img/pages/ibi/pagina-008.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 9,
+      "imagen": "img/pages/ibi/pagina-009.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 10,
+      "imagen": "img/pages/ibi/pagina-010.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 11,
+      "imagen": "img/pages/ibi/pagina-011.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 12,
+      "imagen": "img/pages/ibi/pagina-012.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 13,
+      "imagen": "img/pages/ibi/pagina-013.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 14,
+      "imagen": "img/pages/ibi/pagina-014.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 15,
+      "imagen": "img/pages/ibi/pagina-015.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 16,
+      "imagen": "img/pages/ibi/pagina-016.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 17,
+      "imagen": "img/pages/ibi/pagina-017.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 18,
+      "imagen": "img/pages/ibi/pagina-018.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 19,
+      "imagen": "img/pages/ibi/pagina-019.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 20,
+      "imagen": "img/pages/ibi/pagina-020.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 21,
+      "imagen": "img/pages/ibi/pagina-021.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 22,
+      "imagen": "img/pages/ibi/pagina-022.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 23,
+      "imagen": "img/pages/ibi/pagina-023.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 24,
+      "imagen": "img/pages/ibi/pagina-024.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 25,
+      "imagen": "img/pages/ibi/pagina-025.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 26,
+      "imagen": "img/pages/ibi/pagina-026.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 27,
+      "imagen": "img/pages/ibi/pagina-027.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 28,
+      "imagen": "img/pages/ibi/pagina-028.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 29,
+      "imagen": "img/pages/ibi/pagina-029.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 30,
+      "imagen": "img/pages/ibi/pagina-030.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 31,
+      "imagen": "img/pages/ibi/pagina-031.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 32,
+      "imagen": "img/pages/ibi/pagina-032.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 33,
+      "imagen": "img/pages/ibi/pagina-033.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 34,
+      "imagen": "img/pages/ibi/pagina-034.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 35,
+      "imagen": "img/pages/ibi/pagina-035.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 36,
+      "imagen": "img/pages/ibi/pagina-036.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 37,
+      "imagen": "img/pages/ibi/pagina-037.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 38,
+      "imagen": "img/pages/ibi/pagina-038.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 39,
+      "imagen": "img/pages/ibi/pagina-039.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 40,
+      "imagen": "img/pages/ibi/pagina-040.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 41,
+      "imagen": "img/pages/ibi/pagina-041.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 42,
+      "imagen": "img/pages/ibi/pagina-042.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 43,
+      "imagen": "img/pages/ibi/pagina-043.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 44,
+      "imagen": "img/pages/ibi/pagina-044.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 45,
+      "imagen": "img/pages/ibi/pagina-045.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 46,
+      "imagen": "img/pages/ibi/pagina-046.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 47,
+      "imagen": "img/pages/ibi/pagina-047.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 48,
+      "imagen": "img/pages/ibi/pagina-048.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 49,
+      "imagen": "img/pages/ibi/pagina-049.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 50,
+      "imagen": "img/pages/ibi/pagina-050.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 51,
+      "imagen": "img/pages/ibi/pagina-051.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 52,
+      "imagen": "img/pages/ibi/pagina-052.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 53,
+      "imagen": "img/pages/ibi/pagina-053.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 54,
+      "imagen": "img/pages/ibi/pagina-054.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 55,
+      "imagen": "img/pages/ibi/pagina-055.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 56,
+      "imagen": "img/pages/ibi/pagina-056.webp",
+      "productos": []
+    }
+  ]
+}

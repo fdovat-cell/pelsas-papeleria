@@ -1,0 +1,51 @@
+[
+  {
+    "key": "keyroad",
+    "nombre": "Keyroad",
+    "color": "#1E7FE0",
+    "cantidadPaginas": 22,
+    "archivo": "data/keyroad.json"
+  },
+  {
+    "key": "staedtler",
+    "nombre": "Staedtler",
+    "color": "#0B2E6B",
+    "cantidadPaginas": 18,
+    "archivo": "data/staedtler.json"
+  },
+  {
+    "key": "pilot",
+    "nombre": "Pilot",
+    "color": "#E0203C",
+    "cantidadPaginas": 18,
+    "archivo": "data/pilot.json"
+  },
+  {
+    "key": "edding",
+    "nombre": "Edding",
+    "color": "#A31432",
+    "cantidadPaginas": 6,
+    "archivo": "data/edding.json"
+  },
+  {
+    "key": "kores",
+    "nombre": "Kores + Junior",
+    "color": "#F0703C",
+    "cantidadPaginas": 5,
+    "archivo": "data/kores.json"
+  },
+  {
+    "key": "varios",
+    "nombre": "Varios / Oficina",
+    "color": "#57607A",
+    "cantidadPaginas": 64,
+    "archivo": "data/varios.json"
+  },
+  {
+    "key": "ibi",
+    "nombre": "IBI Craft",
+    "color": "#F2609E",
+    "cantidadPaginas": 56,
+    "archivo": "data/ibi.json"
+  }
+]
