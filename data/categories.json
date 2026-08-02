@@ -1,5 +1,12 @@
 [
   {
+    "key": "pilot",
+    "nombre": "Pilot",
+    "color": "#E0203C",
+    "cantidadPaginas": 18,
+    "archivo": "data/pilot.json"
+  },
+  {
     "key": "keyroad",
     "nombre": "Keyroad",
     "color": "#1E7FE0",
@@ -12,13 +19,6 @@
     "color": "#0B2E6B",
     "cantidadPaginas": 18,
     "archivo": "data/staedtler.json"
-  },
-  {
-    "key": "pilot",
-    "nombre": "Pilot",
-    "color": "#E0203C",
-    "cantidadPaginas": 18,
-    "archivo": "data/pilot.json"
   },
   {
     "key": "edding",
@@ -35,17 +35,17 @@
     "archivo": "data/kores.json"
   },
   {
-    "key": "varios",
-    "nombre": "Varios / Oficina",
-    "color": "#57607A",
-    "cantidadPaginas": 64,
-    "archivo": "data/varios.json"
-  },
-  {
     "key": "ibi",
     "nombre": "IBI Craft",
     "color": "#F2609E",
     "cantidadPaginas": 56,
     "archivo": "data/ibi.json"
+  },
+  {
+    "key": "varios",
+    "nombre": "Varios / Oficina",
+    "color": "#57607A",
+    "cantidadPaginas": 64,
+    "archivo": "data/varios.json"
   }
 ]
