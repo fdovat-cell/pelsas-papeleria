@@ -4,63 +4,449 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pelsas Papelería — Admin</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
 <style>
-  #app-admin{ max-width:560px; margin:0 auto; padding:24px 18px 60px; }
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+:root{
+  --ink:#25425E; --ink-soft:#6E7F91; --bg:#F4EEDF; --card:#FFFFFF;
+  --accent:#3E7CAE; --green:#4C9F4C; --mustard:#D99A2B; --red:#C0392B;
+  --border:#E4DDCB;
+}
+body{font-family:'Work Sans',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;}
 
-  .login-box{
-    max-width:320px; margin:80px auto 0; background:#fff; padding:28px 24px;
-    border-radius:16px; box-shadow:0 6px 20px rgba(37,66,94,0.14); text-align:center;
-  }
-  .login-box h1{ font-family:'Bricolage Grotesque', sans-serif; font-size:17px; margin-bottom:20px; }
-  .login-box input{
-    display:block; width:100%; margin-bottom:10px; padding:11px 12px;
-    border:1px solid #ddd; border-radius:10px; font-size:14px; font-family:'Work Sans', sans-serif;
-  }
-  .login-box button{
-    width:100%; padding:11px; background:var(--accent); color:#fff; border:none;
-    border-radius:10px; font-weight:700; font-family:'Bricolage Grotesque', sans-serif; cursor:pointer;
-  }
-  .login-box .error{ color:#c0392b; font-size:12.5px; margin-top:10px; min-height:16px; }
+/* LOGIN */
+#login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:2rem;}
+.login-box{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:2.5rem;max-width:400px;width:100%;text-align:center;}
+.login-logo{font-family:'Bricolage Grotesque',sans-serif;font-size:22px;font-weight:800;margin-bottom:.25rem;}
+.login-sub{font-size:13px;color:var(--ink-soft);margin-bottom:1.75rem;}
+.login-box input{width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:10px;font-family:inherit;font-size:14px;background:var(--bg);color:var(--ink);outline:none;margin-bottom:10px;}
+.login-box input:focus{border-color:var(--accent);}
+.login-btn{width:100%;background:var(--ink);color:#fff;border:none;border-radius:10px;padding:12px;font-size:14px;font-weight:600;cursor:pointer;}
+.login-err{font-size:12px;color:var(--red);margin-top:8px;display:none;}
+.login-hint{font-size:11.5px;color:var(--ink-soft);margin-top:14px;line-height:1.5;}
 
-  .topbar-admin{ display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; }
-  .topbar-admin h1{ font-family:'Bricolage Grotesque', sans-serif; font-size:19px; }
-  .topbar-admin button{
-    background:none; border:1px solid var(--ink-soft); color:var(--ink-soft);
-    padding:6px 12px; border-radius:8px; font-size:12.5px; cursor:pointer;
-  }
+/* LAYOUT */
+#app{display:none;}
+.topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;height:56px;background:var(--card);border-bottom:1px solid var(--border);}
+.topbar-logo{font-family:'Bricolage Grotesque',sans-serif;font-size:16px;font-weight:800;}
+.topbar-right{display:flex;align-items:center;gap:10px;}
+.save-btn{background:var(--green);color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:13px;font-weight:600;cursor:pointer;}
+.save-btn:disabled{background:#BFC9BF;cursor:not-allowed;}
+.logout-btn{background:none;border:1px solid var(--border);border-radius:8px;padding:7px 12px;font-size:12px;color:var(--ink-soft);cursor:pointer;}
+.status{font-size:12px;color:var(--ink-soft);}
+.unsaved-dot{width:7px;height:7px;border-radius:50%;background:var(--mustard);display:none;}
+.unsaved-dot.show{display:inline-block;}
 
-  .selector{ display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
-  .selector select{
-    padding:10px 12px; border-radius:10px; border:1px solid #ddd; font-size:14px;
-    font-family:'Work Sans', sans-serif; background:#fff;
-  }
-  .filtro{ font-size:13px; color:var(--ink-soft); display:flex; align-items:center; gap:6px; }
+.main{display:grid;grid-template-columns:220px 1fr 280px;min-height:calc(100vh - 56px);}
 
-  .fila-producto{
-    display:flex; align-items:center; gap:10px; background:#fff; border-radius:12px;
-    padding:10px 12px; margin-bottom:8px; box-shadow:0 2px 6px rgba(37,66,94,0.08);
-  }
-  .fila-producto .info{ flex:1; display:flex; flex-direction:column; }
-  .fila-producto .codigo{ font-family:'JetBrains Mono', monospace; font-size:13px; font-weight:600; }
-  .fila-producto .pagina{ font-size:11px; color:var(--ink-soft); }
-  .input-precio{
-    width:80px; padding:7px 8px; border:1px solid #ddd; border-radius:8px;
-    font-family:'JetBrains Mono', monospace; font-size:13px; text-align:right;
-  }
-  .btn-guardar{
-    background:var(--accent); color:#fff; border:none; padding:8px 12px;
-    border-radius:8px; font-size:12.5px; font-weight:600; cursor:pointer;
-  }
-  .estado{ font-size:11.5px; color:var(--ink-soft); min-width:70px; }
-  .vacio{ text-align:center; color:var(--ink-soft); font-size:13.5px; padding:30px 0; }
+/* SIDEBAR */
+.sidebar{background:var(--card);border-right:1px solid var(--border);padding:1.25rem 0;}
+.sidebar-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;padding:0 1rem;margin-bottom:.5rem;display:block;}
+.cat-btn{display:flex;justify-content:space-between;align-items:center;width:100%;padding:9px 1rem;border:none;background:none;cursor:pointer;font-size:13px;color:var(--ink);text-align:left;}
+.cat-btn:hover{background:var(--bg);}
+.cat-btn.active{background:var(--bg);font-weight:700;}
+.cat-count{font-size:10px;color:var(--ink-soft);background:var(--bg);border-radius:10px;padding:1px 7px;}
+.cat-btn.active .cat-count{background:#fff;}
+
+/* CONTENT (canvas) */
+.content{padding:1.5rem;display:flex;flex-direction:column;align-items:center;}
+.page-nav{display:flex;align-items:center;gap:14px;margin-bottom:14px;}
+.page-nav button{background:var(--card);border:1px solid var(--border);border-radius:8px;width:32px;height:32px;cursor:pointer;font-size:15px;}
+.page-nav button:disabled{opacity:.35;cursor:not-allowed;}
+.page-nav .label{font-size:13px;color:var(--ink-soft);font-family:'JetBrains Mono',monospace;}
+.canvas-wrap{position:relative;max-width:640px;width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(37,66,94,0.16);cursor:crosshair;user-select:none;}
+.canvas-wrap img{width:100%;display:block;pointer-events:none;}
+.box{position:absolute;border:2px solid var(--accent);background:rgba(62,124,174,0.18);border-radius:4px;}
+.box.selected{border-color:var(--mustard);background:rgba(217,154,43,0.22);}
+.box .code-tag{position:absolute;top:-9px;left:2px;background:var(--ink);color:#fff;font-family:'JetBrains Mono',monospace;font-size:9.5px;padding:1px 5px;border-radius:4px;white-space:nowrap;}
+.box.placeholder .code-tag{background:var(--mustard);}
+.draw-box{position:absolute;border:2px dashed var(--ink);background:rgba(37,66,94,0.10);pointer-events:none;}
+.empty-msg{color:var(--ink-soft);font-size:13px;text-align:center;padding:3rem 1rem;}
+
+/* PANEL (form + lista) */
+.panel{background:var(--card);border-left:1px solid var(--border);padding:1.25rem;overflow-y:auto;}
+.panel h3{font-family:'Bricolage Grotesque',sans-serif;font-size:14px;margin-bottom:12px;}
+.field{margin-bottom:10px;}
+.field label{font-size:11.5px;color:var(--ink-soft);display:block;margin-bottom:4px;}
+.field input{width:100%;padding:8px 10px;border:1.5px solid var(--border);border-radius:8px;font-family:inherit;font-size:13.5px;outline:none;}
+.field input:focus{border-color:var(--accent);}
+.form-actions{display:flex;gap:8px;margin-top:12px;}
+.btn-primary{flex:1;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:9px;font-size:13px;font-weight:600;cursor:pointer;}
+.btn-danger{background:none;border:1px solid var(--red);color:var(--red);border-radius:8px;padding:9px 12px;font-size:13px;cursor:pointer;}
+.panel-hint{font-size:12px;color:var(--ink-soft);line-height:1.6;margin-bottom:16px;}
+.prod-list{list-style:none;margin-top:16px;border-top:1px solid var(--border);padding-top:12px;}
+.prod-list li{display:flex;justify-content:space-between;align-items:center;padding:7px 0;font-size:12.5px;cursor:pointer;border-bottom:1px solid #f1ede2;}
+.prod-list li:hover{color:var(--accent);}
+.prod-code{font-family:'JetBrains Mono',monospace;}
+.prod-price{color:var(--ink-soft);}
+.prod-price.placeholder{color:var(--mustard);font-weight:700;}
 </style>
 </head>
 <body>
-<div id="app-admin">Cargando…</div>
-<script src="js/admin.js"></script>
+
+<!-- LOGIN -->
+<div id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">Pelsas Papelería</div>
+    <div class="login-sub">Panel de administración del catálogo</div>
+    <input type="text" id="gh-owner" placeholder="Usuario/organización GitHub" autocomplete="off">
+    <input type="text" id="gh-repo" placeholder="Repositorio" autocomplete="off">
+    <input type="password" id="gh-token" placeholder="Token GitHub (ghp_...)" autocomplete="off">
+    <button class="login-btn" onclick="doLogin()">Entrar al panel</button>
+    <div class="login-err" id="login-err"></div>
+    <div class="login-hint">El token se guarda solo en este navegador.<br>Necesitás permiso <strong>repo</strong> en el token de GitHub.</div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <div class="topbar">
+    <div class="topbar-logo">Pelsas Papelería · Admin</div>
+    <div class="topbar-right">
+      <span class="unsaved-dot" id="unsaved-dot"></span>
+      <span class="status" id="status-msg"></span>
+      <button class="save-btn" id="save-btn" disabled onclick="saveToGitHub()">Guardar cambios</button>
+      <button class="logout-btn" onclick="doLogout()">Salir</button>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="sidebar">
+      <span class="sidebar-label">Categorías</span>
+      <div id="cat-list"></div>
+    </div>
+
+    <div class="content" id="content">
+      <div class="empty-msg">Elegí una categoría para empezar a calibrar.</div>
+    </div>
+
+    <div class="panel" id="panel">
+      <div class="panel-hint">
+        Arrastrá sobre la página (de una esquina a la opuesta) para marcar un producto nuevo.
+        Tocá un cuadro ya calibrado para editarlo.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+let GH_OWNER = '', GH_REPO = '', GH_TOKEN = '';
+let categorias = [];
+let catActual = null;       // meta de categories.json
+let catData = null;         // contenido de data/<cat>.json
+let catSha = null;          // sha del archivo para poder guardar
+let pageIndex = 0;
+let selectedProdIndex = null; // índice dentro de productos de la página actual
+let hasUnsaved = false;
+let drawing = null; // {startXpct, startYpct, rect}
+
+// ── Login ──────────────────────────────────────────────
+function doLogin(){
+  GH_OWNER = document.getElementById('gh-owner').value.trim();
+  GH_REPO  = document.getElementById('gh-repo').value.trim();
+  GH_TOKEN = document.getElementById('gh-token').value.trim();
+  if(!GH_OWNER || !GH_REPO || !GH_TOKEN){ showLoginErr('Completá todos los campos'); return; }
+  localStorage.setItem('ppap_owner', GH_OWNER);
+  localStorage.setItem('ppap_repo', GH_REPO);
+  localStorage.setItem('ppap_token', GH_TOKEN);
+  iniciar();
+}
+function doLogout(){
+  localStorage.removeItem('ppap_token');
+  location.reload();
+}
+function showLoginErr(msg){
+  const el = document.getElementById('login-err');
+  el.textContent = msg; el.style.display = 'block';
+}
+
+// ── GitHub Contents API ───────────────────────────────
+async function ghFetch(path, opts={}){
+  const url = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${path}`;
+  const res = await fetch(url, {
+    ...opts,
+    headers: {
+      'Authorization': `token ${GH_TOKEN}`,
+      'Content-Type': 'application/json',
+      ...(opts.headers||{})
+    }
+  });
+  if(!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
+  return res.json();
+}
+function decodeContent(file){
+  return JSON.parse(decodeURIComponent(escape(atob(file.content.replace(/\n/g,'')))));
+}
+
+// ── Arranque ───────────────────────────────────────────
+async function iniciar(){
+  showStatus('Cargando categorías…');
+  try{
+    const file = await ghFetch('data/categories.json');
+    categorias = decodeContent(file);
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    renderSidebar();
+    showStatus('');
+  }catch(e){
+    showLoginErr('Error: ' + e.message);
+  }
+}
+
+function showStatus(msg, timeout){
+  document.getElementById('status-msg').textContent = msg;
+  if(timeout) setTimeout(()=>{ document.getElementById('status-msg').textContent=''; }, timeout);
+}
+
+// ── Sidebar ────────────────────────────────────────────
+function renderSidebar(){
+  const el = document.getElementById('cat-list');
+  el.innerHTML = categorias.map(c => `
+    <button class="cat-btn${catActual && catActual.key===c.key ? ' active':''}" onclick="seleccionarCategoria('${c.key}')">
+      ${c.nombre} <span class="cat-count">${c.cantidadPaginas}</span>
+    </button>
+  `).join('');
+}
+
+async function seleccionarCategoria(key){
+  if(hasUnsaved && !confirm('Tenés cambios sin guardar en esta categoría. ¿Descartarlos y cambiar de categoría?')) return;
+  catActual = categorias.find(c => c.key === key);
+  showStatus('Cargando ' + catActual.nombre + '…');
+  const file = await ghFetch(catActual.archivo);
+  catSha = file.sha;
+  catData = decodeContent(file);
+  pageIndex = 0;
+  selectedProdIndex = null;
+  hasUnsaved = false;
+  updateSaveBtn();
+  renderSidebar();
+  renderPage();
+  showStatus('');
+}
+
+// ── Navegación de páginas ──────────────────────────────
+function cambiarPagina(delta){
+  const nuevo = pageIndex + delta;
+  if(nuevo < 0 || nuevo >= catData.paginas.length) return;
+  pageIndex = nuevo;
+  selectedProdIndex = null;
+  renderPage();
+}
+
+// ── Render de la página actual (imagen + hotspots) ─────
+function renderPage(){
+  const pagina = catData.paginas[pageIndex];
+  const content = document.getElementById('content');
+  content.innerHTML = `
+    <div class="page-nav">
+      <button onclick="cambiarPagina(-1)" ${pageIndex===0?'disabled':''}>‹</button>
+      <span class="label">Página ${pageIndex+1}/${catData.paginas.length} · original ${pagina.paginaOriginal}</span>
+      <button onclick="cambiarPagina(1)" ${pageIndex===catData.paginas.length-1?'disabled':''}>›</button>
+    </div>
+    <div class="canvas-wrap" id="canvas-wrap">
+      <img src="${pagina.imagen}" alt="página ${pagina.paginaOriginal}">
+      ${pagina.productos.map((p,i)=>`
+        <div class="box${!p.precio || p.precio===1 ? ' placeholder':''}${selectedProdIndex===i?' selected':''}"
+             style="left:${p.x}%; top:${p.y}%; width:${p.w}%; height:${p.h}%;"
+             onclick="event.stopPropagation(); editarProducto(${i})">
+          <span class="code-tag">${p.codigo}${p.precio ? ' · $'+p.precio : ' · sin precio'}</span>
+        </div>
+      `).join('')}
+    </div>
+  `;
+  attachDrawing();
+  renderPanel(pagina);
+}
+
+// ── Dibujar un cuadro nuevo (drag esquina a esquina) ───
+function attachDrawing(){
+  const wrap = document.getElementById('canvas-wrap');
+  wrap.addEventListener('pointerdown', (e)=>{
+    if(e.target.closest('.box')) return; // click en un hotspot existente, no dibujar
+    const rect = wrap.getBoundingClientRect();
+    const startXpct = (e.clientX - rect.left) / rect.width * 100;
+    const startYpct = (e.clientY - rect.top) / rect.height * 100;
+    drawing = { startXpct, startYpct, rect };
+    const div = document.createElement('div');
+    div.className = 'draw-box';
+    div.id = 'draw-box-temp';
+    wrap.appendChild(div);
+    wrap.setPointerCapture(e.pointerId);
+  });
+  wrap.addEventListener('pointermove', (e)=>{
+    if(!drawing) return;
+    const curXpct = (e.clientX - drawing.rect.left) / drawing.rect.width * 100;
+    const curYpct = (e.clientY - drawing.rect.top) / drawing.rect.height * 100;
+    const x = Math.min(drawing.startXpct, curXpct);
+    const y = Math.min(drawing.startYpct, curYpct);
+    const w = Math.abs(curXpct - drawing.startXpct);
+    const h = Math.abs(curYpct - drawing.startYpct);
+    const div = document.getElementById('draw-box-temp');
+    if(div){ div.style.left=x+'%'; div.style.top=y+'%'; div.style.width=w+'%'; div.style.height=h+'%'; }
+  });
+  wrap.addEventListener('pointerup', (e)=>{
+    if(!drawing) return;
+    const curXpct = (e.clientX - drawing.rect.left) / drawing.rect.width * 100;
+    const curYpct = (e.clientY - drawing.rect.top) / drawing.rect.height * 100;
+    const x = Math.min(drawing.startXpct, curXpct);
+    const y = Math.min(drawing.startYpct, curYpct);
+    const w = Math.abs(curXpct - drawing.startXpct);
+    const h = Math.abs(curYpct - drawing.startYpct);
+    const div = document.getElementById('draw-box-temp');
+    if(div) div.remove();
+    drawing = null;
+    if(w < 1.5 || h < 1.5) return; // arrastre demasiado chico, lo ignoramos
+    abrirFormularioNuevo(x, y, w, h);
+  });
+}
+
+// ── Panel lateral: form + lista de productos de la página ──
+function renderPanel(pagina){
+  const panel = document.getElementById('panel');
+  let listaHtml = `<ul class="prod-list">${pagina.productos.map((p,i)=>`
+    <li onclick="editarProducto(${i})">
+      <span class="prod-code">${p.codigo}</span>
+      <span class="prod-price${!p.precio || p.precio===1 ? ' placeholder':''}">${p.precio ? '$'+p.precio : 'sin stock'}</span>
+    </li>
+  `).join('')}</ul>`;
+
+  if(selectedProdIndex === null){
+    panel.innerHTML = `
+      <div class="panel-hint">
+        Arrastrá sobre la página (de una esquina a la opuesta) para marcar un producto nuevo.
+        Tocá un cuadro ya calibrado o de la lista para editarlo.
+      </div>
+      <h3>Productos en esta página</h3>
+      ${listaHtml}
+    `;
+  }
+}
+
+function abrirFormularioNuevo(x, y, w, h){
+  selectedProdIndex = null;
+  const panel = document.getElementById('panel');
+  panel.innerHTML = `
+    <h3>Producto nuevo</h3>
+    <div class="field"><label>Código</label><input type="text" id="f-codigo" placeholder="Ej: 972893"></div>
+    <div class="field"><label>Precio (dejalo en 1 si no lo tenés todavía; 0 = sin stock)</label><input type="number" id="f-precio" value="1"></div>
+    <div class="field"><label>Se vende por</label>
+      <select id="f-modalidad">
+        <option value="unidad" selected>Unidad</option>
+        <option value="caja">Caja</option>
+        <option value="exhibidor">Exhibidor</option>
+      </select>
+    </div>
+    <div class="form-actions">
+      <button class="btn-primary" onclick="guardarProductoNuevo(${x},${y},${w},${h})">Guardar</button>
+    </div>
+  `;
+  document.getElementById('f-codigo').focus();
+}
+
+function guardarProductoNuevo(x,y,w,h){
+  const codigo = document.getElementById('f-codigo').value.trim();
+  const precio = parseFloat(document.getElementById('f-precio').value) || 0;
+  const modalidad = document.getElementById('f-modalidad').value;
+  if(!codigo){ alert('Falta el código'); return; }
+  catData.paginas[pageIndex].productos.push({ codigo, x, y, w, h, precio, modalidad });
+  marcarSinGuardar();
+  selectedProdIndex = null;
+  renderPage();
+}
+
+function editarProducto(i){
+  selectedProdIndex = i;
+  const p = catData.paginas[pageIndex].productos[i];
+  renderPage();
+  const panel = document.getElementById('panel');
+  panel.innerHTML = `
+    <h3>Editar producto</h3>
+    <div class="field"><label>Código</label><input type="text" id="f-codigo" value="${p.codigo}"></div>
+    <div class="field"><label>Precio (0 = sin stock, no se muestra en el catálogo)</label><input type="number" id="f-precio" value="${p.precio}"></div>
+    <div class="form-actions">
+      <button class="btn-primary" onclick="guardarProductoEditado(${i})">Guardar</button>
+      <button class="btn-danger" onclick="eliminarProducto(${i})">Eliminar</button>
+    </div>
+  `;
+}
+
+function guardarProductoEditado(i){
+  const codigo = document.getElementById('f-codigo').value.trim();
+  const precio = parseFloat(document.getElementById('f-precio').value) || 0;
+  if(!codigo){ alert('Falta el código'); return; }
+  catData.paginas[pageIndex].productos[i].codigo = codigo;
+  catData.paginas[pageIndex].productos[i].precio = precio;
+  marcarSinGuardar();
+  selectedProdIndex = null;
+  renderPage();
+}
+
+function eliminarProducto(i){
+  if(!confirm('¿Eliminar este producto calibrado?')) return;
+  catData.paginas[pageIndex].productos.splice(i,1);
+  marcarSinGuardar();
+  selectedProdIndex = null;
+  renderPage();
+}
+
+function marcarSinGuardar(){
+  hasUnsaved = true;
+  updateSaveBtn();
+}
+function updateSaveBtn(){
+  document.getElementById('save-btn').disabled = !hasUnsaved;
+  document.getElementById('unsaved-dot').classList.toggle('show', hasUnsaved);
+}
+
+// ── Guardar en GitHub (con reintento por conflicto de sha) ──
+async function saveToGitHub(){
+  if(!hasUnsaved) return;
+  const btn = document.getElementById('save-btn');
+  btn.disabled = true;
+  showStatus('Guardando en GitHub…');
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(catData, null, 2))));
+  const doPut = (sha) => ghFetch(catActual.archivo, {
+    method: 'PUT',
+    body: JSON.stringify({
+      message: `Admin: calibración ${catActual.nombre} ${new Date().toLocaleString('es-UY')}`,
+      content,
+      sha
+    })
+  });
+  try{
+    let result;
+    try{
+      result = await doPut(catSha);
+    }catch(e){
+      if(String(e.message).includes('409')){
+        showStatus('El archivo cambió afuera del admin, reintentando…');
+        const fresh = await ghFetch(catActual.archivo);
+        result = await doPut(fresh.sha);
+      }else{
+        throw e;
+      }
+    }
+    catSha = result.content.sha;
+    hasUnsaved = false;
+    updateSaveBtn();
+    showStatus('¡Guardado! ✓', 4000);
+  }catch(e){
+    showStatus('Error al guardar: ' + e.message, 6000);
+    btn.disabled = false;
+  }
+}
+
+// ── Auto-login si ya había token guardado ──────────────
+const savedOwner = localStorage.getItem('ppap_owner');
+const savedRepo  = localStorage.getItem('ppap_repo');
+const savedToken = localStorage.getItem('ppap_token');
+if(savedToken){
+  document.getElementById('gh-owner').value = savedOwner || '';
+  document.getElementById('gh-repo').value = savedRepo || '';
+  document.getElementById('gh-token').value = savedToken;
+  GH_OWNER = savedOwner; GH_REPO = savedRepo; GH_TOKEN = savedToken;
+  iniciar();
+}
+</script>
 </body>
 </html>

@@ -16,6 +16,12 @@
   }
   .item .nombre{ font-size:13.5px; font-weight:600; }
   .item .codigo{ font-family:'JetBrains Mono', monospace; font-size:10.5px; color:var(--ink-soft); }
+  .item .nota-input{
+    display:block; margin-top:5px; width:100%; max-width:180px;
+    border:1px solid var(--border); border-radius:8px; padding:4px 8px;
+    font-family:inherit; font-size:11.5px; color:var(--ink); background:var(--bg); outline:none;
+  }
+  .item .nota-input:focus{ border-color:var(--accent); }
   .item .cantidad{ font-family:'JetBrains Mono', monospace; font-size:12.5px; }
   .item button.quitar{ background:none; border:none; color:#c0392b; font-size:12px; font-weight:600; }
   .resumen{
@@ -63,15 +69,16 @@
       return;
     }
 
-    itemsEl.innerHTML = items.map(i => `
+    itemsEl.innerHTML = items.map((i,idx) => `
       <div class="item">
         <div>
           <div class="nombre">${i.nombre}</div>
-          <div class="codigo">${i.codigo} · ${i.categoria}</div>
+          <div class="codigo">${i.codigo} · ${i.categoria}${i.modalidad && i.modalidad !== 'unidad' ? ' · por ' + i.modalidad : ''}</div>
+          <input class="nota-input" placeholder="Color o detalle (opcional)" value="${i.nota || ''}" onchange="cartSetNota(${idx}, this.value)">
         </div>
         <div style="display:flex; align-items:center; gap:10px;">
           <span class="cantidad">x${i.cantidad}</span>
-          <button class="quitar" onclick="quitar('${i.codigo}')">Quitar</button>
+          <button class="quitar" onclick="quitar(${idx})">Quitar</button>
         </div>
       </div>
     `).join('');
@@ -82,8 +89,8 @@
     `;
   }
 
-  function quitar(codigo){
-    cartRemove(codigo);
+  function quitar(index){
+    cartRemove(index);
     render();
   }
 

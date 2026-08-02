@@ -30,8 +30,9 @@ async function cargarCatalogo(){
         <div class="hotspot"
              style="left:${prod.x}%; top:${prod.y}%; width:${prod.w}%; height:${prod.h}%;"
              data-codigo="${prod.codigo}"
-             data-precio="${prod.precio}">
-          <span class="precio-chip">$${prod.precio}</span>
+             data-precio="${prod.precio}"
+             data-modalidad="${prod.modalidad || 'unidad'}">
+          <span class="precio-chip">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' /' + prod.modalidad : ''}</span>
         </div>
       `).join('')}
     </div>
@@ -53,6 +54,7 @@ async function cargarCatalogo(){
         codigo: el.dataset.codigo,
         nombre: `Producto ${el.dataset.codigo}`, // se reemplaza por el nombre real al calibrar
         precio: parseFloat(el.dataset.precio),
+        modalidad: el.dataset.modalidad,
         categoria: meta.nombre
       });
       el.classList.add('agregado');
