@@ -35,6 +35,16 @@
     background:#25D366; color:#fff; border-radius:14px; font-weight:700;
     font-family:'Bricolage Grotesque', sans-serif;
   }
+  .btn-guardar{
+    display:block; width:calc(100% - 36px); margin:0 18px 14px; padding:12px;
+    text-align:center; background:#fff; color:var(--ink); border:1.5px solid var(--border);
+    border-radius:14px; font-weight:600; font-size:13px; cursor:pointer;
+    font-family:'Work Sans', sans-serif;
+  }
+  .btn-seguir{
+    display:block; text-align:center; margin:0 18px 24px;
+    font-size:13px; color:var(--ink-soft); font-weight:600;
+  }
   .vacio{ text-align:center; padding:60px 20px; color:var(--ink-soft); font-size:14px; }
 </style>
 </head>
@@ -42,7 +52,7 @@
 <div class="app">
 
   <div class="catbar">
-    <button class="back" onclick="window.location.href='index.html'">
+    <button class="back" onclick="volverAlCatalogo()">
       <svg viewBox="0 0 24 24" fill="none" stroke="#25425E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
     </button>
     <span class="title">Tu carrito</span>
@@ -86,7 +96,21 @@
     resumenEl.innerHTML = `
       <div class="resumen"><span>Total</span><span>$${cartTotal()}</span></div>
       <a class="btn-whatsapp" href="${cartBuildWhatsAppLink(NUMERO_WHATSAPP)}" target="_blank">Enviar pedido por WhatsApp</a>
+      <button class="btn-guardar" onclick="cartDownloadTxt()">Guardar pedido en este dispositivo</button>
+      <a class="btn-seguir" href="${urlUltimaPagina()}">← Seguir comprando</a>
     `;
+  }
+
+  function volverAlCatalogo(){
+    window.location.href = urlUltimaPagina();
+  }
+
+  function urlUltimaPagina(){
+    try{
+      const u = JSON.parse(localStorage.getItem('pp_ultima_pagina'));
+      if(u && u.cat) return `catalogo.html?cat=${u.cat}&pagina=${u.pagina}`;
+    }catch(e){}
+    return 'index.html';
   }
 
   function quitar(index){

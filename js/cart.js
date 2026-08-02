@@ -56,18 +56,41 @@ function cartUpdateBadge(){
   });
 }
 
-// Arma el link de WhatsApp con el pedido, mismo patrón que el resto de tus apps.
-function cartBuildWhatsAppLink(numeroTelefono){
+// Arma el texto del pedido (compartido entre WhatsApp y la descarga a archivo).
+function cartBuildTexto(){
   const items = cartGet();
   if(items.length === 0) return null;
-  let texto = 'Hola! Quiero hacer este pedido de Pelsas Papelería:%0A%0A';
+  let texto = 'Hola! Quiero hacer este pedido de Pelsas Papelería:\n\n';
   items.forEach(i => {
     const notaTxt = i.nota ? ` (${i.nota})` : '';
     const modTxt = i.modalidad && i.modalidad !== 'unidad' ? ` — por ${i.modalidad}` : '';
-    texto += `• ${i.nombre}${notaTxt} (${i.codigo}) x${i.cantidad}${modTxt} — $${i.precio * i.cantidad}%0A`;
+    texto += `• ${i.nombre}${notaTxt} (${i.codigo}) x${i.cantidad}${modTxt} — $${i.precio * i.cantidad}\n`;
   });
-  texto += `%0ATotal: $${cartTotal()}`;
-  return `https://wa.me/${numeroTelefono}?text=${texto}`;
+  texto += `\nTotal: $${cartTotal()}`;
+  return texto;
+}
+
+// Arma el link de WhatsApp con el pedido, mismo patrón que el resto de tus apps.
+function cartBuildWhatsAppLink(numeroTelefono){
+  const texto = cartBuildTexto();
+  if(!texto) return null;
+  return `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(texto)}`;
+}
+
+// Descarga el pedido como .txt al dispositivo (celular o PC), sin depender de WhatsApp.
+function cartDownloadTxt(){
+  const texto = cartBuildTexto();
+  if(!texto) return;
+  const blob = new Blob([texto], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const fecha = new Date().toISOString().slice(0,10);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `Pedido_PelsasPapeleria_${fecha}.txt`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
 document.addEventListener('DOMContentLoaded', cartUpdateBadge);

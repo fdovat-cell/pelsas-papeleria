@@ -70,6 +70,21 @@ async function cargarCatalogo(){
     const objetivo = contenedor.querySelector(`[data-pagina="${paginaFoco}"]`);
     if(objetivo) objetivo.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+
+  // guardamos qué página quedó a la vista, para que "volver"/"seguir comprando"
+  // desde el carrito te traigan de nuevo ahí en vez de al home
+  const paginaWraps = contenedor.querySelectorAll('.pagina-wrap');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        localStorage.setItem('pp_ultima_pagina', JSON.stringify({
+          cat: catKey,
+          pagina: entry.target.dataset.pagina
+        }));
+      }
+    });
+  }, { threshold: 0.5 });
+  paginaWraps.forEach(w => observer.observe(w));
 }
 
 document.addEventListener('DOMContentLoaded', cargarCatalogo);
