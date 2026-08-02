@@ -30,6 +30,7 @@ async function cargarCatalogo(){
         <div class="hotspot"
              style="left:${prod.x}%; top:${prod.y}%; width:${prod.w}%; height:${prod.h}%;"
              data-codigo="${prod.codigo}"
+             data-nombre="${prod.nombre || ''}"
              data-precio="${prod.precio}"
              data-modalidad="${prod.modalidad || 'unidad'}">
           <span class="precio-chip">
@@ -55,7 +56,7 @@ async function cargarCatalogo(){
       }
       cartAdd({
         codigo: el.dataset.codigo,
-        nombre: `Producto ${el.dataset.codigo}`, // se reemplaza por el nombre real al calibrar
+        nombre: el.dataset.nombre || `Producto ${el.dataset.codigo}`,
         precio: parseFloat(el.dataset.precio),
         modalidad: el.dataset.modalidad,
         categoria: meta.nombre

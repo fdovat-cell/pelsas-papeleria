@@ -51,7 +51,7 @@ async function inicializarBuscador(categorias){
       const data = await res.json();
       data.paginas.forEach(p => {
         p.productos.forEach(prod => {
-          indice.push({ codigo: prod.codigo, categoria: c.nombre, catKey: c.key, pagina: p.paginaOriginal });
+          indice.push({ codigo: prod.codigo, nombre: prod.nombre || '', categoria: c.nombre, catKey: c.key, pagina: p.paginaOriginal });
         });
       });
     }
@@ -64,10 +64,10 @@ async function inicializarBuscador(categorias){
     const q = input.value.trim().toLowerCase();
     if(!q){ results.classList.remove('show'); return; }
     const data = await construirIndice();
-    const found = data.filter(p => p.codigo.toLowerCase().includes(q));
+    const found = data.filter(p => p.codigo.toLowerCase().includes(q) || p.nombre.toLowerCase().includes(q));
     results.innerHTML = found.length
-      ? found.map(p => `<a href="catalogo.html?cat=${p.catKey}&pagina=${p.pagina}">${p.categoria} <span class="sr-code">${p.codigo}</span></a>`).join('')
-      : `<div class="search-empty">Sin resultados (todavía no hay productos calibrados con ese código)</div>`;
+      ? found.map(p => `<a href="catalogo.html?cat=${p.catKey}&pagina=${p.pagina}">${p.nombre ? p.nombre + ' — ' : ''}${p.categoria} <span class="sr-code">${p.codigo}</span></a>`).join('')
+      : `<div class="search-empty">Sin resultados (todavía no hay productos calibrados con ese código o nombre)</div>`;
     results.classList.add('show');
   });
 

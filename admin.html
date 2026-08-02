@@ -218,10 +218,34 @@ async function seleccionarCategoria(key){
   pageIndex = 0;
   selectedProdIndex = null;
   hasUnsaved = false;
+
+  const draft = leerBorrador(key);
+  if(draft && confirm(`Encontré cambios sin guardar de una sesión anterior en ${catActual.nombre} (${new Date(draft.ts).toLocaleString('es-UY')}). ¿Los recupero?`)){
+    catData = draft.data;
+    hasUnsaved = true;
+  }else if(draft){
+    borrarBorrador(key);
+  }
+
   updateSaveBtn();
   renderSidebar();
   renderPage();
   showStatus('');
+}
+
+// ── Borrador local (por si se cierra la pestaña antes de "Guardar cambios") ──
+function guardarBorrador(){
+  if(!catActual) return;
+  localStorage.setItem('ppap_borrador_' + catActual.key, JSON.stringify({ data: catData, ts: Date.now() }));
+}
+function leerBorrador(key){
+  try{
+    const raw = localStorage.getItem('ppap_borrador_' + key);
+    return raw ? JSON.parse(raw) : null;
+  }catch(e){ return null; }
+}
+function borrarBorrador(key){
+  localStorage.removeItem('ppap_borrador_' + key);
 }
 
 // ── Navegación de páginas ──────────────────────────────
@@ -328,6 +352,7 @@ function abrirFormularioNuevo(x, y, w, h){
   panel.innerHTML = `
     <h3>Producto nuevo</h3>
     <div class="field"><label>Código</label><input type="text" id="f-codigo" placeholder="Ej: 972893"></div>
+    <div class="field"><label>Nombre o palabra clave (opcional, para el buscador)</label><input type="text" id="f-nombre" placeholder="Ej: Caja x6 crayolas cara"></div>
     <div class="field"><label>Se vende por</label>
       <select id="f-modalidad" onchange="toggleCampoRef()">
         <option value="unidad" selected>Unidad</option>
@@ -351,12 +376,14 @@ function toggleCampoRef(){
 
 function guardarProductoNuevo(x,y,w,h){
   const codigo = document.getElementById('f-codigo').value.trim();
+  const nombre = document.getElementById('f-nombre').value.trim();
   const precio = parseFloat(document.getElementById('f-precio').value) || 0;
   const modalidad = document.getElementById('f-modalidad').value;
   const precioRefVal = document.getElementById('f-precioref').value;
   const precioRef = modalidad !== 'unidad' && precioRefVal ? parseFloat(precioRefVal) : undefined;
   if(!codigo){ alert('Falta el código'); return; }
   const nuevo = { codigo, x, y, w, h, precio, modalidad };
+  if(nombre) nuevo.nombre = nombre;
   if(precioRef) nuevo.precioRef = precioRef;
   catData.paginas[pageIndex].productos.push(nuevo);
   marcarSinGuardar();
@@ -372,6 +399,7 @@ function editarProducto(i){
   panel.innerHTML = `
     <h3>Editar producto</h3>
     <div class="field"><label>Código</label><input type="text" id="f-codigo" value="${p.codigo}"></div>
+    <div class="field"><label>Nombre o palabra clave (opcional, para el buscador)</label><input type="text" id="f-nombre" value="${p.nombre || ''}" placeholder="Ej: Caja x6 crayolas cara"></div>
     <div class="field"><label>Se vende por</label>
       <select id="f-modalidad" onchange="toggleCampoRef()">
         <option value="unidad" ${(!p.modalidad || p.modalidad==='unidad')?'selected':''}>Unidad</option>
@@ -390,11 +418,13 @@ function editarProducto(i){
 
 function guardarProductoEditado(i){
   const codigo = document.getElementById('f-codigo').value.trim();
+  const nombre = document.getElementById('f-nombre').value.trim();
   const precio = parseFloat(document.getElementById('f-precio').value) || 0;
   const modalidad = document.getElementById('f-modalidad').value;
   const precioRefVal = document.getElementById('f-precioref').value;
   if(!codigo){ alert('Falta el código'); return; }
   catData.paginas[pageIndex].productos[i].codigo = codigo;
+  if(nombre){ catData.paginas[pageIndex].productos[i].nombre = nombre; } else { delete catData.paginas[pageIndex].productos[i].nombre; }
   catData.paginas[pageIndex].productos[i].precio = precio;
   catData.paginas[pageIndex].productos[i].modalidad = modalidad;
   if(modalidad !== 'unidad' && precioRefVal){
@@ -418,11 +448,16 @@ function eliminarProducto(i){
 function marcarSinGuardar(){
   hasUnsaved = true;
   updateSaveBtn();
+  guardarBorrador();
 }
 function updateSaveBtn(){
   document.getElementById('save-btn').disabled = !hasUnsaved;
   document.getElementById('unsaved-dot').classList.toggle('show', hasUnsaved);
 }
+
+window.addEventListener('beforeunload', (e) => {
+  if(hasUnsaved){ e.preventDefault(); e.returnValue = ''; }
+});
 
 // ── Guardar en GitHub (con reintento por conflicto de sha) ──
 async function saveToGitHub(){
@@ -455,6 +490,7 @@ async function saveToGitHub(){
     catSha = result.content.sha;
     hasUnsaved = false;
     updateSaveBtn();
+    borrarBorrador(catActual.key);
     showStatus('¡Guardado! ✓', 4000);
   }catch(e){
     showStatus('Error al guardar: ' + e.message, 6000);
