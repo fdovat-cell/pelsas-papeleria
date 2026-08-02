@@ -26,26 +26,33 @@ async function cargarCatalogo(){
   contenedor.innerHTML = data.paginas.map(p => `
     <div class="pagina-wrap" data-pagina="${p.paginaOriginal}">
       <img src="${p.imagen}" alt="${meta.nombre} — página ${p.paginaOriginal}" loading="lazy">
-      ${p.productos.map(prod => `
+      ${p.productos.filter(prod => prod.precio).map(prod => `
         <div class="hotspot"
              style="left:${prod.x}%; top:${prod.y}%; width:${prod.w}%; height:${prod.h}%;"
              data-codigo="${prod.codigo}"
-             data-precio="${prod.precio ?? ''}">
-          ${prod.precio != null ? `<span class="precio-chip">$${prod.precio}</span>` : ''}
+             data-precio="${prod.precio}">
+          <span class="precio-chip">$${prod.precio}</span>
         </div>
       `).join('')}
     </div>
   `).join('');
 
   // clic en un hotspot con precio cargado = agregar al carrito
+  // aviso de "tocá para agregar": solo hasta que el usuario haga su primer click
+  const yaSabe = localStorage.getItem('pp_sabe_tocar');
+  const banner = document.getElementById('hintBanner');
+  if(!yaSabe) banner.style.display = 'flex';
+
   contenedor.querySelectorAll('.hotspot').forEach(el => {
-    const precio = el.dataset.precio;
-    if(precio === '') return; // sin precio cargado todavía, no se puede comprar
     el.addEventListener('click', () => {
+      if(!localStorage.getItem('pp_sabe_tocar')){
+        localStorage.setItem('pp_sabe_tocar', '1');
+        banner.style.display = 'none';
+      }
       cartAdd({
         codigo: el.dataset.codigo,
         nombre: `Producto ${el.dataset.codigo}`, // se reemplaza por el nombre real al calibrar
-        precio: parseFloat(precio),
+        precio: parseFloat(el.dataset.precio),
         categoria: meta.nombre
       });
       el.classList.add('agregado');
