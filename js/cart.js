@@ -42,6 +42,19 @@ function cartRemove(index){
   cartSave(items);
 }
 
+// Cambia la cantidad de una línea del carrito directamente (sin volver al catálogo).
+// Si la nueva cantidad es 0 o menos, saca el producto del carrito.
+function cartSetCantidad(index, cantidad){
+  const items = cartGet();
+  if(!items[index]) return;
+  if(cantidad <= 0){
+    items.splice(index, 1);
+  }else{
+    items[index].cantidad = cantidad;
+  }
+  cartSave(items);
+}
+
 function cartCount(){
   return cartGet().reduce((sum, i) => sum + i.cantidad, 0);
 }

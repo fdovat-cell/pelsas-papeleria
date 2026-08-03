@@ -8,6 +8,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#25425E">
+<link rel="apple-touch-icon" href="img/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
   .item{
     display:flex; justify-content:space-between; align-items:center;
@@ -23,6 +28,21 @@
   }
   .item .nota-input:focus{ border-color:var(--accent); }
   .item .cantidad{ font-family:'JetBrains Mono', monospace; font-size:12.5px; }
+  .qty{
+    display:flex; align-items:center; gap:0; border:1.5px solid var(--border);
+    border-radius:10px; overflow:hidden;
+  }
+  .qty button{
+    background:var(--bg); border:none; width:26px; height:26px;
+    font-size:15px; font-weight:700; color:var(--ink); line-height:1;
+  }
+  .qty button:active{ background:var(--border); }
+  .qty input{
+    width:32px; height:26px; border:none; border-left:1.5px solid var(--border);
+    border-right:1.5px solid var(--border); text-align:center;
+    font-family:'JetBrains Mono', monospace; font-size:12.5px; color:var(--ink);
+    background:#fff; outline:none;
+  }
   .item button.quitar{ background:none; border:none; color:#c0392b; font-size:12px; font-weight:600; }
   .resumen{
     margin:18px 18px 10px; padding:14px 16px; background:#fff; border-radius:14px;
@@ -87,7 +107,11 @@
           <input class="nota-input" placeholder="Color o detalle (opcional)" value="${i.nota || ''}" onchange="cartSetNota(${idx}, this.value)">
         </div>
         <div style="display:flex; align-items:center; gap:10px;">
-          <span class="cantidad">x${i.cantidad}</span>
+          <div class="qty">
+            <button type="button" onclick="cartSetCantidad(${idx}, ${i.cantidad} - 1); render();">−</button>
+            <input type="number" min="1" value="${i.cantidad}" onchange="cartSetCantidad(${idx}, parseInt(this.value) || 1); render();">
+            <button type="button" onclick="cartSetCantidad(${idx}, ${i.cantidad} + 1); render();">+</button>
+          </div>
           <button class="quitar" onclick="quitar(${idx})">Quitar</button>
         </div>
       </div>
@@ -120,5 +144,6 @@
 
   document.addEventListener('DOMContentLoaded', render);
 </script>
+<script src="js/pwa.js"></script>
 </body>
 </html>

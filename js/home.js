@@ -79,4 +79,11 @@ async function inicializarBuscador(categorias){
 document.addEventListener('DOMContentLoaded', async ()=>{
   const categorias = await cargarCategorias();
   inicializarBuscador(categorias);
+
+  // Si venimos del botón "Buscar" de otra página (catalogo/carrito), enfocar directo.
+  if(new URLSearchParams(window.location.search).get('buscar') === '1'){
+    const input = document.getElementById('searchInput');
+    input.scrollIntoView({behavior:'smooth', block:'center'});
+    input.focus();
+  }
 });
