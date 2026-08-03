@@ -6,6 +6,8 @@ const iconos = {
   kores:    `<path d="M9 3h6v4a3 3 0 0 1-3 3 3 3 0 0 1-3-3V3z"/><path d="M12 10v11"/><path d="M9 21h6"/>`,
   varios:   `<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M8 4v5"/>`,
   ibi:      `<path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4z"/>`,
+  omega:    `<circle cx="12" cy="12" r="9"/><path d="M8 15h8"/><path d="M8 9a4 4 0 0 1 8 0v3H8V9z"/>`,
+  arte:     `<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18 2 2 0 0 0 0-4 2 2 0 0 1 0-4h3a4 4 0 0 0 4-4 9 9 0 0 0-7-6z"/>`,
 };
 
 // Portada de marca (1ra página del catálogo de esa marca) para mostrar como
@@ -18,6 +20,8 @@ const portadas = {
   staedtler: 'img/tiles/staedtler.webp',
   edding:    'img/tiles/edding.webp',
   kores:     'img/tiles/kores.webp',
+  omega:     'img/tiles/omega.webp',
+  arte:      'img/tiles/arte.webp',
 };
 
 async function cargarCategorias(){

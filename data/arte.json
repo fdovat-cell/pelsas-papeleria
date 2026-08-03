@@ -1,0 +1,72 @@
+{
+  "categoria": "arte",
+  "nombre": "Arte",
+  "fuente": "catalogo-general",
+  "paginas": [
+    {
+      "paginaOriginal": 83,
+      "imagen": "img/pages/arte/pagina-083.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 87,
+      "imagen": "img/pages/arte/pagina-087.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 88,
+      "imagen": "img/pages/arte/pagina-088.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 89,
+      "imagen": "img/pages/arte/pagina-089.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 90,
+      "imagen": "img/pages/arte/pagina-090.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 91,
+      "imagen": "img/pages/arte/pagina-091.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 92,
+      "imagen": "img/pages/arte/pagina-092.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 93,
+      "imagen": "img/pages/arte/pagina-093.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 94,
+      "imagen": "img/pages/arte/pagina-094.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 95,
+      "imagen": "img/pages/arte/pagina-095.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 96,
+      "imagen": "img/pages/arte/pagina-096.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 97,
+      "imagen": "img/pages/arte/pagina-097.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 98,
+      "imagen": "img/pages/arte/pagina-098.webp",
+      "productos": []
+    }
+  ]
+}

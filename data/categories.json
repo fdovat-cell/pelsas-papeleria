@@ -42,10 +42,24 @@
     "archivo": "data/ibi.json"
   },
   {
+    "key": "omega",
+    "nombre": "Omega",
+    "color": "#D62839",
+    "cantidadPaginas": 33,
+    "archivo": "data/omega.json"
+  },
+  {
+    "key": "arte",
+    "nombre": "Arte",
+    "color": "#8E44AD",
+    "cantidadPaginas": 13,
+    "archivo": "data/arte.json"
+  },
+  {
     "key": "varios",
     "nombre": "Varios / Oficina",
     "color": "#57607A",
-    "cantidadPaginas": 64,
+    "cantidadPaginas": 19,
     "archivo": "data/varios.json"
   }
 ]
