@@ -148,7 +148,7 @@ button{font-family:inherit;}
 }
 .catbar .back{
   width:36px; height:36px; border-radius:10px; background:#fff; border:none;
-  display:flex; align-items:center; justify-content:center;
+  display:flex; align-items:center; justify-content:justify-content;
   box-shadow:0 2px 6px rgba(37,66,94,0.10);
 }
 .catbar .title{ font-family:'Bricolage Grotesque', sans-serif; font-weight:800; font-size:16px; }
@@ -161,7 +161,7 @@ button{font-family:inherit;}
   background:rgba(62,124,174,0.16);
 }
 .hotspot .precio-chip{
-  position:absolute; top:100%; left:50%; transform:translateX(-50%); margin-top:5px;
+  position:absolute; bottom:5px; left:50%; transform:translateX(-50%);
   display:flex; flex-direction:column; align-items:center; gap:1px;
   white-space:nowrap;
 }
