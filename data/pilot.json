@@ -142,7 +142,15 @@
     {
       "paginaOriginal": 53,
       "imagen": "img/pages/pilot/pagina-053.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 35.546875,
+          "y": 96.54319290770394,
+          "w": 64.53125,
+          "h": 3.298742354477355
+        }
+      ]
     },
     {
       "paginaOriginal": 54,
