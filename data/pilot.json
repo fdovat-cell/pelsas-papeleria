@@ -206,7 +206,18 @@
     {
       "paginaOriginal": 59,
       "imagen": "img/pages/pilot/pagina-059.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "MARMA",
+          "x": 5.234375,
+          "y": 10.482939361023465,
+          "w": 38.125,
+          "h": 29.683270401213814,
+          "precio": 95.5,
+          "modalidad": "unidad",
+          "nombre": "MARCADOR PIZARRA RECARGABLE"
+        }
+      ],
       "tapados": [
         {
           "x": 36.015625,
