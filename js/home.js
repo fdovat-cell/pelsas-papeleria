@@ -8,6 +8,18 @@ const iconos = {
   ibi:      `<path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4z"/>`,
 };
 
+// Portada de marca (1ra página del catálogo de esa marca) para mostrar como
+// fondo de la tile en el home. Las categorías que no tienen una portada de
+// marca propia (ibi: catálogo todavía no cargado; varios: es una categoría
+// mixta con varias marcas) siguen mostrando el ícono + color como antes.
+const portadas = {
+  pilot:     'img/tiles/pilot.webp',
+  keyroad:   'img/tiles/keyroad.webp',
+  staedtler: 'img/tiles/staedtler.webp',
+  edding:    'img/tiles/edding.webp',
+  kores:     'img/tiles/kores.webp',
+};
+
 async function cargarCategorias(){
   const res = await fetch('data/categories.json');
   const categorias = await res.json();
@@ -15,6 +27,19 @@ async function cargarCategorias(){
 
   catsEl.innerHTML = categorias.map(c => {
     const wide = c.key === 'varios' ? 'wide' : '';
+    const portada = portadas[c.key];
+
+    if(portada){
+      return `
+      <button class="tile has-photo ${wide}" style="background-image:url('${portada}')" data-cat="${c.key}">
+        <div class="photo-caption">
+          <div class="name">${c.nombre}</div>
+          <div class="count">${c.cantidadPaginas} páginas</div>
+        </div>
+      </button>
+    `;
+    }
+
     return `
     <button class="tile ${wide}" style="background:${c.color}" data-cat="${c.key}">
       <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${iconos[c.key] || ''}</svg></div>
