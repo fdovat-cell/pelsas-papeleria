@@ -62,6 +62,11 @@ body{font-family:'Work Sans',sans-serif;background:var(--bg);color:var(--ink);mi
 .box.placeholder .code-tag{background:var(--mustard);}
 .draw-box{position:absolute;border:2px dashed var(--ink);background:rgba(37,66,94,0.10);pointer-events:none;}
 .empty-msg{color:var(--ink-soft);font-size:13px;text-align:center;padding:3rem 1rem;}
+.modo-toggle{display:flex;gap:8px;margin-bottom:12px;}
+.modo-btn{background:var(--card);border:1.5px solid var(--border);border-radius:8px;padding:7px 12px;font-size:12px;font-weight:600;color:var(--ink-soft);cursor:pointer;}
+.modo-btn.active{background:var(--ink);border-color:var(--ink);color:#fff;}
+.tapado{position:absolute;background:#111;border-radius:3px;cursor:pointer;}
+.tapado:hover{outline:2px solid var(--red);}
 
 /* PANEL (form + lista) */
 .panel{background:var(--card);border-left:1px solid var(--border);padding:1.25rem;overflow-y:auto;}
@@ -139,6 +144,7 @@ let pageIndex = 0;
 let selectedProdIndex = null; // índice dentro de productos de la página actual
 let hasUnsaved = false;
 let drawing = null; // {startXpct, startYpct, rect}
+let modoDibujo = 'producto'; // 'producto' | 'tapar'
 
 // ── Login ──────────────────────────────────────────────
 function doLogin(){
@@ -260,12 +266,17 @@ function cambiarPagina(delta){
 // ── Render de la página actual (imagen + hotspots) ─────
 function renderPage(){
   const pagina = catData.paginas[pageIndex];
+  if(!pagina.tapados) pagina.tapados = [];
   const content = document.getElementById('content');
   content.innerHTML = `
     <div class="page-nav">
       <button onclick="cambiarPagina(-1)" ${pageIndex===0?'disabled':''}>‹</button>
       <span class="label">Página ${pageIndex+1}/${catData.paginas.length} · original ${pagina.paginaOriginal}</span>
       <button onclick="cambiarPagina(1)" ${pageIndex===catData.paginas.length-1?'disabled':''}>›</button>
+    </div>
+    <div class="modo-toggle">
+      <button class="modo-btn${modoDibujo==='producto'?' active':''}" onclick="setModo('producto')">🔲 Marcar producto</button>
+      <button class="modo-btn${modoDibujo==='tapar'?' active':''}" onclick="setModo('tapar')">⬛ Tapar dato (tel./contacto)</button>
     </div>
     <div class="canvas-wrap" id="canvas-wrap">
       <img src="${pagina.imagen}" alt="página ${pagina.paginaOriginal}">
@@ -276,17 +287,34 @@ function renderPage(){
           <span class="code-tag">${p.codigo}${p.precio ? ' · $'+p.precio : ' · sin precio'}</span>
         </div>
       `).join('')}
+      ${pagina.tapados.map((t,i)=>`
+        <div class="tapado" title="Tocá para destapar"
+             style="left:${t.x}%; top:${t.y}%; width:${t.w}%; height:${t.h}%;"
+             onclick="event.stopPropagation(); destapar(${i})"></div>
+      `).join('')}
     </div>
   `;
   attachDrawing();
   renderPanel(pagina);
 }
 
+function setModo(m){
+  modoDibujo = m;
+  renderPage();
+}
+
+function destapar(i){
+  if(!confirm('¿Sacar esta tapa?')) return;
+  catData.paginas[pageIndex].tapados.splice(i,1);
+  marcarSinGuardar();
+  renderPage();
+}
+
 // ── Dibujar un cuadro nuevo (drag esquina a esquina) ───
 function attachDrawing(){
   const wrap = document.getElementById('canvas-wrap');
   wrap.addEventListener('pointerdown', (e)=>{
-    if(e.target.closest('.box')) return; // click en un hotspot existente, no dibujar
+    if(e.target.closest('.box') || e.target.closest('.tapado')) return; // click en algo existente, no dibujar
     const rect = wrap.getBoundingClientRect();
     const startXpct = (e.clientX - rect.left) / rect.width * 100;
     const startYpct = (e.clientY - rect.top) / rect.height * 100;
@@ -320,7 +348,13 @@ function attachDrawing(){
     if(div) div.remove();
     drawing = null;
     if(w < 1.5 || h < 1.5) return; // arrastre demasiado chico, lo ignoramos
-    abrirFormularioNuevo(x, y, w, h);
+    if(modoDibujo === 'tapar'){
+      catData.paginas[pageIndex].tapados.push({ x, y, w, h });
+      marcarSinGuardar();
+      renderPage();
+    }else{
+      abrirFormularioNuevo(x, y, w, h);
+    }
   });
 }
 

@@ -184,3 +184,7 @@ button{font-family:inherit;}
   font-size:13px; color:var(--ink-soft);
 }
 .hint-banner span.icon{ font-size:16px; }
+
+.tapado{
+  position:absolute; background:#111; border-radius:2px;
+}

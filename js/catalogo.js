@@ -26,6 +26,9 @@ async function cargarCatalogo(){
   contenedor.innerHTML = data.paginas.map(p => `
     <div class="pagina-wrap" data-pagina="${p.paginaOriginal}">
       <img src="${p.imagen}" alt="${meta.nombre} — página ${p.paginaOriginal}" loading="lazy">
+      ${(p.tapados || []).map(t => `
+        <div class="tapado" style="left:${t.x}%; top:${t.y}%; width:${t.w}%; height:${t.h}%;"></div>
+      `).join('')}
       ${p.productos.filter(prod => prod.precio).map(prod => `
         <div class="hotspot"
              style="left:${prod.x}%; top:${prod.y}%; width:${prod.w}%; height:${prod.h}%;"
