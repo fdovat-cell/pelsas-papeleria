@@ -6,12 +6,21 @@
     {
       "paginaOriginal": 42,
       "imagen": "img/pages/pilot/pagina-042.webp",
-      "productos": []
+      "productos": [],
+      "tapados": []
     },
     {
       "paginaOriginal": 43,
       "imagen": "img/pages/pilot/pagina-043.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 37.421875,
+          "y": 96.44304212141589,
+          "w": 62.5,
+          "h": 3.200055173365058
+        }
+      ]
     },
     {
       "paginaOriginal": 44,
