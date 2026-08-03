@@ -12,7 +12,18 @@
     {
       "paginaOriginal": 43,
       "imagen": "img/pages/pilot/pagina-043.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "BL-FR7",
+          "x": 3.359375,
+          "y": 10.703632821255539,
+          "w": 43.75,
+          "h": 33.54540595527509,
+          "precio": 129,
+          "modalidad": "unidad",
+          "nombre": "FRIXION 0.7 mm, TINTA BORRABLE, 8 COLORES"
+        }
+      ],
       "tapados": [
         {
           "x": 37.421875,
