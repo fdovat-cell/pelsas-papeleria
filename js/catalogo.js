@@ -2,6 +2,22 @@ function getParam(nombre){
   return new URLSearchParams(window.location.search).get(nombre);
 }
 
+// Toast de confirmación al agregar al carrito
+let toastTimer = null;
+function mostrarToast(nombre){
+  let toast = document.getElementById('toastCarrito');
+  if(!toast){
+    toast = document.createElement('div');
+    toast.id = 'toastCarrito';
+    toast.className = 'toast-carrito';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = '✓ ' + (nombre || 'Producto') + ' agregado';
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 2000);
+}
+
 async function cargarCatalogo(){
   const catKey = getParam('cat');
   const paginaFoco = getParam('pagina');
@@ -57,15 +73,17 @@ async function cargarCatalogo(){
         localStorage.setItem('pp_sabe_tocar', '1');
         banner.style.display = 'none';
       }
+      const nombre = el.dataset.nombre || `Producto ${el.dataset.codigo}`;
       cartAdd({
         codigo: el.dataset.codigo,
-        nombre: el.dataset.nombre || `Producto ${el.dataset.codigo}`,
+        nombre: nombre,
         precio: parseFloat(el.dataset.precio),
         modalidad: el.dataset.modalidad,
         categoria: meta.nombre
       });
       el.classList.add('agregado');
-      setTimeout(() => el.classList.remove('agregado'), 250);
+      setTimeout(() => el.classList.remove('agregado'), 400);
+      mostrarToast(nombre);
     });
   });
 
