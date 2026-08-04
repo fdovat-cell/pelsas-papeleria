@@ -146,7 +146,58 @@
     {
       "paginaOriginal": 44,
       "imagen": "img/pages/pilot/pagina-044.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "SW-FLP",
+          "x": 4.758520126342773,
+          "y": 10.420225563210952,
+          "w": 49.99999523162842,
+          "h": 42.232636732513384,
+          "precio": 70,
+          "modalidad": "unidad",
+          "nombre": "TINTA LÍQUIDA RETRÁCTIL, 0.5mm"
+        },
+        {
+          "codigo": "SW-FL/60",
+          "x": 55.61079502105712,
+          "y": 0.28840616235424493,
+          "w": 43.74999046325684,
+          "h": 37.919089112861215,
+          "precio": 4172,
+          "modalidad": "unidad",
+          "nombre": "FRIXION RESALTADOR BORRABLE. EXHIBIDOR C/60 UN. SURTIDOS"
+        },
+        {
+          "codigo": "SW-FL-S6",
+          "x": 55.46874523162841,
+          "y": 38.30780918100344,
+          "w": 43.607950210571296,
+          "h": 29.09136437822604,
+          "precio": 348,
+          "modalidad": "unidad",
+          "nombre": "FRIXION RESALTADOR BORRABLE, EST. C/6 UN., COLORES CLÁSICOS"
+        },
+        {
+          "codigo": "SW-FL",
+          "x": 5.042610168457031,
+          "y": 53.45538406549618,
+          "w": 48.86363506317138,
+          "h": 41.43011622555769,
+          "precio": 70,
+          "modalidad": "unidad",
+          "nombre": "FRIXION RESALTADOR BORRABLE, 6 COLORES"
+        },
+        {
+          "codigo": "SW-FLP-S6",
+          "x": 55.042605400085456,
+          "y": 67.49949167440464,
+          "w": 44.60227966308593,
+          "h": 28.18852996548236,
+          "precio": 348,
+          "modalidad": "unidad",
+          "nombre": "FRIXION RESALTADOR BORRABLE, EST. C/6 UN., COLORES PASTEL"
+        }
+      ],
       "tapados": [
         {
           "x": 36.484375,
