@@ -515,7 +515,20 @@ async function saveToGitHub(){
       result = await doPut(catSha);
     }catch(e){
       if(String(e.message).includes('409')){
-        showStatus('El archivo cambió afuera del admin, reintentando…');
+        const seguro = confirm(
+          `Esta categoría (${catActual.nombre}) cambió en GitHub después de que la cargaste acá ` +
+          `(por ejemplo, alguien cargó precios desde un Excel). Si guardás ahora, tus cambios de esta ` +
+          `pantalla van a PISAR esos cambios.\n\n` +
+          `Cancelar: no se guarda nada. Recargá la categoría (perdés lo que marcaste sin guardar acá) ` +
+          `y volvé a hacer tus cambios sobre la versión nueva.\n\n` +
+          `Aceptar: guardar igual, pisando los cambios que llegaron de afuera.`
+        );
+        if(!seguro){
+          showStatus('No se guardó — recargá la categoría para traer la versión más nueva.', 8000);
+          btn.disabled = false;
+          return;
+        }
+        showStatus('Guardando de todos modos…');
         const fresh = await ghFetch(catActual.archivo);
         result = await doPut(fresh.sha);
       }else{

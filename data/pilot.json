@@ -29,8 +29,9 @@
           "y": 2.6483215227848755,
           "w": 48.28125,
           "h": 35.97303401782789,
-          "precio": 1,
-          "modalidad": "unidad"
+          "precio": 7736,
+          "modalidad": "unidad",
+          "nombre": "FRIXION 0.7 mm, TINTA BORRABLE, EXHIBIDOR C/60 UN."
         },
         {
           "codigo": "BLRT-FRP5",
@@ -38,8 +39,9 @@
           "y": 44.24903877653063,
           "w": 49.21875,
           "h": 10.924326281487609,
-          "precio": 1,
-          "modalidad": "unidad"
+          "precio": 138,
+          "modalidad": "unidad",
+          "nombre": "FRIXION, 0.5 mm, TINTA BORRABLE, RETRÁCTIL"
         },
         {
           "codigo": "BLS-FR7",
@@ -47,8 +49,9 @@
           "y": 39.94551630200521,
           "w": 43.75,
           "h": 15.227848756013032,
-          "precio": 1,
-          "modalidad": "unidad"
+          "precio": 94,
+          "modalidad": "unidad",
+          "nombre": "REPUESTO P/FRIXION 0.7 mm"
         },
         {
           "codigo": "BL-FRP5",
@@ -56,8 +59,9 @@
           "y": 55.61475197848239,
           "w": 93.28125,
           "h": 8.386351488818775,
-          "precio": 1,
-          "modalidad": "unidad"
+          "precio": 133,
+          "modalidad": "unidad",
+          "nombre": "FRIXION PUNTA AGUJA 0.5 mm"
         },
         {
           "codigo": "BL-FRT/60",
