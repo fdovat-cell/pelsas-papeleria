@@ -109,4 +109,23 @@ async function cargarCatalogo(){
   paginaWraps.forEach(w => observer.observe(w));
 }
 
-document.addEventListener('DOMContentLoaded', cargarCatalogo);
+// Botón "subir": aparece al bajar en el scroll y te lleva arriba
+function initScrollTopBtn(){
+  const btn = document.getElementById('scrollTopBtn');
+  if(!btn) return;
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 400){
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  }, { passive: true });
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  cargarCatalogo();
+  initScrollTopBtn();
+});
