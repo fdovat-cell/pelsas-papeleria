@@ -282,6 +282,21 @@
       "paginaOriginal": 56,
       "imagen": "img/pages/ibi/pagina-056.webp",
       "productos": []
+    },
+    {
+      "paginaOriginal": 106,
+      "imagen": "img/pages/varios/pagina-106.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 107,
+      "imagen": "img/pages/varios/pagina-107.webp",
+      "productos": []
+    },
+    {
+      "paginaOriginal": 108,
+      "imagen": "img/pages/varios/pagina-108.webp",
+      "productos": []
     }
   ]
 }
