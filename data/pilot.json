@@ -62,6 +62,16 @@
           "precio": 130,
           "modalidad": "unidad",
           "nombre": "PILOT TINTA LÍQUIDA V-BALL GRIP, 0.5mm 0.7mm"
+        },
+        {
+          "codigo": "V5RT V7RT",
+          "x": 51.917605400085456,
+          "y": 73.8193392986299,
+          "w": 47.86931991577148,
+          "h": 21.166475740089396,
+          "precio": 142,
+          "modalidad": "unidad",
+          "nombre": "PILOT TINTA LÍQUIDA RETRÁCTIL, 0.5mm 0.7mm"
         }
       ],
       "tapados": [
