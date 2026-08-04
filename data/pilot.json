@@ -210,7 +210,28 @@
     {
       "paginaOriginal": 45,
       "imagen": "img/pages/pilot/pagina-045.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "BP1",
+          "x": 2.109375,
+          "y": 9.600165520095175,
+          "w": 56.40625000000001,
+          "h": 23.834893705063877,
+          "precio": 200,
+          "modalidad": "unidad",
+          "nombre": "PILOT TRAZO MEDIO 1.0mm, CAJA C/12 UN., TRES COLORES"
+        },
+        {
+          "codigo": "BP1RT",
+          "x": 2.890625,
+          "y": 34.97991344678357,
+          "w": 50.31249999999999,
+          "h": 17.65547681856583,
+          "precio": 278,
+          "modalidad": "unidad",
+          "nombre": "PILOT RETRÁCTIL, TRAZO MEDIO, CAJA C/12 UN."
+        }
+      ],
       "tapados": [
         {
           "x": 37.109375,
