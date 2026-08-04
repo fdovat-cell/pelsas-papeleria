@@ -12,7 +12,18 @@
     {
       "paginaOriginal": 49,
       "imagen": "img/pages/pilot/pagina-049.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "V5 V7",
+          "x": 1.917610168457031,
+          "y": 12.326211661996043,
+          "w": 50.852274894714355,
+          "h": 40.52728012905914,
+          "precio": 135,
+          "modalidad": "unidad",
+          "nombre": "PILOT TINTA LÍQUIDA, 0.5mm 0.7mm"
+        }
+      ],
       "tapados": [
         {
           "x": 36.484375,
