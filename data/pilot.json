@@ -10,6 +10,19 @@
       "tapados": []
     },
     {
+      "paginaOriginal": 49,
+      "imagen": "img/pages/pilot/pagina-049.webp",
+      "productos": [],
+      "tapados": [
+        {
+          "x": 36.484375,
+          "y": 96.44304212141589,
+          "w": 63.59375,
+          "h": 3.5310953637131632
+        }
+      ]
+    },
+    {
       "paginaOriginal": 43,
       "imagen": "img/pages/pilot/pagina-043.webp",
       "productos": [
@@ -131,19 +144,6 @@
           "y": 96.66373558164796,
           "w": 64.84375,
           "h": 3.089708443249023
-        }
-      ]
-    },
-    {
-      "paginaOriginal": 49,
-      "imagen": "img/pages/pilot/pagina-049.webp",
-      "productos": [],
-      "tapados": [
-        {
-          "x": 36.484375,
-          "y": 96.44304212141589,
-          "w": 63.59375,
-          "h": 3.5310953637131632
         }
       ]
     },
