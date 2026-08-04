@@ -159,6 +159,8 @@ button{font-family:inherit;}
 .catbar{
   display:flex; align-items:center; gap:10px;
   padding:14px 18px;
+  position:sticky; top:0; z-index:50;
+  background:var(--bg);
 }
 .catbar .back{
   width:36px; height:36px; border-radius:10px; background:#fff; border:none;
@@ -166,6 +168,23 @@ button{font-family:inherit;}
   box-shadow:0 2px 6px rgba(37,66,94,0.10);
 }
 .catbar .title{ font-family:'Bricolage Grotesque', sans-serif; font-weight:800; font-size:16px; }
+
+/* Botón flotante "subir": acompaña el scroll, aparece al bajar */
+.scroll-top-btn{
+  position:fixed; right:16px; bottom:96px;
+  width:44px; height:44px; border-radius:50%;
+  background:#fff; border:none;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 4px 14px rgba(37,66,94,0.22);
+  z-index:60;
+  opacity:0; transform:translateY(10px);
+  pointer-events:none;
+  transition:opacity .18s ease, transform .18s ease;
+}
+.scroll-top-btn.show{
+  opacity:1; transform:translateY(0);
+  pointer-events:auto;
+}
 
 .pagina-wrap{ position:relative; margin:0 18px 14px; border-radius:16px; overflow:hidden; box-shadow:0 4px 12px rgba(37,66,94,0.14); }
 .pagina-wrap img{ width:100%; display:block; }
