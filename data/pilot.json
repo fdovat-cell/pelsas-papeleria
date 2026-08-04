@@ -42,6 +42,26 @@
           "precio": 72,
           "modalidad": "unidad",
           "nombre": "REPUESTO P/ V5IC Y V7IC, SET DE 3 CARTUCHOS"
+        },
+        {
+          "codigo": "V5G V7G",
+          "x": 2.05965518951416,
+          "y": 54.25790457245188,
+          "w": 53.55113983154296,
+          "h": 19.26049048318174,
+          "precio": 135,
+          "modalidad": "unidad",
+          "nombre": "PILOT TINTA LÍQUIDA CON GRIP, 0.5mm 0.7mm"
+        },
+        {
+          "codigo": "VB5NGVB7NG",
+          "x": 2.201700210571289,
+          "y": 74.32091303695701,
+          "w": 49.147725105285645,
+          "h": 21.166475740089396,
+          "precio": 130,
+          "modalidad": "unidad",
+          "nombre": "PILOT TINTA LÍQUIDA V-BALL GRIP, 0.5mm 0.7mm"
         }
       ],
       "tapados": [
