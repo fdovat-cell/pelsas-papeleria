@@ -22,6 +22,26 @@
           "precio": 135,
           "modalidad": "unidad",
           "nombre": "PILOT TINTA LÍQUIDA, 0.5mm 0.7mm"
+        },
+        {
+          "codigo": "V5IC V5IC",
+          "x": 53.19601535797119,
+          "y": 12.326211661996043,
+          "w": 46.16477012634277,
+          "h": 24.677502010908448,
+          "precio": 119,
+          "modalidad": "unidad",
+          "nombre": "PILOT TINTA LÍQUIDA RECARGABLE C/CARTUCHO, 0.5mm"
+        },
+        {
+          "codigo": "BXS-IC/3",
+          "x": 56.88920497894288,
+          "y": 38.50844036008916,
+          "w": 42.32954025268554,
+          "h": 28.690103703809477,
+          "precio": 72,
+          "modalidad": "unidad",
+          "nombre": "REPUESTO P/ V5IC Y V7IC, SET DE 3 CARTUCHOS"
         }
       ],
       "tapados": [
