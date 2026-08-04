@@ -25,7 +25,7 @@ const portadas = {
 };
 
 async function cargarCategorias(){
-  const res = await fetch('data/categories.json');
+  const res = await fetch('data/categories.json', { cache: 'no-store' });
   const categorias = await res.json();
   const catsEl = document.getElementById('cats');
 
@@ -76,7 +76,7 @@ async function inicializarBuscador(categorias){
     if(indice) return indice;
     indice = [];
     for(const c of categorias){
-      const res = await fetch(c.archivo);
+      const res = await fetch(c.archivo, { cache: 'no-store' });
       const data = await res.json();
       data.paginas.forEach(p => {
         p.productos.forEach(prod => {

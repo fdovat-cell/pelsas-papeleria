@@ -22,7 +22,7 @@ async function cargarCatalogo(){
   const catKey = getParam('cat');
   const paginaFoco = getParam('pagina');
 
-  const resCategorias = await fetch('data/categories.json');
+  const resCategorias = await fetch('data/categories.json', { cache: 'no-store' });
   const categorias = await resCategorias.json();
   const meta = categorias.find(c => c.key === catKey);
 
@@ -34,7 +34,7 @@ async function cargarCatalogo(){
   document.getElementById('titulo').textContent = meta.nombre;
   document.body.style.setProperty('--cat-color', meta.color);
 
-  const res = await fetch(meta.archivo);
+  const res = await fetch(meta.archivo, { cache: 'no-store' });
   const data = await res.json();
 
   const contenedor = document.getElementById('paginas');

@@ -171,6 +171,7 @@ async function ghFetch(path, opts={}){
   const url = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${path}`;
   const res = await fetch(url, {
     ...opts,
+    cache: 'no-store',
     headers: {
       'Authorization': `token ${GH_TOKEN}`,
       'Content-Type': 'application/json',
