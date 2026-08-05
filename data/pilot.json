@@ -318,7 +318,48 @@
     {
       "paginaOriginal": 47,
       "imagen": "img/pages/pilot/pagina-047.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "BL-PL",
+          "x": 2.421875,
+          "y": 18.20721046914602,
+          "w": 50.3125,
+          "h": 34.86956671666753,
+          "precio": 72,
+          "modalidad": "unidad",
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, COLORES CLÁSICOS"
+        },
+        {
+          "codigo": "BL-PLP",
+          "x": 53.515625,
+          "y": 18.317557199262055,
+          "w": 44.53125,
+          "h": 34.538526526319416,
+          "precio": 72,
+          "modalidad": "unidad",
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, COLORES PASTEL"
+        },
+        {
+          "codigo": "BL-PL/72",
+          "x": 2.890625,
+          "y": 53.40781737616166,
+          "w": 43.28125,
+          "h": 42.593837824790086,
+          "precio": 4955,
+          "modalidad": "unidad",
+          "nombre": "POP'LOL, EXHIBIDOR C/72 BOLÍGRAFOS COL. PASTEL Y METÁLICOS"
+        },
+        {
+          "codigo": "BL-PL/72CN",
+          "x": 46.796875,
+          "y": 53.5181641062777,
+          "w": 52.03125,
+          "h": 42.152450904325924,
+          "precio": 4955,
+          "modalidad": "unidad",
+          "nombre": "PILOT POP'LOL, EXHIBIDOR C/72 BOLÍGRAFOS COL. CLÁSICOS Y FLÚO"
+        }
+      ],
       "tapados": [
         {
           "x": 37.109375,
