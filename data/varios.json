@@ -83,5 +83,1178 @@
       "imagen": "img/pages/varios/pagina-134.webp",
       "productos": []
     }
+  ],
+  "items": [
+    {
+      "codigo": "P001",
+      "nombre": "Abrochadora 24/6 26/6  20hojas",
+      "precio": 119,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P001.webp"
+    },
+    {
+      "codigo": "P002",
+      "nombre": "Abrochadora Metalica 24/6 Premium",
+      "precio": 245,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P002.webp"
+    },
+    {
+      "codigo": "P003",
+      "nombre": "Abrochadora Metalica para 100 Hojas",
+      "precio": 690,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P003.webp"
+    },
+    {
+      "codigo": "P004",
+      "nombre": "Alfiler para Corcho",
+      "precio": 175,
+      "precioRef": 35,
+      "modalidad": "Paq. x 5",
+      "imagen": "img/pages/varios/P004.webp"
+    },
+    {
+      "codigo": "P005",
+      "nombre": "Almohadilla para Sello 10x7",
+      "precio": 67,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P005.webp"
+    },
+    {
+      "codigo": "P108",
+      "nombre": "Aprietapapel Dobleclip 19mm",
+      "precio": 75.6,
+      "precioRef": 6.3,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P108.webp"
+    },
+    {
+      "codigo": "P006",
+      "nombre": "Aprietapapel Dobleclip 25mm",
+      "precio": 94.8,
+      "precioRef": 7.9,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P006.webp"
+    },
+    {
+      "codigo": "P109",
+      "nombre": "Aprietapapel Dobleclip 32mm",
+      "precio": 114,
+      "precioRef": 9.5,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P109.webp"
+    },
+    {
+      "codigo": "P110",
+      "nombre": "Aprietapapel Dobleclip 41mm",
+      "precio": 132,
+      "precioRef": 11,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P110.webp"
+    },
+    {
+      "codigo": "P111",
+      "nombre": "Aprietapapel Dobleclip 50mm",
+      "precio": 152.4,
+      "precioRef": 12.7,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P111.webp"
+    },
+    {
+      "codigo": "P007",
+      "nombre": "Bandas Elásticas 200g",
+      "precio": 119,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P007.webp"
+    },
+    {
+      "codigo": "P008",
+      "nombre": "Banderitas Adhesivas",
+      "precio": 119,
+      "precioRef": 23.8,
+      "modalidad": "Paq. x 5",
+      "imagen": "img/pages/varios/P008.webp"
+    },
+    {
+      "codigo": "P009",
+      "nombre": "Barra Adhesiva 9gr",
+      "precio": 396,
+      "precioRef": 39.6,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P009.webp"
+    },
+    {
+      "codigo": "P112",
+      "nombre": "Barra Adhesiva 15gr",
+      "precio": 476,
+      "precioRef": 47.6,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P112.webp"
+    },
+    {
+      "codigo": "P113",
+      "nombre": "Barra Adhesiva 21gr",
+      "precio": 640,
+      "precioRef": 6.4,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P113.webp"
+    },
+    {
+      "codigo": "P011",
+      "nombre": "Biliorato de Cartón Oficio",
+      "precio": 119,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P011.webp"
+    },
+    {
+      "codigo": "P128",
+      "nombre": "Biliorato de Cartón A4",
+      "precio": 119,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P128.webp"
+    },
+    {
+      "codigo": "P129",
+      "nombre": "Biliorato de Cartón A5",
+      "precio": 129,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P129.webp"
+    },
+    {
+      "codigo": "P012",
+      "nombre": "Biliorato Plastificado A4 Pvc",
+      "precio": 119,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P012.webp"
+    },
+    {
+      "codigo": "P130",
+      "nombre": "Biliorato Plastificad Oficio Pvc",
+      "precio": 119,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P130.webp"
+    },
+    {
+      "codigo": "P131",
+      "nombre": "Biliorato Plastificad Lomo Fino",
+      "precio": 169,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P131.webp"
+    },
+    {
+      "codigo": "P013",
+      "nombre": "Block Liso Chico Apuntes",
+      "precio": 282,
+      "precioRef": 47,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P013.webp"
+    },
+    {
+      "codigo": "P132",
+      "nombre": "Block Rayado A5",
+      "precio": 256.2,
+      "precioRef": 42.7,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P132.webp"
+    },
+    {
+      "codigo": "P133",
+      "nombre": "Block Rayado A4",
+      "precio": 274.5,
+      "precioRef": 91.5,
+      "modalidad": "Paq. x 3",
+      "imagen": "img/pages/varios/P133.webp"
+    },
+    {
+      "codigo": "P014",
+      "nombre": "Block Cartulina A4",
+      "precio": 339,
+      "precioRef": 113,
+      "modalidad": "Paq. x 3",
+      "imagen": "img/pages/varios/P014.webp"
+    },
+    {
+      "codigo": "P015",
+      "nombre": "Borrador Pizarra",
+      "precio": 80.4,
+      "precioRef": 26.8,
+      "modalidad": "Paq. x 3",
+      "imagen": "img/pages/varios/P015.webp"
+    },
+    {
+      "codigo": "P016",
+      "nombre": "Boligrafo Cristal Azul, Negro, Rojo y Verde",
+      "precio": 635,
+      "precioRef": 12.7,
+      "modalidad": "Paq. x 50 ·",
+      "imagen": "img/pages/varios/P016.webp"
+    },
+    {
+      "codigo": "P017",
+      "nombre": "Boligrafo Bic",
+      "precio": 780,
+      "precioRef": 15.6,
+      "modalidad": "Pack x 50u",
+      "imagen": "img/pages/varios/P017.webp"
+    },
+    {
+      "codigo": "P018",
+      "nombre": "Boligrafo Base Adhesiva",
+      "precio": 68,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P018.webp"
+    },
+    {
+      "codigo": "P019",
+      "nombre": "Boligrafo Tinta Liquida N,r,az",
+      "precio": 624,
+      "precioRef": 52,
+      "modalidad": "Pack x 12u.",
+      "imagen": "img/pages/varios/P019.webp"
+    },
+    {
+      "codigo": "P020",
+      "nombre": "Broche Acco",
+      "precio": 354,
+      "precioRef": 59,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P020.webp"
+    },
+    {
+      "codigo": "P021",
+      "nombre": "Broches 26/06 x 5000",
+      "precio": 462,
+      "precioRef": 77,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P021.webp"
+    },
+    {
+      "codigo": "P114",
+      "nombre": "Broches 26/06 x 1000",
+      "precio": 146.4,
+      "precioRef": 12.2,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P114.webp"
+    },
+    {
+      "codigo": "P134",
+      "nombre": "Broches 24/06 x 1000",
+      "precio": 156,
+      "precioRef": 13,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P134.webp"
+    },
+    {
+      "codigo": "P135",
+      "nombre": "Broches 23/13 x 1000",
+      "precio": 264,
+      "precioRef": 44,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P135.webp"
+    },
+    {
+      "codigo": "P136",
+      "nombre": "Broches 23/10 x 1000",
+      "precio": 384,
+      "precioRef": 64,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P136.webp"
+    },
+    {
+      "codigo": "P022",
+      "nombre": "Broche Self 40mm",
+      "precio": 476,
+      "precioRef": 119,
+      "modalidad": "Paq. x 4",
+      "imagen": "img/pages/varios/P022.webp"
+    },
+    {
+      "codigo": "P023",
+      "nombre": "Caja de Seguridad Grande",
+      "precio": 680,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P023.webp"
+    },
+    {
+      "codigo": "P137",
+      "nombre": "Caja de Seguridad Mediana",
+      "precio": 547,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P137.webp"
+    },
+    {
+      "codigo": "P024",
+      "nombre": "Calculadora de 12 Dígitos",
+      "precio": 165,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P024.webp"
+    },
+    {
+      "codigo": "P025",
+      "nombre": "Candado de Bronce 20cm",
+      "precio": 71.9,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P025.webp"
+    },
+    {
+      "codigo": "P115",
+      "nombre": "Candado de Bronce 30cm",
+      "precio": 85.4,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P115.webp"
+    },
+    {
+      "codigo": "P116",
+      "nombre": "Candado de Bronce 50cm",
+      "precio": 145,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P116.webp"
+    },
+    {
+      "codigo": "P026",
+      "nombre": "Carpeta Tapa Transparente A4",
+      "precio": 190,
+      "precioRef": 19,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P026.webp"
+    },
+    {
+      "codigo": "P138",
+      "nombre": "Carpeta Tapa Transparente Oficio",
+      "precio": 220,
+      "precioRef": 22,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P138.webp"
+    },
+    {
+      "codigo": "P027",
+      "nombre": "Carpeta con Oreja",
+      "precio": 220,
+      "precioRef": 22,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P027.webp"
+    },
+    {
+      "codigo": "P028",
+      "nombre": "Carpeta con Elastico",
+      "precio": 360,
+      "precioRef": 36,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P028.webp"
+    },
+    {
+      "codigo": "P029",
+      "nombre": "Carpeta A4 20 Fundas",
+      "precio": 247,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P029.webp"
+    },
+    {
+      "codigo": "P139",
+      "nombre": "Carpeta A4 40 Fundas",
+      "precio": 392,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P139.webp"
+    },
+    {
+      "codigo": "P140",
+      "nombre": "Carpetaa4 80 Fundas",
+      "precio": 546,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P140.webp"
+    },
+    {
+      "codigo": "P141",
+      "nombre": "Carpetaa4 100 Fundas",
+      "precio": 676,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P141.webp"
+    },
+    {
+      "codigo": "P032",
+      "nombre": "Cartulina A4 de Colores x 100",
+      "precio": 247,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P032.webp"
+    },
+    {
+      "codigo": "P034",
+      "nombre": "Cinta 12x10",
+      "precio": 192,
+      "precioRef": 9.6,
+      "modalidad": "Paq. x 20",
+      "imagen": "img/pages/varios/P034.webp"
+    },
+    {
+      "codigo": "P144",
+      "nombre": "Cinta 12x30",
+      "precio": 264,
+      "precioRef": 13.2,
+      "modalidad": "Paq. x 20 ·",
+      "imagen": "img/pages/varios/P144.webp"
+    },
+    {
+      "codigo": "P145",
+      "nombre": "Cinta 12x60",
+      "precio": 174,
+      "precioRef": 17.4,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P145.webp"
+    },
+    {
+      "codigo": "P035",
+      "nombre": "Cinta 2,5cm x 50",
+      "precio": 250,
+      "precioRef": 25,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P035.webp"
+    },
+    {
+      "codigo": "P036",
+      "nombre": "Cinta Papel 50x50",
+      "precio": 166,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P036.webp"
+    },
+    {
+      "codigo": "P146",
+      "nombre": "Cinta Papel 1,8cm",
+      "precio": 699,
+      "precioRef": 69.9,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P146.webp"
+    },
+    {
+      "codigo": "P147",
+      "nombre": "Cinta Papel 2,4cm",
+      "precio": 252,
+      "precioRef": 84,
+      "modalidad": "Paq. x 3",
+      "imagen": "img/pages/varios/P147.webp"
+    },
+    {
+      "codigo": "P148",
+      "nombre": "Cinta Papel 1,2cm",
+      "precio": 220,
+      "precioRef": 55,
+      "modalidad": "paq x 4",
+      "imagen": "img/pages/varios/P148.webp"
+    },
+    {
+      "codigo": "P037",
+      "nombre": "Clip de Papel de 28 Mm",
+      "precio": 238,
+      "precioRef": 11.9,
+      "modalidad": "Paq. x 20 ·",
+      "imagen": "img/pages/varios/P037.webp"
+    },
+    {
+      "codigo": "P149",
+      "nombre": "Clip de Papel de 50 Mm",
+      "precio": 340,
+      "precioRef": 34,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P149.webp"
+    },
+    {
+      "codigo": "P038",
+      "nombre": "Cola Vinilica 100gr",
+      "precio": 468,
+      "precioRef": 39,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P038.webp"
+    },
+    {
+      "codigo": "P117",
+      "nombre": "Cola Vinilica 250gr",
+      "precio": 109,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P117.webp"
+    },
+    {
+      "codigo": "P150",
+      "nombre": "Cola Vinilica Il",
+      "precio": 215,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P150.webp"
+    },
+    {
+      "codigo": "P039",
+      "nombre": "Corrector Pincel",
+      "precio": 408,
+      "precioRef": 34,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P039.webp"
+    },
+    {
+      "codigo": "P040",
+      "nombre": "Corrector en Cinta",
+      "precio": 408,
+      "precioRef": 34,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P040.webp"
+    },
+    {
+      "codigo": "P041",
+      "nombre": "Corrector Lapiz 7ml",
+      "precio": 252,
+      "precioRef": 21,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P041.webp"
+    },
+    {
+      "codigo": "P042",
+      "nombre": "Crayolas x 24uds",
+      "precio": 390,
+      "precioRef": 65,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P042.webp"
+    },
+    {
+      "codigo": "P118",
+      "nombre": "Crayolas x 12uds",
+      "precio": 504,
+      "precioRef": 42,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P118.webp"
+    },
+    {
+      "codigo": "P043",
+      "nombre": "Cuadernola Tapa Semidura 70hs",
+      "precio": 1090,
+      "precioRef": 109,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P043.webp"
+    },
+    {
+      "codigo": "P119",
+      "nombre": "Cuadernola Tapa Semidura 96hs",
+      "precio": 1220,
+      "precioRef": 122,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P119.webp"
+    },
+    {
+      "codigo": "P044",
+      "nombre": "Cuchillas x 10",
+      "precio": 59,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P044.webp"
+    },
+    {
+      "codigo": "P045",
+      "nombre": "Espiral 8mm",
+      "precio": 325,
+      "precioRef": 3.25,
+      "modalidad": "Paq. x 100",
+      "imagen": "img/pages/varios/P045.webp"
+    },
+    {
+      "codigo": "P120",
+      "nombre": "Espiral 10mm",
+      "precio": 488,
+      "precioRef": 4.88,
+      "modalidad": "Paq. x 100 ·",
+      "imagen": "img/pages/varios/P120.webp"
+    },
+    {
+      "codigo": "P121",
+      "nombre": "Espiral 12mm",
+      "precio": 553,
+      "precioRef": 5.53,
+      "modalidad": "Paq. x 100 ·",
+      "imagen": "img/pages/varios/P121.webp"
+    },
+    {
+      "codigo": "P122",
+      "nombre": "Espiral 14mm",
+      "precio": 634,
+      "precioRef": 6.34,
+      "modalidad": "Paq. x 100",
+      "imagen": "img/pages/varios/P122.webp"
+    },
+    {
+      "codigo": "P123",
+      "nombre": "Espiral 22mm",
+      "precio": 650,
+      "precioRef": 13,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P123.webp"
+    },
+    {
+      "codigo": "P046",
+      "nombre": "Etiqueta Precios Linea Roja x 10",
+      "precio": 151,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P046.webp"
+    },
+    {
+      "codigo": "P047",
+      "nombre": "Etiquetas Autoadhesivas Rotola de Mano",
+      "precio": 198,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P047.webp"
+    },
+    {
+      "codigo": "P048",
+      "nombre": "Funda A4",
+      "precio": 150,
+      "precioRef": 1.5,
+      "modalidad": "Paq. x 100 ·",
+      "imagen": "img/pages/varios/P048.webp"
+    },
+    {
+      "codigo": "P049",
+      "nombre": "Goma de Borrar",
+      "precio": 220,
+      "precioRef": 11,
+      "modalidad": "Paq. x 20 ·",
+      "imagen": "img/pages/varios/P049.webp"
+    },
+    {
+      "codigo": "P050",
+      "nombre": "Indice 5 Posic",
+      "precio": 420,
+      "precioRef": 42,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P050.webp"
+    },
+    {
+      "codigo": "P151",
+      "nombre": "Indice 10 Posic",
+      "precio": 540,
+      "precioRef": 54,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P151.webp"
+    },
+    {
+      "codigo": "P051",
+      "nombre": "Indice Az",
+      "precio": 1130,
+      "precioRef": 113,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P051.webp"
+    },
+    {
+      "codigo": "P052",
+      "nombre": "Indice 1-31",
+      "precio": 1320,
+      "precioRef": 132,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P052.webp"
+    },
+    {
+      "codigo": "P054",
+      "nombre": "Lapices de Colores Largos x 12",
+      "precio": 636,
+      "precioRef": 53,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P054.webp"
+    },
+    {
+      "codigo": "P055",
+      "nombre": "Lapices de Colores Largos x 24",
+      "precio": 1110,
+      "precioRef": 111,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P055.webp"
+    },
+    {
+      "codigo": "P056",
+      "nombre": "Lapiz",
+      "precio": 110,
+      "precioRef": 5.5,
+      "modalidad": "Paq. x 20",
+      "imagen": "img/pages/varios/P056.webp"
+    },
+    {
+      "codigo": "P057",
+      "nombre": "Lapiz Mecanico 0,5",
+      "precio": 420,
+      "precioRef": 35,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P057.webp"
+    },
+    {
+      "codigo": "P058",
+      "nombre": "Llaveritos x 50",
+      "precio": 340,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P058.webp"
+    },
+    {
+      "codigo": "P059",
+      "nombre": "Marcador Pizarra: Negro, Rojo, Azul, Verde",
+      "precio": 456,
+      "precioRef": 38,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P059.webp"
+    },
+    {
+      "codigo": "P060",
+      "nombre": "Marcador Permanente",
+      "precio": 456,
+      "precioRef": 38,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P060.webp"
+    },
+    {
+      "codigo": "P061",
+      "nombre": "Marcador Fluo",
+      "precio": 390,
+      "precioRef": 39,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P061.webp"
+    },
+    {
+      "codigo": "P062",
+      "nombre": "Marcadores Finos x 12",
+      "precio": 810,
+      "precioRef": 67.5,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P062.webp"
+    },
+    {
+      "codigo": "P063",
+      "nombre": "Marcadores Gruesos x 12",
+      "precio": 774,
+      "precioRef": 129,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P063.webp"
+    },
+    {
+      "codigo": "P064",
+      "nombre": "Marcador Fino Negro, Azul y Rojo",
+      "precio": 336,
+      "precioRef": 28,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P064.webp"
+    },
+    {
+      "codigo": "P065",
+      "nombre": "Minas 0,5 y 0,7",
+      "precio": 280,
+      "precioRef": 28,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P065.webp"
+    },
+    {
+      "codigo": "P066",
+      "nombre": "Mojadedos",
+      "precio": 180,
+      "precioRef": 30,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P066.webp"
+    },
+    {
+      "codigo": "P067",
+      "nombre": "Mouse Pad Ergonomico",
+      "precio": 193,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P067.webp"
+    },
+    {
+      "codigo": "P068",
+      "nombre": "Mouse Usb",
+      "precio": 115.9,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P068.webp"
+    },
+    {
+      "codigo": "P163",
+      "nombre": "Mouse Inalambrico",
+      "precio": 230,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P163.webp"
+    },
+    {
+      "codigo": "P070",
+      "nombre": "Papel A4",
+      "precio": 193.7,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P070.webp"
+    },
+    {
+      "codigo": "P152",
+      "nombre": "Papel A5 75gr",
+      "precio": 265,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P152.webp"
+    },
+    {
+      "codigo": "P153",
+      "nombre": "Papel Oficio 75gr",
+      "precio": 320,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P153.webp"
+    },
+    {
+      "codigo": "P071",
+      "nombre": "Papel Carbonico A4 y Oficio x 100hs",
+      "precio": 690,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P071.webp"
+    },
+    {
+      "codigo": "P072",
+      "nombre": "Papelera Plastico",
+      "precio": 85.4,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P072.webp"
+    },
+    {
+      "codigo": "P073",
+      "nombre": "Papelera Metal Calado",
+      "precio": 298,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P073.webp"
+    },
+    {
+      "codigo": "P074",
+      "nombre": "Perforadora Chica",
+      "precio": 132,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P074.webp"
+    },
+    {
+      "codigo": "P162",
+      "nombre": "Perforadora 11*10cm Azul Blanco y Negro",
+      "precio": 252,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P162.webp"
+    },
+    {
+      "codigo": "P077",
+      "nombre": "Portacintas Chico",
+      "precio": 152,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P077.webp"
+    },
+    {
+      "codigo": "P078",
+      "nombre": "Portacintas Mediano",
+      "precio": 262,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P078.webp"
+    },
+    {
+      "codigo": "P079",
+      "nombre": "Portacinta de Mano",
+      "precio": 262,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P079.webp"
+    },
+    {
+      "codigo": "P080",
+      "nombre": "Portaclip 4*6.2cm",
+      "precio": 58,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P080.webp"
+    },
+    {
+      "codigo": "P081",
+      "nombre": "Portacubo",
+      "precio": 106,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P081.webp"
+    },
+    {
+      "codigo": "P082",
+      "nombre": "Portalapices",
+      "precio": 47,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P082.webp"
+    },
+    {
+      "codigo": "P083",
+      "nombre": "Post It Amarillas 7,6*10 Cm",
+      "precio": 420,
+      "precioRef": 35,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P083.webp"
+    },
+    {
+      "codigo": "P124",
+      "nombre": "Post It Amarillas 7,6*7,6 Cm",
+      "precio": 237.6,
+      "precioRef": 19.8,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P124.webp"
+    },
+    {
+      "codigo": "P156",
+      "nombre": "Post-it Amarillas 7,6*5 Cm",
+      "precio": 225.4,
+      "precioRef": 18.7,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P156.webp"
+    },
+    {
+      "codigo": "P157",
+      "nombre": "Post-it Amarillas 5*5 Cm",
+      "precio": 177.6,
+      "precioRef": 14.8,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P157.webp"
+    },
+    {
+      "codigo": "P158",
+      "nombre": "Post-it Amarillas 3*5 Cm",
+      "precio": 171.6,
+      "precioRef": 14.3,
+      "modalidad": "Paq. x 12",
+      "imagen": "img/pages/varios/P158.webp"
+    },
+    {
+      "codigo": "P084",
+      "nombre": "Postit Color 3x5",
+      "precio": 261.6,
+      "precioRef": 21.8,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P084.webp"
+    },
+    {
+      "codigo": "P159",
+      "nombre": "Postit Color Grande",
+      "precio": 380.4,
+      "precioRef": 31.7,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P159.webp"
+    },
+    {
+      "codigo": "P086",
+      "nombre": "Regla 30cm",
+      "precio": 456,
+      "precioRef": 22.8,
+      "modalidad": "Paq. x 20 ·",
+      "imagen": "img/pages/varios/P086.webp"
+    },
+    {
+      "codigo": "P125",
+      "nombre": "Regla 50cm",
+      "precio": 460,
+      "precioRef": 46,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P125.webp"
+    },
+    {
+      "codigo": "P087",
+      "nombre": "Repuesto de Cubo 8x8 x 400hs",
+      "precio": 730,
+      "precioRef": 73,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P087.webp"
+    },
+    {
+      "codigo": "P088",
+      "nombre": "Revistero Metal Calado",
+      "precio": 198,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P088.webp"
+    },
+    {
+      "codigo": "P089",
+      "nombre": "Rollos de Pos",
+      "precio": 169,
+      "precioRef": 16.9,
+      "modalidad": "Paq. x 10",
+      "imagen": "img/pages/varios/P089.webp"
+    },
+    {
+      "codigo": "P090",
+      "nombre": "Rollo Termino Ticketera 80x60",
+      "precio": 57,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P090.webp"
+    },
+    {
+      "codigo": "P160",
+      "nombre": "Rollo Termino Ticketera 80x80",
+      "precio": 69,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P160.webp"
+    },
+    {
+      "codigo": "P091",
+      "nombre": "Pila Aa",
+      "precio": 148,
+      "precioRef": 14.8,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P091.webp"
+    },
+    {
+      "codigo": "P161",
+      "nombre": "Pila Aaa",
+      "precio": 148,
+      "precioRef": 14.8,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P161.webp"
+    },
+    {
+      "codigo": "P093",
+      "nombre": "Sacabroches",
+      "precio": 427,
+      "precioRef": 42.7,
+      "modalidad": "Paq. x 10 ·",
+      "imagen": "img/pages/varios/P093.webp"
+    },
+    {
+      "codigo": "P094",
+      "nombre": "Sacapuntas Metalico",
+      "precio": 130.8,
+      "precioRef": 10.9,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P094.webp"
+    },
+    {
+      "codigo": "P095",
+      "nombre": "Sobre con Broche",
+      "precio": 825,
+      "precioRef": 16.5,
+      "modalidad": "Pack x 50u",
+      "imagen": "img/pages/varios/P095.webp"
+    },
+    {
+      "codigo": "P096",
+      "nombre": "Sobre en Ele",
+      "precio": 895,
+      "precioRef": 17.9,
+      "modalidad": "Pack x 50u",
+      "imagen": "img/pages/varios/P096.webp"
+    },
+    {
+      "codigo": "P097",
+      "nombre": "Sobre Manila Oficio",
+      "precio": 457.5,
+      "precioRef": 9.15,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P097.webp"
+    },
+    {
+      "codigo": "P164",
+      "nombre": "Sobre Manila 30x40",
+      "precio": 460,
+      "precioRef": 9.2,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P164.webp"
+    },
+    {
+      "codigo": "P165",
+      "nombre": "Sobre Blanco Oficio",
+      "precio": 550,
+      "precioRef": 11,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P165.webp"
+    },
+    {
+      "codigo": "P166",
+      "nombre": "Sobre Blanco A4",
+      "precio": 440,
+      "precioRef": 8.8,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P166.webp"
+    },
+    {
+      "codigo": "P167",
+      "nombre": "Sobre Manila 18x25",
+      "precio": 257.5,
+      "precioRef": 5.15,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P167.webp"
+    },
+    {
+      "codigo": "P168",
+      "nombre": "Sobre Blanco 18x25",
+      "precio": 315,
+      "precioRef": 6.3,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P168.webp"
+    },
+    {
+      "codigo": "P169",
+      "nombre": "Sobre Americano 12 x 18",
+      "precio": 460,
+      "precioRef": 4.6,
+      "modalidad": "Paq. x 100",
+      "imagen": "img/pages/varios/P169.webp"
+    },
+    {
+      "codigo": "P170",
+      "nombre": "Sobre Comercial 11x22",
+      "precio": 380,
+      "precioRef": 3.8,
+      "modalidad": "Paq. x 100",
+      "imagen": "img/pages/varios/P170.webp"
+    },
+    {
+      "codigo": "P098",
+      "nombre": "Sobre Manila A4",
+      "precio": 335,
+      "precioRef": 6.7,
+      "modalidad": "Paq. x 50",
+      "imagen": "img/pages/varios/P098.webp"
+    },
+    {
+      "codigo": "P099",
+      "nombre": "Tabla Aprietapapel A4 Acrilico",
+      "precio": 144,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P099.webp"
+    },
+    {
+      "codigo": "P100",
+      "nombre": "Tabla Aprietapapel A4 Madera",
+      "precio": 228,
+      "precioRef": 19,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P100.webp"
+    },
+    {
+      "codigo": "P101",
+      "nombre": "Tapa Encuadernacion A4",
+      "precio": 545,
+      "precioRef": 10.9,
+      "modalidad": "Paq. x 50 ·",
+      "imagen": "img/pages/varios/P101.webp"
+    },
+    {
+      "codigo": "P102",
+      "nombre": "Teclado Cableado Dx Premium",
+      "precio": 299,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P102.webp"
+    },
+    {
+      "codigo": "P103",
+      "nombre": "Tijera de Oficina Grande",
+      "precio": 312,
+      "precioRef": 52,
+      "modalidad": "Paq. x 6",
+      "imagen": "img/pages/varios/P103.webp"
+    },
+    {
+      "codigo": "P104",
+      "nombre": "Tijera de Oficina Mediana",
+      "precio": 228,
+      "precioRef": 38,
+      "modalidad": "Paq. x6",
+      "imagen": "img/pages/varios/P104.webp"
+    },
+    {
+      "codigo": "P106",
+      "nombre": "Trincheta",
+      "precio": 286.8,
+      "precioRef": 23.9,
+      "modalidad": "Paq. x 12 ·",
+      "imagen": "img/pages/varios/P106.webp"
+    },
+    {
+      "codigo": "P107",
+      "nombre": "Trincheta Premium",
+      "precio": 85,
+      "modalidad": "unidad",
+      "imagen": "img/pages/varios/P107.webp"
+    }
   ]
 }

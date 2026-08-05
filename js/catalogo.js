@@ -87,6 +87,9 @@ async function cargarCatalogo(){
     });
   });
 
+  // renderizar tarjetas de artículos individuales si existen
+  renderItems(data, meta, contenedor, banner);
+
   // si venimos del buscador con una página puntual, hacemos scroll directo ahí
   if(paginaFoco){
     const objetivo = contenedor.querySelector(`[data-pagina="${paginaFoco}"]`);
@@ -129,3 +132,59 @@ document.addEventListener('DOMContentLoaded', () => {
   cargarCatalogo();
   initScrollTopBtn();
 });
+
+// Renderiza los artículos individuales (items) como tarjetas tapeables
+function renderItems(data, meta, contenedor, banner) {
+  if (!data.items || !data.items.length) return;
+
+  const hr = document.createElement('hr');
+  hr.className = 'items-separador';
+  contenedor.appendChild(hr);
+
+  const seccion = document.createElement('div');
+  seccion.className = 'items-seccion';
+  seccion.innerHTML = `
+    <div class="items-titulo">Artículos de Oficina</div>
+    <div class="items-grid">
+      ${data.items.map(prod => `
+        <div class="item-card"
+             data-codigo="${prod.codigo}"
+             data-nombre="${prod.nombre.replace(/"/g, '&quot;')}"
+             data-precio="${prod.precio}"
+             data-modalidad="${prod.modalidad || 'unidad'}"
+             ${prod.precioRef ? `data-precio-ref="${prod.precioRef}"` : ''}>
+          <img src="${prod.imagen}" alt="${prod.nombre.replace(/"/g, '')}" loading="lazy">
+          <div class="item-card-info">
+            <div class="item-card-nombre">${prod.nombre}</div>
+            <div class="item-card-codigo">${prod.codigo}</div>
+            <div class="item-card-precio">
+              ${prod.precioRef ? `<span class="item-precio-ref">$${prod.precioRef} c/u</span>` : ''}
+              <span class="item-precio-principal">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' / ' + prod.modalidad : ''}</span>
+            </div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+  contenedor.appendChild(seccion);
+
+  seccion.querySelectorAll('.item-card').forEach(el => {
+    el.addEventListener('click', () => {
+      if (!localStorage.getItem('pp_sabe_tocar')) {
+        localStorage.setItem('pp_sabe_tocar', '1');
+        banner.style.display = 'none';
+      }
+      const nombre = el.dataset.nombre;
+      cartAdd({
+        codigo: el.dataset.codigo,
+        nombre: nombre,
+        precio: parseFloat(el.dataset.precio),
+        modalidad: el.dataset.modalidad,
+        categoria: meta.nombre
+      });
+      el.classList.add('agregado');
+      setTimeout(() => el.classList.remove('agregado'), 600);
+      mostrarToast(nombre);
+    });
+  });
+}
