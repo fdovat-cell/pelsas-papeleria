@@ -230,6 +230,26 @@
           "precio": 278,
           "modalidad": "unidad",
           "nombre": "PILOT RETRÁCTIL, TRAZO MEDIO, CAJA C/12 UN."
+        },
+        {
+          "codigo": "BPSF",
+          "x": 52.890625,
+          "y": 46.67666683908343,
+          "w": 45.15625,
+          "h": 16.552009517405466,
+          "precio": 49,
+          "modalidad": "unidad",
+          "nombre": "PILOT TRAZO FINO 0.7 mm, PUNTA DE METAL"
+        },
+        {
+          "codigo": "BPSGP",
+          "x": 2.734375,
+          "y": 70.84260073449542,
+          "w": 51.24999999999999,
+          "h": 24.05558716529596,
+          "precio": 1,
+          "modalidad": "unidad",
+          "nombre": "PILOT TRAZO EXTRA FINO 05mm., C/GRIP DE GOMA"
         }
       ],
       "tapados": [
