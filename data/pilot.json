@@ -426,7 +426,28 @@
     {
       "paginaOriginal": 50,
       "imagen": "img/pages/pilot/pagina-050.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "SANP5",
+          "x": 42.578125,
+          "y": 12.91056742357627,
+          "w": 56.5625,
+          "h": 16.99339643786962,
+          "precio": 156,
+          "modalidad": "unidad",
+          "nombre": "PILOT SYNERGY POINT RETRÁCTIL, 0.5mm"
+        },
+        {
+          "codigo": "SNP5/60",
+          "x": 5.703125,
+          "y": 9.489818789979138,
+          "w": 36.40625,
+          "h": 38.290315350264656,
+          "precio": 8919,
+          "modalidad": "unidad",
+          "nombre": "PILOT SYNERGY POINT RETRÁCTIL, 0.5mm, EXHIBIDOR C/60 UN."
+        }
+      ],
       "tapados": [
         {
           "x": 35.859375,
@@ -439,7 +460,38 @@
     {
       "paginaOriginal": 51,
       "imagen": "img/pages/pilot/pagina-051.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "FP3-15",
+          "x": 3.515625,
+          "y": 34.75921998655149,
+          "w": 94.6875,
+          "h": 10.482939361023462,
+          "precio": 608,
+          "modalidad": "unidad",
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 1.5mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+        },
+        {
+          "codigo": "FP3-24",
+          "x": 3.9843749999999996,
+          "y": 45.46285280780703,
+          "w": 94.21875,
+          "h": 8.717391679166887,
+          "precio": 608,
+          "modalidad": "unidad",
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 2.4mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+        },
+        {
+          "codigo": "FP3-38",
+          "x": 4.140625,
+          "y": 54.29059121708995,
+          "w": 94.0625,
+          "h": 8.93808513939895,
+          "precio": 608,
+          "modalidad": "unidad",
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 3.8mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+        }
+      ],
       "tapados": [
         {
           "x": 36.328125,
