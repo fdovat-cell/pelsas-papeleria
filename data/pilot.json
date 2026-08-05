@@ -372,7 +372,48 @@
     {
       "paginaOriginal": 48,
       "imagen": "img/pages/pilot/pagina-048.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "BL-PL-S6",
+          "x": 2.421875,
+          "y": 12.248487042880049,
+          "w": 49.99999999999999,
+          "h": 31.779858273418505,
+          "precio": 362,
+          "modalidad": "unidad",
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.CLÁSICOS"
+        },
+        {
+          "codigo": "BL-PLF-S6",
+          "x": 53.04687500000001,
+          "y": 12.469180503112122,
+          "w": 46.56249999999999,
+          "h": 38.06962189003259,
+          "precio": 362,
+          "modalidad": "unidad",
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.FLÚO"
+        },
+        {
+          "codigo": "BL-PLM-S6",
+          "x": 1.953125,
+          "y": 49.21464163175227,
+          "w": 45.3125,
+          "h": 31.338471352954357,
+          "precio": 362,
+          "modalidad": "unidad",
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.METÁLICOS"
+        },
+        {
+          "codigo": "BL-PLF-S6",
+          "x": 47.421875,
+          "y": 63.33902308660494,
+          "w": 51.71875,
+          "h": 32.00055173365058,
+          "precio": 362,
+          "modalidad": "unidad",
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.FLÚO"
+        }
+      ],
       "tapados": [
         {
           "x": 35.078125,
