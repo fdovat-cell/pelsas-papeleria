@@ -490,6 +490,36 @@
           "precio": 608,
           "modalidad": "unidad",
           "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 3.8mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+        },
+        {
+          "codigo": "FP3-60",
+          "x": 4.453125,
+          "y": 63.33902308660494,
+          "w": 93.75,
+          "h": 9.26912532974707,
+          "precio": 608,
+          "modalidad": "unidad",
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 6.0mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+        },
+        {
+          "codigo": "IC-P3-S6",
+          "x": 46.484375,
+          "y": 72.60814841635201,
+          "w": 45.78125,
+          "h": 23.172813324367667,
+          "precio": 99,
+          "modalidad": "unidad",
+          "nombre": "REPUESTO PARALLEL PEN, SET C/6 CARTUCHOS NEGROS"
+        },
+        {
+          "codigo": "IC-P3-AST",
+          "x": 4.609375,
+          "y": 72.82884187658408,
+          "w": 40.9375,
+          "h": 22.731426403903512,
+          "precio": 159,
+          "modalidad": "unidad",
+          "nombre": "REPUESTO PARALLEL PEN, SET C/12 CARTUCHOS DE COLORES SURTIDOS"
         }
       ],
       "tapados": [
