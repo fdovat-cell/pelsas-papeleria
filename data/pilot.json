@@ -264,7 +264,48 @@
     {
       "paginaOriginal": 46,
       "imagen": "img/pages/pilot/pagina-046.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "BPT-P",
+          "x": 1.171875,
+          "y": 72.38745495611994,
+          "w": 46.40625,
+          "h": 22.621079673787477,
+          "precio": 155,
+          "modalidad": "unidad",
+          "nombre": "PILOT CUERPO TRANSP., TRAZO MEDIO, CAJA C/12 UN."
+        },
+        {
+          "codigo": "BL-SG",
+          "x": 48.046875,
+          "y": 72.27710822600389,
+          "w": 51.09375,
+          "h": 22.731426403903527,
+          "precio": 52,
+          "modalidad": "unidad",
+          "nombre": "PILOT SUPER GEL, TINTA GEL, 0.7 mm, COLORES CLÁSICOS"
+        },
+        {
+          "codigo": "BL-GC4",
+          "x": 1.328125,
+          "y": 33.21436576492698,
+          "w": 51.87499999999999,
+          "h": 16.22096932705736,
+          "precio": 136,
+          "modalidad": "unidad",
+          "nombre": "PILOT G-TEC-C4, 0.4 mm, TINTA GEL BIOPOLIMÉRICA"
+        },
+        {
+          "codigo": "BL-GC4/60",
+          "x": 52.734375,
+          "y": 10.151899170675357,
+          "w": 46.40625,
+          "h": 40.055863032121245,
+          "precio": 8171,
+          "modalidad": "unidad",
+          "nombre": "PILOT G-TEC-C4, 0.4 mm, TINTA GEL BIOPOLIMÉRICA, EXHIBIDOR C/60 UN."
+        }
+      ],
       "tapados": [
         {
           "x": 36.171875,
