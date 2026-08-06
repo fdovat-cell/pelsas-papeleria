@@ -285,6 +285,26 @@
           "precio": 133,
           "modalidad": "unidad",
           "nombre": "PILOT TRAZO EXTRA FINO 05mm., C/GRIP DE GOMA"
+        },
+        {
+          "codigo": "BOL145",
+          "x": 3.2031249999999996,
+          "y": 52.96643045569751,
+          "w": 49.6875,
+          "h": 17.545130088449802,
+          "precio": 99,
+          "modalidad": "unidad",
+          "nombre": "PILOT BETTER, RETRÁCTIL, 1.0 mm"
+        },
+        {
+          "codigo": "BPAB",
+          "x": 53.20312499999999,
+          "y": 64.00110346730116,
+          "w": 46.71875000000001,
+          "h": 14.896808565664927,
+          "precio": 99,
+          "modalidad": "unidad",
+          "nombre": "PILOT ACROBALL, RETRÁCTIL, 1.0 mm"
         }
       ],
       "tapados": [
