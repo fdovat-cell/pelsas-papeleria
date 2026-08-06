@@ -103,8 +103,10 @@
           "y": 2.6483215227848755,
           "w": 48.28125,
           "h": 35.97303401782789,
-          "precio": 1,
-          "modalidad": "unidad"
+          "precio": 7736,
+          "modalidad": "exhibidor",
+          "nombre": "PILOT FRIXION 0.7 mm, TINTA BORRABLE, EXHIBIDOR C/60 UN.",
+          "precioRef": 128.9
         },
         {
           "codigo": "BLRT-FRP5",
@@ -132,6 +134,36 @@
           "h": 8.386351488818775,
           "precio": 1,
           "modalidad": "unidad"
+        },
+        {
+          "codigo": "ECTE4G",
+          "x": 4.140625,
+          "y": 70.95294746461146,
+          "w": 51.40624999999999,
+          "h": 13.351954344040422,
+          "precio": 129,
+          "modalidad": "unidad",
+          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m"
+        },
+        {
+          "codigo": "ECTRF",
+          "x": 4.296875,
+          "y": 84.52559526888395,
+          "w": 51.24999999999999,
+          "h": 11.255366471835728,
+          "precio": 70,
+          "modalidad": "unidad",
+          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m, RECARGA"
+        },
+        {
+          "codigo": "ECTE4G-25DPK",
+          "x": 56.015625,
+          "y": 64.33214365764927,
+          "w": 42.5,
+          "h": 31.338471352954357,
+          "precio": 2579,
+          "modalidad": "unidad",
+          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m, EXH. C/20 UN.+ 5 RECARGAS"
         }
       ],
       "tapados": [
