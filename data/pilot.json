@@ -359,6 +359,36 @@
           "precio": 8171,
           "modalidad": "unidad",
           "nombre": "PILOT G-TEC-C4, 0.4 mm, TINTA GEL BIOPOLIMÉRICA, EXHIBIDOR C/60 UN."
+        },
+        {
+          "codigo": "BPRG",
+          "x": 1.7968749999999998,
+          "y": 14.455421645200781,
+          "w": 51.09375,
+          "h": 18.869290849842237,
+          "precio": 74,
+          "modalidad": "unidad",
+          "nombre": "PILOT REXGRIP, RETRÁCTIL, 1.0 mm"
+        },
+        {
+          "codigo": "G2",
+          "x": 1.484375,
+          "y": 49.87672201244849,
+          "w": 48.90625,
+          "h": 20.414145071466756,
+          "precio": 138,
+          "modalidad": "unidad",
+          "nombre": "PILOT RETRÁCTIL, TINTA GEL, 0.7 mm"
+        },
+        {
+          "codigo": "B2P",
+          "x": 51.015625,
+          "y": 51.09053604372489,
+          "w": 48.4375,
+          "h": 18.317557199262062,
+          "precio": 138,
+          "modalidad": "unidad",
+          "nombre": "PILOT RETRÁCTIL, TINTA GEL, 0.7 mm, MATERIAL RECICLADO"
         }
       ],
       "tapados": [
