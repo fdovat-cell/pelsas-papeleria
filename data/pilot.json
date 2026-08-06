@@ -531,6 +531,26 @@
           "precio": 8919,
           "modalidad": "unidad",
           "nombre": "PILOT SYNERGY POINT RETRÁCTIL, 0.5mm, EXHIBIDOR C/60 UN."
+        },
+        {
+          "codigo": "BPMR/NE",
+          "x": 5.859375,
+          "y": 52.525043535233365,
+          "w": 43.125,
+          "h": 24.165933895411996,
+          "precio": 1145,
+          "modalidad": "unidad",
+          "nombre": "PILOT MR C/ESTUCHE, CUERPO NEGRO"
+        },
+        {
+          "codigo": "BPMR/PL",
+          "x": 49.296875,
+          "y": 52.6353902653494,
+          "w": 49.21875,
+          "h": 22.510732943671442,
+          "precio": 1145,
+          "modalidad": "unidad",
+          "nombre": "PILOT MR C/ESTUCHE, CUERPO PLATEADO"
         }
       ],
       "tapados": [
@@ -619,7 +639,18 @@
     {
       "paginaOriginal": 52,
       "imagen": "img/pages/pilot/pagina-052.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "POR125",
+          "x": 2.734375,
+          "y": 13.41488557487458,
+          "w": 38.59375,
+          "h": 26.829771149749156,
+          "precio": 84,
+          "modalidad": "unidad",
+          "nombre": "PORTAMINAS H-125 PROGREX, 0.5 mm"
+        }
+      ],
       "tapados": [
         {
           "x": 35.390625,
