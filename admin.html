@@ -137,6 +137,7 @@ body{font-family:'Work Sans',sans-serif;background:var(--bg);color:var(--ink);mi
 <script>
 let GH_OWNER = '', GH_REPO = '', GH_TOKEN = '';
 let categorias = [];
+let tiposProducto = [];     // data/tipos-producto.json (bolígrafos, lapiceras, etc.)
 let catActual = null;       // meta de categories.json
 let catData = null;         // contenido de data/<cat>.json
 let catSha = null;          // sha del archivo para poder guardar
@@ -191,6 +192,12 @@ async function iniciar(){
   try{
     const file = await ghFetch('data/categories.json');
     categorias = decodeContent(file);
+    try{
+      const fileTipos = await ghFetch('data/tipos-producto.json');
+      tiposProducto = decodeContent(fileTipos);
+    }catch(e){
+      tiposProducto = []; // si todavía no existe el archivo, el selector queda vacío sin romper nada
+    }
     document.getElementById('login-screen').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderSidebar();
@@ -388,6 +395,9 @@ function abrirFormularioNuevo(x, y, w, h){
     <h3>Producto nuevo</h3>
     <div class="field"><label>Código</label><input type="text" id="f-codigo" placeholder="Ej: 972893"></div>
     <div class="field"><label>Nombre o palabra clave (opcional, para el buscador)</label><input type="text" id="f-nombre" placeholder="Ej: Caja x6 crayolas cara"></div>
+    <div class="field"><label>Tipo de producto (para el filtro por categoría)</label>
+      <select id="f-producto">${renderOptionsTipoProducto('')}</select>
+    </div>
     <div class="field"><label>Se vende por</label>
       <select id="f-modalidad" onchange="toggleCampoRef()">
         <option value="unidad" selected>Unidad</option>
@@ -404,6 +414,14 @@ function abrirFormularioNuevo(x, y, w, h){
   document.getElementById('f-codigo').focus();
 }
 
+function renderOptionsTipoProducto(valorActual){
+  const vacio = `<option value="">— sin definir —</option>`;
+  const opciones = tiposProducto.map(t =>
+    `<option value="${t.key}" ${valorActual===t.key?'selected':''}>${t.nombre}</option>`
+  ).join('');
+  return vacio + opciones;
+}
+
 function toggleCampoRef(){
   const modalidad = document.getElementById('f-modalidad').value;
   document.getElementById('f-precioref-wrap').style.display = modalidad === 'unidad' ? 'none' : 'block';
@@ -412,6 +430,7 @@ function toggleCampoRef(){
 function guardarProductoNuevo(x,y,w,h){
   const codigo = document.getElementById('f-codigo').value.trim();
   const nombre = document.getElementById('f-nombre').value.trim();
+  const producto = document.getElementById('f-producto').value;
   const precio = parseFloat(document.getElementById('f-precio').value) || 0;
   const modalidad = document.getElementById('f-modalidad').value;
   const precioRefVal = document.getElementById('f-precioref').value;
@@ -419,6 +438,7 @@ function guardarProductoNuevo(x,y,w,h){
   if(!codigo){ alert('Falta el código'); return; }
   const nuevo = { codigo, x, y, w, h, precio, modalidad };
   if(nombre) nuevo.nombre = nombre;
+  if(producto) nuevo.producto = producto;
   if(precioRef) nuevo.precioRef = precioRef;
   catData.paginas[pageIndex].productos.push(nuevo);
   marcarSinGuardar();
@@ -435,6 +455,9 @@ function editarProducto(i){
     <h3>Editar producto</h3>
     <div class="field"><label>Código</label><input type="text" id="f-codigo" value="${p.codigo}"></div>
     <div class="field"><label>Nombre o palabra clave (opcional, para el buscador)</label><input type="text" id="f-nombre" value="${p.nombre || ''}" placeholder="Ej: Caja x6 crayolas cara"></div>
+    <div class="field"><label>Tipo de producto (para el filtro por categoría)</label>
+      <select id="f-producto">${renderOptionsTipoProducto(p.producto || '')}</select>
+    </div>
     <div class="field"><label>Se vende por</label>
       <select id="f-modalidad" onchange="toggleCampoRef()">
         <option value="unidad" ${(!p.modalidad || p.modalidad==='unidad')?'selected':''}>Unidad</option>
@@ -454,12 +477,14 @@ function editarProducto(i){
 function guardarProductoEditado(i){
   const codigo = document.getElementById('f-codigo').value.trim();
   const nombre = document.getElementById('f-nombre').value.trim();
+  const producto = document.getElementById('f-producto').value;
   const precio = parseFloat(document.getElementById('f-precio').value) || 0;
   const modalidad = document.getElementById('f-modalidad').value;
   const precioRefVal = document.getElementById('f-precioref').value;
   if(!codigo){ alert('Falta el código'); return; }
   catData.paginas[pageIndex].productos[i].codigo = codigo;
   if(nombre){ catData.paginas[pageIndex].productos[i].nombre = nombre; } else { delete catData.paginas[pageIndex].productos[i].nombre; }
+  if(producto){ catData.paginas[pageIndex].productos[i].producto = producto; } else { delete catData.paginas[pageIndex].productos[i].producto; }
   catData.paginas[pageIndex].productos[i].precio = precio;
   catData.paginas[pageIndex].productos[i].modalidad = modalidad;
   if(modalidad !== 'unidad' && precioRefVal){
