@@ -1,0 +1,9 @@
+[
+  { "key": "boligrafos", "nombre": "Bolígrafos" },
+  { "key": "lapiceras", "nombre": "Lapiceras" },
+  { "key": "marcadores", "nombre": "Marcadores" },
+  { "key": "portaminas", "nombre": "Portaminas" },
+  { "key": "minas", "nombre": "Minas" },
+  { "key": "cintas-correctoras", "nombre": "Cintas correctoras" },
+  { "key": "tinta", "nombre": "Tinta" }
+]
