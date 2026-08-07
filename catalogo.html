@@ -24,11 +24,32 @@
     <span class="title" id="titulo">Cargando…</span>
   </div>
 
+  <div class="tipos-bar" id="tiposBar"></div>
+
   <div class="hint-banner" id="hintBanner" style="display:none;">
     <span class="icon">👆</span> Tocá un producto en la imagen para agregarlo al pedido
   </div>
 
   <div id="paginas"></div>
+
+  <div class="overlay-tipos" id="overlayTipos" style="display:none;">
+    <div class="overlay-panel">
+      <div class="overlay-header">
+        <span class="overlay-titulo" id="overlayTitulo">Bolígrafos</span>
+        <button class="overlay-cerrar" id="overlayCerrar" aria-label="Cerrar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="overlay-orden">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11M3 12h7M3 17h4"/><path d="M17 4v16M17 4l3 3M17 4l-3 3"/></svg>
+        <select id="overlaySelectOrden">
+          <option value="precio-asc">Precio: menor a mayor</option>
+          <option value="precio-desc">Precio: mayor a menor</option>
+        </select>
+      </div>
+      <div class="overlay-grid" id="overlayGrid"></div>
+    </div>
+  </div>
 
 </div>
 
