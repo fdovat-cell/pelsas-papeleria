@@ -368,19 +368,14 @@ function fotoOverlayHtml(p){
   if(p.imagenDirecta){
     return `<img src="${p.imagenDirecta}" alt="${p.nombre}" loading="lazy">`;
   }
-  if(p.imagenPagina && p.w && p.h){
-    // Escala uniforme (misma en x e y) para que la foto no se estire.
-    // Se usa la mayor de las dos proporciones necesarias, así el hotspot
-    // queda cubierto por completo aunque sobre un poco de margen en un eje.
-    const escala = Math.max(100 / p.w, 100 / p.h);
-    const cx = p.x + p.w / 2; // centro del hotspot, en % de la imagen completa
-    const cy = p.y + p.h / 2;
-    const anchoPct = (escala * 100).toFixed(2);
-    const altoPct  = (escala * 100).toFixed(2);
-    const leftPct  = (50 - cx * escala).toFixed(2);
-    const topPct   = (50 - cy * escala).toFixed(2);
+  if(p.imagenPagina && p.w != null && p.h != null){
+    // Centro del hotspot, en % de la imagen completa (mismo sistema que object-position).
+    const cx = (p.x + p.w / 2).toFixed(1);
+    const cy = (p.y + p.h / 2).toFixed(1);
+    // object-fit:cover hace el recorte proporcional sin que tengamos que calcular
+    // escalas a mano; object-position centra la vista en el hotspot.
     return `<img src="${p.imagenPagina}" alt="${p.nombre}" loading="lazy"
-                 style="position:absolute; width:${anchoPct}%; height:${altoPct}%; left:${leftPct}%; top:${topPct}%; max-width:none;">`;
+                 style="width:100%; height:100%; object-fit:cover; object-position:${cx}% ${cy}%;">`;
   }
   return `<div class="ov-foto-vacia">Sin foto</div>`;
 }
