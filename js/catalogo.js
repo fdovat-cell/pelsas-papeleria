@@ -369,10 +369,16 @@ function fotoOverlayHtml(p){
     return `<img src="${p.imagenDirecta}" alt="${p.nombre}" loading="lazy">`;
   }
   if(p.imagenPagina && p.w && p.h){
-    const anchoPct = (10000 / p.w).toFixed(2);   // ancho de la imagen completa, relativo al recuadro
-    const altoPct  = (10000 / p.h).toFixed(2);
-    const leftPct  = (-(p.x / p.w) * 100).toFixed(2);
-    const topPct   = (-(p.y / p.h) * 100).toFixed(2);
+    // Escala uniforme (misma en x e y) para que la foto no se estire.
+    // Se usa la mayor de las dos proporciones necesarias, así el hotspot
+    // queda cubierto por completo aunque sobre un poco de margen en un eje.
+    const escala = Math.max(100 / p.w, 100 / p.h);
+    const cx = p.x + p.w / 2; // centro del hotspot, en % de la imagen completa
+    const cy = p.y + p.h / 2;
+    const anchoPct = (escala * 100).toFixed(2);
+    const altoPct  = (escala * 100).toFixed(2);
+    const leftPct  = (50 - cx * escala).toFixed(2);
+    const topPct   = (50 - cy * escala).toFixed(2);
     return `<img src="${p.imagenPagina}" alt="${p.nombre}" loading="lazy"
                  style="position:absolute; width:${anchoPct}%; height:${altoPct}%; left:${leftPct}%; top:${topPct}%; max-width:none;">`;
   }
