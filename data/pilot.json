@@ -21,7 +21,8 @@
           "h": 40.52728012905914,
           "precio": 135,
           "modalidad": "unidad",
-          "nombre": "PILOT TINTA LÍQUIDA, 0.5mm 0.7mm"
+          "nombre": "PILOT TINTA LÍQUIDA, 0.5mm 0.7mm",
+          "producto": "lapiceras"
         },
         {
           "codigo": "V5IC V5IC",
@@ -31,7 +32,8 @@
           "h": 24.677502010908448,
           "precio": 119,
           "modalidad": "unidad",
-          "nombre": "PILOT TINTA LÍQUIDA RECARGABLE C/CARTUCHO, 0.5mm"
+          "nombre": "PILOT TINTA LÍQUIDA RECARGABLE C/CARTUCHO, 0.5mm",
+          "producto": "lapiceras"
         },
         {
           "codigo": "BXS-IC/3",
@@ -41,7 +43,8 @@
           "h": 28.690103703809477,
           "precio": 72,
           "modalidad": "unidad",
-          "nombre": "REPUESTO P/ V5IC Y V7IC, SET DE 3 CARTUCHOS"
+          "nombre": "REPUESTO P/ V5IC Y V7IC, SET DE 3 CARTUCHOS",
+          "producto": "lapiceras"
         },
         {
           "codigo": "V5G V7G",
@@ -51,7 +54,8 @@
           "h": 19.26049048318174,
           "precio": 135,
           "modalidad": "unidad",
-          "nombre": "PILOT TINTA LÍQUIDA CON GRIP, 0.5mm 0.7mm"
+          "nombre": "PILOT TINTA LÍQUIDA CON GRIP, 0.5mm 0.7mm",
+          "producto": "lapiceras"
         },
         {
           "codigo": "VB5NGVB7NG",
@@ -61,7 +65,8 @@
           "h": 21.166475740089396,
           "precio": 130,
           "modalidad": "unidad",
-          "nombre": "PILOT TINTA LÍQUIDA V-BALL GRIP, 0.5mm 0.7mm"
+          "nombre": "PILOT TINTA LÍQUIDA V-BALL GRIP, 0.5mm 0.7mm",
+          "producto": "lapiceras"
         },
         {
           "codigo": "V5RT V7RT",
@@ -71,7 +76,8 @@
           "h": 21.166475740089396,
           "precio": 142,
           "modalidad": "unidad",
-          "nombre": "PILOT TINTA LÍQUIDA RETRÁCTIL, 0.5mm 0.7mm"
+          "nombre": "PILOT TINTA LÍQUIDA RETRÁCTIL, 0.5mm 0.7mm",
+          "producto": "lapiceras"
         }
       ],
       "tapados": [
@@ -95,7 +101,8 @@
           "h": 32.662632114346806,
           "precio": 129,
           "modalidad": "unidad",
-          "nombre": "FRIXION 0.7 mm, TINTA BORRABLE, 8 COLORES"
+          "nombre": "FRIXION 0.7 mm, TINTA BORRABLE, 8 COLORES",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-FR7/60",
@@ -106,7 +113,8 @@
           "precio": 7736,
           "modalidad": "exhibidor",
           "nombre": "PILOT FRIXION 0.7 mm, TINTA BORRABLE, EXHIBIDOR C/60 UN.",
-          "precioRef": 128.9
+          "precioRef": 128.9,
+          "producto": "boligrafos"
         },
         {
           "codigo": "BLRT-FRP5",
@@ -116,7 +124,8 @@
           "h": 10.924326281487609,
           "precio": 138,
           "modalidad": "unidad",
-          "nombre": "PILOT FRIXION, 0.5 mm, TINTA BORRABLE, RETRÁCTIL"
+          "nombre": "PILOT FRIXION, 0.5 mm, TINTA BORRABLE, RETRÁCTIL",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BLS-FR7",
@@ -126,7 +135,8 @@
           "h": 15.227848756013032,
           "precio": 94,
           "modalidad": "unidad",
-          "nombre": "PILOT REPUESTO P/FRIXION 0.7 mm"
+          "nombre": "PILOT REPUESTO P/FRIXION 0.7 mm",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-FRP5",
@@ -136,7 +146,8 @@
           "h": 8.386351488818775,
           "precio": 133,
           "modalidad": "unidad",
-          "nombre": "PILOT FRIXION PUNTA AGUJA 0.5 mm"
+          "nombre": "PILOT FRIXION PUNTA AGUJA 0.5 mm",
+          "producto": "boligrafos"
         },
         {
           "codigo": "ECTE4G",
@@ -146,7 +157,8 @@
           "h": 13.351954344040422,
           "precio": 129,
           "modalidad": "unidad",
-          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m"
+          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m",
+          "producto": "cintas-correctoras"
         },
         {
           "codigo": "ECTRF",
@@ -156,7 +168,8 @@
           "h": 11.255366471835728,
           "precio": 70,
           "modalidad": "unidad",
-          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m, RECARGA"
+          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m, RECARGA",
+          "producto": "cintas-correctoras"
         },
         {
           "codigo": "ECTE4G-25DPK",
@@ -166,7 +179,8 @@
           "h": 31.338471352954357,
           "precio": 2579,
           "modalidad": "unidad",
-          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m, EXH. C/20 UN.+ 5 RECARGAS"
+          "nombre": "CINTA CORRECTORA RETRÁCTIL PILOT, 4.0mmX6m, EXH. C/20 UN.+ 5 RECARGAS",
+          "producto": "cintas-correctoras"
         }
       ],
       "tapados": [
@@ -190,7 +204,8 @@
           "h": 42.232636732513384,
           "precio": 70,
           "modalidad": "unidad",
-          "nombre": "TINTA LÍQUIDA RETRÁCTIL, 0.5mm"
+          "nombre": "TINTA LÍQUIDA RETRÁCTIL, 0.5mm",
+          "producto": "marcadores"
         },
         {
           "codigo": "SW-FL/60",
@@ -200,7 +215,8 @@
           "h": 37.919089112861215,
           "precio": 4172,
           "modalidad": "unidad",
-          "nombre": "FRIXION RESALTADOR BORRABLE. EXHIBIDOR C/60 UN. SURTIDOS"
+          "nombre": "FRIXION RESALTADOR BORRABLE. EXHIBIDOR C/60 UN. SURTIDOS",
+          "producto": "marcadores"
         },
         {
           "codigo": "SW-FL-S6",
@@ -210,7 +226,8 @@
           "h": 29.09136437822604,
           "precio": 348,
           "modalidad": "unidad",
-          "nombre": "FRIXION RESALTADOR BORRABLE, EST. C/6 UN., COLORES CLÁSICOS"
+          "nombre": "FRIXION RESALTADOR BORRABLE, EST. C/6 UN., COLORES CLÁSICOS",
+          "producto": "marcadores"
         },
         {
           "codigo": "SW-FL",
@@ -220,7 +237,8 @@
           "h": 41.43011622555769,
           "precio": 70,
           "modalidad": "unidad",
-          "nombre": "FRIXION RESALTADOR BORRABLE, 6 COLORES"
+          "nombre": "FRIXION RESALTADOR BORRABLE, 6 COLORES",
+          "producto": "marcadores"
         },
         {
           "codigo": "SW-FLP-S6",
@@ -230,7 +248,8 @@
           "h": 28.18852996548236,
           "precio": 348,
           "modalidad": "unidad",
-          "nombre": "FRIXION RESALTADOR BORRABLE, EST. C/6 UN., COLORES PASTEL"
+          "nombre": "FRIXION RESALTADOR BORRABLE, EST. C/6 UN., COLORES PASTEL",
+          "producto": "marcadores"
         }
       ],
       "tapados": [
@@ -254,7 +273,8 @@
           "h": 23.834893705063877,
           "precio": 200,
           "modalidad": "unidad",
-          "nombre": "PILOT TRAZO MEDIO 1.0mm, CAJA C/12 UN., TRES COLORES"
+          "nombre": "PILOT TRAZO MEDIO 1.0mm, CAJA C/12 UN., TRES COLORES",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BP1RT",
@@ -264,7 +284,8 @@
           "h": 17.65547681856583,
           "precio": 278,
           "modalidad": "unidad",
-          "nombre": "PILOT RETRÁCTIL, TRAZO MEDIO, CAJA C/12 UN."
+          "nombre": "PILOT RETRÁCTIL, TRAZO MEDIO, CAJA C/12 UN.",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BPSF",
@@ -274,7 +295,8 @@
           "h": 16.552009517405466,
           "precio": 49,
           "modalidad": "unidad",
-          "nombre": "PILOT TRAZO FINO 0.7 mm, PUNTA DE METAL"
+          "nombre": "PILOT TRAZO FINO 0.7 mm, PUNTA DE METAL",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BPSGP",
@@ -284,7 +306,8 @@
           "h": 24.05558716529596,
           "precio": 133,
           "modalidad": "unidad",
-          "nombre": "PILOT TRAZO EXTRA FINO 05mm., C/GRIP DE GOMA"
+          "nombre": "PILOT TRAZO EXTRA FINO 05mm., C/GRIP DE GOMA",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BOL145",
@@ -294,7 +317,8 @@
           "h": 17.545130088449802,
           "precio": 99,
           "modalidad": "unidad",
-          "nombre": "PILOT BETTER, RETRÁCTIL, 1.0 mm"
+          "nombre": "PILOT BETTER, RETRÁCTIL, 1.0 mm",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BPAB",
@@ -304,7 +328,8 @@
           "h": 14.896808565664927,
           "precio": 99,
           "modalidad": "unidad",
-          "nombre": "PILOT ACROBALL, RETRÁCTIL, 1.0 mm"
+          "nombre": "PILOT ACROBALL, RETRÁCTIL, 1.0 mm",
+          "producto": "boligrafos"
         }
       ],
       "tapados": [
@@ -328,7 +353,8 @@
           "h": 22.621079673787477,
           "precio": 155,
           "modalidad": "unidad",
-          "nombre": "PILOT CUERPO TRANSP., TRAZO MEDIO, CAJA C/12 UN."
+          "nombre": "PILOT CUERPO TRANSP., TRAZO MEDIO, CAJA C/12 UN.",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-SG",
@@ -338,7 +364,8 @@
           "h": 22.731426403903527,
           "precio": 52,
           "modalidad": "unidad",
-          "nombre": "PILOT SUPER GEL, TINTA GEL, 0.7 mm, COLORES CLÁSICOS"
+          "nombre": "PILOT SUPER GEL, TINTA GEL, 0.7 mm, COLORES CLÁSICOS",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-GC4",
@@ -348,7 +375,8 @@
           "h": 16.22096932705736,
           "precio": 136,
           "modalidad": "unidad",
-          "nombre": "PILOT G-TEC-C4, 0.4 mm, TINTA GEL BIOPOLIMÉRICA"
+          "nombre": "PILOT G-TEC-C4, 0.4 mm, TINTA GEL BIOPOLIMÉRICA",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-GC4/60",
@@ -358,7 +386,8 @@
           "h": 40.055863032121245,
           "precio": 8171,
           "modalidad": "unidad",
-          "nombre": "PILOT G-TEC-C4, 0.4 mm, TINTA GEL BIOPOLIMÉRICA, EXHIBIDOR C/60 UN."
+          "nombre": "PILOT G-TEC-C4, 0.4 mm, TINTA GEL BIOPOLIMÉRICA, EXHIBIDOR C/60 UN.",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BPRG",
@@ -368,7 +397,8 @@
           "h": 18.869290849842237,
           "precio": 74,
           "modalidad": "unidad",
-          "nombre": "PILOT REXGRIP, RETRÁCTIL, 1.0 mm"
+          "nombre": "PILOT REXGRIP, RETRÁCTIL, 1.0 mm",
+          "producto": "boligrafos"
         },
         {
           "codigo": "G2",
@@ -378,7 +408,8 @@
           "h": 20.414145071466756,
           "precio": 138,
           "modalidad": "unidad",
-          "nombre": "PILOT RETRÁCTIL, TINTA GEL, 0.7 mm"
+          "nombre": "PILOT RETRÁCTIL, TINTA GEL, 0.7 mm",
+          "producto": "boligrafos"
         },
         {
           "codigo": "B2P",
@@ -388,7 +419,8 @@
           "h": 18.317557199262062,
           "precio": 138,
           "modalidad": "unidad",
-          "nombre": "PILOT RETRÁCTIL, TINTA GEL, 0.7 mm, MATERIAL RECICLADO"
+          "nombre": "PILOT RETRÁCTIL, TINTA GEL, 0.7 mm, MATERIAL RECICLADO",
+          "producto": "boligrafos"
         }
       ],
       "tapados": [
@@ -412,7 +444,8 @@
           "h": 34.86956671666753,
           "precio": 72,
           "modalidad": "unidad",
-          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, COLORES CLÁSICOS"
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, COLORES CLÁSICOS",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-PLP",
@@ -422,7 +455,8 @@
           "h": 34.538526526319416,
           "precio": 72,
           "modalidad": "unidad",
-          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, COLORES PASTEL"
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, COLORES PASTEL",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-PL/72",
@@ -432,7 +466,8 @@
           "h": 42.593837824790086,
           "precio": 4955,
           "modalidad": "unidad",
-          "nombre": "POP'LOL, EXHIBIDOR C/72 BOLÍGRAFOS COL. PASTEL Y METÁLICOS"
+          "nombre": "POP'LOL, EXHIBIDOR C/72 BOLÍGRAFOS COL. PASTEL Y METÁLICOS",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-PL/72CN",
@@ -442,7 +477,8 @@
           "h": 42.152450904325924,
           "precio": 4955,
           "modalidad": "unidad",
-          "nombre": "PILOT POP'LOL, EXHIBIDOR C/72 BOLÍGRAFOS COL. CLÁSICOS Y FLÚO"
+          "nombre": "PILOT POP'LOL, EXHIBIDOR C/72 BOLÍGRAFOS COL. CLÁSICOS Y FLÚO",
+          "producto": "boligrafos"
         }
       ],
       "tapados": [
@@ -466,7 +502,8 @@
           "h": 31.779858273418505,
           "precio": 362,
           "modalidad": "unidad",
-          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.CLÁSICOS"
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.CLÁSICOS",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-PLF-S6",
@@ -476,7 +513,8 @@
           "h": 38.06962189003259,
           "precio": 362,
           "modalidad": "unidad",
-          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.FLÚO"
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.FLÚO",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-PLM-S6",
@@ -486,7 +524,8 @@
           "h": 31.338471352954357,
           "precio": 362,
           "modalidad": "unidad",
-          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.METÁLICOS"
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.METÁLICOS",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BL-PLF-S6",
@@ -496,7 +535,8 @@
           "h": 32.00055173365058,
           "precio": 362,
           "modalidad": "unidad",
-          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.FLÚO"
+          "nombre": "PILOT POP'LOL, RETRÁCTIL, TINTA GEL, 0.7 mm, EST.C/6 UN.,COL.FLÚO",
+          "producto": "boligrafos"
         }
       ],
       "tapados": [
@@ -520,7 +560,8 @@
           "h": 16.99339643786962,
           "precio": 156,
           "modalidad": "unidad",
-          "nombre": "PILOT SYNERGY POINT RETRÁCTIL, 0.5mm"
+          "nombre": "PILOT SYNERGY POINT RETRÁCTIL, 0.5mm",
+          "producto": "lapiceras"
         },
         {
           "codigo": "SNP5/60",
@@ -530,7 +571,8 @@
           "h": 38.290315350264656,
           "precio": 8919,
           "modalidad": "unidad",
-          "nombre": "PILOT SYNERGY POINT RETRÁCTIL, 0.5mm, EXHIBIDOR C/60 UN."
+          "nombre": "PILOT SYNERGY POINT RETRÁCTIL, 0.5mm, EXHIBIDOR C/60 UN.",
+          "producto": "lapiceras"
         },
         {
           "codigo": "BPMR/NE",
@@ -540,7 +582,8 @@
           "h": 24.165933895411996,
           "precio": 1145,
           "modalidad": "unidad",
-          "nombre": "PILOT MR C/ESTUCHE, CUERPO NEGRO"
+          "nombre": "PILOT MR C/ESTUCHE, CUERPO NEGRO",
+          "producto": "boligrafos"
         },
         {
           "codigo": "BPMR/PL",
@@ -550,7 +593,8 @@
           "h": 22.510732943671442,
           "precio": 1145,
           "modalidad": "unidad",
-          "nombre": "PILOT MR C/ESTUCHE, CUERPO PLATEADO"
+          "nombre": "PILOT MR C/ESTUCHE, CUERPO PLATEADO",
+          "producto": "boligrafos"
         }
       ],
       "tapados": [
@@ -574,7 +618,8 @@
           "h": 10.482939361023462,
           "precio": 608,
           "modalidad": "unidad",
-          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 1.5mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 1.5mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO",
+          "producto": "lapiceras"
         },
         {
           "codigo": "FP3-24",
@@ -584,7 +629,8 @@
           "h": 8.717391679166887,
           "precio": 608,
           "modalidad": "unidad",
-          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 2.4mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 2.4mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO",
+          "producto": "lapiceras"
         },
         {
           "codigo": "FP3-38",
@@ -594,7 +640,8 @@
           "h": 8.93808513939895,
           "precio": 608,
           "modalidad": "unidad",
-          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 3.8mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 3.8mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO",
+          "producto": "lapiceras"
         },
         {
           "codigo": "FP3-60",
@@ -604,7 +651,8 @@
           "h": 9.26912532974707,
           "precio": 608,
           "modalidad": "unidad",
-          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 6.0mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO"
+          "nombre": "PILOT PARALLEL PEN PLUMA CALIGRÁFICA 6.0mm, INCLUYE 2 RECARGAS: NEGRO Y ROJO",
+          "producto": "lapiceras"
         },
         {
           "codigo": "IC-P3-S6",
@@ -614,7 +662,8 @@
           "h": 23.172813324367667,
           "precio": 99,
           "modalidad": "unidad",
-          "nombre": "REPUESTO PARALLEL PEN, SET C/6 CARTUCHOS NEGROS"
+          "nombre": "REPUESTO PARALLEL PEN, SET C/6 CARTUCHOS NEGROS",
+          "producto": "lapiceras"
         },
         {
           "codigo": "IC-P3-AST",
@@ -624,7 +673,8 @@
           "h": 22.731426403903512,
           "precio": 159,
           "modalidad": "unidad",
-          "nombre": "REPUESTO PARALLEL PEN, SET C/12 CARTUCHOS DE COLORES SURTIDOS"
+          "nombre": "REPUESTO PARALLEL PEN, SET C/12 CARTUCHOS DE COLORES SURTIDOS",
+          "producto": "lapiceras"
         }
       ],
       "tapados": [
@@ -648,7 +698,8 @@
           "h": 26.829771149749156,
           "precio": 84,
           "modalidad": "unidad",
-          "nombre": "PORTAMINAS H-125 PROGREX, 0.5 mm"
+          "nombre": "PORTAMINAS H-125 PROGREX, 0.5 mm",
+          "producto": "portaminas"
         }
       ],
       "tapados": [
@@ -736,7 +787,8 @@
           "h": 29.683270401213814,
           "precio": 95.5,
           "modalidad": "unidad",
-          "nombre": "MARCADOR PIZARRA RECARGABLE"
+          "nombre": "MARCADOR PIZARRA RECARGABLE",
+          "producto": "marcadores"
         }
       ],
       "tapados": [
