@@ -11,42 +11,271 @@
     {
       "paginaOriginal": 25,
       "imagen": "img/pages/staedtler/pagina-025.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "3200TB36",
+          "nombre": "STAEDTLER COLOR, MARCADOR DOBLE PUNTA: GRUESA Y FINA, EST. C/36 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 47.05,
+          "h": 84.567,
+          "precio": 866.35,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "3200TB36",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "3200TB72",
+          "nombre": "STAEDTLER COLOR, MARCADOR DOBLE PUNTA: GRUESA Y FINA, EST. C/72 UN.",
+          "x": 47.05,
+          "y": 8.0,
+          "w": 52.95,
+          "h": 84.567,
+          "precio": 1767.47,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "3200TB72",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 26,
       "imagen": "img/pages/staedtler/pagina-026.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "334M50",
+          "nombre": "STAEDTLER TRIPLUS, FINELINER 0,3MM, 50 COLORES, ESTUCHE DE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 84.144,
+          "precio": 3520.46,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "334M50",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 27,
       "imagen": "img/pages/staedtler/pagina-027.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "8880C12",
+          "nombre": "STAEDTLER, PINTURA ACUARELA, CAJA C/12 TUBOS DE 12ML",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 39.228,
+          "precio": 492.57,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "8880C12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "949BK1",
+          "nombre": "STAEDTLER, PINCEL C/ DEPÓSITO DE AGUA, P/ ACUARELA Y PINTURA, BLISTER UNITARIO",
+          "x": 0.0,
+          "y": 49.588,
+          "w": 100.0,
+          "h": 34.788,
+          "precio": 239.04,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "949BK1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "989-SBK3",
+          "nombre": "STAEDTLER 989, BLÍSTER C/3 PINCELES: 2 PTA.REDONDA (#8, #2), 1 PTA. PLANA (#2)",
+          "x": 0.0,
+          "y": 86.734,
+          "w": 100.0,
+          "h": 6.115,
+          "precio": 304.24,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "989-SBK3",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 28,
       "imagen": "img/pages/staedtler/pagina-028.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "8500C12",
+          "nombre": "STAEDTLER, PINTURA ACRÍLICA, CAJA C/12 TUBOS DE 12ML",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 42.406,
+          "precio": 492.57,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "8500C12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "8500C24",
+          "nombre": "STAEDTLER, PINTURA ACRÍLICA, CAJA C/24 TUBOS DE 12ML",
+          "x": 0.0,
+          "y": 52.766,
+          "w": 100.0,
+          "h": 39.802,
+          "precio": 985.15,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "8500024",
+          "_match_tier": "fuzzy"
+        }
+      ]
     },
     {
       "paginaOriginal": 29,
       "imagen": "img/pages/staedtler/pagina-029.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "100BG6",
+          "nombre": "STAEDTLER LUMOGRAPH BLACK, 6 GRADUACIONES, HB AL 8B, ESTUCHE DE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 38.663,
+          "precio": 695.4,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "100BG6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "5426BLBK",
+          "nombre": "STAEDTLER BLENDER, LÁPIZ ILUMINADOR/MEZCLADOR, BLÍSTER UNITARIO",
+          "x": 0.0,
+          "y": 49.023,
+          "w": 53.825,
+          "h": 42.132,
+          "precio": 173.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "5426BL8K",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "61100C6",
+          "nombre": "STAEDTLER LUMOGRAPH, CAJA C/6 GRADUACIONES, 2H AL 6B + GOMA Y SACAPUNTAS GRATIS",
+          "x": 53.825,
+          "y": 49.023,
+          "w": 46.175,
+          "h": 42.132,
+          "precio": 572.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "61100C",
+          "_match_tier": "fuzzy"
+        }
+      ]
     },
     {
       "paginaOriginal": 30,
       "imagen": "img/pages/staedtler/pagina-030.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "52661BK",
+          "nombre": "STAEDTLER MARS RASOR, LÁPIZ DE BORRAR C/CEPILLO BARREDOR, BLÍSTER UNITARIO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 13.381,
+          "precio": 173.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "52661bk",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "5426-SBK4",
+          "nombre": "STAEDTLER DIFUMINOS, LÁPICES DIFUMINADORES DE PAPEL (GRADOS 1,4,6,8), CAJA DE 4 UN.",
+          "x": 0.0,
+          "y": 23.74,
+          "w": 100.0,
+          "h": 66.567,
+          "precio": 340.46,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "5426-SBK4",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 31,
       "imagen": "img/pages/staedtler/pagina-031.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "61100C6",
+          "nombre": "STAEDTLER LUMOGRAPH, CAJA C/6 GRADUACIONES, 2H AL 6B + GOMA Y SACAPUNTAS GRATIS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 42.759,
+          "precio": 572.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "61100C6",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 32,
       "imagen": "img/pages/staedtler/pagina-032.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "LAP110",
+          "nombre": "STAEDTLER TRADITION DE GRADO, 3H AL 8B",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 35.4,
+          "h": 41.418,
+          "precio": 55.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "LAP110",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "61110C6",
+          "nombre": "STAEDTLER TRADITION DE GRADO, 2H AL 6B, CAJA C/6 LÁPICES + GOMA Y SACAPUNTAS GRATIS",
+          "x": 35.4,
+          "y": 8.0,
+          "w": 64.6,
+          "h": 41.418,
+          "precio": 354.94,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "61110C6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "14610TM12",
+          "nombre": "STAEDTLER TINTED, 12 COLORES ACUARELABLES, ESTUCHE DE METAL",
+          "x": 0.0,
+          "y": 51.847,
+          "w": 100.0,
+          "h": 36.059,
+          "precio": 721.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "14610TM12",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 33,
@@ -56,42 +285,375 @@
     {
       "paginaOriginal": 34,
       "imagen": "img/pages/staedtler/pagina-034.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MAR364",
+          "nombre": "STAEDTLER TEXTSURFER 364, RESALTADOR FLUO, 8 COLORES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 85.697,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR364/48",
+          "_match_tier": "pack-suffix"
+        }
+      ]
     },
     {
       "paginaOriginal": 35,
       "imagen": "img/pages/staedtler/pagina-035.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "LAP120",
+          "nombre": "STAEDTLER NORIS, 2H AL B",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 19.525,
+          "precio": 39.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "LAP120",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "LAP110",
+          "nombre": "STAEDTLER TRADITION DE GRADO, 3H AL 8B",
+          "x": 0.0,
+          "y": 29.814,
+          "w": 100.0,
+          "h": 38.036,
+          "precio": 55.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "LAP110",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 36,
       "imagen": "img/pages/staedtler/pagina-036.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "526B30",
+          "nombre": "STAEDTLER RASOPLAST 40X18mm",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 47.0,
+          "h": 22.773,
+          "precio": 33.32,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "526830",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "526B20",
+          "nombre": "STAEDTLER RASOPLAST 60X20mm",
+          "x": 47.0,
+          "y": 8.0,
+          "w": 53.0,
+          "h": 22.773,
+          "precio": 55.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "526820",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "43250",
+          "nombre": "STAEDTLER, VASO C/50 UNIDADES COL.SURT.",
+          "x": 0.0,
+          "y": 37.794,
+          "w": 100.0,
+          "h": 17.556,
+          "precio": 793.92,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "43250",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "569WP4",
+          "nombre": "STAEDTLER, 4 PIEZAS, CON REGLA DE 20 CM",
+          "x": 0.0,
+          "y": 57.709,
+          "w": 25.0,
+          "h": 28.997,
+          "precio": 70.99,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "569WP4",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "569WP4/100S",
+          "nombre": "STAEDTLER, 4 PIEZAS, CON REGLA DE 20 CM, CAJÓN C/100 UNIDADES, 4 COL. SURTIDOS",
+          "x": 25.0,
+          "y": 57.709,
+          "w": 10.575,
+          "h": 28.997,
+          "precio": 6310.76,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "569WP4/1005",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "5050",
+          "nombre": "48mm x 50yd TRANSPARENTE/MARRÓN",
+          "x": 35.575,
+          "y": 57.709,
+          "w": 23.725,
+          "h": 28.997,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55050",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "55055",
+          "nombre": "STAEDTLER PARA LÁPIZ EN ESTUCHE",
+          "x": 59.3,
+          "y": 57.709,
+          "w": 40.7,
+          "h": 28.997,
+          "precio": 304.24,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55055",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 37,
       "imagen": "img/pages/staedtler/pagina-037.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "175M36",
+          "nombre": "STAEDTLER, 36 COLORES, ESTUCHE DE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 44.2,
+          "h": 82.378,
+          "precio": 499.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "175M36",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "175M72",
+          "nombre": "STAEDTLER, 72 COLORES, ESTUCHE DE METAL",
+          "x": 44.2,
+          "y": 8.0,
+          "w": 55.8,
+          "h": 82.378,
+          "precio": 999.64,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "175M72",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 38,
       "imagen": "img/pages/staedtler/pagina-038.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "146C12PA",
+          "nombre": "STAEDTLER, 12 COLORES PASTEL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 39.723,
+          "precio": 318.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "146C12PA",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "149CC12",
+          "nombre": "STAEDTLER SUPER SOFT, 12 COLORES , P/PAPEL CLARO Y/U OSCURO",
+          "x": 0.0,
+          "y": 50.082,
+          "w": 33.575,
+          "h": 40.084,
+          "precio": 360.74,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "149CC12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "149CM24",
+          "nombre": "STAEDTLER SUPER SOFT, 24 COLORES , P/PAPEL CLARO Y/U OSCURO, ESTUCHE DE METAL",
+          "x": 33.575,
+          "y": 50.082,
+          "w": 66.425,
+          "h": 40.084,
+          "precio": 977.91,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "149CM24",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 39,
       "imagen": "img/pages/staedtler/pagina-039.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "1442",
+          "nombre": "OMEGA OFICIO - 20 FUNDAS (23 PERF.), EXPANSIBLE",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 38.15,
+          "h": 39.087,
+          "precio": 157.91,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "14412",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "1442",
+          "nombre": "OMEGA OFICIO - 20 FUNDAS (23 PERF.), EXPANSIBLE",
+          "x": 38.15,
+          "y": 8.0,
+          "w": 61.85,
+          "h": 39.087,
+          "precio": 157.91,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "14424",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "185M24",
+          "nombre": "STAEDTLER NORIS COLOUR, WOPEX, 24 COLORES, ESTUCHE DE METAL",
+          "x": 0.0,
+          "y": 50.082,
+          "w": 33.35,
+          "h": 33.587,
+          "precio": 630.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "185M24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "185M36",
+          "nombre": "STAEDTLER NORIS COLOUR, WOPEX, 36 COLORES, ESTUCHE DE METAL",
+          "x": 33.35,
+          "y": 50.082,
+          "w": 66.65,
+          "h": 33.587,
+          "precio": 941.69,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "185M36",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 40,
       "imagen": "img/pages/staedtler/pagina-040.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "1441012",
+          "nombre": "STAEDTLER NORIS, ACUARELABLES, 12 COLORES, C/ABS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 37.525,
+          "h": 37.604,
+          "precio": 317.28,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "1441012",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "1441024",
+          "nombre": "STAEDTLER NORIS, ACUARELABLES, 24 COLORES, C/ABS",
+          "x": 37.525,
+          "y": 8.0,
+          "w": 62.475,
+          "h": 37.604,
+          "precio": 634.55,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "1441024",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 41,
       "imagen": "img/pages/staedtler/pagina-041.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "12512",
+          "nombre": "STAEDTLER KARAT, 12 COLORES ACUARELABLES, ESTUCHE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 52.975,
+          "h": 29.412,
+          "precio": 1151.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "12512",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "12524",
+          "nombre": "STAEDTLER KARAT, 24 COLORES ACUARELABLES, ESTUCHE METAL",
+          "x": 52.975,
+          "y": 8.0,
+          "w": 47.025,
+          "h": 29.412,
+          "precio": 2303.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "12524",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "12536",
+          "nombre": "STAEDTLER KARAT, 36 COLORES ACUARELABLES, ESTUCHE METAL",
+          "x": 0.0,
+          "y": 39.771,
+          "w": 100.0,
+          "h": 20.946,
+          "precio": 3455.27,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "12536",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "12560",
+          "nombre": "STAEDTLER KARAT, 60 COLORES ACUARELABLES, ESTUCHE METAL",
+          "x": 0.0,
+          "y": 63.006,
+          "w": 100.0,
+          "h": 28.785,
+          "precio": 6157.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "12560",
+          "_match_tier": "exact"
+        }
+      ]
     }
   ]
 }

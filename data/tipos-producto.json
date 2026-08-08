@@ -5,5 +5,8 @@
   { "key": "portaminas", "nombre": "Portaminas" },
   { "key": "minas", "nombre": "Minas" },
   { "key": "cintas-correctoras", "nombre": "Cintas correctoras" },
-  { "key": "tinta", "nombre": "Tinta" }
+  { "key": "tinta", "nombre": "Tinta" },
+  { "key": "ibi-craft", "nombre": "IBI Craft" },
+  { "key": "oficina", "nombre": "Oficina" },
+  { "key": "arte", "nombre": "Arte" }
 ]

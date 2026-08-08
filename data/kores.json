@@ -6,22 +6,312 @@
     {
       "paginaOriginal": 66,
       "imagen": "img/pages/kores/pagina-066.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "GOM8",
+          "nombre": "BARRA ADHESIVA KORES 8gr",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 50.25,
+          "h": 25.81,
+          "precio": 38.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "GOM8",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "GOM20",
+          "nombre": "BARRA ADHESIVA KORES 20gr",
+          "x": 50.25,
+          "y": 8.0,
+          "w": 49.75,
+          "h": 25.81,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "G0M20",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "GOM40K",
+          "nombre": "BARRA ADHESIVA KORES 40gr",
+          "x": 0.0,
+          "y": 36.452,
+          "w": 54.275,
+          "h": 24.901,
+          "precio": 130.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "GOM40",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "GOM20PAS",
+          "nombre": "BARRA ADHESIVA KORES 20gr, PASTEL",
+          "x": 54.275,
+          "y": 36.452,
+          "w": 45.725,
+          "h": 24.901,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "GOM20PAS",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "83303P",
+          "nombre": "LÁPIZ CORRECTOR KORES PASTEL 8ml",
+          "x": 0.0,
+          "y": 64.771,
+          "w": 55.35,
+          "h": 23.7,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "83303P/12",
+          "_match_tier": "pack-suffix"
+        },
+        {
+          "codigo": "COR6188",
+          "nombre": "CORRECTOR LÍQUIDO KORES, FRASCO 20cc.",
+          "x": 55.35,
+          "y": 64.771,
+          "w": 44.65,
+          "h": 23.7,
+          "precio": 63.74,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "COR6188",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 67,
       "imagen": "img/pages/kores/pagina-067.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "PAP101",
+          "nombre": "KORES-COPYNET AZUL, OFICIO, CAJA C/100 HOJAS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 52.025,
+          "h": 25.528,
+          "precio": 651.94,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PAP101",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PAP1550",
+          "nombre": "KORES NEGRO, OFICIO, CAJA C/100 HOJAS",
+          "x": 52.025,
+          "y": 8.0,
+          "w": 47.975,
+          "h": 25.528,
+          "precio": 572.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PAP1550",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CIN51",
+          "nombre": "DOBLE CARRETE 13mm. x 4m. P/MÁQ. CALCULAR",
+          "x": 0.0,
+          "y": 35.958,
+          "w": 100.0,
+          "h": 29.985,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CIN51",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "76232",
+          "nombre": "KORES HECTOGRÁFICO VIOLETA, 215x368mm, CAJA C/100 HOJAS",
+          "x": 0.0,
+          "y": 68.302,
+          "w": 100.0,
+          "h": 7.81,
+          "precio": 3562.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "76232",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "TIN27",
+          "nombre": "KORES, TINTA PARA ALMOHADILLA, 28ml",
+          "x": 0.0,
+          "y": 78.472,
+          "w": 100.0,
+          "h": 13.46,
+          "precio": 113.0,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TIN27",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 68,
       "imagen": "img/pages/kores/pagina-068.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "JUN250",
+          "nombre": "JUNIOR 250gr, BLANCA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 55.7,
+          "h": 55.471,
+          "precio": 79.68,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "JUN250",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN500",
+          "nombre": "JUNIOR 500gr, BLANCA",
+          "x": 55.7,
+          "y": 8.0,
+          "w": 17.9,
+          "h": 55.471,
+          "precio": 147.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "JUN500",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN960",
+          "nombre": "JUNIOR 1 L., BLANCA",
+          "x": 73.6,
+          "y": 8.0,
+          "w": 26.4,
+          "h": 55.471,
+          "precio": 260.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "JUN960",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 69,
       "imagen": "img/pages/kores/pagina-069.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "JUN30/24",
+          "nombre": "JUNIOR 30gr, BLANCA, EXH. 24 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 11.15,
+          "h": 9.708,
+          "precio": 417.24,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN30/24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN60/24",
+          "nombre": "JUNIOR 60gr, BLANCA, EXH. 24 UN.",
+          "x": 11.15,
+          "y": 8.0,
+          "w": 0.2,
+          "h": 9.708,
+          "precio": 553.42,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN60/24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN125/12",
+          "nombre": "JUNIOR 125gr, BLANCA, EXH. 12 UN.",
+          "x": 11.35,
+          "y": 8.0,
+          "w": 0.225,
+          "h": 9.708,
+          "precio": 556.32,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN125/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN30/288",
+          "nombre": "JUNIOR 30gr, BLANCA, CAJÓN C/288 UN.",
+          "x": 11.575,
+          "y": 8.0,
+          "w": 0.025,
+          "h": 9.708,
+          "precio": 4656.28,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN30/288",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN60/288",
+          "nombre": "JUNIOR 60gr, BLANCA, CAJÓN C/288 UN.",
+          "x": 11.6,
+          "y": 8.0,
+          "w": 0.2,
+          "h": 9.708,
+          "precio": 6171.68,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN60/288",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN125/144",
+          "nombre": "JUNIOR 125gr, BLANCA, CAJÓN C/144 UN.",
+          "x": 11.8,
+          "y": 8.0,
+          "w": 88.2,
+          "h": 9.708,
+          "precio": 6207.89,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN125/144",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "JUN30C/12S",
+          "nombre": "JUNIOR 30gr DE COLORES SURTIDOS, EXHIBIDOR 12 UN.",
+          "x": 0.0,
+          "y": 30.167,
+          "w": 46.65,
+          "h": 10.353,
+          "precio": 382.47,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN30C/125",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "JUN30C/12",
+          "nombre": "JUNIOR 30gr, DE COLORES EXH.12 UN.",
+          "x": 46.65,
+          "y": 30.167,
+          "w": 53.35,
+          "h": 10.353,
+          "precio": 382.47,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "JUN30C/12",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 70,

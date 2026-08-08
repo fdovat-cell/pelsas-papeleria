@@ -11,27 +11,370 @@
     {
       "paginaOriginal": 61,
       "imagen": "img/pages/edding/pagina-061.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MAR55",
+          "nombre": "FINELINER P/ESCRITURA, DIBUJO. 0.3 mm",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 36.615,
+          "precio": 75.33,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR55",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR360",
+          "nombre": "P/PIZARRA, PUNTA REDONDA. 1.5 - 3 mm",
+          "x": 0.0,
+          "y": 46.904,
+          "w": 100.0,
+          "h": 26.242,
+          "precio": 78.23,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR360",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR360/8S",
+          "nombre": "P/PIZARRA, PUNTA REDONDA. 1.5 - 3 mm, ESTUCHE C/8 UN., COLORES SURT.",
+          "x": 0.0,
+          "y": 75.506,
+          "w": 40.225,
+          "h": 13.177,
+          "precio": 469.39,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MAR360/85",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "BT30",
+          "nombre": "EDDING P/PIZARRA BLANCA, 30ml. P/MARCADORES MAR350",
+          "x": 40.225,
+          "y": 75.506,
+          "w": 59.775,
+          "h": 13.177,
+          "precio": 239.04,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "8T30",
+          "_match_tier": "subs"
+        }
+      ]
     },
     {
       "paginaOriginal": 62,
       "imagen": "img/pages/edding/pagina-062.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MAR2000",
+          "nombre": "PERMANENTE, PUNTA REDONDA, RECARGABLE. 1.5 - 3 mm",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 23.48,
+          "precio": 104.31,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR2000",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "T25",
+          "nombre": "EDDING PERMANENTE, 30ml . P/MARCADORES MAR500/2000",
+          "x": 0.0,
+          "y": 33.839,
+          "w": 49.4,
+          "h": 16.708,
+          "precio": 239.04,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "T25",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR141F",
+          "nombre": "PERMANENTE, PUNTA REDONDA, P/ RETROPROYECCIÓN, 0.6 mm",
+          "x": 49.4,
+          "y": 33.839,
+          "w": 50.6,
+          "h": 16.708,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR141F",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR400",
+          "nombre": "PERMANENTE, APTO CD, DVD, RECARGABLE, 1 mm.",
+          "x": 0.0,
+          "y": 57.497,
+          "w": 34.7,
+          "h": 10.988,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MARA400",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "MAR142M",
+          "nombre": "PERMANENTE, PUNTA REDONDA, P/ RETROPROYECCIÓN, 1.0 mm",
+          "x": 34.7,
+          "y": 57.497,
+          "w": 65.3,
+          "h": 10.988,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR142M",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR300",
+          "nombre": "PERMANENTE, PUNTA REDONDA. 1.5 - 3 mm",
+          "x": 0.0,
+          "y": 72.751,
+          "w": 100.0,
+          "h": 20.381,
+          "precio": 76.78,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR300",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 63,
       "imagen": "img/pages/edding/pagina-063.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MAR1880",
+          "nombre": "P/DIBUJO, TRAZOS: 0.1 / 0.2 / 0.3 / 0.5 / 0.8",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 45.95,
+          "h": 29.341,
+          "precio": 79.68,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR1880",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR1880/120",
+          "nombre": "P/DIBUJO, TRAZOS: 0.1 / 0.2 / 0.3 / 0.5 / 0.8, EXH. C/120 UN.",
+          "x": 45.95,
+          "y": 8.0,
+          "w": 54.05,
+          "h": 29.341,
+          "precio": 9561.75,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MAR1880/120",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR8040",
+          "nombre": "PERMANENTE, PARA MARCAR ROPA. LAVABLE. 1 mm",
+          "x": 0.0,
+          "y": 41.749,
+          "w": 61.9,
+          "h": 5.55,
+          "precio": 78.23,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR8040",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR400",
+          "nombre": "PERMANENTE, APTO CD, DVD, RECARGABLE, 1 mm.",
+          "x": 61.9,
+          "y": 41.749,
+          "w": 38.1,
+          "h": 5.55,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR400",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR790",
+          "nombre": "PERMANENTE, DE PINTURA, 5 COLORES. 2 - 4 mm",
+          "x": 0.0,
+          "y": 49.658,
+          "w": 64.8,
+          "h": 27.09,
+          "precio": 156.47,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR790",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR500",
+          "nombre": "PERMANENTE, PUNTA BISELADA, RECARGABLE. 2 - 7 mm",
+          "x": 64.8,
+          "y": 49.658,
+          "w": 35.2,
+          "h": 27.09,
+          "precio": 170.95,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR500",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR750",
+          "nombre": "PERMANENTE, PUNTA REDONDA, DE TINTA OPACA, 2 - 4 mm, 2 COL.",
+          "x": 0.0,
+          "y": 79.319,
+          "w": 100.0,
+          "h": 13.672,
+          "precio": 210.07,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR8750",
+          "_match_tier": "fuzzy"
+        }
+      ]
     },
     {
       "paginaOriginal": 64,
       "imagen": "img/pages/edding/pagina-064.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MAR750",
+          "nombre": "PERMANENTE, PUNTA REDONDA, DE TINTA OPACA, 2 - 4 mm, 2 COL.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 18.889,
+          "precio": 210.07,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR750",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR751",
+          "nombre": "PERMANENTE, PUNTA REDONDA, DE TINTA OPACA BRILLANTE, 1 - 2 mm, 5 COL.",
+          "x": 0.0,
+          "y": 29.178,
+          "w": 59.8,
+          "h": 27.867,
+          "precio": 210.07,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR751",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR751/45",
+          "nombre": "PERMANENTE, PUNTA REDONDA, DE TINTA OPACA BRILLANTE, 1 - 2 mm, 9 COLORES, EXH. C/45 UN.",
+          "x": 59.8,
+          "y": 29.178,
+          "w": 40.2,
+          "h": 27.867,
+          "precio": 8795.36,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MAR751/45",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "E-7410/24",
+          "nombre": "CINTA CORRECTORA EDDING, 4.2mm.X 10m, EXH. 24 UN.",
+          "x": 0.0,
+          "y": 61.099,
+          "w": 100.0,
+          "h": 31.186,
+          "precio": 2607.75,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "E-7410/24",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 65,
       "imagen": "img/pages/edding/pagina-065.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MAR4500/5-099",
+          "nombre": "P/TELAS, PUNTA PINCEL, CAJA 5 COLORES FRÍOS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 40.7,
+          "h": 31.389,
+          "precio": 630.21,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Mar4500/5-099",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR4500/5-999",
+          "nombre": "P/TELAS, PUNTA PINCEL, CAJA 5 COLORES CÁLIDOS",
+          "x": 40.7,
+          "y": 8.0,
+          "w": 59.3,
+          "h": 31.389,
+          "precio": 630.21,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Mar4500/5-999",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR4200/6-000",
+          "nombre": "P/PORCELANA, PUNTA PINCEL, CAJA 6 COLORES PRIMARIOS",
+          "x": 0.0,
+          "y": 41.819,
+          "w": 30.675,
+          "h": 44.745,
+          "precio": 507.06,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MAR4200/6-000",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR4200/6-999",
+          "nombre": "P/PORCELANA, PUNTA PINCEL, CAJA 6 COLORES CÁLIDOS",
+          "x": 30.675,
+          "y": 41.819,
+          "w": 32.5,
+          "h": 44.745,
+          "precio": 507.06,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MAR4200/6-999",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR4200/6-099",
+          "nombre": "P/PORCELANA, PUNTA PINCEL, CAJA 6 COLORES FRÍOS",
+          "x": 63.175,
+          "y": 41.819,
+          "w": 36.825,
+          "h": 44.745,
+          "precio": 507.06,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MAR4200/6-099",
+          "_match_tier": "exact"
+        }
+      ]
     }
   ]
 }

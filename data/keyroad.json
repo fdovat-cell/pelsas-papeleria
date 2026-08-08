@@ -27,7 +27,34 @@
     {
       "paginaOriginal": 4,
       "imagen": "img/pages/keyroad/pagina-004.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "971844/20",
+          "nombre": "KEYROAD, ESCOLAR DE 13 cm, ERGONÓMICA, PTA. REDONDA DE ACERO INOX., EXH. C/20 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 7.166,
+          "precio": 927.2,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "971844/20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972298/24",
+          "nombre": "KEYROAD, PEGAMENTO C/BRILLANTINA, EXH. C/24 FRASCOS DE 30GRS.",
+          "x": 0.0,
+          "y": 17.525,
+          "w": 100.0,
+          "h": 48.912,
+          "precio": 796.81,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "972298/24",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 5,
@@ -70,77 +97,625 @@
     {
       "paginaOriginal": 6,
       "imagen": "img/pages/keyroad/pagina-006.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "972330",
+          "nombre": "KEYROAD, CAJA C/6 FRASCOS DE DACTILOPINTURA, C/U 100ML, 6 COL.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 36.403,
+          "precio": 704.09,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972330",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 7,
       "imagen": "img/pages/keyroad/pagina-007.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "972329",
+          "nombre": "KEYROAD, BLÍSTER C/3 PINCELES INFANTILES JUMBO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 54.975,
+          "h": 28.282,
+          "precio": 195.58,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972329",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971857",
+          "nombre": "KEYROAD, BLISTER C/5 PINCELES SINTÉTICOS INFANTILES",
+          "x": 54.975,
+          "y": 8.0,
+          "w": 45.025,
+          "h": 28.282,
+          "precio": 152.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971857",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972033",
+          "nombre": "KEYROAD, BLÍSTER C/4 PINCELES SINTÉTICOS INFANTILES, PTA. PLANA (2, 4, 8, 10)",
+          "x": 0.0,
+          "y": 39.559,
+          "w": 100.0,
+          "h": 26.878,
+          "precio": 124.59,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972033",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972884",
+          "nombre": "KEYROAD, CAJA DE ACUARELAS C/12 COLORES Y PINCEL",
+          "x": 0.0,
+          "y": 68.797,
+          "w": 100.0,
+          "h": 16.144,
+          "precio": 143.43,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972884",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 8,
       "imagen": "img/pages/keyroad/pagina-008.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "TEMP300/ORO",
+          "nombre": "KEYROAD, FRASCO DE TÉMPERA INFANTIL, 300ML, ORO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 14.581,
+          "precio": 181.09,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "TEMP300/0RO",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "TEMP300/PLA",
+          "nombre": "KEYROAD, FRASCO DE TÉMPERA INFANTIL, 300ML, PLATA",
+          "x": 0.0,
+          "y": 24.799,
+          "w": 100.0,
+          "h": 8.799,
+          "precio": 181.09,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "TEMP300/PLA",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 9,
       "imagen": "img/pages/keyroad/pagina-009.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "971855",
+          "nombre": "KEYROAD, PALETA PLÁSTICA OVAL PARA PINTURAS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 48.825,
+          "h": 73.338,
+          "precio": 62.3,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971855",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971830",
+          "nombre": "KEYROAD, RECIPIENTE DE AGUA P/PINCELES C/PALETA MEZCLADORA",
+          "x": 48.825,
+          "y": 8.0,
+          "w": 51.175,
+          "h": 73.338,
+          "precio": 101.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971830",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 10,
       "imagen": "img/pages/keyroad/pagina-010.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MASA75-6",
+          "nombre": "KEYROAD, MASA P/ MODELAR INFANTIL, C/U 75 GRS., SET X 6 COLORES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 2.999,
+          "precio": 278.16,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MASA75-6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971796",
+          "nombre": "CAJA DE 12 PLASTILINAS INFANTILES KEYROAD, COLORES SURTIDOS, 180 GRS.",
+          "x": 0.0,
+          "y": 13.359,
+          "w": 100.0,
+          "h": 22.076,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971796",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972525",
+          "nombre": "CAJA DE 6 PLASTILINAS INFANTILES KEYROAD, COLORES PASTEL, 180 GRS.",
+          "x": 0.0,
+          "y": 37.794,
+          "w": 100.0,
+          "h": 25.819,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972525",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 11,
       "imagen": "img/pages/keyroad/pagina-011.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "973100",
+          "nombre": "KEYROAD, PASTEL 1.0 MM, TINTA AZUL, EXHIBIDOR C/36 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 16.488,
+          "precio": 938.79,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "973100",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971821/50",
+          "nombre": "KEYROAD, TRIANGULAR C/GRIP, AZUL, CAJA DE 50 UN.",
+          "x": 0.0,
+          "y": 28.331,
+          "w": 100.0,
+          "h": 16.285,
+          "precio": 644.69,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "971821/50",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 12,
       "imagen": "img/pages/keyroad/pagina-012.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "971836/60",
+          "nombre": "KEYROAD CUTE, EXHIBIDOR C/60 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 12.533,
+          "precio": 738.86,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "971836/60",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 13,
       "imagen": "img/pages/keyroad/pagina-013.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "972408/12",
+          "nombre": "KEYROAD MELLOW PASTEL, 2 AGUJEROS. EXHIBIDOR C/12 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 21.573,
+          "precio": 486.78,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "972408/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971422/24",
+          "nombre": "KEYROAD METAL CON PUNTA DE SEGURIDAD EN ESTUCHE, EXH. 24 UN.",
+          "x": 0.0,
+          "y": 33.768,
+          "w": 100.0,
+          "h": 10.211,
+          "precio": 1703.73,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "971422/24",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 14,
       "imagen": "img/pages/keyroad/pagina-014.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "970980/20",
+          "nombre": "KEYROAD TEC-ERASER, EXH. C/20 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 29.765,
+          "precio": 202.82,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "970980/20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971331/24",
+          "nombre": "KEYROAD ELASTIC TOUCH, EXHIBIDOR. C/24 UN.",
+          "x": 0.0,
+          "y": 40.195,
+          "w": 100.0,
+          "h": 28.573,
+          "precio": 504.17,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "971331/24",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 15,
       "imagen": "img/pages/keyroad/pagina-015.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "973017",
+          "nombre": "KEYROAD, 24/6 Y 26/6, CUERPO DE PLÁSTICO, 6,5 CMS, BLÍSTER INC.1000 BROCHES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 18.466,
+          "precio": 113.0,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "973017",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971184",
+          "nombre": "PIZARRA BLANCA INFANTIL FLEXIBLE KEYROAD, 22x29cm, DOBLE CARA, C/MARCADOR",
+          "x": 0.0,
+          "y": 28.825,
+          "w": 100.0,
+          "h": 30.338,
+          "precio": 195.58,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971184",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972016/20",
+          "nombre": "PIZARRA BLANCA INFANTIL FLEXIBLE KEYROAD, 22x29cm, DOBLE CARA, C/MARCADOR, EXH. C/20 UNIDADES",
+          "x": 0.0,
+          "y": 61.523,
+          "w": 47.825,
+          "h": 15.932,
+          "precio": 3911.62,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "972016/20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972221",
+          "nombre": "CARTUCHERA DOBLE BOLSILLO KEYROAD, 19,5x5,0x5,0 cms",
+          "x": 47.825,
+          "y": 61.523,
+          "w": 52.175,
+          "h": 15.932,
+          "precio": 224.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972221",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 16,
       "imagen": "img/pages/keyroad/pagina-016.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "971450",
+          "nombre": "KEYROAD, 12 COLORES, TRIANGULARES, ESTUCHE DE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 21.502,
+          "precio": 165.16,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971450",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971720",
+          "nombre": "KEYROAD JUMBO CAJA C/6 LÁPICES HB TRIANGULARES",
+          "x": 0.0,
+          "y": 31.862,
+          "w": 100.0,
+          "h": 25.607,
+          "precio": 147.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971720",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972398",
+          "nombre": "KEYROAD, 24 COLORES, HEXAGONALES, CLÁSICOS",
+          "x": 0.0,
+          "y": 59.828,
+          "w": 100.0,
+          "h": 15.437,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972398",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971872",
+          "nombre": "KEYROAD WATERCOLOR, 12 COLORES +PINCEL, TRIANGULARES",
+          "x": 0.0,
+          "y": 77.624,
+          "w": 36.5,
+          "h": 8.799,
+          "precio": 159.36,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971872",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972397",
+          "nombre": "KEYROAD, 12 COLORES, HEXAGONALES, CLÁSICOS",
+          "x": 36.5,
+          "y": 77.624,
+          "w": 63.5,
+          "h": 8.799,
+          "precio": 70.99,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972397",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 17,
       "imagen": "img/pages/keyroad/pagina-017.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "972146",
+          "nombre": "KEYROAD, JUEGO DE 8 LÁPICES DE COLORES Y MURAL ADHESIVO COLOREABLE, (206x30cms), REMOVIBLE, DISEÑO \"GLOBAL TRAVEL\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 10.98,
+          "precio": 333.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972146",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 18,
       "imagen": "img/pages/keyroad/pagina-018.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "972034",
+          "nombre": "KEYROAD PASTEL, ESCOLARES, CAJA C/8 COLORES PASTEL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 49.025,
+          "h": 24.398,
+          "precio": 127.49,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972034",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972940",
+          "nombre": "KEYROAD METALLIC. CAJA C/8 COLORES SURTIDOS. PUNTA 4MM",
+          "x": 49.025,
+          "y": 8.0,
+          "w": 50.975,
+          "h": 24.398,
+          "precio": 215.86,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972940",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971587",
+          "nombre": "KEYROAD FINOS, ESTUCHE C/12 COLORES",
+          "x": 0.0,
+          "y": 38.429,
+          "w": 100.0,
+          "h": 12.966,
+          "precio": 86.92,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971587",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972523",
+          "nombre": "KEYROAD BRUSH TIP, ESTUCHE C/12 MARCADORES PUNTA DE PINCEL, TRIANGULARES",
+          "x": 0.0,
+          "y": 53.754,
+          "w": 100.0,
+          "h": 11.341,
+          "precio": 231.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972523",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971414",
+          "nombre": "KEYROAD DOBLE PUNTA, ESCOLARES. CAJA C/12 COLORES, PTA.FINA+PTA.GRUESA",
+          "x": 0.0,
+          "y": 67.455,
+          "w": 47.1,
+          "h": 10.353,
+          "precio": 173.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971414",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971413",
+          "nombre": "KEYROAD GRUESOS, ESTUCHE C/12 COLORES",
+          "x": 47.1,
+          "y": 67.455,
+          "w": 52.9,
+          "h": 10.353,
+          "precio": 188.34,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971413",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 19,
       "imagen": "img/pages/keyroad/pagina-019.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "972328",
+          "nombre": "KEYROAD, CAJA C/6 CRAYONES INFANTILES 3 EN 1 DE MADERA + SACAPUNTAS , SOLUBLES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 25.669,
+          "precio": 549.08,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972328",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972314",
+          "nombre": "KEYROAD, 12 COLORES, TRIANGULARES, INFANTILES JUMBO",
+          "x": 0.0,
+          "y": 36.099,
+          "w": 100.0,
+          "h": 13.319,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972314",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "972338",
+          "nombre": "KEYROAD, CAJA C/12 CRAYONES INFANTILES DE CERA DE ABEJA, NO TÓXICOS",
+          "x": 0.0,
+          "y": 53.401,
+          "w": 100.0,
+          "h": 31.751,
+          "precio": 159.36,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "972338",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 20,
       "imagen": "img/pages/keyroad/pagina-020.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "971105",
+          "nombre": "KEYROAD FLEXIBLE, 4 PIEZAS, REGLA DE 30 CM",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 32.237,
+          "precio": 166.61,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971105",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "971326",
+          "nombre": "KEYROAD REGLA DE PLÁSTICO 30 CM",
+          "x": 0.0,
+          "y": 42.737,
+          "w": 42.45,
+          "h": 43.05,
+          "precio": 53.6,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "971326",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "970854",
+          "nombre": "KEYROAD 30 CM FLEXIBLE",
+          "x": 42.45,
+          "y": 42.737,
+          "w": 57.55,
+          "h": 43.05,
+          "precio": 43.46,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "970854",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 21,
@@ -150,7 +725,34 @@
     {
       "paginaOriginal": 22,
       "imagen": "img/pages/keyroad/pagina-022.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MFKR/6",
+          "nombre": "KEYROAD NEÓN, ESTUCHE C/6 RESALTADORES, 6 COLORES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 44.595,
+          "precio": 147.77,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MFKR/6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MFKR/28",
+          "nombre": "KEYROAD NEÓN, CAJA EXH. C/28 RESALTADORES, COLORES SURTIDOS",
+          "x": 0.0,
+          "y": 56.579,
+          "w": 100.0,
+          "h": 28.29,
+          "precio": 689.61,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MFKR/28",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 23,

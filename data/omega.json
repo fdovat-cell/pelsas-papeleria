@@ -6,77 +6,1041 @@
     {
       "paginaOriginal": 71,
       "imagen": "img/pages/omega/pagina-071.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MF202/12",
+          "nombre": "RESALTADOR OMEGA 202, 6 COLORES. CAJA C/12 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 44.454,
+          "precio": 207.17,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MF202/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MFLUO/24",
+          "nombre": "RESALTADOR OMEGA, EXHIBIDOR C/24 UN.",
+          "x": 0.0,
+          "y": 54.814,
+          "w": 100.0,
+          "h": 6.186,
+          "precio": 622.96,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MFLUO/24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MARFP/24",
+          "nombre": "RESALTADOR OMEGA PASTEL. EXHIBIDOR C/24 UN.",
+          "x": 0.0,
+          "y": 63.359,
+          "w": 36.05,
+          "h": 28.22,
+          "precio": 622.96,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MARFP/24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MARFP/12",
+          "nombre": "RESALTADOR OMEGA PASTEL, 6 COLORES. CAJA C/12 UN.",
+          "x": 36.05,
+          "y": 63.359,
+          "w": 63.95,
+          "h": 28.22,
+          "precio": 311.48,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MARFP/12",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 72,
       "imagen": "img/pages/omega/pagina-072.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MFLUO/6",
+          "nombre": "RESALTADOR OMEGA FLÚO, 6 COLORES. ESTUCHE C/6 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 37.6,
+          "h": 21.432,
+          "precio": 156.47,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MFLUO/6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MARFP/6",
+          "nombre": "RESALTADOR OMEGA PASTEL, 6 COLORES. ESTUCHE C/6 UN.",
+          "x": 37.6,
+          "y": 8.0,
+          "w": 62.4,
+          "h": 21.432,
+          "precio": 156.47,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MARFP/6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MFLUO/12",
+          "nombre": "RESALTADOR OMEGA, 6 COLORES. CAJA C/12 UN.",
+          "x": 0.0,
+          "y": 32.497,
+          "w": 36.9,
+          "h": 24.689,
+          "precio": 311.48,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MFLUO/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "FLUO6",
+          "nombre": "RESALTADOR OMEGA. ESTUCHE C/6 COLORES",
+          "x": 36.9,
+          "y": 32.497,
+          "w": 63.1,
+          "h": 24.689,
+          "precio": 130.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "FLUO6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MAR12C",
+          "nombre": "TRAZO FINO. ESTUCHE C/12 COLORES",
+          "x": 0.0,
+          "y": 61.523,
+          "w": 54.8,
+          "h": 30.55,
+          "precio": 188.34,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MAR12C",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "12F-TRIO",
+          "nombre": "TRAZO FINO. ESTUCHE RÍGIDO C/12 COLORES",
+          "x": 54.8,
+          "y": 61.523,
+          "w": 45.2,
+          "h": 30.55,
+          "precio": 168.06,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "12F-TRIO",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 73,
       "imagen": "img/pages/omega/pagina-073.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "6-TRIO",
+          "nombre": "TRAZO FINO. ESTUCHE C/6 COLORES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 33.9,
+          "h": 43.607,
+          "precio": 63.74,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "6-TRIO",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "12-TRIO",
+          "nombre": "TRAZO FINO. ESTUCHE C/12 COLORES",
+          "x": 33.9,
+          "y": 8.0,
+          "w": 31.65,
+          "h": 43.607,
+          "precio": 123.14,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "12-TRIO",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "24-TRIO",
+          "nombre": "TRAZO FINO. ESTUCHE C/24 COLORES",
+          "x": 65.55,
+          "y": 8.0,
+          "w": 34.45,
+          "h": 43.607,
+          "precio": 214.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "24-TRIO",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BP12",
+          "nombre": "OMEGA \"BRUSH\", MARCADORES PUNTA DE PINCEL, ESTUCHE C/12 COLORES",
+          "x": 0.0,
+          "y": 54.672,
+          "w": 100.0,
+          "h": 37.118,
+          "precio": 226.0,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BP12",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 74,
       "imagen": "img/pages/omega/pagina-074.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "6MC",
+          "nombre": "TRAZO GRUESO. ESTUCHE C/6 COLORES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 49.05,
+          "h": 42.971,
+          "precio": 99.96,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "6MC",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "10MC",
+          "nombre": "TRAZO GRUESO. ESTUCHE C/10 COLORES",
+          "x": 49.05,
+          "y": 8.0,
+          "w": 50.95,
+          "h": 42.971,
+          "precio": 166.61,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "10MC",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MC/12",
+          "nombre": "TRAZO GRUESO, 4 COLORES, CAJA DE 12 UN.",
+          "x": 0.0,
+          "y": 53.331,
+          "w": 100.0,
+          "h": 8.446,
+          "precio": 217.31,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MC/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "24MC",
+          "nombre": "TRAZO GRUESO. ESTUCHE RÍGIDO C/24 COLORES",
+          "x": 0.0,
+          "y": 64.136,
+          "w": 100.0,
+          "h": 29.279,
+          "precio": 296.99,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "24MC",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 75,
       "imagen": "img/pages/omega/pagina-075.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MARTRIO12",
+          "nombre": "FINELINER 0.4 mm. ESTUCHE C/12 COLORES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 43.25,
+          "h": 40.57,
+          "precio": 186.89,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MARTRIO12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "TRIO12C",
+          "nombre": "FINELINER 0.4 mm TRI-O, CAJA C/12 UN.",
+          "x": 43.25,
+          "y": 8.0,
+          "w": 56.75,
+          "h": 40.57,
+          "precio": 199.93,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TRIO12C",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AD02/24",
+          "nombre": "OMEGA PERMANENTE PARA CD C/2 PUNTAS. EXH. C/24 UN",
+          "x": 0.0,
+          "y": 51.847,
+          "w": 100.0,
+          "h": 39.095,
+          "precio": 695.4,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "ADO2/24",
+          "_match_tier": "subs"
+        }
+      ]
     },
     {
       "paginaOriginal": 76,
       "imagen": "img/pages/omega/pagina-076.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "EXWIN/40",
+          "nombre": "OMEGA, P/VIDRIO Y PIZARRA. EXH. C/40 UN.: 24 UN/10mm Y 16 UN/2.5mm",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 29.977,
+          "precio": 3546.54,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "EXWIN/40",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MARWIN10",
+          "nombre": "OMEGA, P/VIDRIO Y PIZARRA. PTA. BISELADA 10 mm. 8 COLORES BRILLANTES",
+          "x": 0.0,
+          "y": 40.336,
+          "w": 100.0,
+          "h": 28.502,
+          "precio": 101.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "MARWIN10",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 77,
       "imagen": "img/pages/omega/pagina-077.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "WB303/12",
+          "nombre": "OMEGA, P/PIZARRA, 6 COLORES, CAJA C/12 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 51.975,
+          "h": 40.782,
+          "precio": 241.94,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "WB303/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PM404/12",
+          "nombre": "OMEGA, PERMANENTE, 4 COLORES, CAJA C/12 UN.",
+          "x": 51.975,
+          "y": 8.0,
+          "w": 48.025,
+          "h": 40.782,
+          "precio": 217.31,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "PM404/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "L01/12",
+          "nombre": "OMEGA DE GRADO 2H-6B CAJA DE 12",
+          "x": 0.0,
+          "y": 51.141,
+          "w": 100.0,
+          "h": 42.062,
+          "precio": 113.0,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "LO1/12",
+          "_match_tier": "subs"
+        }
+      ]
     },
     {
       "paginaOriginal": 78,
       "imagen": "img/pages/omega/pagina-078.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "B04G/50",
+          "nombre": "OMEGA, PUNTA DE METAL, TRAZO MEDIO, C/GRIP, CAJA DE 50 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 29.553,
+          "precio": 572.26,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "B04G/50",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "B08/36",
+          "nombre": "OMEGA SOFT, RETRÁCTIL, C/CUERPO DE GOMA, EXHIBIDOR C/36 UN.",
+          "x": 0.0,
+          "y": 39.912,
+          "w": 100.0,
+          "h": 26.595,
+          "precio": 990.94,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "808/36",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "T03/50",
+          "nombre": "OMEGA, PUNTA DE METAL, TRAZO MEDIO, CUERPO TRIANGULAR, CAJA DE 50 UN.",
+          "x": 0.0,
+          "y": 68.867,
+          "w": 51.65,
+          "h": 24.547,
+          "precio": 427.38,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "T03/50",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BOLB",
+          "nombre": "OMEGA, C/BASE ADHESIVA Y EXTENSIBLE",
+          "x": 51.65,
+          "y": 68.867,
+          "w": 48.35,
+          "h": 24.547,
+          "precio": 49.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BOLB",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 80,
       "imagen": "img/pages/omega/pagina-080.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "EXTRA/20",
+          "nombre": "OMEGA EXTRA, PLÁSTICA, 58x22mm, CAJA DE 20 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 22.985,
+          "precio": 289.75,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "EXTRA/20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "O20/20",
+          "nombre": "OMEGA OVAL, MIGA DE PAN, 63X28mm, CAJA DE 20 UN.",
+          "x": 0.0,
+          "y": 33.345,
+          "w": 100.0,
+          "h": 25.889,
+          "precio": 231.8,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "020/20",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "O24/24",
+          "nombre": "OMEGA OVAL, MIGA DE PAN, 50x22mm, CAJA DE 24 UN.",
+          "x": 0.0,
+          "y": 61.664,
+          "w": 40.575,
+          "h": 29.703,
+          "precio": 191.23,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "024/24",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "GE1688",
+          "nombre": "OMEGA, GOMA DE BORRAR ELÉCTRICA C/REP. EN BLíSTER",
+          "x": 40.575,
+          "y": 61.664,
+          "w": 59.425,
+          "h": 29.703,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "GE1688",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 81,
       "imagen": "img/pages/omega/pagina-081.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "LC/12COL",
+          "nombre": "LÁPIZ CORRECTOR LIKY 3ml, EXH. 12 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 65.05,
+          "h": 28.282,
+          "precio": 173.85,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "LC/12C0L",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "LCC/60",
+          "nombre": "LÁPIZ CORRECTOR LIKY 3ml, EXH. 60 UN.",
+          "x": 65.05,
+          "y": 8.0,
+          "w": 34.95,
+          "h": 28.282,
+          "precio": 825.79,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "LCC/60",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SIL30/24",
+          "nombre": "IBI CRAFT 30ml, EXH. 24 UN.",
+          "x": 0.0,
+          "y": 39.277,
+          "w": 35.075,
+          "h": 24.83,
+          "precio": 695.4,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "SIL30/24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SIL250",
+          "nombre": "SILICONA LÍQUIDA IBI CRAFT, FRASCO DE 250 ML",
+          "x": 35.075,
+          "y": 39.277,
+          "w": 17.275,
+          "h": 24.83,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SIL250",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SIL500",
+          "nombre": "IBI CRAFT 500ml",
+          "x": 52.35,
+          "y": 39.277,
+          "w": 17.6,
+          "h": 24.83,
+          "precio": 268.02,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SIL500",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SIL100/12",
+          "nombre": "IBI CRAFT 100ml, EXH. 12 UN.",
+          "x": 69.95,
+          "y": 39.277,
+          "w": 30.05,
+          "h": 24.83,
+          "precio": 747.55,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "SIL100/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CT-1000",
+          "nombre": "CINTA CORRECTORA LIKY, 5mm.X 8m.",
+          "x": 0.0,
+          "y": 67.667,
+          "w": 100.0,
+          "h": 24.547,
+          "precio": 42.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CT-1000",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 82,
       "imagen": "img/pages/omega/pagina-082.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "TIJT8",
+          "nombre": "OMEGA, 21 cm, HOJA DE TITANIUM, P/OFICINA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 36.121,
+          "precio": 123.14,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TIJT8",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "TIJ7",
+          "nombre": "OMEGA, 17,5 cm, HOJA DE ACERO INOXIDABLE, P/OFICINA",
+          "x": 0.0,
+          "y": 46.48,
+          "w": 100.0,
+          "h": 7.386,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TIJT7",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "JG1",
+          "nombre": "OMEGA 4 PIEZAS CON REGLA DE 30CM. Y ESCUADRAS DE 25CM.",
+          "x": 0.0,
+          "y": 56.226,
+          "w": 100.0,
+          "h": 24.971,
+          "precio": 79.68,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "JG1",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 83,
       "imagen": "img/pages/omega/pagina-083.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "ACUA12",
+          "nombre": "OMEGA, CAJA DE ACUARELAS C/12 COLORES Y PINCEL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 32.625,
+          "h": 81.355,
+          "precio": 70.99,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "ACUA12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CG6",
+          "nombre": "OMEGA, CRAYÓN DE GEL, ESTUCHE C/6 COLORES",
+          "x": 32.625,
+          "y": 8.0,
+          "w": 67.375,
+          "h": 81.355,
+          "precio": 182.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CG6",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 85,
       "imagen": "img/pages/omega/pagina-085.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "IJ1G/20",
+          "nombre": "A4, POLIPROPILENO AUTOADHESIVO BRILLANTE, SOBRE C/20 HOJAS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 26.728,
+          "precio": 622.96,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "1J1G/20",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "PTOS",
+          "nombre": "A4, TRANSFER P/TEXTILES OSCUROS, SOBRE C/5 HOJAS",
+          "x": 0.0,
+          "y": 37.088,
+          "w": 100.0,
+          "h": 26.595,
+          "precio": 507.06,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PTOS",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PTCL",
+          "nombre": "A4, TRANSFER P/TEXTILES CLAROS, SOBRE C/5 HOJAS",
+          "x": 0.0,
+          "y": 66.042,
+          "w": 42.575,
+          "h": 26.384,
+          "precio": 333.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PTCL",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PMA4",
+          "nombre": "A4, PAPEL MAGNÉTICO, SOBRE C/5 HOJAS",
+          "x": 42.575,
+          "y": 66.042,
+          "w": 57.425,
+          "h": 26.384,
+          "precio": 260.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PMA4",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 99,
       "imagen": "img/pages/omega/pagina-099.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "BLOFLUO/20",
+          "nombre": "OMEGA FLÚO, BLOC CARTULINA A4, 210GRS., C/20 HOJAS, COLORES SURT.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 41.425,
+          "h": 22.067,
+          "precio": 239.04,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "BLOFLUO/20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CARF",
+          "nombre": "OMEGA FLÚO, HOJA 47.5x66cm, 210GRS., 8 COLORES",
+          "x": 41.425,
+          "y": 8.0,
+          "w": 24.1,
+          "h": 22.067,
+          "precio": 42.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CARF",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CARF",
+          "nombre": "OMEGA FLÚO, HOJA 47.5x66cm, 210GRS., 8 COLORES",
+          "x": 65.525,
+          "y": 8.0,
+          "w": 34.475,
+          "h": 22.067,
+          "precio": 42.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CARF/16",
+          "_match_tier": "pack-suffix"
+        },
+        {
+          "codigo": "CARFA/50",
+          "nombre": "SOBRE C/50 HOJAS SURTIDAS, 25 x 35 cm",
+          "x": 0.0,
+          "y": 35.605,
+          "w": 37.025,
+          "h": 20.875,
+          "precio": 379.57,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "CARFA/50",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BLOCARFA/20",
+          "nombre": "BLOC C/20 HOJAS SURTIDAS, 25 x 35 cm",
+          "x": 37.025,
+          "y": 35.605,
+          "w": 62.975,
+          "h": 20.875,
+          "precio": 170.95,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "BLOCARFA/20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PAPORIF140/60",
+          "nombre": "OMEGA CRAFT, PAPEL FANTASÍA P/ORIGAMI, 14x14CMS, 140GRS., SOBRE C/60 HOJAS, COLORES SURT.",
+          "x": 0.0,
+          "y": 59.969,
+          "w": 100.0,
+          "h": 32.175,
+          "precio": 202.82,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "PAPORIF140/60",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 100,
       "imagen": "img/pages/omega/pagina-100.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "CREPE-AM/10",
+          "nombre": "50 x 200 cm AMARILLO-46, PAQ. C/10 PLIEGOS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 17.35,
+          "h": 24.398,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-AM/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-AZF/10",
+          "nombre": "50 x 200 cm AZUL FRANCIA-39, PAQ. C/10 PLIEGOS",
+          "x": 17.35,
+          "y": 8.0,
+          "w": 15.95,
+          "h": 24.398,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-AZF/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-FU/10",
+          "nombre": "50 x 200 cm FUCSIA-16, PAQ. C/10 PLIEGOS",
+          "x": 33.3,
+          "y": 8.0,
+          "w": 15.75,
+          "h": 24.398,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-FU/1O",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "CREPE-BL/10",
+          "nombre": "50 x 200 cm BLANCO-20, PAQ. C/10 PLIEGOS",
+          "x": 49.05,
+          "y": 8.0,
+          "w": 16.1,
+          "h": 24.398,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-BL/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-CEL/10",
+          "nombre": "50 x 200 cm CELESTE-23, PAQ.C/10 PLIEGOS",
+          "x": 65.15,
+          "y": 8.0,
+          "w": 15.975,
+          "h": 24.398,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-CEL/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-CR/10",
+          "nombre": "50 x 200 cm CREMA-701, PAQ. C/10 PLIEGOS",
+          "x": 81.125,
+          "y": 8.0,
+          "w": 18.875,
+          "h": 24.398,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-CR/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-RO/10",
+          "nombre": "50 x 200 cm ROJO-01, PAQ. C/10 PLIEGOS",
+          "x": 0.0,
+          "y": 36.169,
+          "w": 17.1,
+          "h": 26.172,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-R0/10",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "CREPE-GR/10",
+          "nombre": "50 x 200 cm GRIS-703, PAQ. C/10 PLIEGOS",
+          "x": 17.1,
+          "y": 36.169,
+          "w": 16.075,
+          "h": 26.172,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-GR/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-ROS/10",
+          "nombre": "50 x 200 cm ROSADO-11, PAQ. C/10 PLIEGOS",
+          "x": 33.175,
+          "y": 36.169,
+          "w": 16.2,
+          "h": 26.172,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-ROS/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-MA/10",
+          "nombre": "50 x 200 cm MARRÓN-43, PAQ. C/10 PLIEGOS",
+          "x": 49.375,
+          "y": 36.169,
+          "w": 15.95,
+          "h": 26.172,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-MA/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-NA/10",
+          "nombre": "50 x 200 cm NARANJA-15, PAQ. C/10 PLIEGOS",
+          "x": 65.325,
+          "y": 36.169,
+          "w": 16.0,
+          "h": 26.172,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-NA/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-NE/10",
+          "nombre": "50 x 200 cm NEGRO-19, PAQ. C/10 PLIEGOS",
+          "x": 81.325,
+          "y": 36.169,
+          "w": 18.675,
+          "h": 26.172,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-NE/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-TUR/10",
+          "nombre": "50 x 200 cm TURQUESA-09, PAQ. C/10 PLIEGOS",
+          "x": 0.0,
+          "y": 65.901,
+          "w": 25.85,
+          "h": 26.101,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-TUR/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-VE/10",
+          "nombre": "50 x 200 cm VERDE-31, PAQ. C/10 PLIEGOS",
+          "x": 25.85,
+          "y": 65.901,
+          "w": 16.15,
+          "h": 26.101,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-VE/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-VEM/10",
+          "nombre": "50 x 200 cm VERDE MANZANA-35, PAQ. C/10 P.",
+          "x": 42.0,
+          "y": 65.901,
+          "w": 15.95,
+          "h": 26.101,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-VEM/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-VERA/10",
+          "nombre": "50 x 200 cm VERDE AGUA-22, PAQ. C/10 PLIEGOS",
+          "x": 57.95,
+          "y": 65.901,
+          "w": 16.05,
+          "h": 26.101,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-VERA/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CREPE-VI/10",
+          "nombre": "50 x 200 cm VIOLETA-25, PAQ. C/10 PLIEGOS",
+          "x": 74.0,
+          "y": 65.901,
+          "w": 26.0,
+          "h": 26.101,
+          "precio": 157.91,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "Crepe-VI/10",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 101,
@@ -86,27 +1050,383 @@
     {
       "paginaOriginal": 102,
       "imagen": "img/pages/omega/pagina-102.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "ADA4/10",
+          "nombre": "COLORES SURTIDOS, AUTOADHESIVA, PAQUETE C/10 UNIDADES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 52.2,
+          "h": 25.74,
+          "precio": 104.31,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "ADA4/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "EVAA4/10",
+          "nombre": "COMÚN, COL.SURTIDOS, PAQ. C/10 UN.",
+          "x": 52.2,
+          "y": 8.0,
+          "w": 47.8,
+          "h": 25.74,
+          "precio": 63.74,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "EVAA4/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "EVABA4/5",
+          "nombre": "COL.SURTIDOS C/BRILLANTINA, PAQ. C/5 UNIDADES",
+          "x": 0.0,
+          "y": 36.169,
+          "w": 100.0,
+          "h": 28.432,
+          "precio": 55.05,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "EVABA4/5",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "EVABPASA4/5",
+          "nombre": "COL.SURTIDOS C/BRILLANTINA PASTEL, PAQ. C/5 UNIDADES",
+          "x": 0.0,
+          "y": 66.96,
+          "w": 49.5,
+          "h": 24.053,
+          "precio": 55.05,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "EVABPASAA/5",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "EVAPASA4/10",
+          "nombre": "COMÚN, COL. PASTEL SURTIDOS, PAQ. C/10 UN.",
+          "x": 49.5,
+          "y": 66.96,
+          "w": 50.5,
+          "h": 24.053,
+          "precio": 63.74,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "EVAPASA4/10",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 103,
       "imagen": "img/pages/omega/pagina-103.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "SC-20",
+          "nombre": "MASA MODELAR SÚPER LIVIANA ROSADA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 19.384,
+          "precio": 56.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SC-20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SC-02",
+          "nombre": "MASA MODELAR SÚPER LIVIANA NARANJA",
+          "x": 0.0,
+          "y": 29.531,
+          "w": 100.0,
+          "h": 19.604,
+          "precio": 56.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SC-02",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SC-04",
+          "nombre": "MASA MODELAR SÚPER LIVIANA VIOLETA",
+          "x": 0.0,
+          "y": 51.353,
+          "w": 60.7,
+          "h": 41.285,
+          "precio": 56.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SC-04",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SC-09",
+          "nombre": "MASA MODELAR SÚPER LIVIANA NEGRA",
+          "x": 60.7,
+          "y": 51.353,
+          "w": 39.3,
+          "h": 41.285,
+          "precio": 56.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SC-09",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 104,
       "imagen": "img/pages/omega/pagina-104.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "EVAHB12",
+          "nombre": "BOLSA C/12 FORMAS AUTOADH. F. CUMPLEAÑOS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 32.237,
+          "precio": 79.68,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "EVAHB12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CUM12",
+          "nombre": "BOLSA C/12 FORMAS AUTOADHESIVAS DE GOMA EVA 1ER CUMPLEAÑOS AZUL",
+          "x": 0.0,
+          "y": 42.596,
+          "w": 36.85,
+          "h": 23.064,
+          "precio": 92.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CUM12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CUF12",
+          "nombre": "BOLSA C/12 FORMAS AUTOADHESIVAS DE GOMA EVA 1ER CUMPLEAÑOS ROSA",
+          "x": 36.85,
+          "y": 42.596,
+          "w": 63.15,
+          "h": 23.064,
+          "precio": 88.37,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CUF12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "ANI27",
+          "nombre": "BOLSA C/27 FORMAS AUTOADHESIVAS DE POSTRES Y ANIMALES EN GOMA EVA",
+          "x": 0.0,
+          "y": 68.232,
+          "w": 49.75,
+          "h": 21.934,
+          "precio": 79.68,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "ANI27",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "LA52",
+          "nombre": "BOLSA C/52 LETRAS AUTOADHESIVAS DE GOMA EVA",
+          "x": 49.75,
+          "y": 68.232,
+          "w": 50.25,
+          "h": 21.934,
+          "precio": 70.99,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "LA52",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 105,
       "imagen": "img/pages/omega/pagina-105.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "FLCC12",
+          "nombre": "BOLSA C/12 CUPCAKES AUTOADHESIVOS DE FIELTRO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 36.5,
+          "h": 25.057,
+          "precio": 92.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "FLCC12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "FLAN8",
+          "nombre": "BOLSA C/8 CARAS LEÓN/TIGRE AUTOADHESIVOS DE FIELTRO",
+          "x": 36.5,
+          "y": 8.0,
+          "w": 63.5,
+          "h": 25.057,
+          "precio": 92.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "FLAN",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "FLRO12",
+          "nombre": "BOLSA C/12 FORMAS FIELTRO AUTOADH. ROPA NIÑAS",
+          "x": 0.0,
+          "y": 36.618,
+          "w": 36.8,
+          "h": 28.806,
+          "precio": 92.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "FLRO12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "FLBU6",
+          "nombre": "BOLSA C/6 BÚHOS AUTOADHESIVOS DE FIELTRO",
+          "x": 36.8,
+          "y": 36.618,
+          "w": 63.2,
+          "h": 28.806,
+          "precio": 92.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "FLBU6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "EMO36",
+          "nombre": "BOLSA C/36 EMOJIS AUTOADHESIVOS DE GOMA EVA",
+          "x": 0.0,
+          "y": 68.986,
+          "w": 100.0,
+          "h": 22.587,
+          "precio": 84.03,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "EM036",
+          "_match_tier": "subs"
+        }
+      ]
     },
     {
       "paginaOriginal": 111,
       "imagen": "img/pages/omega/pagina-111.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "9950",
+          "nombre": "OMEGA, 24/6 Y 26/6, ABROCHADO PLANO, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 15.853,
+          "precio": 385.37,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9950",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "23/13",
+          "nombre": "KW-TRIO 23/13, CAJA DE 1.000 UNIDADES",
+          "x": 0.0,
+          "y": 26.0,
+          "w": 71.125,
+          "h": 6.61,
+          "precio": 128.94,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "23/13",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "5013",
+          "nombre": "OMEGA, 23/6 AL 23/13, 100 HOJAS",
+          "x": 71.125,
+          "y": 26.0,
+          "w": 28.875,
+          "h": 6.61,
+          "precio": 999.64,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "5013",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BRO24/6/10",
+          "nombre": "OMEGA 24/6, CAJA C/10 CAJAS DE BROCHES DE 1000 UN.",
+          "x": 0.0,
+          "y": 34.969,
+          "w": 100.0,
+          "h": 21.934,
+          "precio": 159.36,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "BRO24/6/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9957",
+          "nombre": "OMEGA, P/30 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 59.263,
+          "w": 22.3,
+          "h": 31.398,
+          "precio": 427.38,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9957",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9957",
+          "nombre": "OMEGA, P/30 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 22.3,
+          "y": 59.263,
+          "w": 19.275,
+          "h": 31.398,
+          "precio": 427.38,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9957",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9960",
+          "nombre": "OMEGA, P/60 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 41.575,
+          "y": 59.263,
+          "w": 30.0,
+          "h": 31.398,
+          "precio": 1101.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9960",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9706",
+          "nombre": "OMEGA, 1 PERFORACIÓN, PINZA",
+          "x": 71.575,
+          "y": 59.263,
+          "w": 28.425,
+          "h": 31.398,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9706",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 120,
@@ -121,62 +1441,1322 @@
     {
       "paginaOriginal": 122,
       "imagen": "img/pages/omega/pagina-122.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "3111/12",
+          "nombre": "OMEGA OFICIO, SOBRES. CON CIERRE, PACK C12 UN",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 31.925,
+          "h": 21.644,
+          "precio": 347.7,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "8111/12",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "US-A56/10",
+          "nombre": "OMEGA A4, SOBRE C/CIERRE, PACK 10 UN.",
+          "x": 31.925,
+          "y": 8.0,
+          "w": 34.9,
+          "h": 21.644,
+          "precio": 840.28,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "US-A56/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-A54/10",
+          "nombre": "OMEGA A5, SOBRE C/CIERRE, PACK 10 UN.",
+          "x": 66.825,
+          "y": 8.0,
+          "w": 33.175,
+          "h": 21.644,
+          "precio": 521.55,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "US-AB4/10",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "2433",
+          "nombre": "OMEGA, A4, SOBRE RÍGIDO C/BROCHE",
+          "x": 0.0,
+          "y": 33.98,
+          "w": 100.0,
+          "h": 21.228,
+          "precio": 63.74,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "2433",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-209C/12",
+          "nombre": "OMEGA 23,5x33,5cm, SOBRES PORTADOCUMENTOS C/BROCHE, PACK 12 UN., COLORES PASTEL",
+          "x": 0.0,
+          "y": 57.568,
+          "w": 100.0,
+          "h": 16.144,
+          "precio": 286.85,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "US-209C/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "3121",
+          "nombre": "OMEGA A4, PORTA HOJAS, 0.03mm, BOLSA C/100 UN.",
+          "x": 0.0,
+          "y": 76.071,
+          "w": 40.05,
+          "h": 16.144,
+          "precio": 172.4,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "3121",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "3128",
+          "nombre": "OMEGA OFICIO, PORTA HOJAS, 0.03mm, BOLSA C/100 UN",
+          "x": 40.05,
+          "y": 76.071,
+          "w": 19.8,
+          "h": 16.144,
+          "precio": 214.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "3128",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "3180",
+          "nombre": "OMEGA A4, PORTA HOJAS, 0.08mm, BOLSA C/10 UN.",
+          "x": 59.85,
+          "y": 76.071,
+          "w": 40.15,
+          "h": 16.144,
+          "precio": 56.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "3180",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 123,
       "imagen": "img/pages/omega/pagina-123.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "US-10A",
+          "nombre": "OMEGA A4 - 10 FUNDAS Y PORTADA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 51.1,
+          "h": 36.545,
+          "precio": 84.03,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-10A",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-20A",
+          "nombre": "OMEGA A4 - 20 FUNDAS Y PORTADA",
+          "x": 51.1,
+          "y": 8.0,
+          "w": 0.0,
+          "h": 36.545,
+          "precio": 104.31,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-20A",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-30A",
+          "nombre": "OMEGA A4 - 30 FUNDAS Y PORTADA",
+          "x": 51.1,
+          "y": 8.0,
+          "w": 0.0,
+          "h": 36.545,
+          "precio": 123.14,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-30A",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-40A",
+          "nombre": "OMEGA A4 - 40 FUNDAS Y PORTADA",
+          "x": 51.1,
+          "y": 8.0,
+          "w": 0.0,
+          "h": 36.545,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-40A",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-60A",
+          "nombre": "OMEGA A4 - 60 FUNDAS Y PORTADA",
+          "x": 51.1,
+          "y": 8.0,
+          "w": 0.2,
+          "h": 36.545,
+          "precio": 170.95,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-60A",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-100A",
+          "nombre": "OMEGA A4 - 100 FUNDAS Y PORTADA",
+          "x": 51.3,
+          "y": 8.0,
+          "w": 48.7,
+          "h": 36.545,
+          "precio": 268.02,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-100A",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 124,
       "imagen": "img/pages/omega/pagina-124.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "4132",
+          "nombre": "OMEGA A3, PLÁSTICA C/ELÁSTICO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 51.8,
+          "h": 26.869,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "4132",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "4175",
+          "nombre": "OMEGA 1/4W, PLÁSTICA C/ELÁSTICO",
+          "x": 51.8,
+          "y": 8.0,
+          "w": 48.2,
+          "h": 26.869,
+          "precio": 231.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "4175",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-04V/100",
+          "nombre": "82x124mm, SOLAPEROS VERTICALES, PVC, CAJA C/100 UN.",
+          "x": 0.0,
+          "y": 37.582,
+          "w": 100.0,
+          "h": 52.867,
+          "precio": 1130.03,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "US-04V/100",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 125,
       "imagen": "img/pages/omega/pagina-125.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "SAC",
+          "nombre": "SACABROCHES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 42.15,
+          "h": 13.663,
+          "precio": 42.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SAC",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "201",
+          "nombre": "PINCHOS NEGROS",
+          "x": 42.15,
+          "y": 8.0,
+          "w": 26.8,
+          "h": 13.663,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "201",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "14401",
+          "nombre": "OMEGA DE CERA, 20gr, BASE ANTIDESLIZANTE",
+          "x": 68.95,
+          "y": 8.0,
+          "w": 31.05,
+          "h": 13.663,
+          "precio": 89.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "14401",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PC12C1/100",
+          "nombre": "A4, TRANSPARENCIA, CAJA C/100 UNIDADES",
+          "x": 0.0,
+          "y": 31.155,
+          "w": 37.175,
+          "h": 14.025,
+          "precio": 1144.51,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "PC12C1/100",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "TABPC",
+          "nombre": "PLÁSTICA, 23x32 CM.",
+          "x": 37.175,
+          "y": 31.155,
+          "w": 31.675,
+          "h": 14.025,
+          "precio": 133.28,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TABPC",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "TABM",
+          "nombre": "MADERA, 23x32CM.",
+          "x": 68.85,
+          "y": 31.155,
+          "w": 14.825,
+          "h": 14.025,
+          "precio": 104.31,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TABM",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "TABM-OF",
+          "nombre": "MADERA, 22,5x35,5CM.",
+          "x": 83.675,
+          "y": 31.155,
+          "w": 16.325,
+          "h": 14.025,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TABM-0F",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "TABPASA4",
+          "nombre": "PLÁSTICA, 23x32 CM., COLORES PASTEL",
+          "x": 0.0,
+          "y": 52.342,
+          "w": 50.4,
+          "h": 20.522,
+          "precio": 214.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TABPASA4",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "TABCARA4",
+          "nombre": "RÍGIDA, 22x31 CM., COLORES PASTEL",
+          "x": 50.4,
+          "y": 52.342,
+          "w": 49.6,
+          "h": 20.522,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TABCARA4",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BANN",
+          "nombre": "CAUCHO NATURAL, EN BOLSA DE 200 gr",
+          "x": 0.0,
+          "y": 75.435,
+          "w": 33.8,
+          "h": 16.426,
+          "precio": 159.36,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BANN",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BANN50",
+          "nombre": "CAUCHO NATURAL, EN BOLSA DE 50 gr",
+          "x": 33.8,
+          "y": 75.435,
+          "w": 31.85,
+          "h": 16.426,
+          "precio": 55.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BANN50",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "ALM898",
+          "nombre": "ALMOHADILLA 7x11 COL:NEGRO/AZUL/ROJO",
+          "x": 65.65,
+          "y": 75.435,
+          "w": 34.35,
+          "h": 16.426,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "ALM898",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 126,
       "imagen": "img/pages/omega/pagina-126.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "US-152",
+          "nombre": "OMEGA A4, 2 ANILLOS,BLANCA C/PORTADA, LOMO 4 cm",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 26.728,
+          "precio": 318.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-152",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2201",
+          "nombre": "OMEGA A4, 2 ANILLOS, LOMO 4 cm",
+          "x": 0.0,
+          "y": 37.158,
+          "w": 62.8,
+          "h": 13.742,
+          "precio": 173.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "2201",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2181",
+          "nombre": "OMEGA A4, 2 ANILLOS C/PORTADA, LOMO 2,5 cm",
+          "x": 62.8,
+          "y": 37.158,
+          "w": 0.05,
+          "h": 13.742,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "2181",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2202",
+          "nombre": "OMEGA A4, 3 ANILLOS, LOMO 4 cm",
+          "x": 62.85,
+          "y": 37.158,
+          "w": 37.15,
+          "h": 13.742,
+          "precio": 181.09,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "2202",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-020",
+          "nombre": "A4, ALFABÉTICO A-Z",
+          "x": 0.0,
+          "y": 55.52,
+          "w": 42.075,
+          "h": 36.765,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-020",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-005",
+          "nombre": "A4, 5 POSICIONES",
+          "x": 42.075,
+          "y": 55.52,
+          "w": 23.525,
+          "h": 36.765,
+          "precio": 34.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-005",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "US-010",
+          "nombre": "A4, 10 POSICIONES",
+          "x": 65.6,
+          "y": 55.52,
+          "w": 34.4,
+          "h": 36.765,
+          "precio": 56.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "US-010",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 127,
       "imagen": "img/pages/omega/pagina-127.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "BAN99",
+          "nombre": "PLÁSTICAS APILABLES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 64.9,
+          "h": 58.932,
+          "precio": 188.34,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BAN99",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PL1",
+          "nombre": "EN METAL CALADO",
+          "x": 64.9,
+          "y": 8.0,
+          "w": 35.1,
+          "h": 58.932,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PL1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "REV",
+          "nombre": "REVISTERO METAL CALADO",
+          "x": 0.0,
+          "y": 69.291,
+          "w": 100.0,
+          "h": 23.559,
+          "precio": 383.92,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "REV",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 128,
       "imagen": "img/pages/omega/pagina-128.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "28371",
+          "nombre": "LIBRO ACTAS, 100H., OFICIO, NUMERADO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 51.175,
+          "h": 25.951,
+          "precio": 576.6,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "28371",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "A5",
+          "nombre": "A5, 100 HOJAS, RAYADO C/ESPIRAL",
+          "x": 51.175,
+          "y": 8.0,
+          "w": 48.825,
+          "h": 25.951,
+          "precio": 114.45,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "A5",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BLO1",
+          "nombre": "A6, 100 HOJAS, PAPEL ALCALINO LISO",
+          "x": 0.0,
+          "y": 37.441,
+          "w": 100.0,
+          "h": 23.7,
+          "precio": 55.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BLO1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CUAB5-I",
+          "nombre": "OMEGA, TAPA DURA, B5, 120H., COSIDO, INDIZADO",
+          "x": 0.0,
+          "y": 63.429,
+          "w": 61.35,
+          "h": 28.29,
+          "precio": 282.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CUAB5-",
+          "_match_tier": "fuzzy"
+        },
+        {
+          "codigo": "RA01",
+          "nombre": "45cm. X 1m. X 80 micras TRANSPARENTE",
+          "x": 61.35,
+          "y": 63.429,
+          "w": 38.65,
+          "h": 28.29,
+          "precio": 56.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "RA01",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 129,
       "imagen": "img/pages/omega/pagina-129.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "3850-O/3",
+          "nombre": "38x50 mm., 100 HOJAS, PACK C/3 BLOCS COLOR AMARILLO, OMEGA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 39.85,
+          "h": 23.056,
+          "precio": 36.22,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "3850-0/3",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "7575-O",
+          "nombre": "75x75 mm., 100 HOJAS, COLOR AMARILLO, OMEGA",
+          "x": 39.85,
+          "y": 8.0,
+          "w": 21.0,
+          "h": 23.056,
+          "precio": 28.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "7575-0",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "5075-O",
+          "nombre": "50x75 mm., 100 HOJAS, COLOR AMARILLO, OMEGA",
+          "x": 60.85,
+          "y": 8.0,
+          "w": 39.15,
+          "h": 23.056,
+          "precio": 21.59,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "5075-0",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "1245-O",
+          "nombre": "BANDERITAS 12x45 mm., PACK C/5 BLOCS COLORES FLÚO DE PVC, OMEGA",
+          "x": 0.0,
+          "y": 40.195,
+          "w": 100.0,
+          "h": 16.355,
+          "precio": 36.22,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "1245-0",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "75100-O",
+          "nombre": "75x100 mm., 100 HOJAS, COLOR AMARILLO, OMEGA",
+          "x": 0.0,
+          "y": 58.91,
+          "w": 55.1,
+          "h": 4.42,
+          "precio": 31.87,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "75100-0",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "2050-O",
+          "nombre": "BANDERITAS 20x50 mm., PACK C/4 BLOCS COLORES FLÚO DE PAPEL, OMEGA",
+          "x": 55.1,
+          "y": 58.91,
+          "w": 44.9,
+          "h": 4.42,
+          "precio": 23.18,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "2050-0",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "3850-O/12F",
+          "nombre": "38x50 mm., PACK C/12 BLOCS FLÚO EN 3 COLORES, OMEGA",
+          "x": 0.0,
+          "y": 69.856,
+          "w": 100.0,
+          "h": 12.047,
+          "precio": 166.61,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "3850-0/12F",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "3850-O/4F",
+          "nombre": "38x50 mm., PACK C/4 BLOCS FLÚO EN 4 COLORES, OMEGA",
+          "x": 0.0,
+          "y": 84.263,
+          "w": 100.0,
+          "h": 7.033,
+          "precio": 37.67,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "3850-0/4F",
+          "_match_tier": "subs"
+        }
+      ]
     },
     {
       "paginaOriginal": 130,
       "imagen": "img/pages/omega/pagina-130.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "P4560",
+          "nombre": "PIZARRA BLANCA MAGNÉTICA, MARCO DE ALUMINIO, 45x60cm",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 20.5,
+          "h": 25.457,
+          "precio": 565.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "P4560",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "P6090",
+          "nombre": "PIZARRA BLANCA MAGNÉTICA, MARCO DE ALUMINIO, 60x90cm",
+          "x": 20.5,
+          "y": 8.0,
+          "w": 0.15,
+          "h": 25.457,
+          "precio": 862.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "P6090",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "P90120",
+          "nombre": "PIZARRA BLANCA MAGNÉTICA, MARCO DE ALUMINIO, 90x120cm",
+          "x": 20.65,
+          "y": 8.0,
+          "w": 0.25,
+          "h": 25.457,
+          "precio": 2303.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "P90120",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "P90150",
+          "nombre": "PIZARRA BLANCA MAGNÉTICA, MARCO DE ALUMINIO, 90x150cm",
+          "x": 20.9,
+          "y": 8.0,
+          "w": 0.4,
+          "h": 25.457,
+          "precio": 2738.14,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "P90150",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "P120180",
+          "nombre": "PIZARRA BLANCA MAGNÉTICA, MARCO DE ALUMINIO, 120x180cm",
+          "x": 21.3,
+          "y": 8.0,
+          "w": 78.7,
+          "h": 25.457,
+          "precio": 4998.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "P120180",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "ROTA",
+          "nombre": "ROTAFOLIO C/PIZARRA BLANCA MAGNÉTICA Y TRÍPODE AJUSTABLE, 70x100cm",
+          "x": 0.0,
+          "y": 40.619,
+          "w": 100.0,
+          "h": 9.858,
+          "precio": 4766.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "ROTA",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "PBDC",
+          "nombre": "PIZARRA BLANCA MAGNÉTICA, MARCO DE ALUMINIO, 90x120cm DOBLE CARA, REBATIBLE, SOPORTE DE METAL C/RUEDAS",
+          "x": 0.0,
+          "y": 52.836,
+          "w": 51.025,
+          "h": 20.663,
+          "precio": 7171.31,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PBDC",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "T4560",
+          "nombre": "TABLERO DE CORCHO, MARCO DE ALUMINIO, 45x60cm",
+          "x": 51.025,
+          "y": 52.836,
+          "w": 17.375,
+          "h": 20.663,
+          "precio": 572.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "T4560",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "T6090",
+          "nombre": "TABLERO DE CORCHO, MARCO DE ALUMINIO, 60x90cm",
+          "x": 68.4,
+          "y": 52.836,
+          "w": 0.25,
+          "h": 20.663,
+          "precio": 912.71,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "T6090",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "T90120",
+          "nombre": "TABLERO DE CORCHO, MARCO DE ALUMINIO, 90x120cm",
+          "x": 68.65,
+          "y": 52.836,
+          "w": 31.35,
+          "h": 20.663,
+          "precio": 2390.44,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "T90120",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BORM2",
+          "nombre": "OMEGA, BORRADOR MAGNÉTICO P/PIZARRA BLANCA, CON PORTAMARCADOR DOBLE",
+          "x": 0.0,
+          "y": 81.508,
+          "w": 45.525,
+          "h": 11.2,
+          "precio": 60.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BORM2",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BOR",
+          "nombre": "PROPEN, MAGNÉTICO P/PIZARRA BLANCA",
+          "x": 45.525,
+          "y": 81.508,
+          "w": 54.475,
+          "h": 11.2,
+          "precio": 46.36,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "BOR",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 131,
       "imagen": "img/pages/omega/pagina-131.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "97P",
+          "nombre": "CORTANTE PLÁSTICO CUCH. ANCHA C/GUíA METÁLICA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 23.268,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "97P",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SP2000",
+          "nombre": "PERFORADORA PARA ESPIRAL SIMPLE, CON MARGEN REGULABLE. A4, CAP. 10 HOJAS",
+          "x": 0.0,
+          "y": 33.627,
+          "w": 100.0,
+          "h": 11.694,
+          "precio": 12155.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SP2000",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "REG30M",
+          "nombre": "METÁLICA, 30 CM.",
+          "x": 0.0,
+          "y": 47.681,
+          "w": 58.1,
+          "h": 5.692,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "REG30M",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "REG60M",
+          "nombre": "DE ACERO INOXIDABLE, 60 cm.",
+          "x": 58.1,
+          "y": 47.681,
+          "w": 41.9,
+          "h": 5.692,
+          "precio": 152.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "REG60M",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SM001",
+          "nombre": "FORMATO DE TRABAJO 350x500mm, FUNCION DE PLEGADO MANUAL",
+          "x": 0.0,
+          "y": 55.732,
+          "w": 100.0,
+          "h": 21.652,
+          "precio": 11561.02,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SMO01",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "858A3",
+          "nombre": "GUILLOTINA A3, P/ TRABAJO PESADO, LONG. CORTE: 43 cm., CAP. DE CORTE: 4 cm., BASE:41x43 cm.",
+          "x": 0.0,
+          "y": 79.743,
+          "w": 35.625,
+          "h": 12.895,
+          "precio": 18601.95,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "858A3",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "858A3",
+          "nombre": "GUILLOTINA A3, P/ TRABAJO PESADO, LONG. CORTE: 43 cm., CAP. DE CORTE: 4 cm., BASE:41x43 cm.",
+          "x": 35.625,
+          "y": 79.743,
+          "w": 20.6,
+          "h": 12.895,
+          "precio": 18601.95,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "858A3",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "858BLADE",
+          "nombre": "CUCHILLA DE REPUESTO PARA GUILLOTINA 858A3",
+          "x": 56.225,
+          "y": 79.743,
+          "w": 15.425,
+          "h": 12.895,
+          "precio": 2868.53,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "858BLADE",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "858A3",
+          "nombre": "GUILLOTINA A3, P/ TRABAJO PESADO, LONG. CORTE: 43 cm., CAP. DE CORTE: 4 cm., BASE:41x43 cm.",
+          "x": 71.65,
+          "y": 79.743,
+          "w": 15.525,
+          "h": 12.895,
+          "precio": 18601.95,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "858A3",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "858LISTON",
+          "nombre": "LISTÓN DE CORTE PARA GUILLOTINA 858A3",
+          "x": 87.175,
+          "y": 79.743,
+          "w": 12.825,
+          "h": 12.895,
+          "precio": 289.75,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "858LISTON",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 132,
       "imagen": "img/pages/omega/pagina-132.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "TD1833",
+          "nombre": "18mm x 33m TRANSPARENTE, OMEGA, C/DISPENSADOR",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 40.05,
+          "h": 18.96,
+          "precio": 40.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "TD1833",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MT4836/6",
+          "nombre": "48mm x 36m, DE ENMASCARAR OMEGA, BLANCA, PACK C/6 ROLLOS",
+          "x": 40.05,
+          "y": 8.0,
+          "w": 16.05,
+          "h": 18.96,
+          "precio": 851.87,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MT4836/6",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "MT2436/12",
+          "nombre": "24mm x 36m, DE ENMASCARAR OMEGA, BLANCA, PACK C/12 ROLLOS",
+          "x": 56.1,
+          "y": 8.0,
+          "w": 15.6,
+          "h": 18.96,
+          "precio": 782.33,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "MT2436/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CDF1812",
+          "nombre": "18mm x 12m, DOBLE FAZ OMEGA",
+          "x": 71.7,
+          "y": 8.0,
+          "w": 28.3,
+          "h": 18.96,
+          "precio": 40.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CDF1812",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CTDF24",
+          "nombre": "24mm x 3m,TRANSPARENTE, ESPESOR 2 mm, DOBLE FAZ OMEGA",
+          "x": 0.0,
+          "y": 30.661,
+          "w": 30.6,
+          "h": 20.451,
+          "precio": 114.45,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CTDF24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CM183",
+          "nombre": "18mm x 3m, DE MONTAJE, EN ESPUMA, DOBLE FAZ OMEGA",
+          "x": 30.6,
+          "y": 30.661,
+          "w": 29.55,
+          "h": 20.451,
+          "precio": 33.32,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CM183",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CM243",
+          "nombre": "24mm x 3m, DE MONTAJE, EN ESPUMA, DOBLE FAZ OMEGA",
+          "x": 60.15,
+          "y": 30.661,
+          "w": 39.85,
+          "h": 20.451,
+          "precio": 37.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CM243",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "DISP-M",
+          "nombre": "DISPENSADOR P/CNTA DE EMPAQUE DE 50 mm",
+          "x": 0.0,
+          "y": 54.178,
+          "w": 70.8,
+          "h": 14.66,
+          "precio": 376.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "DISP-M",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2550",
+          "nombre": "25mm x 50yd TRANSPARENTE",
+          "x": 70.8,
+          "y": 54.178,
+          "w": 18.15,
+          "h": 14.66,
+          "precio": 40.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "2550",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "5050",
+          "nombre": "48mm x 50yd TRANSPARENTE/MARRÓN",
+          "x": 88.95,
+          "y": 54.178,
+          "w": 0.0,
+          "h": 14.66,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "5050",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "5090",
+          "nombre": "48mm x 90yd TRANSPARENTE/MARRÓN",
+          "x": 88.95,
+          "y": 54.178,
+          "w": 0.525,
+          "h": 14.66,
+          "precio": 79.68,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "5090",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "1230/12",
+          "nombre": "12mm x 30m TRANSPARENTE, PACK C/12 UN",
+          "x": 89.475,
+          "y": 54.178,
+          "w": 0.55,
+          "h": 14.66,
+          "precio": 113.0,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "1230/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "1260/12",
+          "nombre": "12mm x 60yd TRANSPARENTE, PACK C/12 UN",
+          "x": 90.025,
+          "y": 54.178,
+          "w": 9.975,
+          "h": 14.66,
+          "precio": 304.24,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "1260/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2826",
+          "nombre": "METÁLICA, CALADA, 28 CM. DE ALTO",
+          "x": 0.0,
+          "y": 76.0,
+          "w": 26.925,
+          "h": 17.556,
+          "precio": 268.02,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "2826",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2630P/BEI",
+          "nombre": "OMEGA, PLÁSTICA SIN CALADO, 30CM DE ALTO, BEIGE",
+          "x": 26.925,
+          "y": 76.0,
+          "w": 20.725,
+          "h": 17.556,
+          "precio": 195.58,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "2630P/BEI",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2630P/GRI",
+          "nombre": "OMEGA, PLÁSTICA SIN CALADO, 30CM DE ALTO, GRIS",
+          "x": 47.65,
+          "y": 76.0,
+          "w": 22.75,
+          "h": 17.556,
+          "precio": 195.58,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "2630P/GRI",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "2630P/VER",
+          "nombre": "OMEGA, PLÁSTICA SIN CALADO, 30CM DE ALTO, VERDE",
+          "x": 70.4,
+          "y": 76.0,
+          "w": 29.6,
+          "h": 17.556,
+          "precio": 195.58,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "2630P/VER",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 133,
       "imagen": "img/pages/omega/pagina-133.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "PCP",
+          "nombre": "PLÁSTICO, TAPA IMANTADA, REDONDO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 15.994,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "PCP",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CLI2111/10",
+          "nombre": "28 mm. CAJA C/10 CAJAS DE 100 UN.",
+          "x": 0.0,
+          "y": 26.353,
+          "w": 25.35,
+          "h": 29.703,
+          "precio": 186.89,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "CLI2111/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CLI121/10",
+          "nombre": "31 mm. TRIANGULAR, CAJA C/10 CAJAS DE 100 UN.",
+          "x": 25.35,
+          "y": 26.353,
+          "w": 30.525,
+          "h": 29.703,
+          "precio": 214.41,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "CLI121/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CLI2118/10",
+          "nombre": "50 mm. CAJA C/10 CAJAS 100 UN.",
+          "x": 55.875,
+          "y": 26.353,
+          "w": 44.125,
+          "h": 29.703,
+          "precio": 608.47,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "CLI2118/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "ACCOM",
+          "nombre": "BROCHES ACCO METÁLICOS, CAJA 50 UN.",
+          "x": 0.0,
+          "y": 58.415,
+          "w": 100.0,
+          "h": 34.999,
+          "precio": 113.0,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "ACCOM",
+          "_match_tier": "exact"
+        }
+      ]
     }
   ]
 }

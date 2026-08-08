@@ -11,292 +11,4159 @@
     {
       "paginaOriginal": 2,
       "imagen": "img/pages/ibi/pagina-002.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "55782",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., TONOS AZUL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 47.075,
+          "h": 15.271,
+          "precio": 86.92,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55782",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55760",
+          "nombre": "IBI CRAFT, DISPENSADOR P WASHI TAPE, (10,3x9,1x7,1CMS)",
+          "x": 47.075,
+          "y": 8.0,
+          "w": 52.925,
+          "h": 15.271,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55760",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55792",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., TONOS LIMÓN",
+          "x": 0.0,
+          "y": 26.829,
+          "w": 23.8,
+          "h": 9.427,
+          "precio": 86.92,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55792",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55784",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., TONOS ROJOS",
+          "x": 23.8,
+          "y": 26.829,
+          "w": 30.25,
+          "h": 9.427,
+          "precio": 86.92,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55784",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55790",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., TONOS BRILLANTINA",
+          "x": 54.05,
+          "y": 26.829,
+          "w": 45.95,
+          "h": 9.427,
+          "precio": 130.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55790",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55794",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., TONOS ROSA",
+          "x": 0.0,
+          "y": 42.708,
+          "w": 63.875,
+          "h": 15.425,
+          "precio": 115.9,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55794",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55798",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., EN PAPEL FOIL DORADO",
+          "x": 63.875,
+          "y": 42.708,
+          "w": 36.125,
+          "h": 15.425,
+          "precio": 118.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55798",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55780",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., TONOS B&N",
+          "x": 0.0,
+          "y": 60.845,
+          "w": 49.475,
+          "h": 12.744,
+          "precio": 115.9,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55780",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55796",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., CUADRÍCULA/PUNTOS",
+          "x": 49.475,
+          "y": 60.845,
+          "w": 50.525,
+          "h": 12.744,
+          "precio": 115.9,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55796",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55763",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS.x 5 UN.+ 8MMx5MTS.x 2 UN., TONOS PASTEL",
+          "x": 0.0,
+          "y": 75.876,
+          "w": 100.0,
+          "h": 10.768,
+          "precio": 246.29,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55763",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 3,
       "imagen": "img/pages/ibi/pagina-003.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "55778",
+          "nombre": "IBI CRAFT, WASHI TAPE, 8/15/25MMx4MTS, PACK x 5 UN., SERIE \"ZODIAC\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 6.308,
+          "precio": 210.07,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55778",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55770",
+          "nombre": "IBI CRAFT, WASHI TAPE, 8/15/25MMx4MTS, PACK x 5 UN., SERIE ROSAS",
+          "x": 0.0,
+          "y": 16.596,
+          "w": 100.0,
+          "h": 35.821,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55770",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55755",
+          "nombre": "IBI CRAFT, WASHI TAPE, 15MMx4MTS, EXH. x 48 UN., 8 COLORES \"GLITTER DESIGN\" BRILLANTINA",
+          "x": 0.0,
+          "y": 54.705,
+          "w": 100.0,
+          "h": 24.812,
+          "precio": 492.57,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55755",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55771",
+          "nombre": "IBI CRAFT, WASHI TAPE, 8/15/25MMx4MTS, PACK x 5 UN., SERIE HOJAS",
+          "x": 0.0,
+          "y": 81.805,
+          "w": 100.0,
+          "h": 5.051,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55771",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 4,
       "imagen": "img/pages/ibi/pagina-004.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "560-003",
+          "nombre": "CIZALLA ROTATIVA, CORTE 305 MM, CAP. 5 HOJAS, FUNCIÓN DE MARCADO Y CORTE",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 14.989,
+          "precio": 1101.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "560-003",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "560-006",
+          "nombre": "REPUESTOS PARA CIZALLA 560-003 (CUCH. CORTADORA + CUCH. MARCADORA)",
+          "x": 0.0,
+          "y": 26.97,
+          "w": 100.0,
+          "h": 3.005,
+          "precio": 173.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "560-006",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "KM5601",
+          "nombre": "REPUESTOS PARA CIZALLA KM5650 (CUCH. CORTADORA x 2)",
+          "x": 0.0,
+          "y": 34.169,
+          "w": 86.525,
+          "h": 16.484,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM5601",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "KM5650",
+          "nombre": "CIZALLA ROTATIVA IBI CRAFT, CORTE 230 MM (A4 HORIZ.), CAP. 5 HOJAS",
+          "x": 86.525,
+          "y": 34.169,
+          "w": 13.475,
+          "h": 16.484,
+          "precio": 333.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM5650",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "400002",
+          "nombre": "CIZALLA ROTATIVA IBI CRAFT, TRIPLE CORTE, A3, CAP. 6 HOJAS",
+          "x": 0.0,
+          "y": 55.975,
+          "w": 100.0,
+          "h": 29.046,
+          "precio": 2021.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "400002",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 5,
       "imagen": "img/pages/ibi/pagina-005.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "KM5612",
+          "nombre": "CORTADOR DE CÍRCULOS ROTATIVO IBI CRAFT (10~32cm)",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 8.284,
+          "precio": 427.38,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM5612",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "400006",
+          "nombre": "CIZALLA IBI CRAFT, CORTE 305 mm, CAP. 12 HOJAS",
+          "x": 0.0,
+          "y": 18.572,
+          "w": 100.0,
+          "h": 56.004,
+          "precio": 2390.44,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "400006",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "400007",
+          "nombre": "CIZALLA ROTATIVA IBI CRAFT 12 EN 1, CORTE A4, CAP. 5 HOJAS",
+          "x": 0.0,
+          "y": 76.865,
+          "w": 100.0,
+          "h": 5.545,
+          "precio": 1231.44,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "400007",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 6,
       "imagen": "img/pages/ibi/pagina-006.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "8820-10",
+          "nombre": "PERFORADORA DE DISEÑOS, 50 mm, C/FORMA DE CORAZÓN",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 53.5,
+          "h": 20.07,
+          "precio": 637.45,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "8820-10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "8820-69",
+          "nombre": "PERFORADORA DE DISEÑOS, 50 mm, C/FORMA DE SEÑALADOR",
+          "x": 53.5,
+          "y": 8.0,
+          "w": 0.15,
+          "h": 20.07,
+          "precio": 637.45,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "8820-69",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "8820-80",
+          "nombre": "PERFORADORA DE DISEÑOS, 50 mm, C/FORMA DE PORTA BIJOUTERIE",
+          "x": 53.65,
+          "y": 8.0,
+          "w": 46.35,
+          "h": 20.07,
+          "precio": 637.45,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "8820-80",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "606-129",
+          "nombre": "PERFORADORA DE BORDES IBI CRAFT, DISEÑO FLORES",
+          "x": 0.0,
+          "y": 36.145,
+          "w": 73.35,
+          "h": 16.907,
+          "precio": 536.04,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "606-129",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "606-130",
+          "nombre": "PERFORADORA DE BORDES IBI CRAFT, DISEÑO PUNTILLA",
+          "x": 73.35,
+          "y": 36.145,
+          "w": 26.65,
+          "h": 16.907,
+          "precio": 536.04,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "606-130",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "KM500-03",
+          "nombre": "SACABOCADOS CON FORMA IBI CRAFT, DISEÑO ESTRELLA, 6 mm",
+          "x": 0.0,
+          "y": 57.104,
+          "w": 45.75,
+          "h": 25.235,
+          "precio": 162.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM500-03",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "655575",
+          "nombre": "SACABOCADOS TIPO PUNZÓN, C/3 PUNTAS 2/3/4MM IBI CRAFT",
+          "x": 45.75,
+          "y": 57.104,
+          "w": 54.25,
+          "h": 25.235,
+          "precio": 559.22,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "655575",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 7,
       "imagen": "img/pages/ibi/pagina-007.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "KM8710B1",
+          "nombre": "IBI CRAFT, P/HACER ETIQUETAS \"CORTE RECTO\", 3 EN 1, DE 1,5\", 2\" Y 2,5\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 59.308,
+          "precio": 912.71,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM871081",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "KM8733C",
+          "nombre": "GUÍA DE DESPLAZAMIENTO P/PERF. DE BORDES KM8733A",
+          "x": 0.0,
+          "y": 69.666,
+          "w": 100.0,
+          "h": 4.557,
+          "precio": 1006.88,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM8733C",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "KM8830-10",
+          "nombre": "IBI CRAFT, P/HACER ETIQUETAS \"CORTE CURVO\", 3 DE 1",
+          "x": 0.0,
+          "y": 76.512,
+          "w": 100.0,
+          "h": 7.38,
+          "precio": 912.71,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM8830-10",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 8,
       "imagen": "img/pages/ibi/pagina-008.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "KM6630",
+          "nombre": "PERFORADORA DE ESQUINAS IBI CRAFT, C/3 FORMAS DIFERENTES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 21.552,
+          "precio": 325.97,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM6630",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "HCP-201",
+          "nombre": "PERFORADORA DE ESQUINAS Y MUESCAS IBI CRAFT",
+          "x": 0.0,
+          "y": 31.84,
+          "w": 56.7,
+          "h": 15.073,
+          "precio": 260.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "HCP-201",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "KM6641",
+          "nombre": "PERFORADORA DE ESQUINAS IBI CRAFT, 4 EN 1: COLGANTE, ÁNG. CURVO, TERM. RECTA, TERM. CURVA, PARA TAGS, ETC",
+          "x": 56.7,
+          "y": 31.84,
+          "w": 43.3,
+          "h": 15.073,
+          "precio": 388.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM6641",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "KM6640",
+          "nombre": "PERFORADORA DE ESQUINAS IBI CRAFT, 4 EN 1: ÓVALO, OJO DE PEZ, COLA DE MILANO, ÁNG. BISELADO, PARA TAGS, ETC",
+          "x": 0.0,
+          "y": 51.953,
+          "w": 100.0,
+          "h": 28.622,
+          "precio": 388.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "KM6640",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 9,
       "imagen": "img/pages/ibi/pagina-009.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "655995",
+          "nombre": "CORRUGADORA MANUAL IBI CRAFT PARA PAPEL Y CARTULINA, HASTA 250GRS, ANCHO HASTA 11CMS.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 5.673,
+          "precio": 260.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "655995",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "659032",
+          "nombre": "MINI TROQUELADORA ALFABÉTICA IBI CRAFT (FORMATO DE LETRA 3,8x6,4cm)",
+          "x": 0.0,
+          "y": 15.961,
+          "w": 100.0,
+          "h": 38.008,
+          "precio": 586.74,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "659032",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "655202",
+          "nombre": "PERFORADORA DE ESQUINAS IBI CRAFT, 1\", EFECTO \"RECTA\"",
+          "x": 0.0,
+          "y": 56.258,
+          "w": 100.0,
+          "h": 26.646,
+          "precio": 333.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "655202",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 10,
       "imagen": "img/pages/ibi/pagina-010.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "650550",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, BLANCOS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 33.425,
+          "h": 13.365,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650550",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650552",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, AMARILLOS",
+          "x": 33.425,
+          "y": 8.0,
+          "w": 29.275,
+          "h": 13.365,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650552",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650554",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, V. MENTA",
+          "x": 62.7,
+          "y": 8.0,
+          "w": 37.3,
+          "h": 13.365,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650554",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650556",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, V. CÉSPED",
+          "x": 0.0,
+          "y": 24.006,
+          "w": 33.45,
+          "h": 10.062,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650556",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650558",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, AZUL HIELO",
+          "x": 33.45,
+          "y": 24.006,
+          "w": 29.4,
+          "h": 10.062,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650558",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650560",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, CELESTES",
+          "x": 62.85,
+          "y": 24.006,
+          "w": 37.15,
+          "h": 10.062,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650560",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650562",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, VIOLETAS",
+          "x": 0.0,
+          "y": 36.356,
+          "w": 33.6,
+          "h": 9.921,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650562",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650564",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, LILAS",
+          "x": 33.6,
+          "y": 36.356,
+          "w": 29.55,
+          "h": 9.921,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650564",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650566",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, ROSADOS",
+          "x": 63.15,
+          "y": 36.356,
+          "w": 36.85,
+          "h": 9.921,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650566",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650570",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, ROJO ROSA",
+          "x": 0.0,
+          "y": 48.636,
+          "w": 33.275,
+          "h": 9.991,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650570",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650574",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, ORO",
+          "x": 33.275,
+          "y": 48.636,
+          "w": 29.375,
+          "h": 9.991,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650574",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650576",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, PLATA",
+          "x": 62.65,
+          "y": 48.636,
+          "w": 37.35,
+          "h": 9.991,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650576",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9719",
+          "nombre": "KW-TRIO, P/OJALILLOS DIAM. 5mm, REDUCE 40% ESFUERZO",
+          "x": 0.0,
+          "y": 60.915,
+          "w": 54.275,
+          "h": 10.485,
+          "precio": 1202.46,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9719",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650578",
+          "nombre": "CAJA C/50 OJALILLOS METÁLICOS IBI CRAFT, DIAM. 4,5mm, NEGRO METAL",
+          "x": 54.275,
+          "y": 60.915,
+          "w": 45.725,
+          "h": 10.485,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650578",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 11,
       "imagen": "img/pages/ibi/pagina-011.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "659760",
+          "nombre": "SET DE 40 PINS DE 32MM IBI CRAFT",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 56.061,
+          "precio": 243.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "659760",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "659770",
+          "nombre": "SET DE 30 PINS DE 58MM IBI CRAFT",
+          "x": 0.0,
+          "y": 66.349,
+          "w": 100.0,
+          "h": 15.99,
+          "precio": 311.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "659770",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 12,
       "imagen": "img/pages/ibi/pagina-012.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "860-213",
+          "nombre": "BASE DE CORTE MAGNÉTICA P/MÁQ.TROQUELADORAS SUNLIT / IBI CRAFT, 6\" (15,30x23,00x0,30cms.)",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 76.457,
+          "precio": 565.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "860-213",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 13,
       "imagen": "img/pages/ibi/pagina-013.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "861-001",
+          "nombre": "TROQUEL DE CORTE, FORMA ESTRELLA (7,8x7,8cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 5.25,
+          "precio": 147.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-110",
+          "nombre": "TROQUEL DE CORTE, FORMA \"BEST WISHES\" (8,25x8,38cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 15.538,
+          "w": 100.0,
+          "h": 6.181,
+          "precio": 178.2,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-110",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-019",
+          "nombre": "TROQUEL DE CORTE, FORMA ETIQUETA 1 (8x8cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 24.006,
+          "w": 100.0,
+          "h": 22.906,
+          "precio": 147.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-019",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-007",
+          "nombre": "TROQUEL DE CORTE, FORMA FLOR 4 (7,25x7,25cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 49.271,
+          "w": 100.0,
+          "h": 11.756,
+          "precio": 130.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-007",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-055",
+          "nombre": "TROQUEL DE CORTE, FORMA CINTAS DECORATIVAS (13,4x14,cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 63.385,
+          "w": 54.425,
+          "h": 9.497,
+          "precio": 195.58,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-055",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-018",
+          "nombre": "TROQUEL DE CORTE, FORMA CORAZÓN (7,9x6,9cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 54.425,
+          "y": 63.385,
+          "w": 45.575,
+          "h": 9.497,
+          "precio": 130.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-018",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-075",
+          "nombre": "TROQUEL DE CORTE, FORMA LLAVES VINTAGE (8,6x8,9cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 77.288,
+          "w": 53.925,
+          "h": 9.145,
+          "precio": 126.04,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-075",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-021",
+          "nombre": "TROQUEL DE CORTE, FORMA FLOR 2 (8,1x8,1cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 53.925,
+          "y": 77.288,
+          "w": 46.075,
+          "h": 9.145,
+          "precio": 246.29,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-021",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 14,
       "imagen": "img/pages/ibi/pagina-014.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "861-104",
+          "nombre": "TROQUEL DE CORTE, FORMA ESTUCHE OVAL (13,46x13,27cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 6.026,
+          "precio": 412.89,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-104",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "861-063",
+          "nombre": "TROQUEL DE CORTE, FORMA \"HAPPY BIRTHDAY\" (12x9,6cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 16.385,
+          "w": 100.0,
+          "h": 19.801,
+          "precio": 241.94,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "861-063",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 15,
       "imagen": "img/pages/ibi/pagina-015.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "862-001",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA MARCO DECORATIVO (10,79x14,60cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 4.544,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "862-001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "862-003",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA CORAZÓN 1 (10,79x14,60cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 14.832,
+          "w": 51.35,
+          "h": 11.756,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "862-003",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "871-001",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA CÍRCULOS (7,62x12,7cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 51.35,
+          "y": 14.832,
+          "w": 48.65,
+          "h": 11.756,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "871-001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "863-011",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA ROSAS (12,7x17,78cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 29.229,
+          "w": 51.425,
+          "h": 11.262,
+          "precio": 102.86,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "863-011",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "871-002",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA TRIGO (7,62x12,7cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 51.425,
+          "y": 29.229,
+          "w": 48.575,
+          "h": 11.262,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "871-002",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "862-013",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA BROTES (10,79x14,60cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 43.414,
+          "w": 100.0,
+          "h": 11.897,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "862-013",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "862-016",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA LLAVES VINTAGE (10,79x14,60cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 57.598,
+          "w": 54.25,
+          "h": 12.32,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "862-016",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "863-012",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA MARIPOSAS (12,7x17,78cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 54.25,
+          "y": 57.598,
+          "w": 45.75,
+          "h": 12.32,
+          "precio": 170.95,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "863-012",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "862-024",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA ROMBOS (10,79x14,60cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 72.63,
+          "w": 49.0,
+          "h": 11.403,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "862-024",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "862-051",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA \"LOVE\" (10,79x14,60cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 49.0,
+          "y": 72.63,
+          "w": 51.0,
+          "h": 11.403,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "862-051",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 16,
       "imagen": "img/pages/ibi/pagina-016.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "871-020",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA CELOSÍA FLORAL (7,62x12,7cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 8.355,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "871-020",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "863-013",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA RELOJES VINTAGE (12,7x17,78cms.) P/MÁQ. TROQUELADORA DE 6\"",
+          "x": 0.0,
+          "y": 18.643,
+          "w": 100.0,
+          "h": 9.497,
+          "precio": 102.86,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "863-013",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "865-024",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA SET CORAZONES2+MARIPOSAS+CINTAS (3,18x14,60cms.)P/MÁQ. TROQUELADORA DE 3\" y 6\"",
+          "x": 0.0,
+          "y": 30.428,
+          "w": 100.0,
+          "h": 25.729,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "865-024",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "871-053",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA CORAZONES 3 (7,62x12,7cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 58.445,
+          "w": 100.0,
+          "h": 11.826,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "871-053",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "871-026",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA PTA. DE FLECHA (7,62x12,7cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 72.56,
+          "w": 100.0,
+          "h": 7.31,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "871-026",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "871-008",
+          "nombre": "MATRIZ DE RELIEVE, TRAMA LINEADA (7,62x12,7cms.) P/MÁQ. TROQUELADORA DE 3\" Y 6\"",
+          "x": 0.0,
+          "y": 82.157,
+          "w": 100.0,
+          "h": 4.487,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "871-008",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 17,
       "imagen": "img/pages/ibi/pagina-017.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "07849",
+          "nombre": "BOLSA C/10 ESPIRALES PLÁSTICOS A4 KW-TRIO, P/099H9/1996H",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 27.339,
+          "precio": 282.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "07849",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "120208",
+          "nombre": "ESTUCHE C/8 AROS METÁLICOS DE ENCUADERNACIÓN, 44mm, IBI CRAFT - 4 COLORES PASTEL SURTIDOS",
+          "x": 0.0,
+          "y": 37.627,
+          "w": 100.0,
+          "h": 23.047,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "120208",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 18,
       "imagen": "img/pages/ibi/pagina-018.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "128205",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 7/16\"~11.1mm (PARA 80 H.), BOLSA C/20 UNIDADES, NEGROS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 74.1,
+          "h": 49.71,
+          "precio": 114.45,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128205",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128212",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 7/16\"~11.1mm (PARA 80 H.), BOLSA C/20 UNIDADES, ORO",
+          "x": 74.1,
+          "y": 8.0,
+          "w": 0.025,
+          "h": 49.71,
+          "precio": 128.94,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128212",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128200",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 7/16\"~11.1mm (PARA 80 H.), BOLSA C/20 UNIDADES, BLANCOS",
+          "x": 74.125,
+          "y": 8.0,
+          "w": 0.025,
+          "h": 49.71,
+          "precio": 114.45,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128200",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128210",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 7/16\"~11.1mm (PARA 80 H.), BOLSA C/20 UNIDADES, ORO ROSA",
+          "x": 74.15,
+          "y": 8.0,
+          "w": 4.9,
+          "h": 49.71,
+          "precio": 128.94,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128210",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128232",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 1/2\"~12.7mm (PARA 100 H.), BOLSA C/20 UNIDADES, ORO",
+          "x": 79.05,
+          "y": 8.0,
+          "w": 4.925,
+          "h": 49.71,
+          "precio": 156.47,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128232",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128220",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 1/2\"~12.7mm (PARA 100 H.), BOLSA C/20 UNIDADES, BLANCOS",
+          "x": 83.975,
+          "y": 8.0,
+          "w": 0.025,
+          "h": 49.71,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128220",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128225",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 1/2\"~12.7mm (PARA 100 H.), BOLSA C/20 UNIDADES, NEGROS",
+          "x": 84.0,
+          "y": 8.0,
+          "w": 0.0,
+          "h": 49.71,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128225",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128230",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 1/2\"~12.7mm (PARA 100 H.), BOLSA C/20 UNIDADES, ROSADOS",
+          "x": 84.0,
+          "y": 8.0,
+          "w": 0.0,
+          "h": 49.71,
+          "precio": 156.47,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128230",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128234",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 1/2\"~12.7mm (PARA 100 H.), BOLSA C/20 UNIDADES, ORO ROSA",
+          "x": 84.0,
+          "y": 8.0,
+          "w": 16.0,
+          "h": 49.71,
+          "precio": 156.47,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128234",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128245",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 5/8\"~15.9mm (PARA 130 H.), BOLSA C/16 UNIDADES, NEGROS",
+          "x": 0.0,
+          "y": 68.255,
+          "w": 64.1,
+          "h": 10.909,
+          "precio": 253.53,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128245",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128252",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 5/8\"~15.9mm (PARA 130 H.), BOLSA C/16 UNIDADES, ORO",
+          "x": 64.1,
+          "y": 68.255,
+          "w": 0.025,
+          "h": 10.909,
+          "precio": 278.16,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128252",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128240",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 5/8\"~15.9mm (PARA 130 H.), BOLSA C/16 UNIDADES, BLANCOS",
+          "x": 64.125,
+          "y": 68.255,
+          "w": 0.025,
+          "h": 10.909,
+          "precio": 253.53,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128240",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128250",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 5/8\"~15.9mm (PARA 130 H.), BOLSA C/16 UNIDADES, ORO ROSA",
+          "x": 64.15,
+          "y": 68.255,
+          "w": 4.925,
+          "h": 10.909,
+          "precio": 278.16,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128250",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128260",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 3/4\"~19.0mm (PARA 170 H.), BOLSA C/16 UNIDADES, BLANCOS",
+          "x": 69.075,
+          "y": 68.255,
+          "w": 4.925,
+          "h": 10.909,
+          "precio": 318.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128260",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128265",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 3/4\"~19.0mm (PARA 170 H.), BOLSA C/16 UNIDADES, NEGROS",
+          "x": 74.0,
+          "y": 68.255,
+          "w": 0.0,
+          "h": 10.909,
+          "precio": 318.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128265",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128270",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 3/4\"~19.0mm (PARA 170 H.), BOLSA C/16 UNIDADES, ORO ROSA",
+          "x": 74.0,
+          "y": 68.255,
+          "w": 5.05,
+          "h": 10.909,
+          "precio": 359.29,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128270",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128280",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 7/8\"~22.0mm (PARA 200 H.), BOLSA C/16 UNIDADES, BLANCOS",
+          "x": 79.05,
+          "y": 68.255,
+          "w": 5.05,
+          "h": 10.909,
+          "precio": 394.06,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128280",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128285",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 7/8\"~22.0mm (PARA 200 H.), BOLSA C/16 UNIDADES, NEGROS",
+          "x": 84.1,
+          "y": 68.255,
+          "w": 0.0,
+          "h": 10.909,
+          "precio": 394.06,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128285",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "128290",
+          "nombre": "ESPIRAL DOBLE METÁLICO A4 IBI CRAFT, 7/8\"~22.0mm (PARA 200 H.), BOLSA C/16 UNIDADES, ORO ROSA",
+          "x": 84.1,
+          "y": 68.255,
+          "w": 15.9,
+          "h": 10.909,
+          "precio": 431.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "128290",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 19,
       "imagen": "img/pages/ibi/pagina-019.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "AE24",
+          "nombre": "BLÍSTER C/8 ANILLOS DE ENCUADERNACIÓN EXPANDIBLE, 24mm, HASTA 120H., IBI CRAFT - DISEÑO CORAZÓN, 8 COLORES",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 57.975,
+          "h": 29.385,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AE24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650100",
+          "nombre": "SET DE ENCUADERNADO P/ANILLOS INTELIGENTES IBI CRAFT (PERFORADORA+8 ANILLOS 24mm)",
+          "x": 57.975,
+          "y": 8.0,
+          "w": 42.025,
+          "h": 29.385,
+          "precio": 651.94,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650100",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AE32M",
+          "nombre": "BLÍSTER C/8 ANILLOS DE ENCUADERNACIÓN EXPANDIBLE, 32mm, HASTA 140H.IBI CRAFT - CUERPO SÓLIDO, 3 COLORES METAL",
+          "x": 0.0,
+          "y": 40.944,
+          "w": 100.0,
+          "h": 23.4,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AE32M",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AE32",
+          "nombre": "BLÍSTER C/12 ANILLOS DE ENCUADERNACIÓN EXPANDIBLE, 32mm, HASTA 140H.IBI CRAFT - CUERPO SÓLIDO, 5 COLORES",
+          "x": 0.0,
+          "y": 66.632,
+          "w": 100.0,
+          "h": 22.977,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AE32",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 20,
       "imagen": "img/pages/ibi/pagina-020.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "657160",
+          "nombre": "KIT DE INICIO P/GRABADO EN TINTA Y POLVO EN RELIEVE IBI CRAFT (ALMOHADILLA+MARCADOR+ 8 FRASCOS x 5grs )",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 31.996,
+          "precio": 1202.46,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657160",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "657176",
+          "nombre": "FRASCO DE POLVO PARA GRABADO EN RELIEVE IBI CRAFT, 15grs, VERDE PERLA 907A",
+          "x": 0.0,
+          "y": 42.284,
+          "w": 100.0,
+          "h": 22.2,
+          "precio": 263.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657176",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "657190",
+          "nombre": "FRASCO DE POLVO PARA GRABADO EN RELIEVE IBI CRAFT, 15grs, AZUL C18",
+          "x": 0.0,
+          "y": 66.773,
+          "w": 39.15,
+          "h": 20.859,
+          "precio": 263.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657190",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "657192",
+          "nombre": "FRASCO DE POLVO PARA GRABADO EN RELIEVE IBI CRAFT, 15grs, VIOLETA A113",
+          "x": 39.15,
+          "y": 66.773,
+          "w": 60.85,
+          "h": 20.859,
+          "precio": 263.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657192",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 21,
       "imagen": "img/pages/ibi/pagina-021.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "840634",
+          "nombre": "SET DE 3 ALMOHADILLAS MULTI SUPERFICIE IBI CRAFT, COLORES CLAROS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 56.85,
+          "h": 17.176,
+          "precio": 89.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "840634",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "830-400-001A",
+          "nombre": "BLÍSTER C/2 BARRAS DE CERA PARA SELLO DE ESTAMPADO, ROJA",
+          "x": 56.85,
+          "y": 8.0,
+          "w": 43.15,
+          "h": 17.176,
+          "precio": 166.61,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "830-400-001A",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "840633",
+          "nombre": "SET DE 3 ALMOHADILLAS MULTI SUPERFICIE IBI CRAFT, COLORES OSCUROS",
+          "x": 0.0,
+          "y": 29.158,
+          "w": 100.0,
+          "h": 7.451,
+          "precio": 89.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "840633",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "830-300-001A",
+          "nombre": "SELLO DE ESTAMPADO EN CERA, C/2 DISEÑOS: CORAZÓN&AMOR",
+          "x": 0.0,
+          "y": 38.897,
+          "w": 46.65,
+          "h": 5.404,
+          "precio": 344.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "830-300-001A",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "830-400-001B",
+          "nombre": "BLÍSTER C/2 BARRAS DE CERA PARA SELLO DE ESTAMPADO, NARANJA",
+          "x": 46.65,
+          "y": 38.897,
+          "w": 53.35,
+          "h": 5.404,
+          "precio": 166.61,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "830-400-001B",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "830-300-001B",
+          "nombre": "SELLO DE ESTAMPADO EN CERA, C/2 DISEÑOS: CORONA&CUMPLEAÑOS",
+          "x": 0.0,
+          "y": 51.6,
+          "w": 59.2,
+          "h": 9.145,
+          "precio": 344.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "830-300-0018",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "830-400-001C",
+          "nombre": "BLÍSTER C/2 BARRAS DE CERA PARA SELLO DE ESTAMPADO, ORO",
+          "x": 59.2,
+          "y": 51.6,
+          "w": 40.8,
+          "h": 9.145,
+          "precio": 166.61,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "830-400-001C",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "830-300-001C",
+          "nombre": "SELLO DE ESTAMPADO EN CERA, C/2 DISEÑOS: BODA&GRACIAS",
+          "x": 0.0,
+          "y": 66.349,
+          "w": 100.0,
+          "h": 5.193,
+          "precio": 344.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "830-300-001C",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "830-310",
+          "nombre": "KIT DELUXE DE SELLO DE ESTAMPADO EN CERA",
+          "x": 0.0,
+          "y": 73.83,
+          "w": 100.0,
+          "h": 15.919,
+          "precio": 1369.07,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "830-310",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 22,
       "imagen": "img/pages/ibi/pagina-022.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "SR12BU",
+          "nombre": "SELLO ROTATIVO IBI CRAFT C/12 DISEÑOS Y ALMOHADILLA - SERIE \"BULLET\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 15.271,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SR12BU",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SR12TE",
+          "nombre": "SELLO ROTATIVO IBI CRAFT C/12 DISEÑOS Y ALMOHADILLA - SERIE \"MAESTRA\"",
+          "x": 0.0,
+          "y": 25.559,
+          "w": 100.0,
+          "h": 11.05,
+          "precio": 231.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SR12TE",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 23,
       "imagen": "img/pages/ibi/pagina-023.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "841210",
+          "nombre": "SET DE SELLOS SILICONADOS CRISTAL P/BASE ACRÍLICA IBI CRAFT, 16 PIEZAS SERIE \"AMOR\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 38.25,
+          "h": 46.534,
+          "precio": 169.5,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "841210",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "841316",
+          "nombre": "SET DE SELLOS SILICONADOS CRISTAL P/BASE ACRÍLICA IBI CRAFT, 28 PIEZAS SERIE \"VIÑETAS\"",
+          "x": 38.25,
+          "y": 8.0,
+          "w": 61.75,
+          "h": 46.534,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "841316",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "842002",
+          "nombre": "SET DE SELLOS SILICONADOS CRISTAL+BASE ACRÍLICA (5x7,5cm)+ALMOHADILLA IBI CRAFT, 27 PIEZAS, \"SET PARTY\"",
+          "x": 0.0,
+          "y": 57.104,
+          "w": 100.0,
+          "h": 30.528,
+          "precio": 333.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "842002",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 24,
       "imagen": "img/pages/ibi/pagina-024.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "700430",
+          "nombre": "CARPETA PROTECTORA PARA TRANSFERENCIA FOIL IBI CRAFT (31,12x35,6cms) APTA P/TÉCNICA LASER",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 22.681,
+          "precio": 141.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "700430",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AT20",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - PLATA",
+          "x": 0.0,
+          "y": 32.969,
+          "w": 100.0,
+          "h": 16.555,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AT20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AD40",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - COBRE",
+          "x": 0.0,
+          "y": 51.812,
+          "w": 61.425,
+          "h": 8.58,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AD40",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AD20",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - ORO ROSA",
+          "x": 61.425,
+          "y": 51.812,
+          "w": 38.575,
+          "h": 8.58,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AD20",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AS30",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - ROJO ROSA",
+          "x": 0.0,
+          "y": 64.938,
+          "w": 27.675,
+          "h": 6.11,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AS30",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AC30",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - VERDE",
+          "x": 27.675,
+          "y": 64.938,
+          "w": 31.35,
+          "h": 6.11,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AC30",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AS60",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - ROJO",
+          "x": 59.025,
+          "y": 64.938,
+          "w": 40.975,
+          "h": 6.11,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AS60",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AS50",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - VIOLETA",
+          "x": 0.0,
+          "y": 78.911,
+          "w": 100.0,
+          "h": 8.933,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AS50",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 25,
       "imagen": "img/pages/ibi/pagina-025.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "DF02",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/LÁPIZ TÉRMICO, IBI CRAFT 15cm*3m - ORO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 51.45,
+          "h": 15.977,
+          "precio": 152.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "DFO2",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "657001",
+          "nombre": "KIT LÁPIZ TÉRMICO USB, CUERPO ROSADO, TRAZO 0,8mm Y ROLLO TERMOTRANSFERIBLE METALIZADO (15cm*3m) IBI CRAFT",
+          "x": 51.45,
+          "y": 8.0,
+          "w": 48.55,
+          "h": 15.977,
+          "precio": 1231.44,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "DF63",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/LÁPIZ TÉRMICO, IBI CRAFT 15cm*3m - ORO ROSA",
+          "x": 0.0,
+          "y": 31.558,
+          "w": 100.0,
+          "h": 13.167,
+          "precio": 152.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "DF63",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "DF80",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/LÁPIZ TÉRMICO, IBI CRAFT 15cm*3m - FUCSIA",
+          "x": 0.0,
+          "y": 47.013,
+          "w": 56.85,
+          "h": 13.097,
+          "precio": 152.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "DF80",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "E-101",
+          "nombre": "ROTULADORA C/DISCO DE LETRAS MAYÚSC.+ NÚMEROS Y CINTA DE REGALO",
+          "x": 56.85,
+          "y": 47.013,
+          "w": 43.15,
+          "h": 13.097,
+          "precio": 572.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "E-101",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AG19",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - TORNASOL ORO",
+          "x": 0.0,
+          "y": 68.114,
+          "w": 100.0,
+          "h": 6.322,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AG19",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "AS22",
+          "nombre": "ROLLO DE PAPEL TERMOTRANSF. \"FOIL PAPER\" APTO P/TÉCNICA LASER, IBI CRAFT 32cm*5m - TORNASOL PLATA",
+          "x": 0.0,
+          "y": 76.723,
+          "w": 100.0,
+          "h": 11.121,
+          "precio": 205.72,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "AS22",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 26,
       "imagen": "img/pages/ibi/pagina-026.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "657064",
+          "nombre": "ROLLO DE PAPEL TÉRMICO DE 57MM*4,5MTS, TRANSPARENTE AUTOADHESIVO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 46.85,
+          "h": 14.495,
+          "precio": 170.95,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657064",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065106",
+          "nombre": "SET DE 24 ETIQUETAS FOIL AUTOADHESIVAS IBI CRAFT EN 8 DISEÑOS - PACK \"TODAY\"",
+          "x": 46.85,
+          "y": 8.0,
+          "w": 53.15,
+          "h": 14.495,
+          "precio": 108.66,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065106",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "657060",
+          "nombre": "PACK C/3 ROLLOS DE PAPEL TÉRMICO DE 57MM*4,5MTS, 3 COLORES",
+          "x": 0.0,
+          "y": 27.958,
+          "w": 100.0,
+          "h": 6.181,
+          "precio": 152.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657060",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065102",
+          "nombre": "SET DE 24 ETIQUETAS FOIL AUTOADHESIVAS IBI CRAFT EN 8 DISEÑOS - PACK \"BEACH\"",
+          "x": 0.0,
+          "y": 36.427,
+          "w": 100.0,
+          "h": 9.003,
+          "precio": 108.66,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065102",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "657062",
+          "nombre": "PACK C/5 ROLLOS DE PAPEL TÉRMICO DE 57MM*3,0MTS, BLANCO AUTOADHESIVO",
+          "x": 0.0,
+          "y": 47.718,
+          "w": 100.0,
+          "h": 4.275,
+          "precio": 282.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657062",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "657050",
+          "nombre": "MINI IMPRESORA TÉRMICA PORTÁTIL IBI CRAFT, 200DPI, USB-C, BT, ROLLO TÉRMICO INC.",
+          "x": 0.0,
+          "y": 54.282,
+          "w": 45.95,
+          "h": 25.376,
+          "precio": 2158.64,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657050",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065100",
+          "nombre": "SET DE 24 ETIQUETAS FOIL AUTOADHESIVAS IBI CRAFT EN 8 DISEÑOS - PACK \"TO DO\"",
+          "x": 45.95,
+          "y": 54.282,
+          "w": 54.05,
+          "h": 25.376,
+          "precio": 108.66,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065100",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 27,
       "imagen": "img/pages/ibi/pagina-027.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "D11PRO",
+          "nombre": "MINI IMPRESORA TÉRMICA PORTÁTIL DE ETIQUETAS PIK DIK, 203DPI, USB-C, BT, ROLLO TÉRMICO INC.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 32.773,
+          "precio": 2013.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "D11PRO",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 28,
       "imagen": "img/pages/ibi/pagina-028.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "YOGAMAT020",
+          "nombre": "MAT PARA YOGA+ BOLSO (R) IBI CRAFT TENDANCE, 68x183cmx5mm, \"T.C.E.T.TEMPLO\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 17.388,
+          "precio": 2593.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "YOGAMATO20",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "YOGAMAT010",
+          "nombre": "MAT PARA YOGA+ BOLSO (N) IBI CRAFT TENDANCE, 68x183cmx5mm, \"CUERPO Y MENTE\"",
+          "x": 0.0,
+          "y": 27.676,
+          "w": 100.0,
+          "h": 28.34,
+          "precio": 2593.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "YOGAMATO10",
+          "_match_tier": "subs"
+        }
+      ]
     },
     {
       "paginaOriginal": 29,
       "imagen": "img/pages/ibi/pagina-029.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "970001",
+          "nombre": "TECLADO BLUETOOTH IBI CRAFT TENDANCE \"VINTAGE\", ANDROID, IOS, WIN, AAAx2, ROSA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 14.777,
+          "precio": 3614.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "970001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "970300",
+          "nombre": "FUNDA PARA NOTEBOOK DE 14\", POLIÉSTER COLOR CAMEL, CIERRE METÁLICO ROSE GOLD, C/BOLSILLOS",
+          "x": 0.0,
+          "y": 25.065,
+          "w": 100.0,
+          "h": 30.74,
+          "precio": 431.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "970300",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "970080",
+          "nombre": "MINI CARGADOR IBI CRAFT TENDANCE, 5000mAh, 10W, 2 EN 1, 3 COL.",
+          "x": 0.0,
+          "y": 58.092,
+          "w": 100.0,
+          "h": 9.568,
+          "precio": 576.6,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "970080",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 30,
       "imagen": "img/pages/ibi/pagina-030.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "650041",
+          "nombre": "IBI CRAFT, P/20 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 47.593,
+          "precio": 243.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650041",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "020012",
+          "nombre": "IBI CRAFT, 24/6 Y 26/6, CUERPO DE PLÁSTICO, 12,5 CMS",
+          "x": 0.0,
+          "y": 58.798,
+          "w": 100.0,
+          "h": 6.816,
+          "precio": 191.24,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "020012",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "127386",
+          "nombre": "CORTANTE, DISEÑO \"CAT PAW\" IBI CRAFT TENDANCE",
+          "x": 0.0,
+          "y": 67.902,
+          "w": 100.0,
+          "h": 8.439,
+          "precio": 69.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "127386",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "650040",
+          "nombre": "IBI CRAFT, 1 PERFORACIÓN, MINI, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 80.817,
+          "w": 100.0,
+          "h": 6.039,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "650040",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 31,
       "imagen": "img/pages/ibi/pagina-031.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "073135",
+          "nombre": "CALCULADORA IBI CRAFT TENDANCE, BIG DISPLAY 12 DÍGITOS, (152x132x31mm), 3 COLORES PASTEL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 17.882,
+          "precio": 463.6,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "073135",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "120100",
+          "nombre": "SET DE ESCRITORIO IBI CRAFT TENDANCE - OFFICE KIT, B&N",
+          "x": 0.0,
+          "y": 28.17,
+          "w": 100.0,
+          "h": 10.556,
+          "precio": 188.34,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "120100",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "073130",
+          "nombre": "CALCULADORA IBI CRAFT TENDANCE, BIG DISPLAY 12 DÍGITOS, (105x28x158mm), 3 COLORES PASTEL",
+          "x": 0.0,
+          "y": 41.014,
+          "w": 100.0,
+          "h": 9.145,
+          "precio": 398.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "073130",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "120104",
+          "nombre": "SET DE ESCRITORIO IBI CRAFT TENDANCE - OFFICE KIT, ROSA PASTEL",
+          "x": 0.0,
+          "y": 52.447,
+          "w": 100.0,
+          "h": 18.107,
+          "precio": 217.31,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "120104",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070085",
+          "nombre": "IBI CRAFT, CAJA C/2 BOLÍGRAFOS, TINTA AZUL, 1,0 mm, \"VINTAGE\"",
+          "x": 0.0,
+          "y": 72.842,
+          "w": 100.0,
+          "h": 13.026,
+          "precio": 118.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070085",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 32,
       "imagen": "img/pages/ibi/pagina-032.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "127602",
+          "nombre": "BASE PARA CORTE IBI CRAFT A3, (45x30cm), ROSADA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 62.75,
+          "h": 17.035,
+          "precio": 398.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "127602",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "126010",
+          "nombre": "JUEGO DE HERRAMIENTAS P/MANUALIDADES IBI CRAFT, 5 PIEZAS (PUNZÓN, GANCHO, ESPÁTULA, ESTILETES P/ REPUJADO)",
+          "x": 62.75,
+          "y": 8.0,
+          "w": 37.25,
+          "h": 17.035,
+          "precio": 492.57,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "126010",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "127700",
+          "nombre": "SET PLATAFORMA ROTATIVA (273*16MM) + BASE DE CORTE CIRCULAR (254*3MM) IBI CRAFT",
+          "x": 0.0,
+          "y": 29.793,
+          "w": 100.0,
+          "h": 12.461,
+          "precio": 811.3,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "127700",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 33,
       "imagen": "img/pages/ibi/pagina-033.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "127406",
+          "nombre": "CORTANTE ROTATIVO IBI CRAFT, 45 mm",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 11.883,
+          "precio": 239.04,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "127406",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "659025",
+          "nombre": "TABLERO CORTADOR DE BANDERINES IBI CRAFT, TRES ESTILOS",
+          "x": 0.0,
+          "y": 22.171,
+          "w": 50.525,
+          "h": 27.493,
+          "precio": 1006.88,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "659025",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065170",
+          "nombre": "PACK x 3 BLOCS DE NOTAS AUTOADH.REMOVIBLES IBI CRAFT, FANTASÍA \"RAINBOW\"",
+          "x": 50.525,
+          "y": 22.171,
+          "w": 49.475,
+          "h": 27.493,
+          "precio": 52.16,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065170",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "990800",
+          "nombre": "DELANTAL IBI CRAFT, GABARDINA ROSA, 72 x 70cm",
+          "x": 0.0,
+          "y": 54.14,
+          "w": 43.375,
+          "h": 19.236,
+          "precio": 1144.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "990800",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065174",
+          "nombre": "PACK x 5 BLOCS DE NOTAS AUTOADH.REMOVIBLES IBI CRAFT, FANTASÍA \"PAW\"",
+          "x": 43.375,
+          "y": 54.14,
+          "w": 56.625,
+          "h": 19.236,
+          "precio": 37.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065174",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 34,
       "imagen": "img/pages/ibi/pagina-034.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "600822",
+          "nombre": "IBI CRAFT, PAPELES ILUSTRADOS, 30x30CMS, 180GRS, BLOC C/24 HOJAS (DOBLE FAZ), SERIE \"LOVELY MOMENTS\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 34.678,
+          "precio": 405.65,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600822",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600835",
+          "nombre": "IBI CRAFT, PAPELES ILUSTRADOS, 20,3x20,3CMS, 180GRS, BLOC C/28 HOJAS (DOBLE FAZ), COLEC. MUY CUCÚ - \"VINTAGE\"",
+          "x": 0.0,
+          "y": 44.966,
+          "w": 47.85,
+          "h": 18.178,
+          "precio": 210.07,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600835",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600800",
+          "nombre": "IBI CRAFT, PAPELES ESPECIALES LIBRES DE ÁCIDO, TEÑIDOS EN SU PASTA, 30x30CMS, 180GRS, PACK C/36 HOJAS,6 COLORES PASTEL",
+          "x": 47.85,
+          "y": 44.966,
+          "w": 52.15,
+          "h": 18.178,
+          "precio": 347.7,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600800",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600802",
+          "nombre": "IBI CRAFT, PAPELES ESPECIALES LIBRES DE ÁCIDO, TEÑIDOS EN SU PASTA, 30x30CMS, 180GRS, PACK C/36 HOJAS,6 COLORES VIVOS",
+          "x": 0.0,
+          "y": 66.702,
+          "w": 100.0,
+          "h": 18.954,
+          "precio": 347.7,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600802",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 35,
       "imagen": "img/pages/ibi/pagina-035.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "652001",
+          "nombre": "KIT DE ROLLO DE CORDÓN NEGRO/BLANCO (100m) Y 30 ETIQUETAS KRAFT (35x70mm) IBI CRAFT",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 24.657,
+          "precio": 257.88,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "652001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600876",
+          "nombre": "IBI CRAFT, ACETATO ILUSTRADO, 30x30CMS, 0,30MM, SOBRE C/2 HOJAS, DISEÑO \"CORAZONES&PUNTOS\"",
+          "x": 0.0,
+          "y": 34.945,
+          "w": 100.0,
+          "h": 10.062,
+          "precio": 123.14,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600876",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600878",
+          "nombre": "IBI CRAFT, ACETATO ILUSTRADO, 30x30CMS, 0,30MM, SOBRE C/2 HOJAS, DISEÑO \"AMOR&MARIPOSAS\"",
+          "x": 0.0,
+          "y": 47.295,
+          "w": 100.0,
+          "h": 37.373,
+          "precio": 123.14,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600878",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 36,
       "imagen": "img/pages/ibi/pagina-036.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "900660",
+          "nombre": "IBI CRAFT, 10/16,5/21,5cms, SET x 3 TIJERAS CRAFTER MULTIUSO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 56.696,
+          "precio": 398.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "900660",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "900657",
+          "nombre": "IBI CRAFT, 16,5 cms, CUCHILLAS ACERADAS ANTIADHERENTES DE 4 CMS",
+          "x": 0.0,
+          "y": 67.055,
+          "w": 48.85,
+          "h": 9.427,
+          "precio": 470.84,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "900657",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "900835",
+          "nombre": "IBI CRAFT, \"3 EN 1\", CUCHILLAS DE ACERO INTERCAMBIABLES: CORTE ONDULADO, ZIGZAG CURVO, ZIGZAG RECTO",
+          "x": 48.85,
+          "y": 67.055,
+          "w": 51.15,
+          "h": 9.427,
+          "precio": 139.08,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "900835",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 37,
       "imagen": "img/pages/ibi/pagina-037.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "SIL30/24",
+          "nombre": "IBI CRAFT 30ml, EXH. 24 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 17.67,
+          "precio": 695.4,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "SIL30/24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SIL100/12",
+          "nombre": "IBI CRAFT 100ml, EXH. 12 UN.",
+          "x": 0.0,
+          "y": 27.958,
+          "w": 100.0,
+          "h": 16.625,
+          "precio": 747.55,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "SIL100/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "990500",
+          "nombre": "PISTOLA P/SILICONA IBI CRAFT, 30W, (INC. 2 BARRAS)",
+          "x": 0.0,
+          "y": 46.942,
+          "w": 100.0,
+          "h": 24.529,
+          "precio": 333.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "990500",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "990600",
+          "nombre": "BOLSA C/1 KG DE BARRAS DE SILICONA IBI CRAFT, 7.2 mm X 27 cm (81 BARRAS APROX.)",
+          "x": 0.0,
+          "y": 73.759,
+          "w": 53.45,
+          "h": 11.615,
+          "precio": 601.23,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "990600",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SIL500",
+          "nombre": "IBI CRAFT 500ml",
+          "x": 53.45,
+          "y": 73.759,
+          "w": 46.55,
+          "h": 11.615,
+          "precio": 268.02,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SIL500",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 38,
       "imagen": "img/pages/ibi/pagina-038.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "070218",
+          "nombre": "IBI CRAFT, EXH. C/36 BOLÍGRAFOS TWEENY, TINTA GEL AZUL BORRABLE, 0.5 mm, \"BURGER\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 34.05,
+          "h": 13.295,
+          "precio": 2173.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070218",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070510",
+          "nombre": "IBI CRAFT, ESTUCHE C/6 BOLÍGRAFOS TENDANCE \"PASTEL\" RETRÁCTIL, TINTA GEL, 0.7 mm,",
+          "x": 34.05,
+          "y": 8.0,
+          "w": 30.125,
+          "h": 13.295,
+          "precio": 182.54,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070510",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070222",
+          "nombre": "IBI CRAFT, EXH. C/36 BOLÍGRAFOS TWEENY, TINTA GEL AZUL BORRABLE, 0.5 mm, \"CUTE DONUT\"",
+          "x": 64.175,
+          "y": 8.0,
+          "w": 35.825,
+          "h": 13.295,
+          "precio": 2173.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070222",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070290",
+          "nombre": "IBI CRAFT, EXH. C/36 BOLÍGRAFOS TWEENY, TINTA GEL AZUL BORRABLE, 0.5 mm, \"ICE CREAM\"",
+          "x": 0.0,
+          "y": 28.382,
+          "w": 53.2,
+          "h": 14.579,
+          "precio": 2173.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070290",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070256",
+          "nombre": "IBI CRAFT, EXH. C/16 BOLÍGRAFOS TWEENY, TINTA GEL AZUL, 0.7 mm, \"BEAR POMPOM\"",
+          "x": 53.2,
+          "y": 28.382,
+          "w": 46.8,
+          "h": 14.579,
+          "precio": 1970.3,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070256",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070252",
+          "nombre": "IBI CRAFT, EXH. C/16 BOLÍGRAFOS TWEENY, TINTA GEL AZUL, 0.7 mm, \"CAT POMPOM\"",
+          "x": 0.0,
+          "y": 45.672,
+          "w": 100.0,
+          "h": 18.742,
+          "precio": 1970.3,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070252",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 39,
       "imagen": "img/pages/ibi/pagina-039.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "532200",
+          "nombre": "IBI CRAFT, LÁPIZ INFINITO TENDANCE + MINA ADICIONAL HB",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 7.367,
+          "precio": 104.31,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "532200",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "657066",
+          "nombre": "PACK C/4 ROLLOS DE PAPEL TÉRMICO DE 57MM*4,5MTS, BLANCO",
+          "x": 0.0,
+          "y": 17.655,
+          "w": 100.0,
+          "h": 15.355,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "657066",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "297003",
+          "nombre": "CAJA EXH. C/40 GOMAS DE BORRAR IBI CRAFT TWEENY \"ICE CREAM FACTORY\", DOS DISEÑOS",
+          "x": 0.0,
+          "y": 35.298,
+          "w": 100.0,
+          "h": 31.516,
+          "precio": 973.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "297003",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 40,
       "imagen": "img/pages/ibi/pagina-040.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "580001",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, SALMÓN C/VIOLETA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 41.25,
+          "h": 16.259,
+          "precio": 1144.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580002",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, VERDE BRILLANTE",
+          "x": 41.25,
+          "y": 8.0,
+          "w": 30.25,
+          "h": 16.259,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580002",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580003",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, ROSADO BRILLANTE",
+          "x": 71.5,
+          "y": 8.0,
+          "w": 28.5,
+          "h": 16.259,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580003",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580004",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, NEGRO BRILLANTE",
+          "x": 0.0,
+          "y": 26.9,
+          "w": 26.5,
+          "h": 12.673,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580004",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580005",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 42,0*32,0*15,0 cms, DORADA",
+          "x": 26.5,
+          "y": 26.9,
+          "w": 29.025,
+          "h": 12.673,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580005",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580110",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 43,0*30,0*14,0 cms, DINOS. GRIS",
+          "x": 55.525,
+          "y": 26.9,
+          "w": 44.475,
+          "h": 12.673,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580110",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580201",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, VERDE C/BEIGE+ROSA",
+          "x": 0.0,
+          "y": 44.402,
+          "w": 56.95,
+          "h": 9.568,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580201",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580202",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, GRIS C/AZUL",
+          "x": 56.95,
+          "y": 44.402,
+          "w": 43.05,
+          "h": 9.568,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580202",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580203",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, SALMÓN C/VERDE AZULADO",
+          "x": 0.0,
+          "y": 58.092,
+          "w": 55.35,
+          "h": 11.05,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580203",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580200",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, AZUL C/BEIGE",
+          "x": 55.35,
+          "y": 58.092,
+          "w": 44.65,
+          "h": 11.05,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580200",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580120",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 45,5*31,5*15,5 cms, ROSA",
+          "x": 0.0,
+          "y": 73.477,
+          "w": 53.05,
+          "h": 11.473,
+          "precio": 1434.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580120",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580180",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 46,0*30,0*16,0 cms, CELESTE",
+          "x": 53.05,
+          "y": 73.477,
+          "w": 46.95,
+          "h": 11.473,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580180",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 41,
       "imagen": "img/pages/ibi/pagina-041.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "076836",
+          "nombre": "EXHIBIDOR C/12 CARTUCHERAS IBI CRAFT TWEENY, 19,5x6,0x5,0 cms",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 16.471,
+          "precio": 1703.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076836",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076837",
+          "nombre": "CARTUCHERA TWEENY, 20,5x7,5x6,0 cms, NO BAD VIBES",
+          "x": 0.0,
+          "y": 26.759,
+          "w": 51.4,
+          "h": 4.275,
+          "precio": 214.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076837",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "970600",
+          "nombre": "LUNCHERA IBI CRAFT “KEEP FRESH”, POLIÉSTER ESTAMPADO, C/CIERRE Y ASAS REFORZADAS, 220×140×240 MM, AZUL",
+          "x": 51.4,
+          "y": 26.759,
+          "w": 27.0,
+          "h": 4.275,
+          "precio": 680.91,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "970600",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "970620",
+          "nombre": "LUNCHERA IBI CRAFT “KEEP FRESH”, POLIÉSTER ESTAMPADO, C/CIERRE Y ASAS REFORZADAS, 220×140×240 MM, ROSADA",
+          "x": 78.4,
+          "y": 26.759,
+          "w": 21.6,
+          "h": 4.275,
+          "precio": 680.91,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "970620",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076838",
+          "nombre": "CARTUCHERA TWEENY, 20,5x7,5x6,0 cms., THICK STRIPES",
+          "x": 0.0,
+          "y": 43.978,
+          "w": 53.975,
+          "h": 11.826,
+          "precio": 214.41,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076838",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076826",
+          "nombre": "CARTUCHERA IBI CRAFT, 19,0x10,0x10,0 cms, CIERRE METÁLICO, LIMÓN",
+          "x": 53.975,
+          "y": 43.978,
+          "w": 46.025,
+          "h": 11.826,
+          "precio": 224.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076826",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "80003",
+          "nombre": "CARTUCHERA TWEENY, 19,0x11,0x10,0 cms, ROSADO BRILLANTE",
+          "x": 0.0,
+          "y": 61.268,
+          "w": 42.85,
+          "h": 25.376,
+          "precio": 344.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "80003",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076825",
+          "nombre": "CARTUCHERA IBI CRAFT, 19,0x10,0x10,0 cms, CIERRE METÁLICO, LILA",
+          "x": 42.85,
+          "y": 61.268,
+          "w": 57.15,
+          "h": 25.376,
+          "precio": 224.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076825",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 42,
       "imagen": "img/pages/ibi/pagina-042.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "066120",
+          "nombre": "STICKER BOOK IBI CRAFT TWEENY, 26 HOJAS,+90 STICKERS, \"INTERIOR DESIGN\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 62.342,
+          "precio": 286.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "066120",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 43,
       "imagen": "img/pages/ibi/pagina-043.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "685036",
+          "nombre": "TABLERO ORGANIZADOR PERFORADO PEGBOARD IBI CRAFT (4 MÓDULOS 27x30cms+ACCS.)",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 29.597,
+          "precio": 1535.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "685036",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "658091",
+          "nombre": "SET DE 6 IMANES IBI CRAFT TENDANCE, DISEÑO \"DONUTS\"",
+          "x": 0.0,
+          "y": 39.885,
+          "w": 100.0,
+          "h": 15.143,
+          "precio": 318.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "658091",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "115200",
+          "nombre": "PLANIFICADOR SEMANAL IBI CRAFT, 52 HOJAS (166x210mm)+12 HOJAS (70x165mm) STICKERS",
+          "x": 0.0,
+          "y": 57.316,
+          "w": 43.8,
+          "h": 27.07,
+          "precio": 260.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "115200",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "115220",
+          "nombre": "PLANIFICADOR SEMANAL IBI CRAFT, 52 HOJAS (166x210mm)+12 HOJAS (70x165mm) STICKERS, COLEC. \"FLOWERS\"",
+          "x": 43.8,
+          "y": 57.316,
+          "w": 56.2,
+          "h": 27.07,
+          "precio": 260.77,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "115220",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 44,
       "imagen": "img/pages/ibi/pagina-044.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "116100",
+          "nombre": "TAPA DURA, A4, 96H. C/ESP. IBI CRAFT, \"GOOD VIBES ONLY\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 56.7,
+          "h": 33.902,
+          "precio": 253.53,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "116100",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "115180",
+          "nombre": "TAPA SOFT, 146x214mm, 80H., C/ESP., IBI CRAFT, \"PINK WOMAN\"",
+          "x": 56.7,
+          "y": 8.0,
+          "w": 43.3,
+          "h": 33.902,
+          "precio": 224.56,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "115180",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "116110",
+          "nombre": "TAPA DURA, A4, 96H. C/ESP. IBI CRAFT, \"MAKE GREAT DAYS\"",
+          "x": 0.0,
+          "y": 46.872,
+          "w": 100.0,
+          "h": 15.073,
+          "precio": 253.53,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "116110",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 45,
       "imagen": "img/pages/ibi/pagina-045.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "1722COL/12",
+          "nombre": "CAJA C/12 CUADERNOS IBI CRAFT \"COLORS\", TAPA DURA, 177x220mm, C/ESP., 150H.Y BOLSILLO",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 30.303,
+          "precio": 3042.38,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "1722C0L/12",
+          "_match_tier": "subs"
+        },
+        {
+          "codigo": "115175",
+          "nombre": "TAPA DURA, 160x220mm, 80H.(40L.+40P.), C/ESP. IBI CRAFT COLEC.CREATIVA \"MIS PROYECTOS\"",
+          "x": 0.0,
+          "y": 40.591,
+          "w": 100.0,
+          "h": 46.336,
+          "precio": 243.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "115175",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 46,
       "imagen": "img/pages/ibi/pagina-046.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "3964",
+          "nombre": "IBI CRAFT A4, PLÁSTICA C/ELÁSTICO, \"LOVE\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 20.14,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "3964",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076575",
+          "nombre": "IBI CRAFT 240x330mm, C/13 DIVISIONES, PORTA DOCUMENTOS, \"FLOWERS\"",
+          "x": 0.0,
+          "y": 30.428,
+          "w": 59.5,
+          "h": 23.188,
+          "precio": 286.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076575",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076574",
+          "nombre": "IBI CRAFT 240x330mm, C/13 DIVISIONES, PORTA DOCUMENTOS, \"LOVE IS IN THE AIR\"",
+          "x": 59.5,
+          "y": 30.428,
+          "w": 40.5,
+          "h": 23.188,
+          "precio": 286.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076574",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076393",
+          "nombre": "IBI CRAFT 243x330mm, C/13 DIVISIONES, PORTA DOCUMENTOS, SIMIL CUERO BLANCO",
+          "x": 0.0,
+          "y": 58.939,
+          "w": 57.175,
+          "h": 26.858,
+          "precio": 847.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076393",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076568",
+          "nombre": "IBI CRAFT 145x220mm, C/6 DIVISIONES, PORTA DOCS., COLEC. \"CREATIVA\"",
+          "x": 57.175,
+          "y": 58.939,
+          "w": 42.825,
+          "h": 26.858,
+          "precio": 333.21,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076568",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 47,
       "imagen": "img/pages/ibi/pagina-047.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "076806/12",
+          "nombre": "IBI CRAFT, SOBRE PORTADOCUMENTOS C/BROCHE 24x33cm, \"MY SWEET PUPPY DOG\", PACK 12 UN.",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 5.673,
+          "precio": 556.32,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "076806/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076807/12",
+          "nombre": "IBI CRAFT, SOBRE PORTADOCUMENTOS C/BROCHE 24x33cm, \"LOVE IS IN THE AIR\", PACK 12 UN.",
+          "x": 0.0,
+          "y": 15.961,
+          "w": 100.0,
+          "h": 13.449,
+          "precio": 556.32,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "076807/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "120226",
+          "nombre": "IBI CRAFT 230x320mm., PADFOLIO DE CIERRE ELÁSTICO C/APRETADOR Y BLOC A4 60H., \"T.I.J.T.BEGINNING\"",
+          "x": 0.0,
+          "y": 31.699,
+          "w": 100.0,
+          "h": 12.532,
+          "precio": 376.67,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "120226",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076808/12",
+          "nombre": "IBI CRAFT, SOBRE PORTADOCUMENTOS C/BROCHE 24x33cm, \"FREE SPIRIT\", PACK 12 UN.",
+          "x": 0.0,
+          "y": 48.071,
+          "w": 100.0,
+          "h": 10.627,
+          "precio": 556.32,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "076808/12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076816",
+          "nombre": "IBI CRAFT, SOBRES PORTADOCUMENTOS C/BROCHE 24x33cm, 5 MOTIVOS, CAJA EXH. SURTIDA C/30 UNS.",
+          "x": 0.0,
+          "y": 60.986,
+          "w": 100.0,
+          "h": 15.284,
+          "precio": 1390.8,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076816",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 48,
       "imagen": "img/pages/ibi/pagina-048.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "841307",
+          "nombre": "SET DE SELLOS SILICONADOS CRISTAL P/BASE ACRÍLICA IBI CRAFT, 14 PIEZAS SERIE \"CORREO BONITO\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 13.295,
+          "precio": 108.66,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "841307",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "659315",
+          "nombre": "SELLO DE ESTAMPADO EN CERA, C/2 DISEÑOS: ESTAMPILLAS IBI CRAFT, CORREO BONITO - COLEC. \"MUY CUCÚ\"",
+          "x": 0.0,
+          "y": 23.583,
+          "w": 100.0,
+          "h": 17.895,
+          "precio": 492.57,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "659315",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600870",
+          "nombre": "IBI CRAFT, PAPEL VEGETAL ILUSTRADO, 15x20CMS, 96GRS, SOBRE C/8 HOJAS, CORREO BONITO - COLEC. \"MUY CUCÚ\"",
+          "x": 0.0,
+          "y": 43.766,
+          "w": 100.0,
+          "h": 16.202,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600870",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 49,
       "imagen": "img/pages/ibi/pagina-049.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "841407",
+          "nombre": "SET DE SELLOS SILICONADOS CRISTAL P/BASE ACRÍLICA IBI CRAFT, 10 PIEZAS SERIE \"MIX VINTAGE1\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 28.115,
+          "precio": 89.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "841407",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065280",
+          "nombre": "BLOC CON 20 HOJAS (12x23CMS) DE STICKERS AUTOADHESIVOS IBI CRAFT, COLEC.MUY CUCÚ - \"VINTAGE\"",
+          "x": 0.0,
+          "y": 38.403,
+          "w": 100.0,
+          "h": 17.401,
+          "precio": 128.94,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065280",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600875",
+          "nombre": "IBI CRAFT, PAPEL VEGETAL ILUSTRADO, 20x20CMS, 96GRS, SOBRE C/8 HOJAS, COLEC. MUY CUCÚ - \"VINTAGE\"",
+          "x": 0.0,
+          "y": 58.092,
+          "w": 100.0,
+          "h": 30.598,
+          "precio": 159.36,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600875",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 50,
       "imagen": "img/pages/ibi/pagina-050.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "841409",
+          "nombre": "SET DE SELLOS SILICONADOS CRISTAL P/BASE ACRÍLICA IBI CRAFT, 12 PIEZAS SERIE \"TRAVEL\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 39.625,
+          "h": 12.166,
+          "precio": 108.66,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "841409",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "55776",
+          "nombre": "IBI CRAFT, WASHI TAPE, 25MMx4MTS.x 2 UN.+ 8MMx4MTS.x 3 UN., SERIE TRAVEL",
+          "x": 39.625,
+          "y": 8.0,
+          "w": 60.375,
+          "h": 12.166,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "55776",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600879",
+          "nombre": "IBI CRAFT, PAPEL VEGETAL ILUSTRADO, 15x20CMS, 96GRS, SOBRE C/2 HOJAS, SERIE TRAVEL",
+          "x": 0.0,
+          "y": 24.289,
+          "w": 100.0,
+          "h": 13.591,
+          "precio": 65.19,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600879",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065190",
+          "nombre": "SET DE 2 HOJAS (16x23CMS) C/40 STICKERS AUTOADHESIVOS IBI CRAFT, SERIE TRAVEL",
+          "x": 0.0,
+          "y": 40.167,
+          "w": 100.0,
+          "h": 4.557,
+          "precio": 50.71,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065190",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600840",
+          "nombre": "IBI CRAFT, PAPEL CRAFT ILUSTRADO, 15x11CMS, 230GRS, SOBRE C/14 HOJAS (4 DOBLE FAZ), COLEC. \"TRAVEL\"",
+          "x": 0.0,
+          "y": 47.013,
+          "w": 30.65,
+          "h": 11.685,
+          "precio": 94.17,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600840",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "SR12TR",
+          "nombre": "SELLO ROTATIVO IBI CRAFT C/12 DISEÑOS Y ALMOHADILLA - SERIE \"TRAVEL\"",
+          "x": 30.65,
+          "y": 47.013,
+          "w": 28.45,
+          "h": 11.685,
+          "precio": 202.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "SR12TR",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600882",
+          "nombre": "SET DE 45 TROQUELES ILUSTRADOS IBI CRAFT COLECCIÓN \"TRAVEL\"",
+          "x": 59.1,
+          "y": 47.013,
+          "w": 40.9,
+          "h": 11.685,
+          "precio": 98.52,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600882",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "656008",
+          "nombre": "CAJA IBI CRAFT \"TRAVEL BOX\", C/11 PRODUCTOS P/SCRAPBOOKING",
+          "x": 0.0,
+          "y": 64.303,
+          "w": 100.0,
+          "h": 13.52,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "656008",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 51,
       "imagen": "img/pages/ibi/pagina-051.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "658033",
+          "nombre": "TROQUEL DE CORTE, FORMAS SERIE SUMMER DREAMS (8 PIEZAS) P/MÁQ. TROQUELADORA DE 3\" Y 6\" IBI CRAFT",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 26.492,
+          "precio": 376.68,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "658033",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600872",
+          "nombre": "IBI CRAFT, PAPEL VEGETAL ILUSTRADO, 15x20CMS, 96GRS, SOBRE C/8 HOJAS, COLEC. MIL SUEÑOS DE PAPEL - \"SUMMER DREAMS\"",
+          "x": 0.0,
+          "y": 36.78,
+          "w": 47.425,
+          "h": 12.673,
+          "precio": 137.63,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600872",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "065195",
+          "nombre": "SET DE 2 HOJAS (16x23CMS) C/18 CALCOMANÍAS AUTOADHESIVAS IBI CRAFT, SERIE SUMMER DREAMS",
+          "x": 47.425,
+          "y": 36.78,
+          "w": 52.575,
+          "h": 12.673,
+          "precio": 55.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "065195",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "600823",
+          "nombre": "IBI CRAFT, PAPELES ILUSTRADOS, 30x30CMS, 180GRS, BLOC C/24 HOJAS + 4 RECORTABLES , SERIE \"SUMMER DREAMS\"",
+          "x": 0.0,
+          "y": 54.776,
+          "w": 100.0,
+          "h": 13.308,
+          "precio": 405.65,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600823",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "656011",
+          "nombre": "BOLSA DE MANO IBI CRAFT \"HELLO SUMMER\", POLYESTER+ALGODÓN, (360x320mm)",
+          "x": 0.0,
+          "y": 70.372,
+          "w": 100.0,
+          "h": 18.531,
+          "precio": 257.88,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "656011",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 52,
       "imagen": "img/pages/ibi/pagina-052.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "076569",
+          "nombre": "IBI CRAFT 235x330mm, C/6 DIVISIONES, PORTA DOCUMENTOS, COLEC. \"FLOWERS\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 52.039,
+          "precio": 499.82,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076569",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "076575",
+          "nombre": "IBI CRAFT 240x330mm, C/13 DIVISIONES, PORTA DOCUMENTOS, \"FLOWERS\"",
+          "x": 0.0,
+          "y": 62.327,
+          "w": 100.0,
+          "h": 18.389,
+          "precio": 286.85,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "076575",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 53,
       "imagen": "img/pages/ibi/pagina-053.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "115175",
+          "nombre": "TAPA DURA, 160x220mm, 80H.(40L.+40P.), C/ESP. IBI CRAFT COLEC.CREATIVA \"MIS PROYECTOS\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 27.762,
+          "precio": 243.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "115175",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "900675",
+          "nombre": "IBI CRAFT, 22,8 cms, \"CREATIVA\", P/CRAFTERS, CUCHILLAS DORADAS DE ACERO",
+          "x": 0.0,
+          "y": 38.05,
+          "w": 100.0,
+          "h": 32.645,
+          "precio": 431.73,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "900675",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 54,
       "imagen": "img/pages/ibi/pagina-054.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "600889",
+          "nombre": "IBI CRAFT, PAPEL POSTAL ILUSTRADO, 15x10CMS, 250GRS, SOBRE C/6 HOJAS, COLEC. \"SUEÑOS DE NAVIDAD\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 48.44,
+          "precio": 99.96,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "600889",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 55,
       "imagen": "img/pages/ibi/pagina-055.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "664100",
+          "nombre": "MINI PLANCHA P/SUBLIMAR IBI CRAFT TENDANCE (300W, 4 NIVELES)",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 16.259,
+          "precio": 2738.14,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "664100",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "625154",
+          "nombre": "SOBRE C/10 HOJAS 30,5x30,5cm + TRANSFER DE VINILOS AUTOADH. IBI CRAFT, COLORES METALIZADOS",
+          "x": 0.0,
+          "y": 26.547,
+          "w": 100.0,
+          "h": 35.609,
+          "precio": 282.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "625154",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 56,
       "imagen": "img/pages/ibi/pagina-056.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "CADXMATLOW12",
+          "nombre": "TAPETE DE CORTE 30 X 30 CM ADHESIVO BAJO BROTHER P/SDX125/SDX225 U$S",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 12.175,
+          "h": 65.73,
+          "precio": 42.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXMATLOW12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXMATLOW24",
+          "nombre": "TAPETE DE CORTE 30 X 60 CM ADHESIVO BAJO BROTHER P/SDX125/SDX225 U$S",
+          "x": 12.175,
+          "y": 8.0,
+          "w": 0.15,
+          "h": 65.73,
+          "precio": 68.09,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXMATLOW24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXMATSTD12",
+          "nombre": "TAPETE DE CORTE 30 X 30 CM ADHESIVO ESTÁNDAR BROTHER P/SDX125/SDX225 U$S",
+          "x": 12.325,
+          "y": 8.0,
+          "w": 0.15,
+          "h": 65.73,
+          "precio": 42.01,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXMATSTD12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXMATSTD24",
+          "nombre": "TAPETE DE CORTE 30 X 60 CM ADHESIVO ESTÁNDAR BROTHER P/SDX125/SDX225 U$S",
+          "x": 12.475,
+          "y": 8.0,
+          "w": 0.525,
+          "h": 65.73,
+          "precio": 68.09,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXMATSTD24",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXMATF12",
+          "nombre": "TAPETE DE CORTE 30 X 30 CM BROTHER P/TELA FINA P/SDX125/SDX225 U$S",
+          "x": 13.0,
+          "y": 8.0,
+          "w": 0.7,
+          "h": 65.73,
+          "precio": 59.4,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXMATF12",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXBLDQ1",
+          "nombre": "CUCHILLA AUTOMÁTICA BROTHER P/TELA FINA P/SDX125/SDX225 U$S",
+          "x": 13.7,
+          "y": 8.0,
+          "w": 0.5,
+          "h": 65.73,
+          "precio": 28.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXBLDQ1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXBLD1",
+          "nombre": "CUCHILLA DE CORTE AUTOMÁTICA BROTHER P/SDX125/SDX225 U$S",
+          "x": 14.2,
+          "y": 8.0,
+          "w": 22.7,
+          "h": 65.73,
+          "precio": 28.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXBLD1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXSNCLNK1",
+          "nombre": "PLUGIN BROTHER SCANNCUT LINK P/ILLUSTRATOR P/SDX125/SDX225 U$S",
+          "x": 36.9,
+          "y": 8.0,
+          "w": 22.8,
+          "h": 65.73,
+          "precio": 86.92,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXSNCLNK1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXVBKIT1",
+          "nombre": "KIT DE CUCHILLA AUTOMÁTICA BROTHER P/ VINILO P/SDX125/SDX225 U$S",
+          "x": 59.7,
+          "y": 8.0,
+          "w": 0.525,
+          "h": 65.73,
+          "precio": 113.0,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXVBKIT1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXBLDV1",
+          "nombre": "CUCHILLA AUTOMÁTICA BROTHER P/VINILO P/SDX125/SDX225 U$S",
+          "x": 60.225,
+          "y": 8.0,
+          "w": 0.25,
+          "h": 65.73,
+          "precio": 28.98,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXBLDV1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CAUNIPHL1",
+          "nombre": "SOPORTE UNIVERSAL P/FIBRAS Y LÁPICES BROTHER COMPATIBLE CON SCANNCUT P/SDX125/SDX225 U$S",
+          "x": 60.475,
+          "y": 8.0,
+          "w": 0.6,
+          "h": 65.73,
+          "precio": 30.42,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CAUNIPHL1",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CADXRF2",
+          "nombre": "ALIMENTADOR AUTOMÁTICO DE VINILO EN ROLLO BROTHER P/SDX125/SDX225 U$S",
+          "x": 61.075,
+          "y": 8.0,
+          "w": 0.7,
+          "h": 65.73,
+          "precio": 105.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CADXRF2",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "CABRY1",
+          "nombre": "RODILLO BROTHER P/ADHERIR MATERIAL A TAPETE DE CORTE U$S",
+          "x": 61.775,
+          "y": 8.0,
+          "w": 38.225,
+          "h": 65.73,
+          "precio": 33.32,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "CABRY1",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 106,
       "imagen": "img/pages/varios/pagina-106.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "580110",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 43,0*30,0*14,0 cms, DINOS. GRIS",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 30.287,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580110",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580120",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 45,5*31,5*15,5 cms, ROSA",
+          "x": 0.0,
+          "y": 40.576,
+          "w": 100.0,
+          "h": 8.594,
+          "precio": 1434.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580120",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580160",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 46,0*30,0*16,0 cms, MELÓN",
+          "x": 0.0,
+          "y": 51.53,
+          "w": 100.0,
+          "h": 25.484,
+          "precio": 1434.26,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580160",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580180",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 46,0*30,0*16,0 cms, CELESTE",
+          "x": 0.0,
+          "y": 79.445,
+          "w": 100.0,
+          "h": 5.555,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580180",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 107,
       "imagen": "img/pages/varios/pagina-107.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "580001",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, SALMÓN C/VIOLETA",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 28.45,
+          "h": 24.916,
+          "precio": 1144.51,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580001",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580002",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, VERDE BRILLANTE",
+          "x": 28.45,
+          "y": 8.0,
+          "w": 29.6,
+          "h": 24.916,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580002",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580003",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, ROSADO BRILLANTE",
+          "x": 58.05,
+          "y": 8.0,
+          "w": 41.95,
+          "h": 24.916,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580003",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580004",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*33,0*15,0 cms, NEGRO BRILLANTE",
+          "x": 0.0,
+          "y": 35.346,
+          "w": 29.05,
+          "h": 25.626,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580004",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580005",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 42,0*32,0*15,0 cms, DORADA",
+          "x": 29.05,
+          "y": 35.346,
+          "w": 29.3,
+          "h": 25.626,
+          "precio": 1289.39,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580005",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580200",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, AZUL C/BEIGE",
+          "x": 58.35,
+          "y": 35.346,
+          "w": 41.65,
+          "h": 25.626,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580200",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580201",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, VERDE C/BEIGE+ROSA",
+          "x": 0.0,
+          "y": 63.332,
+          "w": 28.1,
+          "h": 24.707,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580201",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580202",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, GRIS C/AZUL",
+          "x": 28.1,
+          "y": 63.332,
+          "w": 34.75,
+          "h": 24.707,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580202",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "580203",
+          "nombre": "MOCHILA TWEENY, POLIESTER, 44,0*31,5*13,5 cms, SALMÓN C/VERDE AZULADO",
+          "x": 62.85,
+          "y": 63.332,
+          "w": 37.15,
+          "h": 24.707,
+          "precio": 854.76,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "580203",
+          "_match_tier": "exact"
+        }
+      ]
     },
     {
       "paginaOriginal": 108,
       "imagen": "img/pages/varios/pagina-108.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "070218",
+          "nombre": "IBI CRAFT, EXH. C/36 BOLÍGRAFOS TWEENY, TINTA GEL AZUL BORRABLE, 0.5 mm, \"BURGER\"",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 18.725,
+          "h": 22.442,
+          "precio": 2173.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070218",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070220",
+          "nombre": "IBI CRAFT, EXH. C/36 BOLÍGRAFOS TWEENY, TINTA GEL AZUL BORRABLE, 0.5 mm, \"CAT'S PAW\"",
+          "x": 18.725,
+          "y": 8.0,
+          "w": 28.975,
+          "h": 22.442,
+          "precio": 2173.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070220",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070222",
+          "nombre": "IBI CRAFT, EXH. C/36 BOLÍGRAFOS TWEENY, TINTA GEL AZUL BORRABLE, 0.5 mm, \"CUTE DONUT\"",
+          "x": 47.7,
+          "y": 8.0,
+          "w": 52.3,
+          "h": 22.442,
+          "precio": 2173.12,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070222",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070252",
+          "nombre": "IBI CRAFT, EXH. C/16 BOLÍGRAFOS TWEENY, TINTA GEL AZUL, 0.7 mm, \"CAT POMPOM\"",
+          "x": 0.0,
+          "y": 34.074,
+          "w": 40.55,
+          "h": 22.87,
+          "precio": 1970.3,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070252",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070254",
+          "nombre": "IBI CRAFT, EXH. C/16 BOLÍGRAFOS TWEENY, TINTA GEL AZUL, 0.7 mm, \"COW POMPOM\"",
+          "x": 40.55,
+          "y": 34.074,
+          "w": 25.5,
+          "h": 22.87,
+          "precio": 1970.3,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070254",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "070256",
+          "nombre": "IBI CRAFT, EXH. C/16 BOLÍGRAFOS TWEENY, TINTA GEL AZUL, 0.7 mm, \"BEAR POMPOM\"",
+          "x": 66.05,
+          "y": 34.074,
+          "w": 33.95,
+          "h": 22.87,
+          "precio": 1970.3,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "070256",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "P2580/40",
+          "nombre": "PRESTIGE, EXH. C/40 PORTAMINAS 2580, CUERPO TRIANGULAR, PUNTA RETRÁCTIL, 0.5mm",
+          "x": 0.0,
+          "y": 59.516,
+          "w": 100.0,
+          "h": 28.877,
+          "precio": 1014.12,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "P2580/40",
+          "_match_tier": "exact"
+        }
+      ]
     }
   ]
 }
