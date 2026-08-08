@@ -330,6 +330,17 @@
           "modalidad": "unidad",
           "nombre": "PILOT ACROBALL, RETRÁCTIL, 1.0 mm",
           "producto": "boligrafos"
+        },
+        {
+          "codigo": "BRFN-10",
+          "x": 54.296875,
+          "y": 79.33929895343023,
+          "w": 44.375,
+          "h": 15.669235676477186,
+          "precio": 91,
+          "modalidad": "unidad",
+          "nombre": "REPUESTO P/BOLÍGRAFO MR",
+          "producto": "tinta"
         }
       ],
       "tapados": [
