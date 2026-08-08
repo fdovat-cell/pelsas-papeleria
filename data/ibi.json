@@ -20,9 +20,9 @@
           "y": 8.661612680909718,
           "w": 30.356250000000003,
           "h": 18.689332184700206,
-          "precio": 86.92,
+          "precio": 87,
           "modalidad": "unidad",
-          "producto": null,
+          "producto": "ibi-craft",
           "_ocr_raw": "55782",
           "_match_tier": "exact"
         },
@@ -106,13 +106,12 @@
         {
           "codigo": "55780",
           "nombre": "IBI CRAFT, WASHI TAPE, 15MMx5MTS, PACK x 3 UN., TONOS B&N",
-          "x": 0,
+          "x": 0.9375,
           "y": 60.845,
-          "w": 49.475,
-          "h": 12.744,
+          "w": 48.5375,
+          "h": 16.052063404548587,
           "precio": 115.9,
           "modalidad": "unidad",
-          "producto": null,
           "_ocr_raw": "55780",
           "_match_tier": "exact"
         },
