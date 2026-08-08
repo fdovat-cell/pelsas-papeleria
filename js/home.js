@@ -65,38 +65,112 @@ async function cargarCategorias(){
 }
 
 // Buscador predictivo: recorre los data/*.json de todas las categorías
-// y busca coincidencia por código de producto. El nombre real de cada
-// producto se suma cuando calibremos (por ahora busca solo por código).
+// y busca coincidencia por código, nombre, marca o tipo de producto
+// (Bolígrafos, Lapiceras, etc). Si lo que escribís matchea un tipo de
+// producto entero (con o sin marca), aparece arriba de todo un acceso
+// directo para ver esa categoría completa en la pantalla superpuesta.
 async function inicializarBuscador(categorias){
   const input = document.getElementById('searchInput');
   const results = document.getElementById('searchResults');
   let indice = null;
+  let tiposProducto = [];
 
   async function construirIndice(){
     if(indice) return indice;
+
+    try{
+      const resTipos = await fetch('data/tipos-producto.json', { cache: 'no-store' });
+      tiposProducto = await resTipos.json();
+    }catch(e){
+      tiposProducto = [];
+    }
+    const tipoPorKey = {};
+    tiposProducto.forEach(t => tipoPorKey[t.key] = t.nombre);
+
     indice = [];
     for(const c of categorias){
       const res = await fetch(c.archivo, { cache: 'no-store' });
       const data = await res.json();
       data.paginas.forEach(p => {
         p.productos.forEach(prod => {
-          indice.push({ codigo: prod.codigo, nombre: prod.nombre || '', categoria: c.nombre, catKey: c.key, pagina: p.paginaOriginal });
+          indice.push({
+            codigo: prod.codigo,
+            nombre: prod.nombre || '',
+            marcaNombre: c.nombre,
+            marcaKey: c.key,
+            tipoKey: prod.producto || '',
+            tipoNombre: prod.producto ? (tipoPorKey[prod.producto] || '') : '',
+            pagina: p.paginaOriginal
+          });
         });
       });
     }
     return indice;
   }
 
+  // Busca, entre los tipos de producto conocidos, si alguno matchea
+  // exactamente alguna de las palabras escritas (ignorando plural simple y acentos).
+  function normalizar(s){
+    return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/s$/, '');
+  }
+
+  function detectarTipoYMarca(tokens, categorias){
+    let tipoDetectado = null;
+    let marcaDetectada = null;
+    tokens.forEach(tok => {
+      const tokN = normalizar(tok);
+      if(!tipoDetectado){
+        const t = tiposProducto.find(t => normalizar(t.nombre) === tokN || normalizar(t.key) === tokN);
+        if(t) tipoDetectado = t;
+      }
+      if(!marcaDetectada){
+        const m = categorias.find(c => normalizar(c.nombre) === tokN || normalizar(c.key) === tokN);
+        if(m) marcaDetectada = m;
+      }
+    });
+    return { tipoDetectado, marcaDetectada };
+  }
+
   input.addEventListener('focus', construirIndice);
 
   input.addEventListener('input', async ()=>{
-    const q = input.value.trim().toLowerCase();
-    if(!q){ results.classList.remove('show'); return; }
+    const qOriginal = input.value.trim();
+    if(!qOriginal){ results.classList.remove('show'); return; }
+
     const data = await construirIndice();
-    const found = data.filter(p => p.codigo.toLowerCase().includes(q) || p.nombre.toLowerCase().includes(q));
-    results.innerHTML = found.length
-      ? found.map(p => `<a href="catalogo.html?cat=${p.catKey}&pagina=${p.pagina}">${p.nombre ? p.nombre + ' — ' : ''}${p.categoria} <span class="sr-code">${p.codigo}</span></a>`).join('')
-      : `<div class="search-empty">Sin resultados (todavía no hay productos calibrados con ese código o nombre)</div>`;
+    const tokens = qOriginal.toLowerCase().split(/\s+/).filter(Boolean);
+
+    const { tipoDetectado, marcaDetectada } = detectarTipoYMarca(tokens, categorias);
+
+    // Acceso directo arriba del todo si detectamos un tipo de producto completo
+    let accesoDirectoHtml = '';
+    if(tipoDetectado){
+      const params = new URLSearchParams();
+      params.set('abrirTipo', tipoDetectado.key);
+      if(marcaDetectada) params.set('soloMarca', marcaDetectada.key);
+      const catParaAbrir = marcaDetectada ? marcaDetectada.key : categorias[0].key;
+      const titulo = marcaDetectada
+        ? `Ver todos los ${tipoDetectado.nombre} de ${marcaDetectada.nombre}`
+        : `Ver todos los ${tipoDetectado.nombre} (todas las marcas)`;
+      accesoDirectoHtml = `<a class="search-acceso-directo" href="catalogo.html?cat=${catParaAbrir}&${params.toString()}">🔎 ${titulo}</a>`;
+    }
+
+    // Resultados individuales: cada palabra escrita tiene que matchear
+    // en ALGÚN campo (código, nombre, marca o tipo), sin importar cuál.
+    const found = data.filter(p => tokens.every(tok =>
+      p.codigo.toLowerCase().includes(tok) ||
+      p.nombre.toLowerCase().includes(tok) ||
+      p.marcaNombre.toLowerCase().includes(tok) ||
+      p.tipoNombre.toLowerCase().includes(tok)
+    ));
+
+    const LIMITE = 25;
+    const listaHtml = found.length
+      ? found.slice(0, LIMITE).map(p => `<a href="catalogo.html?cat=${p.marcaKey}&pagina=${p.pagina}">${p.nombre ? p.nombre + ' — ' : ''}${p.marcaNombre} <span class="sr-code">${p.codigo}</span></a>`).join('')
+      : (accesoDirectoHtml ? '' : `<div class="search-empty">Sin resultados</div>`);
+    const notaMas = found.length > LIMITE ? `<div class="search-mas">Mostrando los primeros ${LIMITE} de ${found.length}</div>` : '';
+
+    results.innerHTML = accesoDirectoHtml + listaHtml + notaMas;
     results.classList.add('show');
   });
 
