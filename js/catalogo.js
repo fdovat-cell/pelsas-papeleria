@@ -38,6 +38,7 @@ async function cargarCatalogo(){
   const data = await res.json();
 
   const contenedor = document.getElementById('paginas');
+  const _productosHotspot = []; // mismo orden que los .hotspot en el DOM, para abrir el detalle por índice
 
   contenedor.innerHTML = data.paginas.map(p => `
     <div class="pagina-wrap" data-pagina="${p.paginaOriginal}">
@@ -45,19 +46,30 @@ async function cargarCatalogo(){
       ${(p.tapados || []).map(t => `
         <div class="tapado" style="left:${t.x}%; top:${t.y}%; width:${t.w}%; height:${t.h}%;"></div>
       `).join('')}
-      ${p.productos.filter(prod => prod.precio).map(prod => `
-        <div class="hotspot"
-             style="left:${prod.x}%; top:${prod.y}%; width:${prod.w}%; height:${prod.h}%;"
-             data-codigo="${prod.codigo}"
-             data-nombre="${prod.nombre || ''}"
-             data-precio="${prod.precio}"
-             data-modalidad="${prod.modalidad || 'unidad'}">
-          <span class="precio-chip">
-            ${prod.modalidad && prod.modalidad !== 'unidad' && prod.precioRef ? `<span class="precio-ref">$${prod.precioRef} c/u</span>` : ''}
-            <span class="precio-principal">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' /' + prod.modalidad : ''}</span>
-          </span>
-        </div>
-      `).join('')}
+      ${p.productos.filter(prod => prod.precio).map(prod => {
+        _productosHotspot.push({
+          codigo: prod.codigo,
+          nombre: prod.nombre || `Producto ${prod.codigo}`,
+          precio: prod.precio,
+          modalidad: prod.modalidad || 'unidad',
+          precioRef: prod.precioRef,
+          marca: meta.nombre,
+          imagenPagina: p.imagen,
+          x: prod.x, y: prod.y, w: prod.w, h: prod.h
+        });
+        return `
+      <div class="hotspot"
+           style="left:${prod.x}%; top:${prod.y}%; width:${prod.w}%; height:${prod.h}%;"
+           data-codigo="${prod.codigo}"
+           data-nombre="${prod.nombre || ''}"
+           data-precio="${prod.precio}"
+           data-modalidad="${prod.modalidad || 'unidad'}">
+        <span class="precio-chip">
+          ${prod.modalidad && prod.modalidad !== 'unidad' && prod.precioRef ? `<span class="precio-ref">$${prod.precioRef} c/u</span>` : ''}
+          <span class="precio-principal">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' /' + prod.modalidad : ''}</span>
+        </span>
+      </div>`;
+      }).join('')}
     </div>
   `).join('');
 
@@ -67,23 +79,13 @@ async function cargarCatalogo(){
   const banner = document.getElementById('hintBanner');
   if(!yaSabe) banner.style.display = 'flex';
 
-  contenedor.querySelectorAll('.hotspot').forEach(el => {
+  contenedor.querySelectorAll('.hotspot').forEach((el, i) => {
     el.addEventListener('click', () => {
       if(!localStorage.getItem('pp_sabe_tocar')){
         localStorage.setItem('pp_sabe_tocar', '1');
         banner.style.display = 'none';
       }
-      const nombre = el.dataset.nombre || `Producto ${el.dataset.codigo}`;
-      cartAdd({
-        codigo: el.dataset.codigo,
-        nombre: nombre,
-        precio: parseFloat(el.dataset.precio),
-        modalidad: el.dataset.modalidad,
-        categoria: meta.nombre
-      });
-      el.classList.add('agregado');
-      setTimeout(() => el.classList.remove('agregado'), 400);
-      mostrarToast(nombre);
+      abrirDetalleProducto(_productosHotspot[i]);
     });
   });
 
@@ -132,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
   cargarCatalogo();
   initScrollTopBtn();
   initTiposProducto();
+  initModalDetalle();
 });
 
 // Renderiza los artículos individuales (items) como tarjetas tapeables
@@ -169,23 +172,22 @@ function renderItems(data, meta, contenedor, banner) {
   `;
   contenedor.appendChild(seccion);
 
-  seccion.querySelectorAll('.item-card').forEach(el => {
+  seccion.querySelectorAll('.item-card').forEach((el, i) => {
     el.addEventListener('click', () => {
       if (!localStorage.getItem('pp_sabe_tocar')) {
         localStorage.setItem('pp_sabe_tocar', '1');
         banner.style.display = 'none';
       }
-      const nombre = el.dataset.nombre;
-      cartAdd({
-        codigo: el.dataset.codigo,
-        nombre: nombre,
-        precio: parseFloat(el.dataset.precio),
-        modalidad: el.dataset.modalidad,
-        categoria: meta.nombre
+      const prod = data.items[i];
+      abrirDetalleProducto({
+        codigo: prod.codigo,
+        nombre: prod.nombre,
+        precio: prod.precio,
+        modalidad: prod.modalidad || 'unidad',
+        precioRef: prod.precioRef,
+        marca: meta.nombre,
+        imagenDirecta: prod.imagen
       });
-      el.classList.add('agregado');
-      setTimeout(() => el.classList.remove('agregado'), 600);
-      mostrarToast(nombre);
     });
   });
 }
@@ -202,12 +204,13 @@ let _indiceProductosPorTipo = null; // se arma una sola vez, la 1ra vez que se a
 let _categoriasCatalogo = null;     // cache de data/categories.json
 
 async function initTiposProducto(){
+  let tipos = [];
   try{
     const res = await fetch('data/tipos-producto.json', { cache: 'no-store' });
-    if(!res.ok) return; // si todavía no existe el archivo, no rompemos nada, simplemente no aparece la barra
-    const tipos = await res.json();
-    if(!tipos.length) return;
-    renderBarraTipos(tipos);
+    if(res.ok){
+      tipos = await res.json();
+      if(tipos.length) renderBarraTipos(tipos);
+    }
   }catch(e){
     // silencioso: si falla, el catálogo sigue funcionando igual sin la barra
   }
@@ -217,6 +220,15 @@ async function initTiposProducto(){
     if(e.target.id === 'overlayTipos') cerrarOverlayTipo(); // click en el fondo oscuro = cerrar
   });
   document.getElementById('overlaySelectOrden').addEventListener('change', () => renderGridOverlay());
+
+  // Si venimos del buscador de home con un tipo de producto (y opcionalmente
+  // una marca), abrimos el overlay correspondiente automáticamente.
+  const abrirTipo = getParam('abrirTipo');
+  if(abrirTipo){
+    const tipo = tipos.find(t => t.key === abrirTipo);
+    _overlayMarcaFiltro = getParam('soloMarca') || null;
+    if(tipo) abrirOverlayTipo(tipo.key, tipo.nombre);
+  }
 }
 
 function renderBarraTipos(tipos){
@@ -225,7 +237,10 @@ function renderBarraTipos(tipos){
     `<button class="tipo-chip" data-tipo="${t.key}" data-nombre="${t.nombre}">${t.nombre}</button>`
   ).join('');
   bar.querySelectorAll('.tipo-chip').forEach(btn => {
-    btn.addEventListener('click', () => abrirOverlayTipo(btn.dataset.tipo, btn.dataset.nombre));
+    btn.addEventListener('click', () => {
+      _overlayMarcaFiltro = null;
+      abrirOverlayTipo(btn.dataset.tipo, btn.dataset.nombre);
+    });
   });
 }
 
@@ -261,6 +276,7 @@ async function construirIndiceProductosPorTipo(){
           precioRef: prod.precioRef,
           producto: prod.producto,
           marca: cat.nombre,
+          marcaKey: cat.key,
           // datos para recortar la foto por CSS desde la imagen de página completa
           imagenPagina: pagina.imagen,
           x: prod.x, y: prod.y, w: prod.w, h: prod.h
@@ -278,6 +294,7 @@ async function construirIndiceProductosPorTipo(){
         precioRef: item.precioRef,
         producto: item.producto,
         marca: cat.nombre,
+        marcaKey: cat.key,
         imagenDirecta: item.imagen // este formato ya tiene foto propia, no hotspot
       });
     });
@@ -289,19 +306,29 @@ async function construirIndiceProductosPorTipo(){
 
 let _overlayTipoActual = null;
 let _overlayNombreActual = null;
+let _overlayMarcaFiltro = null; // si viene del buscador con marca, se aplica como filtro extra
 
 async function abrirOverlayTipo(tipoKey, tipoNombre){
   _overlayTipoActual = tipoKey;
   _overlayNombreActual = tipoNombre;
 
   const overlay = document.getElementById('overlayTipos');
-  document.getElementById('overlayTitulo').textContent = tipoNombre;
+  actualizarTituloOverlay();
   document.getElementById('overlayGrid').innerHTML = `<div class="overlay-cargando">Cargando…</div>`;
   overlay.style.display = 'flex';
   document.body.style.overflow = 'hidden'; // evita que se scrollee el catálogo de fondo
 
   await construirIndiceProductosPorTipo();
   renderGridOverlay();
+}
+
+function actualizarTituloOverlay(){
+  const marcaNombre = _overlayMarcaFiltro
+    ? (_categoriasCatalogo || []).find(c => c.key === _overlayMarcaFiltro)?.nombre
+    : null;
+  document.getElementById('overlayTitulo').textContent = marcaNombre
+    ? `${_overlayNombreActual} — ${marcaNombre}`
+    : _overlayNombreActual;
 }
 
 function cerrarOverlayTipo(){
@@ -312,8 +339,13 @@ function cerrarOverlayTipo(){
 function renderGridOverlay(){
   if(!_overlayTipoActual || !_indiceProductosPorTipo) return;
 
+  actualizarTituloOverlay(); // por si el índice/categorías se cargaron después del título inicial
+
   const orden = document.getElementById('overlaySelectOrden').value;
-  let items = _indiceProductosPorTipo.filter(p => p.producto === _overlayTipoActual);
+  let items = _indiceProductosPorTipo.filter(p =>
+    p.producto === _overlayTipoActual &&
+    (!_overlayMarcaFiltro || p.marcaKey === _overlayMarcaFiltro)
+  );
 
   items = items.slice().sort((a, b) =>
     orden === 'precio-desc' ? b.precio - a.precio : a.precio - b.precio
@@ -343,36 +375,21 @@ function renderGridOverlay(){
   `).join('');
 
   grid.querySelectorAll('.ov-card').forEach((card, i) => {
-    card.addEventListener('click', () => {
-      const p = items[i];
-      cartAdd({
-        codigo: p.codigo,
-        nombre: p.nombre,
-        precio: p.precio,
-        modalidad: p.modalidad,
-        categoria: p.marca
-      });
-      card.classList.add('agregado');
-      setTimeout(() => card.classList.remove('agregado'), 500);
-      mostrarToast(p.nombre);
-    });
+    card.addEventListener('click', () => abrirDetalleProducto(items[i]));
   });
 }
 
-// Genera el recorte de la foto del producto:
-// - si viene de un hotspot (imagenPagina + x,y,w,h): recorta por CSS,
-//   mostrando solo la zona del hotspot sobre la imagen de página completa.
-//   No hace falta generar ni guardar ninguna imagen nueva.
-// - si es un item con foto propia (imagenDirecta): la muestra directo.
-function fotoOverlayHtml(p){
+// Genera el recorte de la foto del producto (reutilizable en overlay y en el
+// modal de detalle): si viene de un hotspot (imagenPagina + x,y,w,h), recorta
+// por CSS sobre la imagen de página completa, sin generar archivos nuevos.
+// Si es un item con foto propia (imagenDirecta), la muestra directo.
+function fotoHtmlGenerica(p){
   if(p.imagenDirecta){
     return `<img src="${p.imagenDirecta}" alt="${p.nombre}" loading="lazy" style="width:100%; height:100%; object-fit:cover;">`;
   }
   if(p.imagenPagina && p.w != null && p.h != null && p.w > 0 && p.h > 0){
-    // Escala uniforme (misma en x e y, para que no se estire) que hace zoom
-    // hasta que el hotspot llene el recuadro, centrado en el hotspot.
     const escala = Math.max(100 / p.w, 100 / p.h) * 0.85; // 0.85 = deja margen, corta menos
-    const cx = p.x + p.w / 2; // centro del hotspot, en % de la imagen completa
+    const cx = p.x + p.w / 2;
     const cy = p.y + p.h / 2;
     const tamPct  = (escala * 100).toFixed(2);
     const leftPct = (50 - cx * escala).toFixed(2);
@@ -381,4 +398,59 @@ function fotoOverlayHtml(p){
                  style="width:${tamPct}%; height:${tamPct}%; left:${leftPct}%; top:${topPct}%;">`;
   }
   return `<div class="ov-foto-vacia">Sin foto</div>`;
+}
+const fotoOverlayHtml = fotoHtmlGenerica; // alias, mismo comportamiento
+
+// ────────────────────────────────────────────────────────────────
+// Modal de detalle de producto: se abre al tocar cualquier producto
+// (página normal, artículos individuales, u overlay de tipo), y desde
+// ahí se confirma el agregado al carrito.
+// ────────────────────────────────────────────────────────────────
+let _detalleActual = null;
+
+function initModalDetalle(){
+  document.getElementById('detalleCerrar').addEventListener('click', cerrarDetalle);
+  document.getElementById('modalDetalle').addEventListener('click', (e)=>{
+    if(e.target.id === 'modalDetalle') cerrarDetalle();
+  });
+  document.getElementById('detalleBtnAgregar').addEventListener('click', agregarDesdeDetalle);
+}
+
+function abrirDetalleProducto(p){
+  _detalleActual = p;
+  document.getElementById('detalleFotoWrap').innerHTML = fotoHtmlGenerica(p);
+  document.getElementById('detalleMarca').textContent = p.marca || p.categoria || '';
+  document.getElementById('detalleNombre').textContent = p.nombre;
+  document.getElementById('detalleCodigo').textContent = p.codigo;
+
+  const tieneRef = p.modalidad !== 'unidad' && p.precioRef;
+  const refEl = document.getElementById('detallePrecioRef');
+  refEl.style.display = tieneRef ? 'inline-block' : 'none';
+  refEl.textContent = tieneRef ? `$${p.precioRef} c/u` : '';
+  document.getElementById('detallePrecioPrincipal').textContent =
+    `$${p.precio}${p.modalidad !== 'unidad' ? ' /' + p.modalidad : ''}`;
+
+  document.getElementById('modalDetalle').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function cerrarDetalle(){
+  document.getElementById('modalDetalle').style.display = 'none';
+  // si además hay un overlay de tipo abierto detrás, mantenemos el scroll bloqueado
+  const overlayAbierto = document.getElementById('overlayTipos').style.display === 'flex';
+  document.body.style.overflow = overlayAbierto ? 'hidden' : '';
+}
+
+function agregarDesdeDetalle(){
+  if(!_detalleActual) return;
+  const p = _detalleActual;
+  cartAdd({
+    codigo: p.codigo,
+    nombre: p.nombre,
+    precio: p.precio,
+    modalidad: p.modalidad,
+    categoria: p.marca || p.categoria
+  });
+  mostrarToast(p.nombre);
+  cerrarDetalle();
 }
