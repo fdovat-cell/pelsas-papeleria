@@ -93,9 +93,12 @@ async function inicializarBuscador(categorias){
       const data = await res.json();
       data.paginas.forEach(p => {
         p.productos.forEach(prod => {
+          if(!prod.precio) return; // sin precio no se vende, no tiene sentido mostrarlo
           indice.push({
             codigo: prod.codigo,
             nombre: prod.nombre || '',
+            precio: prod.precio,
+            modalidad: prod.modalidad || 'unidad',
             marcaNombre: c.nombre,
             marcaKey: c.key,
             tipoKey: prod.producto || '',
@@ -166,7 +169,10 @@ async function inicializarBuscador(categorias){
 
     const LIMITE = 25;
     const listaHtml = found.length
-      ? found.slice(0, LIMITE).map(p => `<a href="catalogo.html?cat=${p.marcaKey}&pagina=${p.pagina}">${p.nombre ? p.nombre + ' — ' : ''}${p.marcaNombre} <span class="sr-code">${p.codigo}</span></a>`).join('')
+      ? found.slice(0, LIMITE).map(p => `<a href="catalogo.html?cat=${p.marcaKey}&pagina=${p.pagina}">
+          <span class="sr-info">${p.nombre ? p.nombre + ' — ' : ''}${p.marcaNombre} <span class="sr-code">${p.codigo}</span></span>
+          <span class="sr-precio">$${p.precio}${p.modalidad !== 'unidad' ? ' /' + p.modalidad : ''}</span>
+        </a>`).join('')
       : (accesoDirectoHtml ? '' : `<div class="search-empty">Sin resultados</div>`);
     const notaMas = found.length > LIMITE ? `<div class="search-mas">Mostrando los primeros ${LIMITE} de ${found.length}</div>` : '';
 
