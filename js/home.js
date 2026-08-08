@@ -12,8 +12,8 @@ const iconos = {
 
 // Portada de marca (1ra página del catálogo de esa marca) para mostrar como
 // fondo de la tile en el home. Las categorías que no tienen una portada de
-// marca propia (ibi: catálogo todavía no cargado; varios: es una categoría
-// mixta con varias marcas) siguen mostrando el ícono + color como antes.
+// marca propia (varios: es una categoría mixta con varias marcas) siguen
+// mostrando el ícono + color como antes.
 const portadas = {
   pilot:     'img/tiles/pilot.webp',
   keyroad:   'img/tiles/keyroad.webp',
@@ -22,6 +22,7 @@ const portadas = {
   kores:     'img/tiles/kores.webp',
   omega:     'img/tiles/omega.webp',
   arte:      'img/tiles/arte.webp',
+  ibi:       'img/tiles/ibi.webp',
 };
 
 async function cargarCategorias(){
