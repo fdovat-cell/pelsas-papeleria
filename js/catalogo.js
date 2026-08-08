@@ -371,7 +371,7 @@ function fotoOverlayHtml(p){
   if(p.imagenPagina && p.w != null && p.h != null && p.w > 0 && p.h > 0){
     // Escala uniforme (misma en x e y, para que no se estire) que hace zoom
     // hasta que el hotspot llene el recuadro, centrado en el hotspot.
-    const escala = Math.max(100 / p.w, 100 / p.h);
+    const escala = Math.max(100 / p.w, 100 / p.h) * 0.85; // 0.85 = deja margen, corta menos
     const cx = p.x + p.w / 2; // centro del hotspot, en % de la imagen completa
     const cy = p.y + p.h / 2;
     const tamPct  = (escala * 100).toFixed(2);
