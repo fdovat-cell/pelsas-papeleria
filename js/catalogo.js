@@ -366,16 +366,19 @@ function renderGridOverlay(){
 // - si es un item con foto propia (imagenDirecta): la muestra directo.
 function fotoOverlayHtml(p){
   if(p.imagenDirecta){
-    return `<img src="${p.imagenDirecta}" alt="${p.nombre}" loading="lazy">`;
+    return `<img src="${p.imagenDirecta}" alt="${p.nombre}" loading="lazy" style="width:100%; height:100%; object-fit:cover;">`;
   }
-  if(p.imagenPagina && p.w != null && p.h != null){
-    // Centro del hotspot, en % de la imagen completa (mismo sistema que object-position).
-    const cx = (p.x + p.w / 2).toFixed(1);
-    const cy = (p.y + p.h / 2).toFixed(1);
-    // object-fit:cover hace el recorte proporcional sin que tengamos que calcular
-    // escalas a mano; object-position centra la vista en el hotspot.
+  if(p.imagenPagina && p.w != null && p.h != null && p.w > 0 && p.h > 0){
+    // Escala uniforme (misma en x e y, para que no se estire) que hace zoom
+    // hasta que el hotspot llene el recuadro, centrado en el hotspot.
+    const escala = Math.max(100 / p.w, 100 / p.h);
+    const cx = p.x + p.w / 2; // centro del hotspot, en % de la imagen completa
+    const cy = p.y + p.h / 2;
+    const tamPct  = (escala * 100).toFixed(2);
+    const leftPct = (50 - cx * escala).toFixed(2);
+    const topPct  = (50 - cy * escala).toFixed(2);
     return `<img src="${p.imagenPagina}" alt="${p.nombre}" loading="lazy"
-                 style="width:100%; height:100%; object-fit:cover; object-position:${cx}% ${cy}%;">`;
+                 style="width:${tamPct}%; height:${tamPct}%; left:${leftPct}%; top:${topPct}%;">`;
   }
   return `<div class="ov-foto-vacia">Sin foto</div>`;
 }
