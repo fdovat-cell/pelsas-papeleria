@@ -203,7 +203,7 @@ button{font-family:inherit;}
 /* Hotspot: solo perímetro, sin relleno */
 .hotspot{
   position:absolute; border-radius:10px;
-  border:2px solid rgba(255,255,255,0.85);
+  border:2px solid transparent;
   background:transparent;
   transition:background .12s ease;
 }
