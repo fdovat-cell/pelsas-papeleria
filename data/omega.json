@@ -1695,19 +1695,6 @@
           "_match_tier": "exact"
         },
         {
-          "codigo": "201",
-          "nombre": "PINCHOS NEGROS",
-          "x": 42.15,
-          "y": 8.0,
-          "w": 26.8,
-          "h": 13.663,
-          "precio": 65.19,
-          "modalidad": "unidad",
-          "producto": null,
-          "_ocr_raw": "201",
-          "_match_tier": "exact"
-        },
-        {
           "codigo": "14401",
           "nombre": "OMEGA DE CERA, 20gr, BASE ANTIDESLIZANTE",
           "x": 68.95,
@@ -2379,19 +2366,6 @@
           "producto": null,
           "_ocr_raw": "REG60M",
           "_match_tier": "exact"
-        },
-        {
-          "codigo": "SM001",
-          "nombre": "FORMATO DE TRABAJO 350x500mm, FUNCION DE PLEGADO MANUAL",
-          "x": 0.0,
-          "y": 55.732,
-          "w": 100.0,
-          "h": 21.652,
-          "precio": 11561.02,
-          "modalidad": "unidad",
-          "producto": null,
-          "_ocr_raw": "SMO01",
-          "_match_tier": "subs"
         },
         {
           "codigo": "858A3",
