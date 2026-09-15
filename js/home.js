@@ -89,16 +89,18 @@ async function inicializarBuscador(categorias){
     tiposProducto.forEach(t => tipoPorKey[t.key] = t.nombre);
 
     indice = [];
+    const mapaPrecios = await cargarMapaPrecios();
     for(const c of categorias){
       const res = await fetch(c.archivo, { cache: 'no-store' });
       const data = await res.json();
       data.paginas.forEach(p => {
         p.productos.forEach(prod => {
-          if(!prod.precio) return; // sin precio no se vende, no tiene sentido mostrarlo
+          const precio = resolverPrecio(prod.codigo, prod.precio, mapaPrecios);
+          if(!precio) return; // sin precio no se vende, no tiene sentido mostrarlo
           indice.push({
             codigo: prod.codigo,
             nombre: prod.nombre || '',
-            precio: prod.precio,
+            precio: precio,
             modalidad: prod.modalidad || 'unidad',
             marcaNombre: c.nombre,
             marcaKey: c.key,

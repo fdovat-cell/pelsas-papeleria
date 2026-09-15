@@ -36,6 +36,8 @@ async function cargarCatalogo(){
 
   const res = await fetch(meta.archivo, { cache: 'no-store' });
   const data = await res.json();
+  const mapaPrecios = await cargarMapaPrecios();
+  aplicarPreciosActuales(data, mapaPrecios);
 
   const contenedor = document.getElementById('paginas');
   const _productosHotspot = []; // mismo orden que los .hotspot en el DOM, para abrir el detalle por índice
@@ -64,10 +66,6 @@ async function cargarCatalogo(){
            data-nombre="${prod.nombre || ''}"
            data-precio="${prod.precio}"
            data-modalidad="${prod.modalidad || 'unidad'}">
-        <span class="precio-chip">
-          ${prod.modalidad && prod.modalidad !== 'unidad' && prod.precioRef ? `<span class="precio-ref">$${prod.precioRef} c/u</span>` : ''}
-          <span class="precio-principal">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' /' + prod.modalidad : ''}</span>
-        </span>
       </div>`;
       }).join('')}
     </div>
@@ -161,10 +159,6 @@ function renderItems(data, meta, contenedor, banner) {
           <div class="item-card-info">
             <div class="item-card-nombre">${prod.nombre}</div>
             <div class="item-card-codigo">${prod.codigo}</div>
-            <div class="item-card-precio">
-              ${prod.precioRef ? `<span class="item-precio-ref">$${prod.precioRef} c/u</span>` : ''}
-              <span class="item-precio-principal">$${prod.precio}${prod.modalidad && prod.modalidad !== 'unidad' ? ' / ' + prod.modalidad : ''}</span>
-            </div>
           </div>
         </div>
       `).join('')}
@@ -255,12 +249,14 @@ async function construirIndiceProductosPorTipo(){
     _categoriasCatalogo = await res.json();
   }
 
+  const mapaPrecios = await cargarMapaPrecios();
   const indice = [];
   for(const cat of _categoriasCatalogo){
     let data;
     try{
       const res = await fetch(cat.archivo, { cache: 'no-store' });
       data = await res.json();
+      aplicarPreciosActuales(data, mapaPrecios);
     }catch(e){
       continue; // si una marca falla al cargar, seguimos con las demás
     }
