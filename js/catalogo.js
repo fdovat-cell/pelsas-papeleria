@@ -273,6 +273,7 @@ async function construirIndiceProductosPorTipo(){
           producto: prod.producto,
           marca: cat.nombre,
           marcaKey: cat.key,
+          pagina: pagina.paginaOriginal,
           // datos para recortar la foto por CSS desde la imagen de página completa
           imagenPagina: pagina.imagen,
           x: prod.x, y: prod.y, w: prod.w, h: prod.h
@@ -371,7 +372,11 @@ function renderGridOverlay(){
   `).join('');
 
   grid.querySelectorAll('.ov-card').forEach((card, i) => {
-    card.addEventListener('click', () => abrirDetalleProducto(items[i]));
+    card.addEventListener('click', () => {
+      const p = items[i];
+      const navegarAlCerrar = (p.marcaKey && p.pagina) ? { cat: p.marcaKey, pagina: p.pagina } : null;
+      abrirDetalleProducto(p, navegarAlCerrar);
+    });
   });
 }
 
@@ -403,6 +408,7 @@ const fotoOverlayHtml = fotoHtmlGenerica; // alias, mismo comportamiento
 // ahí se confirma el agregado al carrito.
 // ────────────────────────────────────────────────────────────────
 let _detalleActual = null;
+let _detalleNavegarAlCerrar = null;
 
 function initModalDetalle(){
   document.getElementById('detalleCerrar').addEventListener('click', cerrarDetalle);
@@ -412,8 +418,9 @@ function initModalDetalle(){
   document.getElementById('detalleBtnAgregar').addEventListener('click', agregarDesdeDetalle);
 }
 
-function abrirDetalleProducto(p){
+function abrirDetalleProducto(p, navegarAlCerrar = null){
   _detalleActual = p;
+  _detalleNavegarAlCerrar = navegarAlCerrar;
   document.getElementById('detalleFotoWrap').innerHTML = fotoHtmlGenerica(p);
   document.getElementById('detalleMarca').textContent = p.marca || p.categoria || '';
   document.getElementById('detalleNombre').textContent = p.nombre;
@@ -435,6 +442,14 @@ function cerrarDetalle(){
   // si además hay un overlay de tipo abierto detrás, mantenemos el scroll bloqueado
   const overlayAbierto = document.getElementById('overlayTipos').style.display === 'flex';
   document.body.style.overflow = overlayAbierto ? 'hidden' : '';
+
+  // si el detalle se abrió desde el buscador por tipo (otra marca/página),
+  // al cerrar navegamos a la página real del catálogo donde vive el producto
+  if(_detalleNavegarAlCerrar){
+    const { cat, pagina } = _detalleNavegarAlCerrar;
+    _detalleNavegarAlCerrar = null;
+    window.location.href = `catalogo.html?cat=${cat}&pagina=${pagina}`;
+  }
 }
 
 function agregarDesdeDetalle(){
