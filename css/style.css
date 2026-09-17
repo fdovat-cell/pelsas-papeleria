@@ -146,6 +146,17 @@ button{font-family:inherit;}
 .tile .name{ font-family:'Bricolage Grotesque', sans-serif; font-weight:700; font-size:14.5px; line-height:1.15; margin-top:10px; }
 .tile .count{ font-family:'JetBrains Mono', monospace; font-size:10px; opacity:0.85; margin-top:2px; }
 .tile.wide{grid-column:span 2; flex-direction:row; align-items:center; aspect-ratio:auto; min-height:auto; padding:14px 16px;}
+/* Varios / Oficina: tile ancha con foto, más alta y con más presencia */
+.tile.wide.has-photo{
+  flex-direction:column; justify-content:flex-end; align-items:stretch;
+  aspect-ratio:8/3; padding:16px 18px;
+  box-shadow:0 6px 20px rgba(37,66,94,0.26);
+}
+.tile.wide.has-photo::before{
+  background:linear-gradient(180deg, rgba(11,26,43,0.00) 25%, rgba(11,26,43,0.35) 60%, rgba(11,26,43,0.85) 100%);
+}
+.tile.wide.has-photo .name{font-size:19px; letter-spacing:-0.2px;}
+.tile.wide.has-photo .count{font-size:11px; opacity:0.9;}
 .tile.wide .icon{margin-right:12px;}
 .tile.wide .txt{flex:1;}
 .tile.wide .name{margin-top:0;}
