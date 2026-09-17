@@ -59,6 +59,15 @@ button{font-family:inherit;}
 
 /* ---------- Search ---------- */
 .search-wrap{ margin:0 18px 20px; position:relative; }
+/* Franja fija arriba: en el home es solo el buscador; en el catálogo
+   agrupa buscador + barra de la marca, para que ambos queden pegados
+   arriba al hacer scroll, en cualquier pantalla. */
+.topbar-fixed{
+  position:sticky; top:0; z-index:55;
+  background:var(--bg);
+  padding-top:12px;
+}
+.topbar-fixed .search-wrap{ margin-bottom:12px; }
 .search-box{
   display:flex; align-items:center; gap:10px;
   background:#fff; border-radius:16px; padding:13px 16px;
@@ -110,7 +119,7 @@ button{font-family:inherit;}
 .cats{ padding:0 18px; display:grid; grid-template-columns:1fr 1fr; gap:12px; }
 .tile{
   border-radius:20px; padding:16px 14px 14px; color:#fff; position:relative;
-  min-height:118px; display:flex; flex-direction:column; justify-content:space-between;
+  aspect-ratio:4/5; display:flex; flex-direction:column; justify-content:space-between;
   box-shadow:0 4px 14px rgba(37,66,94,0.18); transition:transform .12s ease;
   border:none; cursor:pointer; text-align:left;
 }
@@ -136,7 +145,7 @@ button{font-family:inherit;}
 .tile .icon svg{width:18px;height:18px;}
 .tile .name{ font-family:'Bricolage Grotesque', sans-serif; font-weight:700; font-size:14.5px; line-height:1.15; margin-top:10px; }
 .tile .count{ font-family:'JetBrains Mono', monospace; font-size:10px; opacity:0.85; margin-top:2px; }
-.tile.wide{grid-column:span 2; flex-direction:row; align-items:center; min-height:auto; padding:14px 16px;}
+.tile.wide{grid-column:span 2; flex-direction:row; align-items:center; aspect-ratio:auto; min-height:auto; padding:14px 16px;}
 .tile.wide .icon{margin-right:12px;}
 .tile.wide .txt{flex:1;}
 .tile.wide .name{margin-top:0;}
@@ -169,9 +178,7 @@ button{font-family:inherit;}
 /* ---------- Catalogo (paginas calibradas) ---------- */
 .catbar{
   display:flex; align-items:center; gap:10px;
-  padding:14px 18px;
-  position:sticky; top:0; z-index:50;
-  background:var(--bg);
+  padding:0 18px 14px;
 }
 .catbar .back{
   width:36px; height:36px; border-radius:10px; background:#fff; border:none;
