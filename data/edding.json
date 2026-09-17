@@ -6,7 +6,16 @@
     {
       "paginaOriginal": 60,
       "imagen": "img/pages/edding/pagina-060.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 99.718,
+          "w": 100.0,
+          "h": 0.282,
+          "color": "#3d4e8f"
+        }
+      ]
     },
     {
       "paginaOriginal": 61,
@@ -63,6 +72,15 @@
           "producto": null,
           "_ocr_raw": "8T30",
           "_match_tier": "subs"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274c9d"
         }
       ]
     },
@@ -147,6 +165,15 @@
           "producto": null,
           "_ocr_raw": "MAR300",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#274c9d"
         }
       ]
     },
@@ -245,6 +272,15 @@
           "_ocr_raw": "MAR8750",
           "_match_tier": "fuzzy"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274c9d"
+        }
       ]
     },
     {
@@ -302,6 +338,15 @@
           "producto": null,
           "_ocr_raw": "E-7410/24",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274c9d"
         }
       ]
     },
@@ -373,6 +418,15 @@
           "producto": null,
           "_ocr_raw": "MAR4200/6-099",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274c9d"
         }
       ]
     }
