@@ -20,6 +20,15 @@
           "_ocr_raw": "PAS24",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 93.9,
+          "w": 100.0,
+          "h": 6.1,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -208,6 +217,15 @@
           "_ocr_raw": "BAS70100",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -304,6 +322,15 @@
           "producto": null,
           "_ocr_raw": "CBAG",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274d9b"
         }
       ]
     },
@@ -402,6 +429,15 @@
           "_ocr_raw": "EM5",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274d9b"
+        }
       ]
     },
     {
@@ -499,6 +535,15 @@
           "_ocr_raw": "FANS",
           "_match_tier": "subs"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274d9b"
+        }
       ]
     },
     {
@@ -556,6 +601,15 @@
           "producto": null,
           "_ocr_raw": "ACUF70100",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
         }
       ]
     },
@@ -680,6 +734,15 @@
           "_ocr_raw": "PAP150A4/18",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -763,6 +826,15 @@
           "producto": null,
           "_ocr_raw": "BLO180/20",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#254ba2"
         }
       ]
     },
@@ -848,12 +920,30 @@
           "_ocr_raw": "BLOTEX/18",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#254ba2"
+        }
       ]
     },
     {
       "paginaOriginal": 95,
       "imagen": "img/pages/arte/pagina-095.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
+      ]
     },
     {
       "paginaOriginal": 96,
@@ -975,6 +1065,15 @@
           "producto": null,
           "_ocr_raw": "MAB80A4",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#115197"
         }
       ]
     },
@@ -1177,6 +1276,15 @@
           "_ocr_raw": "CACAO250A4/20",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274d9b"
+        }
       ]
     },
     {
@@ -1221,6 +1329,15 @@
           "producto": null,
           "_ocr_raw": "BLOCAR/20",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
         }
       ]
     }
