@@ -46,7 +46,7 @@ async function cargarCatalogo(){
     <div class="pagina-wrap" data-pagina="${p.paginaOriginal}">
       <img src="${p.imagen}" alt="${meta.nombre} — página ${p.paginaOriginal}" loading="lazy">
       ${(p.tapados || []).map(t => `
-        <div class="tapado" style="left:${t.x}%; top:${t.y}%; width:${t.w}%; height:${t.h}%;"></div>
+        <div class="tapado" style="left:${t.x}%; top:${t.y}%; width:${t.w}%; height:${t.h}%; background:${t.color || '#111'};"></div>
       `).join('')}
       ${p.productos.filter(prod => prod.precio).map(prod => {
         _productosHotspot.push({
