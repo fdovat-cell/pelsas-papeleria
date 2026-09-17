@@ -38,7 +38,7 @@
     "key": "ibi",
     "nombre": "IBI Craft",
     "color": "#F2609E",
-    "cantidadPaginas": 56,
+    "cantidadPaginas": 59,
     "archivo": "data/ibi.json"
   },
   {
@@ -59,7 +59,7 @@
     "key": "varios",
     "nombre": "Varios / Oficina",
     "color": "#57607A",
-    "cantidadPaginas": 19,
+    "cantidadPaginas": 16,
     "archivo": "data/varios.json"
   }
 ]
