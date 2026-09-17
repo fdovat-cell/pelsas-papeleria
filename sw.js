@@ -2,7 +2,7 @@
 // habilite "Instalar app" / "Agregar a pantalla de inicio".
 // No cachea agresivo a propósito: los precios y el catálogo se actualizan
 // seguido, así que todo pasa por la red normal (network-first).
-const CACHE = 'pelsas-papeleria-v2';
+const CACHE = 'pelsas-papeleria-v3';
 const APP_SHELL = ['index.html', 'css/style.css', 'manifest.json'];
 
 self.addEventListener('install', (e) => {
