@@ -59,6 +59,15 @@
           "_ocr_raw": "MARFP/12",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -143,6 +152,15 @@
           "_ocr_raw": "12F-TRIO",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -200,6 +218,15 @@
           "producto": null,
           "_ocr_raw": "BP12",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#254ba2"
         }
       ]
     },
@@ -259,6 +286,15 @@
           "_ocr_raw": "24MC",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -304,6 +340,15 @@
           "_ocr_raw": "ADO2/24",
           "_match_tier": "subs"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -335,6 +380,15 @@
           "producto": null,
           "_ocr_raw": "MARWIN10",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
         }
       ]
     },
@@ -380,6 +434,15 @@
           "producto": null,
           "_ocr_raw": "LO1/12",
           "_match_tier": "subs"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
         }
       ]
     },
@@ -439,6 +502,15 @@
           "_ocr_raw": "BOLB",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -496,6 +568,15 @@
           "producto": null,
           "_ocr_raw": "GE1688",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#254ba2"
         }
       ]
     },
@@ -594,6 +675,15 @@
           "_ocr_raw": "CT-1000",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -638,6 +728,15 @@
           "producto": null,
           "_ocr_raw": "JG1",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#254ba2"
         }
       ]
     },
@@ -729,6 +828,15 @@
           "_ocr_raw": "PMA4",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -812,6 +920,15 @@
           "producto": null,
           "_ocr_raw": "PAPORIF140/60",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#254ba2"
         }
       ]
     },
@@ -1040,12 +1157,30 @@
           "_ocr_raw": "Crepe-VI/10",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#254ba2"
+        }
       ]
     },
     {
       "paginaOriginal": 101,
       "imagen": "img/pages/omega/pagina-101.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#254ba2"
+        }
+      ]
     },
     {
       "paginaOriginal": 102,
@@ -1116,6 +1251,15 @@
           "_ocr_raw": "EVAPASA4/10",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -1173,6 +1317,15 @@
           "producto": null,
           "_ocr_raw": "SC-09",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#254ba2"
         }
       ]
     },
@@ -1245,6 +1398,15 @@
           "_ocr_raw": "LA52",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -1315,6 +1477,15 @@
           "producto": null,
           "_ocr_raw": "EM036",
           "_match_tier": "subs"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.466,
+          "w": 100.0,
+          "h": 3.534,
+          "color": "#254ba2"
         }
       ]
     },
@@ -1426,17 +1597,16 @@
           "_ocr_raw": "9706",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
       ]
-    },
-    {
-      "paginaOriginal": 120,
-      "imagen": "img/pages/omega/pagina-120.webp",
-      "productos": []
-    },
-    {
-      "paginaOriginal": 121,
-      "imagen": "img/pages/omega/pagina-121.webp",
-      "productos": []
     },
     {
       "paginaOriginal": 122,
@@ -1546,6 +1716,15 @@
           "_ocr_raw": "3180",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274d9b"
+        }
       ]
     },
     {
@@ -1630,6 +1809,15 @@
           "_ocr_raw": "US-100A",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
       ]
     },
     {
@@ -1674,6 +1862,15 @@
           "producto": null,
           "_ocr_raw": "US-04V/100",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#284495"
         }
       ]
     },
@@ -1824,6 +2021,15 @@
           "_ocr_raw": "ALM898",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
       ]
     },
     {
@@ -1921,6 +2127,15 @@
           "_ocr_raw": "US-010",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.398,
+          "w": 100.0,
+          "h": 3.602,
+          "color": "#284495"
+        }
       ]
     },
     {
@@ -1965,6 +2180,15 @@
           "producto": null,
           "_ocr_raw": "REV",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
         }
       ]
     },
@@ -2036,6 +2260,15 @@
           "producto": null,
           "_ocr_raw": "RA01",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
         }
       ]
     },
@@ -2146,6 +2379,15 @@
           "producto": null,
           "_ocr_raw": "3850-0/4F",
           "_match_tier": "subs"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
         }
       ]
     },
@@ -2309,6 +2551,15 @@
           "_ocr_raw": "BOR",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
       ]
     },
     {
@@ -2431,6 +2682,15 @@
           "producto": null,
           "_ocr_raw": "858LISTON",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
         }
       ]
     },
@@ -2659,6 +2919,15 @@
           "_ocr_raw": "2630P/VER",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274d9b"
+        }
       ]
     },
     {
@@ -2729,6 +2998,15 @@
           "producto": null,
           "_ocr_raw": "ACCOM",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
         }
       ]
     }
