@@ -38,6 +38,15 @@
           "_ocr_raw": "3200TB72",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.681,
+          "w": 100.0,
+          "h": 3.319,
+          "color": "#2844a1"
+        }
       ]
     },
     {
@@ -56,6 +65,15 @@
           "producto": null,
           "_ocr_raw": "334M50",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -102,6 +120,15 @@
           "_ocr_raw": "989-SBK3",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#2844a1"
+        }
       ]
     },
     {
@@ -133,6 +160,15 @@
           "producto": null,
           "_ocr_raw": "8500024",
           "_match_tier": "fuzzy"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -179,6 +215,15 @@
           "_ocr_raw": "61100C",
           "_match_tier": "fuzzy"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.822,
+          "w": 100.0,
+          "h": 3.178,
+          "color": "#2844a1"
+        }
       ]
     },
     {
@@ -211,6 +256,15 @@
           "_ocr_raw": "5426-SBK4",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
+        }
       ]
     },
     {
@@ -229,6 +283,15 @@
           "producto": null,
           "_ocr_raw": "61100C6",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -275,12 +338,30 @@
           "_ocr_raw": "14610TM12",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#2844a1"
+        }
       ]
     },
     {
       "paginaOriginal": 33,
       "imagen": "img/pages/staedtler/pagina-033.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
+        }
+      ]
     },
     {
       "paginaOriginal": 34,
@@ -298,6 +379,15 @@
           "producto": null,
           "_ocr_raw": "MAR364/48",
           "_match_tier": "pack-suffix"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -330,6 +420,15 @@
           "producto": null,
           "_ocr_raw": "LAP110",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -428,6 +527,15 @@
           "_ocr_raw": "55055",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
+        }
       ]
     },
     {
@@ -459,6 +567,15 @@
           "producto": null,
           "_ocr_raw": "175M72",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -504,6 +621,15 @@
           "producto": null,
           "_ocr_raw": "149CM24",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -563,6 +689,15 @@
           "_ocr_raw": "185M36",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
+        }
       ]
     },
     {
@@ -594,6 +729,15 @@
           "producto": null,
           "_ocr_raw": "1441024",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#2844a1"
         }
       ]
     },
@@ -652,6 +796,15 @@
           "producto": null,
           "_ocr_raw": "12560",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#2844a1"
         }
       ]
     }
