@@ -119,7 +119,7 @@ button{font-family:inherit;}
 .cats{ padding:0 18px; display:grid; grid-template-columns:1fr 1fr; gap:12px; }
 .tile{
   border-radius:20px; padding:16px 14px 14px; color:#fff; position:relative;
-  aspect-ratio:4/5; display:flex; flex-direction:column; justify-content:space-between;
+  aspect-ratio:5/4; display:flex; flex-direction:column; justify-content:space-between;
   box-shadow:0 4px 14px rgba(37,66,94,0.18); transition:transform .12s ease;
   border:none; cursor:pointer; text-align:left;
 }
@@ -493,6 +493,6 @@ button{font-family:inherit;}
 /* Tablets en horizontal (o pantallas anchas en general): usar más ancho
    para aprovechar mejor las fotos del catálogo, sin tocar el layout mobile */
 @media (orientation: landscape) and (min-width: 700px) {
-  .app{ max-width: 900px; }
-  .bottomnav{ max-width: 900px; }
+  .app{ max-width: 550px; }
+  .bottomnav{ max-width: 550px; }
 }
