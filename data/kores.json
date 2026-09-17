@@ -85,6 +85,15 @@
           "_ocr_raw": "COR6188",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274c9d"
+        }
       ]
     },
     {
@@ -155,6 +164,15 @@
           "producto": null,
           "_ocr_raw": "TIN27",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274c9d"
         }
       ]
     },
