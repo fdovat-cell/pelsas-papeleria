@@ -7,7 +7,15 @@
       "paginaOriginal": 1,
       "imagen": "img/pages/ibi/pagina-001.webp",
       "productos": [],
-      "tapados": []
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#ffffff"
+        }
+      ]
     },
     {
       "paginaOriginal": 2,
@@ -141,7 +149,15 @@
           "_match_tier": "exact"
         }
       ],
-      "tapados": []
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
+        }
+      ]
     },
     {
       "paginaOriginal": 3,
@@ -198,6 +214,15 @@
           "producto": null,
           "_ocr_raw": "55771",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -270,6 +295,15 @@
           "_ocr_raw": "400002",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.284,
+          "w": 100.0,
+          "h": 5.716,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -314,6 +348,15 @@
           "producto": null,
           "_ocr_raw": "400007",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -412,6 +455,15 @@
           "_ocr_raw": "655575",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -456,6 +508,15 @@
           "producto": null,
           "_ocr_raw": "KM8830-10",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -515,6 +576,15 @@
           "_ocr_raw": "KM6640",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -559,6 +629,15 @@
           "producto": null,
           "_ocr_raw": "655202",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -748,6 +827,15 @@
           "_ocr_raw": "650578",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -780,6 +868,15 @@
           "_ocr_raw": "659770",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.495,
+          "w": 100.0,
+          "h": 5.505,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -798,6 +895,15 @@
           "producto": null,
           "_ocr_raw": "860-213",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -909,6 +1015,15 @@
           "_ocr_raw": "861-021",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -940,6 +1055,15 @@
           "producto": null,
           "_ocr_raw": "861-063",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -1077,6 +1201,15 @@
           "_ocr_raw": "862-051",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -1161,6 +1294,15 @@
           "_ocr_raw": "871-008",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -1192,6 +1334,15 @@
           "producto": null,
           "_ocr_raw": "120208",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -1446,6 +1597,15 @@
           "_ocr_raw": "128290",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.213,
+          "w": 100.0,
+          "h": 5.787,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -1504,6 +1664,15 @@
           "_ocr_raw": "AE32",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -1561,6 +1730,15 @@
           "producto": null,
           "_ocr_raw": "657192",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -1685,6 +1863,15 @@
           "_ocr_raw": "830-310",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -1716,6 +1903,15 @@
           "producto": null,
           "_ocr_raw": "SR12TE",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.495,
+          "w": 100.0,
+          "h": 5.505,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -1761,6 +1957,15 @@
           "producto": null,
           "_ocr_raw": "842002",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -1872,6 +2077,15 @@
           "_ocr_raw": "AS50",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.495,
+          "w": 100.0,
+          "h": 5.505,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -1968,6 +2182,15 @@
           "producto": null,
           "_ocr_raw": "AS22",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -2066,6 +2289,15 @@
           "_ocr_raw": "065100",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -2117,6 +2349,15 @@
           "_ocr_raw": "YOGAMATO10",
           "_match_tier": "subs"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -2161,6 +2402,15 @@
           "producto": null,
           "_ocr_raw": "970080",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -2219,6 +2469,15 @@
           "producto": null,
           "_ocr_raw": "650040",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.284,
+          "w": 100.0,
+          "h": 5.716,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -2291,6 +2550,15 @@
           "_ocr_raw": "070085",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -2335,6 +2603,15 @@
           "producto": null,
           "_ocr_raw": "127700",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -2407,6 +2684,15 @@
           "_ocr_raw": "065174",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -2465,6 +2751,15 @@
           "_ocr_raw": "600802",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -2509,6 +2804,15 @@
           "producto": null,
           "_ocr_raw": "600878",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -2710,6 +3014,15 @@
           "_ocr_raw": "070252",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -2754,6 +3067,15 @@
           "producto": null,
           "_ocr_raw": "297003",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.495,
+          "w": 100.0,
+          "h": 5.505,
+          "color": "#8d8398"
         }
       ]
     },
@@ -2917,6 +3239,15 @@
           "_ocr_raw": "580180",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -3027,6 +3358,15 @@
           "_ocr_raw": "076825",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -3045,6 +3385,15 @@
           "producto": null,
           "_ocr_raw": "066120",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -3104,6 +3453,15 @@
           "_ocr_raw": "115220",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -3149,6 +3507,15 @@
           "_ocr_raw": "116110",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -3180,6 +3547,15 @@
           "producto": null,
           "_ocr_raw": "115175",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -3252,6 +3628,15 @@
           "_ocr_raw": "076568",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -3323,6 +3708,15 @@
           "_ocr_raw": "076816",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -3368,6 +3762,15 @@
           "_ocr_raw": "600870",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -3412,6 +3815,15 @@
           "producto": null,
           "_ocr_raw": "600875",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -3523,6 +3935,15 @@
           "_ocr_raw": "656008",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.284,
+          "w": 100.0,
+          "h": 5.716,
+          "color": "#fbccd5"
+        }
       ]
     },
     {
@@ -3594,6 +4015,15 @@
           "_ocr_raw": "656011",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -3625,6 +4055,15 @@
           "producto": null,
           "_ocr_raw": "076575",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.707,
+          "w": 100.0,
+          "h": 5.293,
+          "color": "#fbccd5"
         }
       ]
     },
@@ -3658,6 +4097,15 @@
           "_ocr_raw": "900675",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
+        }
       ]
     },
     {
@@ -3676,6 +4124,15 @@
           "producto": null,
           "_ocr_raw": "600889",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.425,
+          "w": 100.0,
+          "h": 5.575,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -3708,6 +4165,15 @@
           "producto": null,
           "_ocr_raw": "625154",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.354,
+          "w": 100.0,
+          "h": 5.646,
+          "color": "#f9ccd7"
         }
       ]
     },
@@ -3884,6 +4350,15 @@
           "_ocr_raw": "CABRY1",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 94.989,
+          "w": 100.0,
+          "h": 5.011,
+          "color": "#ffffff"
+        }
       ]
     },
     {
@@ -3941,6 +4416,15 @@
           "producto": null,
           "_ocr_raw": "580180",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.608,
+          "w": 100.0,
+          "h": 3.392,
+          "color": "#274d9b"
         }
       ]
     },
@@ -4065,6 +4549,15 @@
           "_ocr_raw": "580203",
           "_match_tier": "exact"
         }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.466,
+          "w": 100.0,
+          "h": 3.534,
+          "color": "#254ba2"
+        }
       ]
     },
     {
@@ -4161,6 +4654,15 @@
           "producto": null,
           "_ocr_raw": "P2580/40",
           "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.537,
+          "w": 100.0,
+          "h": 3.463,
+          "color": "#274d9b"
         }
       ]
     }
