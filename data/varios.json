@@ -6,72 +6,1337 @@
     {
       "paginaOriginal": 79,
       "imagen": "img/pages/varios/pagina-079.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "D70",
+          "nombre": "PRESTIGE, BOLÍGRAFO CUERPO AZUL, PUNTA RETRÁCTIL EN ESTUCHE",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 44.6,
+          "h": 25.664,
+          "precio": 247.74,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "D72",
+          "nombre": "PRESTIGE, BOLÍGRAFO CUERPO PLATEADO, PUNTA C/TAPA EN ESTUCHE",
+          "x": 44.6,
+          "y": 10.0,
+          "w": 55.4,
+          "h": 25.664,
+          "precio": 233.97,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "D74/NE",
+          "nombre": "PRESTIGE, BOLÍGRAFO CUERPO NEGRO, PUNTA RETRÁCTIL EN ESTUCHE",
+          "x": 0.0,
+          "y": 35.664,
+          "w": 53.275,
+          "h": 30.862,
+          "precio": 302.79,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "D74/PLA",
+          "nombre": "PRESTIGE, BOLÍGRAFO CUERPO PLATEADO, PUNTA RETRÁCTIL EN ESTUCHE",
+          "x": 53.275,
+          "y": 35.664,
+          "w": 46.725,
+          "h": 30.862,
+          "precio": 302.79,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "JP01/AZ",
+          "nombre": "PRESTIGE, JUEGO DE BOLÍGRAFO Y PORTAMINAS CUERPO AZUL",
+          "x": 0.0,
+          "y": 66.525,
+          "w": 46.45,
+          "h": 28.955,
+          "precio": 233.97,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "JP01/RO",
+          "nombre": "PRESTIGE, JUEGO DE BOLÍGRAFO Y PORTAMINAS CUERPO ROJO",
+          "x": 46.45,
+          "y": 66.525,
+          "w": 53.55,
+          "h": 28.955,
+          "precio": 233.97,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#254ba2"
+        }
+      ]
     },
     {
       "paginaOriginal": 84,
       "imagen": "img/pages/varios/pagina-084.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "3914",
+          "nombre": "CIZALLA KW-TRIO, CORTE 440 mm, CAP.10 HOJAS",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 100.0,
+          "h": 24.251,
+          "precio": 3564.65,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "3016",
+          "nombre": "CIZALLA ROTATIVA KW-TRIO A4, CAP. 7 HOJAS",
+          "x": 0.0,
+          "y": 34.251,
+          "w": 100.0,
+          "h": 8.263,
+          "precio": 2601.23,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "ONEE",
+          "nombre": "C/ESPIRAL DE 140 H. (15,24x22,60CM), PARA UN SOLO USO, COMPATIBLE CON ROCKETBOOK APP, INCLUYE BOLÍGRAFO FRIXION",
+          "x": 0.0,
+          "y": 42.514,
+          "w": 38.725,
+          "h": 32.91,
+          "precio": 614.83,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "ONEL",
+          "nombre": "C/ESPIRAL DE 140 H. (21,59x24,13CM), PARA UN SOLO USO, COMPATIBLE CON ROCKETBOOK APP, INCLUYE BOLÍGRAFO FRIXION",
+          "x": 38.725,
+          "y": 42.514,
+          "w": 61.275,
+          "h": 32.91,
+          "precio": 699.44,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274d9b"
+        }
+      ]
     },
     {
       "paginaOriginal": 86,
       "imagen": "img/pages/varios/pagina-086.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "PASA4/25",
+          "nombre": "PAPEL AUTOADH. SEMI BRILLO PRESTIGE, A4, 80grs., LINER BLANCO 95g , PAQ. 25H. ADHESIVO BASE AGUA",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 100.0,
+          "h": 25.946,
+          "precio": 172.04,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PA70100MP",
+          "nombre": "POLIPROPILENO AUTOADH. MATE PRESTIGE, 70x100cm, 75mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 7.3,
+          "y": 31.356,
+          "w": 21.0,
+          "h": 2.048,
+          "precio": 7707.35,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAMA4/100",
+          "nombre": "POLIPROPILENO AUTOADH. MATE PRESTIGE, A4, 75mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 7.3,
+          "y": 32.556,
+          "w": 21.0,
+          "h": 2.048,
+          "precio": 908.37,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAMA3/100",
+          "nombre": "POLIPROPILENO AUTOADH. MATE PRESTIGE, A3, 75mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 7.3,
+          "y": 33.757,
+          "w": 21.0,
+          "h": 2.048,
+          "precio": 1816.73,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAM33482/100",
+          "nombre": "POLIPROPILENO AUTOADH. MATE PRESTIGE, 33x48.2cm, 75mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 7.3,
+          "y": 34.958,
+          "w": 21.0,
+          "h": 2.048,
+          "precio": 1858.02,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PA70100GP",
+          "nombre": "POLIPROPILENO AUTOADH. BRILLO PRESTIGE, 70x100cm, 60mic., LINER BLANCO 160g, PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 6.7,
+          "y": 64.407,
+          "w": 20.6,
+          "h": 2.048,
+          "precio": 7432.09,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAGA4/100",
+          "nombre": "POLIPROPILENO AUTOADH. BRILLO PRESTIGE, A4, 60mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 6.7,
+          "y": 65.607,
+          "w": 20.6,
+          "h": 2.048,
+          "precio": 1052.88,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAGA3/100",
+          "nombre": "POLIPROPILENO AUTOADH. BRILLO PRESTIGE, A3, 60mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 6.7,
+          "y": 66.808,
+          "w": 20.6,
+          "h": 2.048,
+          "precio": 2133.28,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAG33482/100",
+          "nombre": "POLIPROPILENO AUTOADH. BRILLO PRESTIGE, 33x48.2cm, 60mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 6.7,
+          "y": 68.008,
+          "w": 20.6,
+          "h": 2.048,
+          "precio": 2167.69,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG115A4",
+          "nombre": "DIGI GLOSS A4, 115gr, PAQUETE 250 HOJAS",
+          "x": 7.9,
+          "y": 84.675,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 853.31,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG115A3",
+          "nombre": "DIGI GLOSS A3, 115gr, PAQUETE 250 HOJAS",
+          "x": 7.9,
+          "y": 85.876,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 1706.63,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG115SRA3",
+          "nombre": "DIGI GLOSS SRA3, 115gr, PAQUETE 500 HOJAS",
+          "x": 7.9,
+          "y": 87.076,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 3055.41,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG130A4",
+          "nombre": "DIGI GLOSS A4, 130gr, PAQUETE 250 HOJAS",
+          "x": 7.9,
+          "y": 90.749,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 963.42,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG130A3",
+          "nombre": "DIGI GLOSS A3, 130gr, PAQUETE 250 HOJAS",
+          "x": 7.9,
+          "y": 91.949,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 1926.84,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG130SRA3",
+          "nombre": "DIGI GLOSS SRA3, 130gr, PAQUETE 500 HOJAS",
+          "x": 7.9,
+          "y": 93.15,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 3482.07,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PA70100SGP",
+          "nombre": "PAPEL AUTOADH. SEMI BRILLO PRESTIGE, 70x100cm, 80grs., LINER BLANCO 95g , PAQ. 100H. ADHESIVO BASE AGUA",
+          "x": 39.9,
+          "y": 39.124,
+          "w": 19.8,
+          "h": 2.048,
+          "precio": 4624.41,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PASA4/100",
+          "nombre": "PAPEL AUTOADH. SEMI BRILLO PRESTIGE, A4, 80grs., LINER BLANCO 95g , PAQ. 100H. ADHESIVO BASE AGUA",
+          "x": 39.9,
+          "y": 40.325,
+          "w": 19.8,
+          "h": 2.048,
+          "precio": 547.77,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PASA3/100",
+          "nombre": "PAPEL AUTOADH. SEMI BRILLO PRESTIGE, A3, 80grs., LINER BLANCO 95g , PAQ. 100H. ADHESIVO BASE AGUA",
+          "x": 39.9,
+          "y": 41.525,
+          "w": 19.8,
+          "h": 2.048,
+          "precio": 1101.05,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAS33482/100",
+          "nombre": "PAPEL AUTOADH. SEMI BRILLO PRESTIGE, 33x48.2cm, 80grs., LINER BLANCO 95g , PAQ. 100H. ADHESIVO BASE AGUA",
+          "x": 39.9,
+          "y": 42.726,
+          "w": 19.8,
+          "h": 2.048,
+          "precio": 1231.8,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PA70100TP",
+          "nombre": "POLIPROPILENO AUTOADH. MATE PRESTIGE, 70x100cm, 50mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 55.4,
+          "y": 64.407,
+          "w": 19.6,
+          "h": 2.048,
+          "precio": 7432.09,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PATA4/100",
+          "nombre": "POLIPROPILENO AUTOADH. TRANSPARENTE PRESTIGE, A4, 50mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 55.4,
+          "y": 65.607,
+          "w": 19.6,
+          "h": 2.048,
+          "precio": 1052.88,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PATA3/100",
+          "nombre": "POLIPROPILENO AUTOADH. TRANSPARENTE PRESTIGE, A3, 50mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 55.4,
+          "y": 66.808,
+          "w": 19.6,
+          "h": 2.048,
+          "precio": 2133.28,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "PAT33482/100",
+          "nombre": "POLIPROPILENO AUTOADH. TRANSPARENTE PRESTIGE, 33x48.2cm, 50mic., LINER BLANCO 160g , PAQ. 100H. ADHESIVO SOLVENTE",
+          "x": 55.4,
+          "y": 68.008,
+          "w": 19.6,
+          "h": 2.048,
+          "precio": 2167.69,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG200A4",
+          "nombre": "DIGI GLOSS A4, 200gr, PAQUETE 250 HOJAS",
+          "x": 7.9,
+          "y": 78.39,
+          "w": 47.2,
+          "h": 2.048,
+          "precio": 1589.64,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG200A3",
+          "nombre": "DIGI GLOSS A3, 200gr, PAQUETE 250 HOJAS",
+          "x": 7.9,
+          "y": 79.59,
+          "w": 47.2,
+          "h": 2.048,
+          "precio": 3179.28,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG200SRA3",
+          "nombre": "DIGI GLOSS SRA3, 200gr, PAQUETE 250 HOJAS",
+          "x": 7.9,
+          "y": 80.791,
+          "w": 47.2,
+          "h": 2.048,
+          "precio": 3179.28,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG250A4",
+          "nombre": "DIGI GLOSS A4, 250gr, PAQUETE 125 HOJAS",
+          "x": 40.9,
+          "y": 84.675,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 894.6,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG250A3",
+          "nombre": "DIGI GLOSS A3, 250gr, PAQUETE 125 HOJAS",
+          "x": 40.9,
+          "y": 85.876,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 1789.21,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG250SRA3",
+          "nombre": "DIGI GLOSS SRA3, 250gr, PAQUETE 250 HOJAS",
+          "x": 40.9,
+          "y": 87.076,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 3371.97,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG300A4",
+          "nombre": "DIGI GLOSS A4, 300gr, PAQUETE 125 HOJAS",
+          "x": 40.9,
+          "y": 90.749,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 1135.46,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG300A3",
+          "nombre": "DIGI GLOSS A3, 300gr, PAQUETE 125 HOJAS",
+          "x": 40.9,
+          "y": 91.949,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 2270.92,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DG300SRA3",
+          "nombre": "DIGI GLOSS SRA3, 300gr, PAQUETE 250 HOJAS",
+          "x": 40.9,
+          "y": 93.15,
+          "w": 14.2,
+          "h": 2.048,
+          "precio": 4101.41,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274d9b"
+        }
+      ]
     },
     {
       "paginaOriginal": 109,
       "imagen": "img/pages/varios/pagina-109.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "5139",
+          "nombre": "HOOBN, 24/6 Y 26/6, CUERPO DE PLÁSTICO, 12,4 CMS, C/GRIP",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 61.05,
+          "h": 27.076,
+          "precio": 144.51,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5078",
+          "nombre": "HOOBN, 24/6 Y 26/6, CUERPO DE METAL, 14 CMS, C/GRIP",
+          "x": 61.05,
+          "y": 10.0,
+          "w": 38.95,
+          "h": 27.076,
+          "precio": 217.46,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5061",
+          "nombre": "HOOBN, 24/6 Y 26/6, CUERPO DE METAL, 12,6 CMS, C/GRIP",
+          "x": 0.0,
+          "y": 37.076,
+          "w": 58.175,
+          "h": 20.904,
+          "precio": 163.78,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5062",
+          "nombre": "HOOBN, 24/6 Y 26/6, CUERPO DE METAL, 15,7 CMS, C/GRIP",
+          "x": 58.175,
+          "y": 37.076,
+          "w": 41.825,
+          "h": 20.904,
+          "precio": 203.69,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "SAC5381",
+          "nombre": "SACABROCHES 2 EN 1 HOOBN 5381, MAGNÉTICO, C/HOJA CORTANTE 9MM",
+          "x": 0.0,
+          "y": 57.98,
+          "w": 100.0,
+          "h": 26.483,
+          "precio": 79.83,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5175",
+          "nombre": "HOOBN, 24/6 Y 26/6, CUERPO DE PLÁSTICO, 12,3 CMS",
+          "x": 0.0,
+          "y": 84.463,
+          "w": 100.0,
+          "h": 5.367,
+          "precio": 130.75,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.398,
+          "w": 100.0,
+          "h": 3.602,
+          "color": "#274d9b"
+        }
+      ]
     },
     {
       "paginaOriginal": 110,
       "imagen": "img/pages/varios/pagina-110.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "2010",
+          "nombre": "DISPENSADOR DE MESA HOOBN 2010 P/CINTA ADHESIVA DE HASTA 18 mm",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 100.0,
+          "h": 16.271,
+          "precio": 112.86,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5652",
+          "nombre": "HOOBN, PARA 8 HOJAS, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 26.271,
+          "w": 100.0,
+          "h": 17.938,
+          "precio": 94.97,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5653",
+          "nombre": "HOOBN, PARA 20 HOJAS, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 44.209,
+          "w": 100.0,
+          "h": 21.54,
+          "precio": 189.93,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "020012",
+          "nombre": "IBI CRAFT, 24/6 Y 26/6, CUERPO DE PLÁSTICO, 12,5 CMS",
+          "x": 0.0,
+          "y": 65.749,
+          "w": 48.125,
+          "h": 29.661,
+          "precio": 181.67,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "650041",
+          "nombre": "IBI CRAFT, P/20 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 48.125,
+          "y": 65.749,
+          "w": 51.875,
+          "h": 29.661,
+          "precio": 231.22,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
+      ]
     },
     {
       "paginaOriginal": 112,
       "imagen": "img/pages/varios/pagina-112.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "055Y7",
+          "nombre": "KW-TRIO, 24/6 Y 26/6, CUERPO DE METAL, MEDIANA",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 100.0,
+          "h": 7.585,
+          "precio": 268.38,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "8910",
+          "nombre": "IMPRINT, AUTOMÁTICO, PLACA 24x12mm",
+          "x": 0.0,
+          "y": 17.585,
+          "w": 100.0,
+          "h": 16.455,
+          "precio": 199.57,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "50LX",
+          "nombre": "KW-TRIO, 23/6 AL 23/24, 200 HOJAS, REDUCE 40% ESFUERZO",
+          "x": 0.0,
+          "y": 34.04,
+          "w": 100.0,
+          "h": 21.116,
+          "precio": 3427.02,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5360",
+          "nombre": "KW-TRIO, 24/6 Y 26/6, PINZA DE METAL",
+          "x": 0.0,
+          "y": 55.155,
+          "w": 41.575,
+          "h": 17.655,
+          "precio": 619.34,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "5793",
+          "nombre": "KW-TRIO, 24/6 Y 26/6, PINZA DE METAL ERGONÓMICA",
+          "x": 41.575,
+          "y": 55.155,
+          "w": 58.425,
+          "h": 17.655,
+          "precio": 798.26,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "058A3",
+          "nombre": "KW-TRIO, 24/6 AL 26/8, 40 HOJAS, ABROCHADORA DE LOMOS C/MESA DE TRABAJO HASTA FORMATO A3",
+          "x": 0.0,
+          "y": 72.811,
+          "w": 39.7,
+          "h": 22.105,
+          "precio": 10859.11,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "8502",
+          "nombre": "KW-TRIO, 23/6 Y 23/8, CLAVADORA, CUERPO DE PLÁSTICO",
+          "x": 39.7,
+          "y": 72.811,
+          "w": 37.5,
+          "h": 22.105,
+          "precio": 633.1,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "8513",
+          "nombre": "KW-TRIO, 24/6 AL 23/10, CLAVADORA, CUERPO DE METAL",
+          "x": 77.2,
+          "y": 72.811,
+          "w": 22.8,
+          "h": 22.105,
+          "precio": 1362.55,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#274d9b"
+        }
+      ]
     },
     {
       "paginaOriginal": 113,
       "imagen": "img/pages/varios/pagina-113.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "9670",
+          "nombre": "KW-TRIO, P/70 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 37.375,
+          "h": 23.475,
+          "precio": 2036.94,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "952",
+          "nombre": "KW-TRIO, P/150 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 37.375,
+          "y": 10.0,
+          "w": 29.05,
+          "h": 23.475,
+          "precio": 6730.17,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "9550",
+          "nombre": "KW-TRIO, P/300 HOJAS, C/GUÍA, REDUCE 40% ESFUERZO",
+          "x": 66.425,
+          "y": 10.0,
+          "w": 33.575,
+          "h": 23.475,
+          "precio": 15111.91,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "9556",
+          "nombre": "KW-TRIO, P/200 HOJAS, C/GUÍA, REDUCE 40% ESFUERZO",
+          "x": 0.0,
+          "y": 33.475,
+          "w": 33.35,
+          "h": 29.944,
+          "precio": 8670.77,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "1300709",
+          "nombre": "KW-TRIO, SET REPUESTO P/PERFORADOR 9556: 2 MECHAS (6mm)+ 4 DISCOS",
+          "x": 33.35,
+          "y": 33.475,
+          "w": 32.25,
+          "h": 29.944,
+          "precio": 2325.97,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "9719",
+          "nombre": "KW-TRIO, P/OJALILLOS DIAM. 5mm, REDUCE 40% ESFUERZO",
+          "x": 65.6,
+          "y": 33.475,
+          "w": 34.4,
+          "h": 29.944,
+          "precio": 1142.34,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "23/8",
+          "nombre": "KW-TRIO 23/8, CAJA DE 1.000 UNIDADES",
+          "x": 62.7,
+          "y": 78.249,
+          "w": 20.2,
+          "h": 2.119,
+          "precio": 96.34,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "23/10",
+          "nombre": "KW-TRIO 23/10, CAJA DE 1.000 UNIDADES",
+          "x": 62.7,
+          "y": 79.52,
+          "w": 20.2,
+          "h": 2.048,
+          "precio": 107.35,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "23/13",
+          "nombre": "KW-TRIO 23/13, CAJA DE 1.000 UNIDADES",
+          "x": 62.7,
+          "y": 80.72,
+          "w": 20.2,
+          "h": 2.048,
+          "precio": 122.49,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "23/15",
+          "nombre": "KW-TRIO 23/15, CAJA DE 1.000 UNIDADES",
+          "x": 62.7,
+          "y": 81.921,
+          "w": 20.2,
+          "h": 2.048,
+          "precio": 136.25,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "23/17",
+          "nombre": "KW-TRIO 23/17, CAJA DE 1.000 UNIDADES",
+          "x": 62.7,
+          "y": 83.121,
+          "w": 20.2,
+          "h": 2.048,
+          "precio": 144.51,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "23/20",
+          "nombre": "KW-TRIO 23/20, CAJA DE 1.000 UNIDADES",
+          "x": 62.7,
+          "y": 84.322,
+          "w": 20.2,
+          "h": 2.048,
+          "precio": 158.28,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "23/23",
+          "nombre": "KW-TRIO 23/23 ,CAJA DE 1.000 UNIDADES",
+          "x": 62.7,
+          "y": 85.523,
+          "w": 20.2,
+          "h": 2.048,
+          "precio": 189.93,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#274d9b"
+        }
+      ]
     },
     {
       "paginaOriginal": 114,
       "imagen": "img/pages/varios/pagina-114.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "127602",
+          "nombre": "BASE PARA CORTE IBI CRAFT A3, (45x30cm), ROSADA",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 100.0,
+          "h": 23.263,
+          "precio": 378.49,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "9Z201DC",
+          "nombre": "BASE PARA CORTE KW TRIO A3, (45x30cm), DOBLE CARA",
+          "x": 0.0,
+          "y": 33.263,
+          "w": 100.0,
+          "h": 6.144,
+          "precio": 426.66,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "03803",
+          "nombre": "CORTANTE ROTATIVO KW-TRIO, 45 mm",
+          "x": 0.0,
+          "y": 39.407,
+          "w": 52.5,
+          "h": 24.011,
+          "precio": 447.3,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "SB001",
+          "nombre": "SET x 3 CUCHILLAS ROTATIVAS KW-TRIO, 45 mm, (RECTO, ONDULADO, TROQUEL)",
+          "x": 52.5,
+          "y": 39.407,
+          "w": 47.5,
+          "h": 24.011,
+          "precio": 543.64,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "SB002",
+          "nombre": "SET x 3 CUCHILLAS ROTATIVAS KW-TRIO, 45 mm, CORTE RECTO",
+          "x": 0.0,
+          "y": 63.418,
+          "w": 100.0,
+          "h": 25.0,
+          "precio": 426.66,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "9Z200",
+          "nombre": "BASE PARA CORTE KW TRIO A4",
+          "x": 70.7,
+          "y": 34.887,
+          "w": 9.7,
+          "h": 2.048,
+          "precio": 213.33,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "9Z201",
+          "nombre": "BASE PARA CORTE KW TRIO A3, (45x30cm)",
+          "x": 70.7,
+          "y": 36.088,
+          "w": 9.7,
+          "h": 2.048,
+          "precio": 406.01,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "COR1",
+          "nombre": "EST. C/10 CUCHILLAS P/CORTANTE ANGOSTO 9mm",
+          "x": 51.1,
+          "y": 89.477,
+          "w": 33.2,
+          "h": 2.048,
+          "precio": 71.57,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "COR2",
+          "nombre": "EST. C/10 CUCHILLAS P/CORTANTE ANCHO 18mm",
+          "x": 51.1,
+          "y": 91.172,
+          "w": 33.2,
+          "h": 2.048,
+          "precio": 107.35,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#284495"
+        }
+      ]
     },
     {
       "paginaOriginal": 115,
       "imagen": "img/pages/varios/pagina-115.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "E-101",
+          "nombre": "ROTULADORA C/DISCO DE LETRAS MAYÚSC.+ NÚMEROS Y CINTA DE REGALO",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 100.0,
+          "h": 40.706,
+          "precio": 543.64,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "E-202",
+          "nombre": "ROTULADORA C/2 DISCOS INTERCAMBIABLES: (MAYÚSC.+ NÚMEROS) Y (MINÚSC.+ EMOJIS), CINTA DE REGALO",
+          "x": 0.0,
+          "y": 50.706,
+          "w": 100.0,
+          "h": 26.624,
+          "precio": 956.54,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274d9b"
+        }
+      ]
     },
     {
       "paginaOriginal": 116,
       "imagen": "img/pages/varios/pagina-116.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "MAQ5500",
+          "nombre": "ETIQUETADORA CON 6 DÍGITOS",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 44.45,
+          "h": 20.438,
+          "precio": 2057.59,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "MAQ6600",
+          "nombre": "ETIQUETADORA CON 2 LÍNEAS Y 8 DÍGITOS",
+          "x": 44.45,
+          "y": 10.0,
+          "w": 55.55,
+          "h": 20.438,
+          "precio": 4094.53,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "RODE18",
+          "nombre": "RODILLO ENTINTADOR PARA ETIQUETADORA 6600, 18mm",
+          "x": 0.0,
+          "y": 30.438,
+          "w": 100.0,
+          "h": 10.452,
+          "precio": 92.21,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "RODE20",
+          "nombre": "RODILLO ENTINTADOR PARA ETIQUETADORA 5500, 20mm",
+          "x": 0.0,
+          "y": 40.89,
+          "w": 100.0,
+          "h": 4.167,
+          "precio": 92.21,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "MTX05R",
+          "nombre": "MÁQUINA PARA PINS EN ROPA. REGULAR",
+          "x": 0.0,
+          "y": 45.056,
+          "w": 37.225,
+          "h": 34.11,
+          "precio": 467.95,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "MTX05F",
+          "nombre": "MÁQUINA PARA PINS EN ROPA. FINA",
+          "x": 37.225,
+          "y": 45.056,
+          "w": 62.775,
+          "h": 34.11,
+          "precio": 467.95,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "15R",
+          "nombre": "PINS REGULAR 15mm, CAJA C/5000 UN.",
+          "x": 37.1,
+          "y": 83.828,
+          "w": 34.7,
+          "h": 2.048,
+          "precio": 364.72,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "25R",
+          "nombre": "PINS REGULAR 25mm, CAJA C/5000 UN.",
+          "x": 37.1,
+          "y": 85.028,
+          "w": 34.7,
+          "h": 2.048,
+          "precio": 364.72,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "50R",
+          "nombre": "PINS REGULAR 50mm, CAJA C/5000 UN.",
+          "x": 37.1,
+          "y": 86.229,
+          "w": 34.7,
+          "h": 2.048,
+          "precio": 392.25,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "15F",
+          "nombre": "PINS FINOS 15mm, CAJA C/5000 UN.",
+          "x": 37.1,
+          "y": 87.994,
+          "w": 34.7,
+          "h": 2.048,
+          "precio": 399.13,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "25F",
+          "nombre": "PINS FINOS 25mm, CAJA C/5000 UN.",
+          "x": 37.1,
+          "y": 89.195,
+          "w": 34.7,
+          "h": 2.048,
+          "precio": 399.13,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "50F",
+          "nombre": "PINS FINOS 50mm, CAJA C/5000 UN.",
+          "x": 37.1,
+          "y": 90.466,
+          "w": 34.7,
+          "h": 2.048,
+          "precio": 410.14,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "35H",
+          "nombre": "PINS REGULAR 35mm. PERCHA. CAJA C/5000 UN.",
+          "x": 37.1,
+          "y": 92.232,
+          "w": 34.7,
+          "h": 1.977,
+          "precio": 1224.92,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.61,
+          "w": 100.0,
+          "h": 3.39,
+          "color": "#284495"
+        }
+      ]
     },
     {
       "paginaOriginal": 117,
       "imagen": "img/pages/varios/pagina-117.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
+      ]
     },
     {
       "paginaOriginal": 118,
       "imagen": "img/pages/varios/pagina-118.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#274d9b"
+        }
+      ]
     },
     {
       "paginaOriginal": 119,
       "imagen": "img/pages/varios/pagina-119.webp",
-      "productos": []
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.398,
+          "w": 100.0,
+          "h": 3.602,
+          "color": "#284495"
+        }
+      ]
+    },
+    {
+      "paginaOriginal": 120,
+      "imagen": "img/pages/omega/pagina-120.webp",
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.54,
+          "w": 100.0,
+          "h": 3.46,
+          "color": "#284495"
+        }
+      ]
+    },
+    {
+      "paginaOriginal": 121,
+      "imagen": "img/pages/omega/pagina-121.webp",
+      "productos": [],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
+      ]
     },
     {
       "paginaOriginal": 134,
       "imagen": "img/pages/varios/pagina-134.webp",
-      "productos": []
+      "productos": [
+        {
+          "codigo": "179667",
+          "nombre": "KIT DE RECARGA PARA SELLO DE MARCADO Y ETIQUETADO \"TRODAT - STAMP & STICK\"",
+          "x": 0.0,
+          "y": 10.0,
+          "w": 100.0,
+          "h": 39.011,
+          "precio": 619.34,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "179668",
+          "nombre": "SET SELLO PARA MARCAR Y ETIQUETAR SUPERFICIES Y PRENDAS \"TRODAT - STAMP & STICK\"",
+          "x": 0.0,
+          "y": 49.011,
+          "w": 100.0,
+          "h": 39.054,
+          "precio": 960.67,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
+      "tapados": [
+        {
+          "x": 0.0,
+          "y": 96.469,
+          "w": 100.0,
+          "h": 3.531,
+          "color": "#284495"
+        }
+      ]
     }
   ],
   "items": [
