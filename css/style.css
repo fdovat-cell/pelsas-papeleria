@@ -482,3 +482,10 @@ button{font-family:inherit;}
 }
 .detalle-btn-agregar:active{ opacity:0.85; }
 .detalle-btn-agregar svg{ width:18px; height:18px; }
+
+/* Tablets en horizontal (o pantallas anchas en general): usar más ancho
+   para aprovechar mejor las fotos del catálogo, sin tocar el layout mobile */
+@media (orientation: landscape) and (min-width: 700px) {
+  .app{ max-width: 900px; }
+  .bottomnav{ max-width: 900px; }
+}
