@@ -11,9 +11,9 @@ const iconos = {
 };
 
 // Portada de marca (1ra página del catálogo de esa marca) para mostrar como
-// fondo de la tile en el home. Las categorías que no tienen una portada de
-// marca propia (varios: es una categoría mixta con varias marcas) siguen
-// mostrando el ícono + color como antes.
+// fondo de la tile en el home. Varios / Oficina no es una marca, así que usa
+// un collage propio de artículos de oficina (img/tiles/varios.webp).
+// Las categorías sin portada siguen mostrando el ícono + color como antes.
 const portadas = {
   pilot:     'img/tiles/pilot.webp',
   keyroad:   'img/tiles/keyroad.webp',
@@ -23,6 +23,7 @@ const portadas = {
   omega:     'img/tiles/omega.webp',
   arte:      'img/tiles/arte.webp',
   ibi:       'img/tiles/ibi.webp',
+  varios:    'img/tiles/varios.webp',
 };
 
 async function cargarCategorias(){
