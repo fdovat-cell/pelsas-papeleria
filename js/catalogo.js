@@ -96,6 +96,28 @@ async function cargarCatalogo(){
     if(objetivo) objetivo.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  // si venimos del buscador con un producto puntual, abrimos directo su
+  // pop-up de detalle (además del scroll a la página, si corresponde)
+  const codigoAbrir = getParam('abrirProducto');
+  if(codigoAbrir){
+    let prod = _productosHotspot.find(x => x.codigo === codigoAbrir);
+    if(!prod){
+      const item = (data.items || []).find(x => x.codigo === codigoAbrir);
+      if(item){
+        prod = {
+          codigo: item.codigo,
+          nombre: item.nombre,
+          precio: item.precio,
+          modalidad: item.modalidad || 'unidad',
+          precioRef: item.precioRef,
+          marca: meta.nombre,
+          imagenDirecta: item.imagen
+        };
+      }
+    }
+    if(prod) abrirDetalleProducto(prod);
+  }
+
   // guardamos qué página quedó a la vista, para que "volver"/"seguir comprando"
   // desde el carrito te traigan de nuevo ahí en vez de al home
   const paginaWraps = contenedor.querySelectorAll('.pagina-wrap');
