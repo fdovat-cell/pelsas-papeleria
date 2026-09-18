@@ -46,7 +46,7 @@ async function cargarCatalogo(){
     <div class="pagina-wrap" data-pagina="${p.paginaOriginal}">
       <img src="${p.imagen}" alt="${meta.nombre} — página ${p.paginaOriginal}" loading="lazy">
       ${(p.tapados || []).map(t => `
-        <div class="tapado" style="left:${t.x}%; top:${t.y}%; width:${t.w}%; height:${t.h}%;"></div>
+        <div class="tapado" style="left:${t.x}%; top:${t.y}%; width:${t.w}%; height:${t.h}%; background:${t.color || '#111'};"></div>
       `).join('')}
       ${p.productos.filter(prod => prod.precio).map(prod => {
         _productosHotspot.push({
@@ -96,14 +96,15 @@ async function cargarCatalogo(){
     if(objetivo) objetivo.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  // si venimos del buscador con un producto puntual, abrimos su ficha con la foto
-  const abrirProducto = getParam('abrirProducto');
-  if(abrirProducto){
-    let match = _productosHotspot.find(p => p.codigo === abrirProducto);
-    if(!match && data.items){
-      const item = data.items.find(it => it.codigo === abrirProducto);
+  // si venimos del buscador con un producto puntual, abrimos directo su
+  // pop-up de detalle (además del scroll a la página, si corresponde)
+  const codigoAbrir = getParam('abrirProducto');
+  if(codigoAbrir){
+    let prod = _productosHotspot.find(x => x.codigo === codigoAbrir);
+    if(!prod){
+      const item = (data.items || []).find(x => x.codigo === codigoAbrir);
       if(item){
-        match = {
+        prod = {
           codigo: item.codigo,
           nombre: item.nombre,
           precio: item.precio,
@@ -114,7 +115,7 @@ async function cargarCatalogo(){
         };
       }
     }
-    if(match) abrirDetalleProducto(match);
+    if(prod) abrirDetalleProducto(prod);
   }
 
   // guardamos qué página quedó a la vista, para que "volver"/"seguir comprando"
@@ -410,7 +411,7 @@ function fotoHtmlGenerica(p){
     return `<img src="${p.imagenDirecta}" alt="${p.nombre}" loading="lazy" style="width:100%; height:100%; object-fit:cover;">`;
   }
   if(p.imagenPagina && p.w != null && p.h != null && p.w > 0 && p.h > 0){
-    const escala = Math.min(100 / p.w, 100 / p.h) * 0.9; // Math.min = el producto entra completo, sin cortar (puede dejar margen del fondo en un costado)
+    const escala = Math.max(100 / p.w, 100 / p.h) * 0.85; // 0.85 = deja margen, corta menos
     const cx = p.x + p.w / 2;
     const cy = p.y + p.h / 2;
     const tamPct  = (escala * 100).toFixed(2);
