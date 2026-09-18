@@ -1394,7 +1394,74 @@
     {
       "paginaOriginal": 120,
       "imagen": "img/pages/varios/pagina-120.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "MS-8",
+          "nombre": "CASIO MS-8, 8 dígitos, solar+pila, tax",
+          "x": 0,
+          "y": 8,
+          "w": 50,
+          "h": 29,
+          "precio": 640.5,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "MS-10",
+          "nombre": "CASIO MS-10, 10 dígitos, solar+pila, tax",
+          "x": 50,
+          "y": 8,
+          "w": 50,
+          "h": 29,
+          "precio": 729.56,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "MS-80",
+          "nombre": "CASIO MS-80, 8 dígitos, solar+pila, portada metálica, tax",
+          "x": 0,
+          "y": 37,
+          "w": 50,
+          "h": 29,
+          "precio": 758.84,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DX-12",
+          "nombre": "CASIO DX-12, 12 dígitos, solar+pila, redondeo, retroceso",
+          "x": 50,
+          "y": 37,
+          "w": 50,
+          "h": 29,
+          "precio": 823.5,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DF-120",
+          "nombre": "CASIO DF-120, 12 dígitos, solar+pila, tax, portada metálica",
+          "x": 0,
+          "y": 66,
+          "w": 50,
+          "h": 29,
+          "precio": 1299.3,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "DS-1",
+          "nombre": "CASIO DS-1, 10 dígitos, solar+pila, portada metálica, durable",
+          "x": 50,
+          "y": 66,
+          "w": 50,
+          "h": 29,
+          "precio": 2726.7,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
       "tapados": [
         {
           "x": 0.0,
@@ -1408,7 +1475,85 @@
     {
       "paginaOriginal": 121,
       "imagen": "img/pages/varios/pagina-121.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "HR-8",
+          "nombre": "CASIO HR-8, 12 dígitos, 4 pilas AA, portátil, impresora",
+          "x": 0,
+          "y": 8,
+          "w": 50,
+          "h": 28,
+          "precio": 2415.6,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "HR-100",
+          "nombre": "CASIO HR-100, 12 dígitos, 4 pilas AA, impresión negro/rojo",
+          "x": 50,
+          "y": 8,
+          "w": 50,
+          "h": 28,
+          "precio": 3143.94,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "HR-150",
+          "nombre": "CASIO HR-150, 12 dígitos, 4 pilas AA, impresión negro/rojo",
+          "x": 0,
+          "y": 36,
+          "w": 50,
+          "h": 31,
+          "precio": 4611.6,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FR-2650",
+          "nombre": "CASIO FR-2650, 12 dígitos, impresión negro/rojo, conexión 220v",
+          "x": 50,
+          "y": 36,
+          "w": 50,
+          "h": 31,
+          "precio": 6075.6,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "AD-A60024",
+          "nombre": "Adaptador CASIO 220v para HR-8/100/150",
+          "x": 0,
+          "y": 72,
+          "w": 33,
+          "h": 25,
+          "precio": 829.6,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "ENT40",
+          "nombre": "Rodillo entintador CASIO ENT40, tinta negra",
+          "x": 33,
+          "y": 72,
+          "w": 33,
+          "h": 25,
+          "precio": 375.76,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "ENT40T",
+          "nombre": "Rodillo entintador CASIO ENT40T, tinta negra y roja",
+          "x": 66,
+          "y": 72,
+          "w": 34,
+          "h": 25,
+          "precio": 469.7,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
       "tapados": [
         {
           "x": 0.0,
