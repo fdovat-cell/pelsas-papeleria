@@ -662,6 +662,124 @@
       ]
     },
     {
+      "paginaOriginal": 111,
+      "imagen": "img/pages/varios/pagina-111.webp",
+      "productos": [
+        {
+          "codigo": "9950",
+          "nombre": "OMEGA, 24/6 Y 26/6, ABROCHADO PLANO, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 8.0,
+          "w": 100.0,
+          "h": 15.853,
+          "precio": 385.37,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9950",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "23/13",
+          "nombre": "KW-TRIO 23/13, CAJA DE 1.000 UNIDADES",
+          "x": 0.0,
+          "y": 26.0,
+          "w": 71.125,
+          "h": 6.61,
+          "precio": 128.94,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "23/13",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "5013",
+          "nombre": "OMEGA, 23/6 AL 23/13, 100 HOJAS",
+          "x": 71.125,
+          "y": 26.0,
+          "w": 28.875,
+          "h": 6.61,
+          "precio": 999.64,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "5013",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "BRO24/6/10",
+          "nombre": "OMEGA 24/6, CAJA C/10 CAJAS DE BROCHES DE 1000 UN.",
+          "x": 0.0,
+          "y": 34.969,
+          "w": 100.0,
+          "h": 21.934,
+          "precio": 159.36,
+          "modalidad": "exhibidor",
+          "producto": null,
+          "_ocr_raw": "BRO24/6/10",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9957",
+          "nombre": "OMEGA, P/30 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 0.0,
+          "y": 59.263,
+          "w": 22.3,
+          "h": 31.398,
+          "precio": 427.38,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9957",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9957",
+          "nombre": "OMEGA, P/30 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 22.3,
+          "y": 59.263,
+          "w": 19.275,
+          "h": 31.398,
+          "precio": 427.38,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9957",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9960",
+          "nombre": "OMEGA, P/60 HOJAS, C/GUÍA, CUERPO DE METAL",
+          "x": 41.575,
+          "y": 59.263,
+          "w": 30.0,
+          "h": 31.398,
+          "precio": 1101.05,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9960",
+          "_match_tier": "exact"
+        },
+        {
+          "codigo": "9706",
+          "nombre": "OMEGA, 1 PERFORACIÓN, PINZA",
+          "x": 71.575,
+          "y": 59.263,
+          "w": 28.425,
+          "h": 31.398,
+          "precio": 85.48,
+          "modalidad": "unidad",
+          "producto": null,
+          "_ocr_raw": "9706",
+          "_match_tier": "exact"
+        }
+      ],
+      "tapados": [
+        {
+          "x": 36.2,
+          "y": 96.5,
+          "w": 63.8,
+          "h": 3.3
+        }
+      ]
+    },
+    {
       "paginaOriginal": 112,
       "imagen": "img/pages/varios/pagina-112.webp",
       "productos": [
@@ -1275,7 +1393,7 @@
     },
     {
       "paginaOriginal": 120,
-      "imagen": "img/pages/omega/pagina-120.webp",
+      "imagen": "img/pages/varios/pagina-120.webp",
       "productos": [],
       "tapados": [
         {
@@ -1289,7 +1407,7 @@
     },
     {
       "paginaOriginal": 121,
-      "imagen": "img/pages/omega/pagina-121.webp",
+      "imagen": "img/pages/varios/pagina-121.webp",
       "productos": [],
       "tapados": [
         {

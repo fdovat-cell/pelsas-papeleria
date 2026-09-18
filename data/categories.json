@@ -45,7 +45,7 @@
     "key": "omega",
     "nombre": "Omega",
     "color": "#D62839",
-    "cantidadPaginas": 33,
+    "cantidadPaginas": 32,
     "archivo": "data/omega.json"
   },
   {
@@ -59,7 +59,7 @@
     "key": "varios",
     "nombre": "Varios / Oficina",
     "color": "#57607A",
-    "cantidadPaginas": 16,
+    "cantidadPaginas": 17,
     "archivo": "data/varios.json"
   }
 ]
