@@ -1352,7 +1352,107 @@
     {
       "paginaOriginal": 117,
       "imagen": "img/pages/varios/pagina-117.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "FX-82",
+          "nombre": "Calculadora científica CASIO FX-82",
+          "x": 0,
+          "y": 6,
+          "w": 25,
+          "h": 30,
+          "precio": 954.04,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FX-82PLUS",
+          "nombre": "Calculadora científica CASIO FX-82PLUS",
+          "x": 25,
+          "y": 6,
+          "w": 25,
+          "h": 30,
+          "precio": 1047.98,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FX-95",
+          "nombre": "Calculadora científica CASIO FX-95",
+          "x": 50,
+          "y": 6,
+          "w": 25,
+          "h": 30,
+          "precio": 1146.8,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FX-95PLUS",
+          "nombre": "Calculadora científica CASIO FX-95PLUS",
+          "x": 75,
+          "y": 6,
+          "w": 25,
+          "h": 30,
+          "precio": 1257.82,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FX-570",
+          "nombre": "Calculadora científica CASIO FX-570",
+          "x": 8,
+          "y": 37,
+          "w": 28,
+          "h": 27,
+          "precio": 1555.5,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FX-570PLUS",
+          "nombre": "Calculadora científica CASIO FX-570PLUS",
+          "x": 36,
+          "y": 37,
+          "w": 28,
+          "h": 27,
+          "precio": 1708.0,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FX-991X",
+          "nombre": "Calculadora científica CASIO FX-991X",
+          "x": 66,
+          "y": 37,
+          "w": 25,
+          "h": 27,
+          "precio": 2372.9,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FC-100",
+          "nombre": "Calculadora financiera CASIO FC-100",
+          "x": 13,
+          "y": 70,
+          "w": 34,
+          "h": 27,
+          "precio": 3657.56,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "FC-200",
+          "nombre": "Calculadora financiera CASIO FC-200",
+          "x": 52,
+          "y": 70,
+          "w": 34,
+          "h": 27,
+          "precio": 5246.0,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
       "tapados": [
         {
           "x": 0.0,
@@ -1366,7 +1466,74 @@
     {
       "paginaOriginal": 118,
       "imagen": "img/pages/varios/pagina-118.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "HL-4",
+          "nombre": "Calculadora de bolsillo CASIO HL-4",
+          "x": 2,
+          "y": 8,
+          "w": 24,
+          "h": 25,
+          "precio": 189.1,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "HL-815",
+          "nombre": "Calculadora de bolsillo CASIO HL-815",
+          "x": 27,
+          "y": 8,
+          "w": 24,
+          "h": 25,
+          "precio": 289.14,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "HL-815",
+          "nombre": "Calculadora de bolsillo CASIO HL-815 de colores",
+          "x": 53,
+          "y": 18,
+          "w": 45,
+          "h": 25,
+          "precio": 289.14,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "HL-820",
+          "nombre": "Calculadora de bolsillo CASIO HL-820",
+          "x": 2,
+          "y": 35,
+          "w": 42,
+          "h": 31,
+          "precio": 281.82,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "LC-403",
+          "nombre": "Calculadora de bolsillo CASIO LC-403",
+          "x": 55,
+          "y": 50,
+          "w": 42,
+          "h": 28,
+          "precio": 422.12,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "HL-100",
+          "nombre": "Calculadora de bolsillo CASIO HL-100",
+          "x": 15,
+          "y": 68,
+          "w": 38,
+          "h": 27,
+          "precio": 408.7,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
       "tapados": [
         {
           "x": 0.0,
@@ -1380,7 +1547,30 @@
     {
       "paginaOriginal": 119,
       "imagen": "img/pages/varios/pagina-119.webp",
-      "productos": [],
+      "productos": [
+        {
+          "codigo": "MS-7UC",
+          "nombre": "Calculadora CASIO My Style MS-7UC, 10 dígitos, 4 colores",
+          "x": 0,
+          "y": 6,
+          "w": 100,
+          "h": 45,
+          "precio": 500.2,
+          "modalidad": "unidad",
+          "producto": null
+        },
+        {
+          "codigo": "MS-20UC",
+          "nombre": "Calculadora CASIO My Style MS-20UC, 12 dígitos, 5 colores",
+          "x": 0,
+          "y": 52,
+          "w": 100,
+          "h": 44,
+          "precio": 656.36,
+          "modalidad": "unidad",
+          "producto": null
+        }
+      ],
       "tapados": [
         {
           "x": 0.0,
