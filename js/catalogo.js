@@ -393,6 +393,8 @@ function renderGridOverlay(){
     </div>
   `).join('');
 
+  aplicarRecortesFoto(grid);
+
   grid.querySelectorAll('.ov-card').forEach((card, i) => {
     card.addEventListener('click', () => {
       const p = items[i];
@@ -406,23 +408,74 @@ function renderGridOverlay(){
 // modal de detalle): si viene de un hotspot (imagenPagina + x,y,w,h), recorta
 // por CSS sobre la imagen de página completa, sin generar archivos nuevos.
 // Si es un item con foto propia (imagenDirecta), la muestra directo.
+//
+// El recorte se aplica en dos pasos: acá se genera un <div> placeholder con
+// los datos del recorte (data-x/y/w/h son % de la página completa), y luego
+// aplicarRecortesFoto() calcula el tamaño/posición reales una vez que se
+// conoce el tamaño real (en píxeles) de la imagen de página. Esto evita
+// deformar la foto: antes se usaba el mismo % para ancho y alto sin tener en
+// cuenta que la página escaneada no es cuadrada ni tiene la misma proporción
+// que el recuadro donde se muestra la miniatura, lo que estiraba la imagen
+// (se veía "ancha") y, al agrandarla mal, también más borrosa.
 function fotoHtmlGenerica(p){
   if(p.imagenDirecta){
     return `<img src="${p.imagenDirecta}" alt="${p.nombre}" loading="lazy" style="width:100%; height:100%; object-fit:cover;">`;
   }
   if(p.imagenPagina && p.w != null && p.h != null && p.w > 0 && p.h > 0){
-    const escala = Math.max(100 / p.w, 100 / p.h) * 0.85; // 0.85 = deja margen, corta menos
-    const cx = p.x + p.w / 2;
-    const cy = p.y + p.h / 2;
-    const tamPct  = (escala * 100).toFixed(2);
-    const leftPct = (50 - cx * escala).toFixed(2);
-    const topPct  = (50 - cy * escala).toFixed(2);
-    return `<img src="${p.imagenPagina}" alt="${p.nombre}" loading="lazy"
-                 style="width:${tamPct}%; height:${tamPct}%; left:${leftPct}%; top:${topPct}%;">`;
+    return `<div class="foto-recorte" data-img="${p.imagenPagina}"
+                 data-x="${p.x}" data-y="${p.y}" data-w="${p.w}" data-h="${p.h}"></div>`;
   }
   return `<div class="ov-foto-vacia">Sin foto</div>`;
 }
 const fotoOverlayHtml = fotoHtmlGenerica; // alias, mismo comportamiento
+
+// Cache de tamaño natural (ancho/alto real en píxeles) de cada imagen de
+// página, para no tener que cargarla de nuevo cada vez que se muestra un
+// producto distinto de la misma página.
+const _imgNaturalCache = {};
+function _cargarNatural(src){
+  if(!_imgNaturalCache[src]){
+    _imgNaturalCache[src] = new Promise((resolve) => {
+      const im = new Image();
+      im.onload  = () => resolve({ w: im.naturalWidth, h: im.naturalHeight });
+      im.onerror = () => resolve(null);
+      im.src = src;
+    });
+  }
+  return _imgNaturalCache[src];
+}
+
+// Recorre los placeholders ".foto-recorte" recién insertados en `root` y les
+// aplica background-image/size/position calculados con el tamaño real de la
+// imagen de página, para que el recorte quede centrado y sin deformar.
+function aplicarRecortesFoto(root = document){
+  root.querySelectorAll('.foto-recorte:not([data-listo])').forEach(async (el) => {
+    el.setAttribute('data-listo', '1');
+    const src = el.dataset.img;
+    const px = parseFloat(el.dataset.x), py = parseFloat(el.dataset.y);
+    const pw = parseFloat(el.dataset.w), ph = parseFloat(el.dataset.h);
+
+    const nat = await _cargarNatural(src);
+    if(!nat){ el.outerHTML = '<div class="ov-foto-vacia">Sin foto</div>'; return; }
+
+    const contW = el.clientWidth, contH = el.clientHeight;
+    if(!contW || !contH) return; // el contenedor no está visible todavía
+
+    const boxW  = pw / 100 * nat.w;
+    const boxH  = ph / 100 * nat.h;
+    const boxCx = (px + pw / 2) / 100 * nat.w;
+    const boxCy = (py + ph / 2) / 100 * nat.h;
+
+    const margen = 0.85; // deja margen, corta menos (igual que antes)
+    const escala = Math.max(contW / boxW, contH / boxH) * margen;
+
+    el.style.backgroundImage    = `url("${src}")`;
+    el.style.backgroundRepeat   = 'no-repeat';
+    el.style.backgroundSize     = `${(nat.w * escala).toFixed(1)}px ${(nat.h * escala).toFixed(1)}px`;
+    el.style.backgroundPosition =
+      `${(contW / 2 - boxCx * escala).toFixed(1)}px ${(contH / 2 - boxCy * escala).toFixed(1)}px`;
+  });
+}
 
 // ────────────────────────────────────────────────────────────────
 // Modal de detalle de producto: se abre al tocar cualquier producto
@@ -443,7 +496,17 @@ function initModalDetalle(){
 function abrirDetalleProducto(p, navegarAlCerrar = null){
   _detalleActual = p;
   _detalleNavegarAlCerrar = navegarAlCerrar;
-  document.getElementById('detalleFotoWrap').innerHTML = fotoHtmlGenerica(p);
+
+  // El modal se muestra ANTES de insertar la foto, así el contenedor ya
+  // tiene su tamaño real (clientWidth/clientHeight) cuando aplicarRecortesFoto
+  // lo necesita para calcular el recorte sin deformar.
+  document.getElementById('modalDetalle').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+
+  const fotoWrap = document.getElementById('detalleFotoWrap');
+  fotoWrap.innerHTML = fotoHtmlGenerica(p);
+  aplicarRecortesFoto(fotoWrap);
+
   document.getElementById('detalleMarca').textContent = p.marca || p.categoria || '';
   document.getElementById('detalleNombre').textContent = p.nombre;
   document.getElementById('detalleCodigo').textContent = p.codigo;
@@ -454,9 +517,6 @@ function abrirDetalleProducto(p, navegarAlCerrar = null){
   refEl.textContent = tieneRef ? `$${p.precioRef} c/u` : '';
   document.getElementById('detallePrecioPrincipal').textContent =
     `$${p.precio}${p.modalidad !== 'unidad' ? ' /' + p.modalidad : ''}`;
-
-  document.getElementById('modalDetalle').style.display = 'flex';
-  document.body.style.overflow = 'hidden';
 }
 
 function cerrarDetalle(){
