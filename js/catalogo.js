@@ -429,25 +429,29 @@ function fotoHtmlGenerica(p){
 }
 const fotoOverlayHtml = fotoHtmlGenerica; // alias, mismo comportamiento
 
-// Cache de tamaño natural (ancho/alto real en píxeles) de cada imagen de
-// página, para no tener que cargarla de nuevo cada vez que se muestra un
-// producto distinto de la misma página.
-const _imgNaturalCache = {};
-function _cargarNatural(src){
-  if(!_imgNaturalCache[src]){
-    _imgNaturalCache[src] = new Promise((resolve) => {
+// Cache de la imagen de página ya cargada (el objeto Image, no solo su
+// tamaño), para poder recortarla en un canvas sin volver a pedirla por red
+// cada vez que se muestra otro producto de la misma página.
+const _imgCache = {};
+function _cargarImagen(src){
+  if(!_imgCache[src]){
+    _imgCache[src] = new Promise((resolve) => {
       const im = new Image();
-      im.onload  = () => resolve({ w: im.naturalWidth, h: im.naturalHeight });
+      im.onload  = () => resolve(im);
       im.onerror = () => resolve(null);
       im.src = src;
     });
   }
-  return _imgNaturalCache[src];
+  return _imgCache[src];
 }
 
-// Recorre los placeholders ".foto-recorte" recién insertados en `root` y les
-// aplica background-image/size/position calculados con el tamaño real de la
-// imagen de página, para que el recorte quede centrado y sin deformar.
+// Recorre los placeholders ".foto-recorte" recién insertados en `root`.
+// Para cada uno, recorta en un <canvas> justo el rectángulo del producto
+// (x,y,w,h en % de la página completa) y lo muestra con object-fit:contain.
+// Al recortar primero y después encajar la imagen YA recortada, el producto
+// siempre entra completo (nunca se corta un borde) y tampoco se cuela nada
+// de los productos vecinos de la página, sin importar la proporción del
+// recuadro donde se muestra.
 function aplicarRecortesFoto(root = document){
   root.querySelectorAll('.foto-recorte:not([data-listo])').forEach(async (el) => {
     el.setAttribute('data-listo', '1');
@@ -455,25 +459,25 @@ function aplicarRecortesFoto(root = document){
     const px = parseFloat(el.dataset.x), py = parseFloat(el.dataset.y);
     const pw = parseFloat(el.dataset.w), ph = parseFloat(el.dataset.h);
 
-    const nat = await _cargarNatural(src);
-    if(!nat){ el.outerHTML = '<div class="ov-foto-vacia">Sin foto</div>'; return; }
+    const imagenPagina = await _cargarImagen(src);
+    if(!imagenPagina){ el.outerHTML = '<div class="ov-foto-vacia">Sin foto</div>'; return; }
 
-    const contW = el.clientWidth, contH = el.clientHeight;
-    if(!contW || !contH) return; // el contenedor no está visible todavía
+    const sx = px / 100 * imagenPagina.naturalWidth;
+    const sy = py / 100 * imagenPagina.naturalHeight;
+    const sw = pw / 100 * imagenPagina.naturalWidth;
+    const sh = ph / 100 * imagenPagina.naturalHeight;
 
-    const boxW  = pw / 100 * nat.w;
-    const boxH  = ph / 100 * nat.h;
-    const boxCx = (px + pw / 2) / 100 * nat.w;
-    const boxCy = (py + ph / 2) / 100 * nat.h;
+    const canvas = document.createElement('canvas');
+    canvas.width = sw;
+    canvas.height = sh;
+    canvas.getContext('2d').drawImage(imagenPagina, sx, sy, sw, sh, 0, 0, sw, sh);
 
-    const margen = 0.85; // deja margen, corta menos (igual que antes)
-    const escala = Math.max(contW / boxW, contH / boxH) * margen;
-
-    el.style.backgroundImage    = `url("${src}")`;
-    el.style.backgroundRepeat   = 'no-repeat';
-    el.style.backgroundSize     = `${(nat.w * escala).toFixed(1)}px ${(nat.h * escala).toFixed(1)}px`;
-    el.style.backgroundPosition =
-      `${(contW / 2 - boxCx * escala).toFixed(1)}px ${(contH / 2 - boxCy * escala).toFixed(1)}px`;
+    const foto = document.createElement('img');
+    foto.alt = '';
+    foto.loading = 'lazy';
+    foto.style.cssText = 'width:100%; height:100%; object-fit:contain;';
+    foto.src = canvas.toDataURL('image/jpeg', 0.92);
+    el.replaceWith(foto);
   });
 }
 
