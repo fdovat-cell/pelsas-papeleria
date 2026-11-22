@@ -24,7 +24,7 @@ h2{font:bold 22px/1.2 Georgia,"Times New Roman",serif;margin:26px 0 12px;padding
 .hint{font-size:14px;color:#7A7468;margin:0 0 16px}
 .tiles{font-size:0;margin:0 -6px}
 .bt{display:inline-block;vertical-align:top;width:25%;padding:6px;font-size:16px}
-.bt a{display:block;height:120px;border-radius:12px;padding:16px;color:#fff;text-decoration:none;position:relative}
+.bt a{display:block;height:150px;border-radius:12px;padding:16px;color:#fff;text-decoration:none;position:relative;background-size:cover;background-position:center}
 .bt .nm{font:bold 22px/1.2 Georgia,"Times New Roman",serif}
 .bt .ds{position:absolute;left:16px;bottom:12px;font-size:14px;opacity:.9}
 @media (max-width:820px){.bt{width:33.333%}}
@@ -223,7 +223,8 @@ window.addEventListener('resize',function(){clearTimeout(lzT);lzT=setTimeout(laz
 function viewHome(){
   var h='<h1>Papelería</h1><p class="hint">Elegí una marca para ver el catálogo.</p><div class="tiles">';
   cats.forEach(function(c){
-    h+='<div class="bt"><a href="#c/'+encodeURIComponent(c.key)+'" style="background:'+esc(c.color||'#57607A')+'"><div class="nm">'+esc(c.nombre)+'</div><div class="ds">'+esc(c.cantidadPaginas||'')+' páginas</div></a></div>';
+    var tp=jpg(c.tile||c.portada||c.imagen||('img/tiles/'+c.key+'.webp'));
+    h+='<div class="bt"><a href="#c/'+encodeURIComponent(c.key)+'" style="background-color:'+esc(c.color||'#57607A')+';background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.05) 45%,rgba(0,0,0,.55)),url('+esc(tp)+')"><div class="nm">'+esc(c.nombre)+'</div><div class="ds">'+esc(c.cantidadPaginas||'')+' páginas</div></a></div>';
   });
   return h+'</div>';
 }
