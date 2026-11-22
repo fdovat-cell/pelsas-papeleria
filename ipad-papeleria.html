@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="PelSAS Papelería">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>PelSAS · Papelería</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+html,body{margin:0}
+body{background:#F5F0E8;color:#1A1A18;font:16px/1.4 "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+a{color:#B02020}
+h1{font:bold 30px/1.2 Georgia,"Times New Roman",serif;margin:6px 0 10px}
+h2{font:bold 22px/1.2 Georgia,"Times New Roman",serif;margin:26px 0 12px;padding-bottom:6px;border-bottom:2px solid #1A1A18}
+#top{position:fixed;top:0;left:0;right:0;height:60px;background:#25425E;color:#F5F0E8;z-index:20;padding:9px 14px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center}
+#top .lk{color:#F5F0E8;text-decoration:none;font-size:17px;white-space:nowrap}
+#top .logo{font:bold 25px/42px Georgia,serif;color:#F5F0E8;text-decoration:none;margin-left:18px}
+#top .sp{-webkit-flex:1;flex:1}
+#pb{display:block;height:42px;line-height:42px;border-radius:21px;padding:0 18px;background:#B02020;color:#fff;font-weight:bold;text-decoration:none;white-space:nowrap}
+#app{padding:76px 16px 80px;max-width:1100px;margin:0 auto}
+.back{display:inline-block;margin:4px 0 6px;padding:8px 0;font-size:17px;text-decoration:none;font-weight:bold}
+.hint{font-size:14px;color:#7A7468;margin:0 0 16px}
+.tiles{font-size:0;margin:0 -6px}
+.bt{display:inline-block;vertical-align:top;width:25%;padding:6px;font-size:16px}
+.bt a{display:block;height:120px;border-radius:12px;padding:16px;color:#fff;text-decoration:none;position:relative}
+.bt .nm{font:bold 22px/1.2 Georgia,"Times New Roman",serif}
+.bt .ds{position:absolute;left:16px;bottom:12px;font-size:14px;opacity:.9}
+@media (max-width:820px){.bt{width:33.333%}}
+@media (max-width:560px){.bt{width:50%}}
+.pg{position:relative;margin:0 0 14px;background:#fff;border:1px solid #D8D2C6}
+.pg.ld{min-height:600px;background:#EDE8DF}
+.pgi{display:block;width:100%;height:auto}
+.hs{position:absolute;cursor:pointer;-webkit-tap-highlight-color:rgba(176,32,32,.28)}
+.tp{position:absolute}
+.noimg{padding:60px 20px;text-align:center;color:#7A7468}
+.grid{font-size:0;margin:0 -6px}
+.fc{display:inline-block;vertical-align:top;width:25%;padding:6px;font-size:16px}
+.fci{background:#fff;border:1px solid #D8D2C6;border-radius:12px;padding:12px}
+.fph{position:relative;display:block;width:100%;height:0;padding-bottom:100%;background:#EDE8DF;border-radius:8px;overflow:hidden}
+.fph img{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);max-width:100%;max-height:100%}
+.fph .noph{position:absolute;top:48%;left:0;right:0;text-align:center;font-size:12px;color:#7A7468}
+.fart{margin:12px 0 4px;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#7A7468}
+.fnm{font:bold 17px/1.25 Georgia,"Times New Roman",serif;min-height:44px}
+@media (max-width:899px){.fc{width:33.333%}}
+@media (max-width:640px){.fc{width:50%}}
+.row{background:#fff;border:1px solid #D8D2C6;border-radius:10px;margin-bottom:10px;padding:10px;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center}
+.inf{-webkit-flex:1;flex:1;min-width:0;padding:0 14px 0 4px}
+.nm2{font-weight:bold;font-size:17px}
+.sub{font-size:13px;color:#7A7468;margin-top:2px}
+.pr{width:120px;-webkit-flex:none;flex:none;text-align:right;padding-right:12px}
+.pr b{font-size:19px}
+.stp{-webkit-flex:none;flex:none;white-space:nowrap;text-align:center}
+.stp button{width:48px;height:48px;border:1px solid #C8C2B4;background:#fff;border-radius:8px;font-size:26px;line-height:1;padding:0;color:#1A1A18;vertical-align:middle}
+.stp button.plus{background:#B02020;border-color:#B02020;color:#fff}
+.stp input{width:62px;height:48px;text-align:center;font-size:19px;border:1px solid #C8C2B4;border-radius:8px;margin:0 4px;padding:0;-webkit-appearance:none;background:#fff;vertical-align:middle}
+.quit{display:block;margin:6px auto 0;border:0;background:none;color:#B02020;font-size:14px;padding:6px}
+.btn{display:inline-block;border:0;border-radius:10px;padding:15px 24px;font-size:17px;font-weight:bold;background:#1A1A18;color:#fff;text-decoration:none;margin:0 10px 10px 0}
+.btn.red{background:#B02020}
+.btn.ghost{background:#fff;color:#1A1A18;border:1px solid #C8C2B4}
+.btn[disabled]{opacity:.5}
+label{display:block;font-weight:bold;margin:4px 0 6px}
+.fld{display:block;width:100%;padding:13px;font-size:17px;border:1px solid #C8C2B4;border-radius:8px;background:#fff;margin-bottom:14px;-webkit-appearance:none}
+.row .fld{padding:9px;font-size:15px;margin:8px 0 0}
+.tot{text-align:right;font:bold 28px Georgia,serif;margin:14px 0 18px}
+.msg{padding:13px 15px;border-radius:8px;margin:0 0 16px}
+.msg.err{background:#F8EDED;color:#8A1818;border:1px solid #B02020}
+.msg.ok{background:#E8F1E5;color:#245024;border:1px solid #9CC095}
+#pop{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);z-index:50;display:none;overflow:auto;text-align:center;-webkit-overflow-scrolling:touch}
+.pp{display:inline-block;width:94%;max-width:600px;margin:50px auto;background:#fff;border-radius:14px;padding:18px;text-align:left;position:relative;vertical-align:top}
+.pp .x{position:absolute;top:8px;right:8px;width:44px;height:44px;border:0;background:#F5F0E8;border-radius:22px;font-size:26px;line-height:1;color:#1A1A18;padding:0}
+#pfoto{text-align:center;min-height:60px;margin:6px 40px 14px;background:#EDE8DF;border-radius:8px;padding:8px}
+#pfoto img{max-width:100%;max-height:300px}
+#pfoto canvas{display:inline-block;vertical-align:top}
+.nof{padding:20px;color:#7A7468;font-size:13px}
+#pmarca{font-size:13px;color:#7A7468;text-transform:uppercase;letter-spacing:1px}
+#pnom{font:bold 22px/1.25 Georgia,"Times New Roman",serif;margin:4px 0}
+#pcod{font-size:14px;color:#7A7468;margin-bottom:10px}
+#pref{display:none;font-size:15px;color:#7A7468;margin-right:10px}
+#ppre{font:bold 30px Georgia,serif}
+.pp .btn{display:block;width:100%;margin:16px 0 0;text-align:center}
+#toast{position:fixed;left:50%;bottom:30px;-webkit-transform:translateX(-50%);transform:translateX(-50%);background:#1A1A18;color:#fff;padding:12px 20px;border-radius:24px;z-index:60;display:none;max-width:90%}
+</style>
+</head>
+<body>
+<div id="top">
+  <a class="lk" href="https://pelsas-distribuidora.pages.dev/ipad.html">‹ PelSAS</a>
+  <a class="logo" href="#">Papelería</a>
+  <span class="sp"></span>
+  <a id="pb" href="#pedido">Mi pedido</a>
+</div>
+<div id="app"><div id="view"><p>Cargando catálogo…</p></div></div>
+<div id="pop"><div class="pp">
+  <button class="x" data-act="cerrar" aria-label="Cerrar">×</button>
+  <div id="pfoto"></div>
+  <div id="pmarca"></div>
+  <div id="pnom"></div>
+  <div id="pcod"></div>
+  <div><span id="pref"></span><span id="ppre"></span></div>
+  <button class="btn red" data-act="agregar">Agregar al pedido</button>
+</div></div>
+<div id="toast"></div>
+
+<script>
+(function(){
+/* ===== CONFIGURACION ===== */
+var SUPA_URL='https://xxlgsipmocwizhafinwr.supabase.co';
+var SUPA_KEY='sb_publishable_tdrE1iMSnvMIMUGLnHz4wg_6r070C_H';   /* la misma clave publica que en ipad.html */
+/* ========================= */
+
+var STORE='pelsas_papeleria_ipad_pedido_v1';
+var LASTCAT='pelsas_papeleria_ipad_cat';
+/* codigos que en la lista de precios figuran con otro nombre (igual que js/precios.js) */
+var OVERRIDES={'VB5NGVB7NG':'VB5NG','BP1':'BP1/12','BP1RT':'BP1RT/12','BPSGP':'BPSGP05','BPT-P':'BPT-P/12','SANP5':'SNP5'};
+
+var cats=[], PRECIOS={}, DATA={}, CUR=null, POP=null;
+var order={cliente:'',nota:'',lines:[]};
+var UI={msg:null,last:null};
+var sending=false, lzT=null, toastT=null;
+
+function $(id){return document.getElementById(id)}
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+function fmt(n){
+  n=Math.round(n*100)/100;
+  var a=Math.abs(n).toFixed(2).split('.');
+  return (n<0?'-':'')+'$'+a[0].replace(/\B(?=(\d{3})+(?!\d))/g,'.')+','+a[1];
+}
+function trim(s){return String(s==null?'':s).replace(/^\s+|\s+$/g,'')}
+function jpg(p){return String(p||'').replace(/^img\//,'img-ipad/').replace(/\.webp$/i,'.jpg')}
+function modOf(p){return (p.modalidad&&p.modalidad!=='unidad')?String(p.modalidad):''}
+function has(o,k){return Object.prototype.hasOwnProperty.call(o,k)}
+
+/* ---------- precios (misma logica que js/precios.js) ---------- */
+function precioDe(cod,actual){
+  if(!cod)return actual;
+  var c=trim(cod).toUpperCase();
+  var o=OVERRIDES[c];
+  if(o&&has(PRECIOS,o))return PRECIOS[o];
+  if(has(PRECIOS,c))return PRECIOS[c];
+  var t=c.split(/[\s\/]+/),i;
+  for(i=0;i<t.length;i++){if(t[i]&&has(PRECIOS,t[i]))return PRECIOS[t[i]]}
+  return actual;
+}
+
+/* ---------- borrador ---------- */
+function load(){
+  try{
+    var r=localStorage.getItem(STORE);
+    if(r){var o=JSON.parse(r);if(o&&o.lines){order.cliente=o.cliente||'';order.nota=o.nota||'';order.lines=o.lines}}
+  }catch(e){}
+}
+function save(){try{localStorage.setItem(STORE,JSON.stringify(order))}catch(e){}}
+function total(){
+  var t=0,i;
+  for(i=0;i<order.lines.length;i++)t+=order.lines[i].precio*order.lines[i].qty;
+  return Math.round(t*100)/100;
+}
+function addLine(p){
+  var i,l;
+  for(i=0;i<order.lines.length;i++){
+    l=order.lines[i];
+    if(l.codigo===p.codigo&&l.modalidad===p.modalidad&&!l.nota){l.qty++;save();return}
+  }
+  order.lines.push({codigo:p.codigo,nombre:p.nombre,precio:p.precio,modalidad:p.modalidad,categoria:p.marca,nota:'',qty:1});
+  save();
+}
+function setQty(i,n){
+  n=parseInt(n,10);
+  if(isNaN(n)||n<0)n=0;
+  if(n>9999)n=9999;
+  if(!order.lines[i])return;
+  if(n===0)order.lines.splice(i,1);else order.lines[i].qty=n;
+  save();
+}
+
+/* ---------- datos ---------- */
+function get(url,cb){
+  var x=new XMLHttpRequest();
+  x.open('GET',url,true);
+  x.onreadystatechange=function(){
+    if(x.readyState!==4)return;
+    if(x.status>=200&&x.status<300){try{cb(null,JSON.parse(x.responseText))}catch(e){cb(e)}}
+    else cb(new Error('HTTP '+x.status));
+  };
+  x.send();
+}
+function loadCat(meta,cb){
+  get(meta.archivo+'?t='+new Date().getTime(),function(err,d){
+    if(err){cb(err);return}
+    (d.paginas||[]).forEach(function(pg){
+      (pg.productos||[]).forEach(function(pr){pr.precio=precioDe(pr.codigo,pr.precio)});
+    });
+    (d.items||[]).forEach(function(it){it.precio=precioDe(it.codigo,it.precio)});
+    DATA[meta.key]=d;
+    cb(null);
+  });
+}
+function metaOf(key){
+  var i;for(i=0;i<cats.length;i++){if(cats[i].key===key)return cats[i]}
+  return null;
+}
+
+/* ---------- imagenes ---------- */
+window.imgOk=function(i){var w=i.parentNode;if(w&&w.className.indexOf('pg')===0)w.className='pg'};
+window.imgErr=function(i){
+  var w=i.parentNode,s=document.createElement('div');
+  s.className=(w&&w.className.indexOf('pg')===0)?'noimg':'noph';
+  s.textContent=(s.className==='noimg')?'No se pudo cargar la imagen de esta página':'Sin foto';
+  if(w){if(w.className.indexOf('pg')===0)w.className='pg';w.replaceChild(s,i)}
+};
+function lazy(){
+  var im=document.querySelectorAll('img[data-src]'),lim=window.innerHeight*2.5,i,r;
+  for(i=0;i<im.length;i++){
+    r=im[i].getBoundingClientRect();
+    if(r.top<lim&&r.bottom>-lim){im[i].src=im[i].getAttribute('data-src');im[i].removeAttribute('data-src')}
+  }
+}
+window.addEventListener('scroll',function(){clearTimeout(lzT);lzT=setTimeout(lazy,80)});
+window.addEventListener('resize',function(){clearTimeout(lzT);lzT=setTimeout(lazy,80)});
+
+/* ---------- vistas ---------- */
+function viewHome(){
+  var h='<h1>Papelería</h1><p class="hint">Elegí una marca para ver el catálogo.</p><div class="tiles">';
+  cats.forEach(function(c){
+    h+='<div class="bt"><a href="#c/'+encodeURIComponent(c.key)+'" style="background:'+esc(c.color||'#57607A')+'"><div class="nm">'+esc(c.nombre)+'</div><div class="ds">'+esc(c.cantidadPaginas||'')+' páginas</div></a></div>';
+  });
+  return h+'</div>';
+}
+function viewCat(meta,d){
+  var pi=0;
+  CUR={meta:meta,hs:[],its:[]};
+  var h='<a class="back" href="#">‹ Marcas</a><h1>'+esc(meta.nombre)+'</h1><p class="hint">Tocá un producto en la imagen para ver el precio y agregarlo al pedido.</p>';
+  (d.paginas||[]).forEach(function(pg){
+    h+='<div class="pg ld"><img class="pgi" data-src="'+esc(jpg(pg.imagen))+'" alt="" onload="imgOk(this)" onerror="imgErr(this)">';
+    (pg.tapados||[]).forEach(function(t){
+      h+='<div class="tp" style="left:'+t.x+'%;top:'+t.y+'%;width:'+t.w+'%;height:'+t.h+'%;background:'+esc(t.color||'#111')+'"></div>';
+    });
+    (pg.productos||[]).forEach(function(pr){
+      if(!pr.precio)return;
+      CUR.hs.push({codigo:pr.codigo,nombre:pr.nombre||('Producto '+pr.codigo),precio:pr.precio,modalidad:pr.modalidad||'unidad',precioRef:pr.precioRef,marca:meta.nombre,pi:pi,x:pr.x,y:pr.y,w:pr.w,h:pr.h});
+      h+='<div class="hs" data-h="'+(CUR.hs.length-1)+'" style="left:'+pr.x+'%;top:'+pr.y+'%;width:'+pr.w+'%;height:'+pr.h+'%"></div>';
+    });
+    h+='</div>';
+    pi++;
+  });
+  var its=(d.items||[]).filter(function(it){return it.precio});
+  if(its.length){
+    h+='<h2>Artículos de oficina</h2><div class="grid">';
+    its.forEach(function(it){
+      CUR.its.push({codigo:it.codigo,nombre:it.nombre,precio:it.precio,modalidad:it.modalidad||'unidad',precioRef:it.precioRef,marca:meta.nombre,img:jpg(it.imagen)});
+      h+='<div class="fc"><div class="fci" data-it="'+(CUR.its.length-1)+'"><div class="fph"><img data-src="'+esc(jpg(it.imagen))+'" alt="" onerror="imgErr(this)"></div><div class="fart">'+esc(it.codigo)+'</div><div class="fnm">'+esc(it.nombre)+'</div></div></div>';
+    });
+    h+='</div>';
+  }
+  return h;
+}
+function stepper(i,q){
+  return '<div class="stp"><button data-act="minus" data-i="'+i+'">−</button>'+
+    '<input type="tel" class="qin" data-i="'+i+'" value="'+q+'">'+
+    '<button class="plus" data-act="plus" data-i="'+i+'">+</button></div>';
+}
+function msgHtml(){
+  var m=UI.msg;UI.msg=null;
+  return m?'<div class="msg '+m.t+'">'+esc(m.m)+'</div>':'';
+}
+function viewPedido(){
+  var back=''; try{back=localStorage.getItem(LASTCAT)||''}catch(e){}
+  var h='<a class="back" href="#'+(back?'c/'+encodeURIComponent(back):'')+'">‹ Seguir con el catálogo</a><h1>Mi pedido</h1>'+msgHtml();
+  if(!order.lines.length)return h+'<p>Todavía no agregaste productos. Tocá un producto en el catálogo para sumarlo.</p>';
+  h+='<label for="cli">Cliente</label><input id="cli" class="fld" type="text" value="'+esc(order.cliente)+'" placeholder="Nombre del cliente">'+
+     '<label for="nota">Nota (opcional)</label><input id="nota" class="fld" type="text" value="'+esc(order.nota)+'" placeholder="Entrega, aclaraciones…">';
+  order.lines.forEach(function(l,i){
+    var m=modOf(l);
+    h+='<div class="row"><div class="inf"><div class="nm2">'+esc(l.nombre)+'</div><div class="sub">'+esc(l.codigo)+' · '+esc(l.categoria)+(m?' · por '+esc(m):'')+'</div>'+
+       '<input class="fld lnota" data-i="'+i+'" type="text" value="'+esc(l.nota)+'" placeholder="Color o detalle (opcional)"></div>'+
+       '<div class="pr"><b>'+fmt(l.precio*l.qty)+'</b></div>'+
+       '<div>'+stepper(i,l.qty)+'<button class="quit" data-act="quitar" data-i="'+i+'">Quitar</button></div></div>';
+  });
+  h+='<div class="tot">Total '+fmt(total())+'</div>'+
+     '<button class="btn red" id="bsend" data-act="enviar">Enviar pedido</button>'+
+     '<button class="btn ghost" data-act="vaciar">Vaciar pedido</button>';
+  return h;
+}
+function viewEnviado(){
+  var pl=UI.last;
+  if(!pl)return '<h1>Pedido</h1><p>No hay un pedido reciente.</p><a class="btn" href="#">Ir al catálogo</a>';
+  return '<h1>Pedido enviado</h1><div class="msg ok">El pedido de <b>'+esc(pl.cliente)+'</b> por '+fmt(pl.total)+' se guardó correctamente. Lo ves en pedidos.html.</div><a class="btn red" href="#">Nuevo pedido</a>';
+}
+
+/* ---------- popup de detalle ---------- */
+function cropTo(p,box){
+  var pg=document.querySelectorAll('.pgi')[p.pi];
+  if(!pg||!pg.complete||!pg.naturalWidth){box.innerHTML='<div class="nof">Sin foto</div>';return}
+  var W=pg.naturalWidth,H=pg.naturalHeight;
+  var sx=p.x/100*W,sy=p.y/100*H,sw=p.w/100*W,sh=p.h/100*H;
+  if(sw<1||sh<1){box.innerHTML='<div class="nof">Sin foto</div>';return}
+  var maxW=Math.min(window.innerWidth-120,520),maxH=300;
+  var k=Math.min(maxW/sw,maxH/sh,1.2),pk=Math.min(k*2,1);
+  var c=document.createElement('canvas');
+  c.width=Math.max(1,Math.round(sw*pk));c.height=Math.max(1,Math.round(sh*pk));
+  c.style.width=Math.round(sw*k)+'px';c.style.height=Math.round(sh*k)+'px';
+  try{c.getContext('2d').drawImage(pg,sx,sy,sw,sh,0,0,c.width,c.height)}catch(e){box.innerHTML='<div class="nof">Sin foto</div>';return}
+  box.innerHTML='';box.appendChild(c);
+}
+function openPop(p){
+  POP=p;
+  var m=modOf(p),conRef=!!(m&&p.precioRef);
+  $('pmarca').textContent=p.marca||'';
+  $('pnom').textContent=p.nombre;
+  $('pcod').textContent=p.codigo;
+  $('pref').style.display=conRef?'inline':'none';
+  $('pref').textContent=conRef?fmt(p.precioRef)+' c/u':'';
+  $('ppre').textContent=fmt(p.precio)+(m?' / '+m:'');
+  var box=$('pfoto');box.innerHTML='';
+  if(p.img){
+    var im=document.createElement('img');
+    im.alt='';
+    im.onerror=function(){box.innerHTML='<div class="nof">Sin foto</div>'};
+    im.src=p.img;
+    box.appendChild(im);
+  }else cropTo(p,box);
+  $('pop').style.display='block';
+  $('pop').scrollTop=0;
+}
+function closePop(){$('pop').style.display='none';POP=null}
+function toast(t){
+  var e=$('toast');e.textContent=t;e.style.display='block';
+  clearTimeout(toastT);toastT=setTimeout(function(){e.style.display='none'},1800);
+}
+
+/* ---------- envio ---------- */
+function send(){
+  if(sending)return;
+  var cli=trim(order.cliente);
+  if(!order.lines.length)return;
+  if(!cli){UI.msg={t:'err',m:'Escribí el nombre del cliente para enviar el pedido.'};route(true);return}
+  if(SUPA_KEY.indexOf('PEGAR')===0){UI.msg={t:'err',m:'Falta configurar la clave de Supabase dentro de ipad-papeleria.html.'};route(true);return}
+  sending=true;
+  var b=$('bsend');if(b){b.disabled=true;b.textContent='Enviando…'}
+  var items=[],i,l,pres,tot=total();
+  for(i=0;i<order.lines.length;i++){
+    l=order.lines[i];
+    pres=[l.categoria];
+    if(modOf(l))pres.push(modOf(l));
+    if(trim(l.nota))pres.push(trim(l.nota));
+    items.push({art:l.codigo,name:l.nombre,present:pres.join(' · '),modo:l.modalidad||'unidad',precio:l.precio,qty:l.qty,sub:Math.round(l.precio*l.qty*100)/100});
+  }
+  var body=JSON.stringify({cliente:cli.substring(0,120),nota:trim(order.nota)||null,items:items,total:tot});
+  var x=new XMLHttpRequest();
+  x.open('POST',SUPA_URL+'/rest/v1/pedidos_ipad',true);
+  x.setRequestHeader('apikey',SUPA_KEY);
+  if(SUPA_KEY.indexOf('eyJ')===0)x.setRequestHeader('Authorization','Bearer '+SUPA_KEY);
+  x.setRequestHeader('Content-Type','application/json');
+  x.setRequestHeader('Prefer','return=minimal');
+  x.timeout=25000;
+  x.onreadystatechange=function(){
+    if(x.readyState!==4)return;
+    sending=false;
+    if(x.status===201||x.status===204){
+      UI.last={cliente:cli,total:tot};
+      order={cliente:'',nota:'',lines:[]};save();
+      if(location.hash==='#enviado')route();else location.hash='enviado';
+    }else{
+      UI.msg={t:'err',m:x.status?('No se pudo enviar (código '+x.status+'). El pedido sigue guardado en el iPad.'):'No se pudo enviar: revisá la conexión wifi. El pedido sigue guardado en el iPad.'};
+      route(true);
+    }
+  };
+  x.send(body);
+}
+
+/* ---------- enrutador ---------- */
+function updateBar(){
+  var n=order.lines.length;
+  $('pb').textContent=n?'Mi pedido ('+n+')':'Mi pedido';
+}
+function route(keep){
+  if(!cats.length)return;
+  var h=location.hash.replace(/^#/,''),v=$('view');
+  closePop();
+  if(h.indexOf('c/')===0){
+    var key=decodeURIComponent(h.slice(2)),meta=metaOf(key);
+    if(!meta){v.innerHTML='<a class="back" href="#">‹ Marcas</a><p>No encontré esa marca.</p>'}
+    else if(DATA[key]){
+      try{localStorage.setItem(LASTCAT,key)}catch(e){}
+      v.innerHTML=viewCat(meta,DATA[key]);
+    }else{
+      v.innerHTML='<a class="back" href="#">‹ Marcas</a><p>Cargando '+esc(meta.nombre)+'…</p>';
+      loadCat(meta,function(err){
+        if(location.hash.replace(/^#/,'')!==h)return;
+        if(err)v.innerHTML='<a class="back" href="#">‹ Marcas</a><div class="msg err">No se pudo cargar esta marca. Revisá la conexión wifi.</div>';
+        else route();
+      });
+    }
+  }
+  else if(h==='pedido')v.innerHTML=viewPedido();
+  else if(h==='enviado')v.innerHTML=viewEnviado();
+  else v.innerHTML=viewHome();
+  if(!keep)window.scrollTo(0,0);
+  updateBar();
+  setTimeout(lazy,0);
+}
+
+/* ---------- eventos ---------- */
+function up(el,attr){
+  while(el&&el!==document){
+    if(el.getAttribute&&el.getAttribute(attr)!==null)return el;
+    el=el.parentNode;
+  }
+  return null;
+}
+document.addEventListener('click',function(e){
+  if(e.target.id==='pop'){closePop();return}
+  var t=up(e.target,'data-act');
+  if(t){
+    var a=t.getAttribute('data-act'),i=parseInt(t.getAttribute('data-i'),10);
+    if(a==='cerrar')closePop();
+    else if(a==='agregar'){if(POP){addLine(POP);toast('✓ '+POP.nombre+' agregado');updateBar();closePop()}}
+    else if(a==='plus'){setQty(i,order.lines[i].qty+1);route(true)}
+    else if(a==='minus'){setQty(i,order.lines[i].qty-1);route(true)}
+    else if(a==='quitar'){setQty(i,0);route(true)}
+    else if(a==='vaciar'){if(confirm('¿Vaciar todo el pedido?')){order={cliente:'',nota:'',lines:[]};save();route(true)}}
+    else if(a==='enviar')send();
+    return;
+  }
+  t=up(e.target,'data-h');
+  if(t&&CUR){openPop(CUR.hs[parseInt(t.getAttribute('data-h'),10)]);return}
+  t=up(e.target,'data-it');
+  if(t&&CUR){openPop(CUR.its[parseInt(t.getAttribute('data-it'),10)]);return}
+});
+document.addEventListener('change',function(e){
+  var t=e.target;
+  if(t.className==='qin'){setQty(parseInt(t.getAttribute('data-i'),10),t.value);route(true)}
+});
+document.addEventListener('input',function(e){
+  var t=e.target;
+  if(t.id==='cli'){order.cliente=t.value;save()}
+  else if(t.id==='nota'){order.nota=t.value;save()}
+  else if(t.className.indexOf('lnota')>-1){
+    var l=order.lines[parseInt(t.getAttribute('data-i'),10)];
+    if(l){l.nota=t.value;save()}
+  }
+});
+window.addEventListener('hashchange',function(){route()});
+
+/* ---------- arranque ---------- */
+load();
+var pend=2;
+function listo(){pend--;if(pend===0)route()}
+get('data/categories.json?t='+new Date().getTime(),function(err,d){
+  if(err){$('view').innerHTML='<div class="msg err">No se pudo cargar el catálogo. Revisá la conexión wifi.</div><a class="btn" href="javascript:location.reload()">Reintentar</a>';return}
+  cats=d;listo();
+});
+get('data/precios.json?t='+new Date().getTime(),function(err,lista){
+  if(!err&&lista&&lista.length){
+    var i;for(i=0;i<lista.length;i++)PRECIOS[trim(lista[i].c).toUpperCase()]=lista[i].p;
+  }
+  listo();
+});
+})();
+</script>
+</body>
+</html>
